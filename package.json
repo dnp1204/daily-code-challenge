@@ -1,0 +1,9 @@
+{
+  "name": "daily-code-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
