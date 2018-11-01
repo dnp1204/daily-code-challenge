@@ -10,9 +10,32 @@
  * For example, the input [3, 4, -1, 1] should give 2. The input 
  * [1, 2, 0] should give 3. You can modify the input array in-place
  */
-function findDuplicate(array) {
-  if (array.length) {
-    let lowest = array[0],
-      highest = array[0];
+function findMissingNumber(array) {
+  let val = array[0];
+  let next = array[0];
+
+  for (let i = 0; i < array.length; i += 1) {
+    if (array[i] <= 0 || array[i] > array.length) continue;
+
+    val = array[i];
+
+    while (array[val - 1] !== val) {
+      next = array[val - 1];
+      array[val - 1] = val;
+      val = next;
+
+      if (val <= 0 || val > array.length) {
+        break;
+      }
+    }
   }
+
+  for (let i = 0; i < array.length; i += 1) {
+    if (array[i] !== i + 1) return i + 1;
+  }
+
+  return array.length + 1;
 }
+
+console.log(findMissingNUmber([3, 4, -1, 1]));
+console.log(findMissingNUmber([1, 2, 0]));
