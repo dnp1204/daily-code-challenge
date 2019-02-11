@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "jest --watch"
+  },
   "dependencies": {
     "nodemon": "^1.18.5"
+  },
+  "devDependencies": {
+    "jest": "^24.0.0"
   }
 }
