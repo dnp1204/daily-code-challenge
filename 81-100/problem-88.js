@@ -8,3 +8,11 @@
  * operation in-place?
  */
 //TODO:
+function reverseWords(str) {
+  return str
+    .trim()
+    .split(' ')
+    .filter(w => w !== '')
+    .reverse()
+    .join(' ');
+}
