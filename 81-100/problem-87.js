@@ -4,7 +4,6 @@
  * Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the
  * tree. Assume that each node in the tree also has a pointer to its parent.
  */
-//TODO:
 var lowestCommonAncestor = function(root, p, q) {
   const pathToP = findPath(root, p);
   const pathToQ = findPath(root, q);

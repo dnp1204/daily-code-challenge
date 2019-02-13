@@ -7,7 +7,6 @@
  * Follow-up: given a mutable string representation, can you perform this
  * operation in-place?
  */
-//TODO:
 function reverseWords(str) {
   return str
     .trim()
