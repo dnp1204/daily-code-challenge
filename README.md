@@ -1,2 +1,1 @@
-<h1>Daily code challenge</h1>
-
+<h1>Daily coding challenge</h1>
