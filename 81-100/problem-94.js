@@ -11,5 +11,34 @@
  * 1 5 3 1
  * The most we can collect is 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
  */
-// TODO:
-const test = [[0, 3, 1, 1], [2, 0, 0, 4], [1, 5, 3, 1]];
+const collectCoint = function(coinsTable) {
+  const numRows = coinsTable.length;
+  const numCols = coinsTable[0].length;
+  let path = [];
+
+  const helper = function(coinsTable, i, j, path) {
+    if (i > numRows - 1 || j > numCols - 1) return 0;
+    if (i === numRows - 1 && j === numCols - 1) return coinsTable[i][j];
+
+    const numCoinsRight = helper(coinsTable, i, j + 1);
+    const numCoinsLeft = helper(coinsTable, i + 1, j);
+
+    if (numCoinsRight > numCoinsLeft) {
+      path.push;
+    }
+
+    return coinsTable[i][j] + Math.max(numCoinsRight, numCoinsLeft);
+  };
+
+  return helper(coinsTable, 0, 0);
+};
+
+const coins = [[0, 3, 1, 1], [2, 0, 0, 4], [1, 5, 3, 1]];
+const coins2 = [
+  [0, 2, 4, 1],
+  [4, 8, 3, 7],
+  [2, 3, 6, 2],
+  [9, 7, 8, 3],
+  [1, 5, 9, 4]
+];
+console.log(collectCoint(coins));
