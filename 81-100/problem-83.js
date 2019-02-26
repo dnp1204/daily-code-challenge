@@ -9,4 +9,20 @@
  *
  * Your algorithm should run in O(n) complexity.
  */
-// TODO:
+var longestConsecutive = function(nums) {
+  const cached = {};
+  let max = 0;
+  for (const num of nums) {
+    if (!cached[num]) {
+      const left = cached[num - 1] || 0;
+      const right = cached[num + 1] || 0;
+      const sum = left + right + 1;
+
+      cached[num] = sum;
+      max = Math.max(cached[num], max);
+      cached[num - left] = sum;
+      cached[num + right] = sum;
+    }
+  }
+  return max;
+};
