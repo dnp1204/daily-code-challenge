@@ -11,6 +11,7 @@
  *
  * Each operation should run in O(1) time.
  * https://leetcode.com/problems/lfu-cache/discuss/94521/JAVA-O(1)-very-easy-solution-using-3-HashMaps-and-LinkedHashSet
+ * https://www.youtube.com/watch?v=uL0xP57negc
  */
 /**
  * @param {number} capacity
