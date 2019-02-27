@@ -10,6 +10,7 @@
  * get(key): gets the value at key. If no such key exists, return null.
  *
  * Each operation should run in O(1) time.
+ * https://leetcode.com/problems/lfu-cache/discuss/94521/JAVA-O(1)-very-easy-solution-using-3-HashMaps-and-LinkedHashSet
  */
 /**
  * @param {number} capacity
