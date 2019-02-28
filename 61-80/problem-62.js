@@ -33,3 +33,15 @@ function pow(x, y) {
 
   return prevResult;
 }
+
+function pow2(x, y) {
+  let temp;
+  if (Math.abs(y) === 0) return 1;
+  if (Math.abs(y) === 1) return x;
+  temp = pow2(x, Math.floor(y / 2));
+  if (y % 2 == 0) return temp * temp;
+  else if (y > 0) return x * temp * temp;
+  return 1 / (temp * temp);
+}
+
+console.log(pow2(2, 4));
