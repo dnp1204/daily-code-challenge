@@ -1,5 +1,5 @@
 /**
- * Company: Google
+ * Company: Google.
  *
  * Given pre-order and in-order traversals of a binary tree, write a function
  * to reconstruct the tree.
@@ -17,4 +17,29 @@
  *  / \ / \
  * d  e f  g
  */
-// TODO:
+var buildTree = function(preorder, inorder) {
+  const helper = function(preorder, inorder) {
+    if (!preorder.length || !inorder.length) return null;
+    if (inorder.length === 1) return new TreeNode(inorder[0]);
+
+    const rootValue = preorder[0];
+    const root = new TreeNode(rootValue);
+    const indexOfRoot = inorder.indexOf(rootValue);
+
+    if (indexOfRoot !== -1) {
+      const leftInorder = inorder.slice(0, indexOfRoot);
+      const rightInorder = inorder.slice(indexOfRoot + 1, inorder.length);
+      const leftPreorder = preorder.slice(1, leftInorder.length + 1);
+      const rightPreorder = preorder.slice(
+        leftInorder.length + 1,
+        preorder.length
+      );
+
+      root.left = helper(leftPreorder, leftInorder);
+      root.right = helper(rightPreorder, rightInorder);
+    }
+    return root;
+  };
+
+  return helper(preorder, inorder);
+};
