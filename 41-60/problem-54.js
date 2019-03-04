@@ -17,6 +17,8 @@
  *   c  b
  *  /  / \
  * f  e  d
+ *
+ * Leetcode: https://leetcode.com/problems/invert-binary-tree/
  */
 var invertTree = function(root) {
   return helper(root);
