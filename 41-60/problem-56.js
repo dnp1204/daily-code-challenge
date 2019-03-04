@@ -38,4 +38,21 @@
  *
  * Leetcode: https://leetcode.com/problems/longest-absolute-file-path/
  */
-// TODO:
+var lengthLongestPath = function(input) {
+  const dirs = input.split('\n');
+  let max = 0;
+  let pathLen = Array(dirs.length).fill(0);
+
+  for (const dir of dirs) {
+    const stripDir = dir.replace(/(\t)+/, '');
+    const depth = dir.length - stripDir.length;
+
+    if (stripDir.includes('.')) {
+      max = Math.max(max, pathLen[depth] + stripDir.length);
+    } else {
+      pathLen[depth + 1] = pathLen[depth] + stripDir.length + 1;
+    }
+  }
+
+  return max;
+};
