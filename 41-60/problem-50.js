@@ -14,4 +14,24 @@
  * 3  2  4  5
  * You should return 45, as it is (3 + 2) * (4 + 5).
  */
-// TODO:
+function evaluate(root) {
+  const helper = function(root) {
+    if (!root.left && !root.right) return parseInt(root.val);
+    const left = helper(root.left);
+    const operation = root.val;
+    const right = helper(root.right);
+    switch (operation) {
+      case '*':
+        return left * right;
+      case '/':
+        return left / right;
+      case '-':
+        return left - right;
+      case '+':
+      default:
+        return left + right;
+    }
+  };
+
+  return helper(root);
+}
