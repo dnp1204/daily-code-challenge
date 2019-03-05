@@ -8,4 +8,13 @@
  *
  * Leetcode: https://leetcode.com/problems/validate-binary-search-tree/
  */
-// TODO:
+var isValidBST = function(root) {
+  const helper = function(node, min, max) {
+    if (!node) return true;
+    if (min >= node.val || max <= node.val) return false;
+    return (
+      helper(node.left, min, node.val) && helper(node.right, node.val, max)
+    );
+  };
+  return helper(root, -Infinity, Infinity);
+};
