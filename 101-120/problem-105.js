@@ -12,7 +12,8 @@
  * Return 4.
  *
  * Leetcode: https://leetcode.com/problems/maximal-rectangle/
- * Youtube: https://www.youtube.com/watch?v=g8bSdXCG-lA
+ * Youtube: https://www.youtube.com/watch?v=g8bSdXCG-lA and
+ * https://www.youtube.com/watch?v=_Lf1looyJMU
  */
 function maximalRectangle(matrix) {
   if (
