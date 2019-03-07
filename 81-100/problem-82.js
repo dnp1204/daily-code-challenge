@@ -1,5 +1,6 @@
 /**
  * Company: Stripe.
+ *
  * Write a map implementation with a get function that lets you retrieve the value of
  * a key at a particular time.
  *
@@ -25,4 +26,30 @@
  * d.set(1, 2, 0) # set key 1 to value 2 at time 0
  * d.get(1, 0) # get key 1 at time 0 should be 2
  */
-// TODO:
+const bisect = require('js-bisect');
+
+class TimedMap {
+  constructor() {
+    this.map = {};
+  }
+
+  setVal(key, value, time) {
+    if (!this.map[key]) {
+      this.map[key] = { times: [time], values: [value] };
+      return true;
+    }
+
+    const { times, values } = this.map[key];
+    insertionPoint = bisect.bisect(times, time);
+    times.insert(insertionPoint, time);
+    values.insert(insertionPoint, value);
+  }
+
+  getVal(key, time) {
+    if (!this.map[key]) return false;
+    const { times, values } = this.map[key];
+    insertionPoint = bisect.bisect(times, time);
+    if (!insertionPoint) return false;
+    return values[insertionPoint - 1];
+  }
+}
