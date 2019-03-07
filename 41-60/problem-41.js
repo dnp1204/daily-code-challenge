@@ -8,6 +8,8 @@
  * The longest palindromic substring of "bananas" is "anana".
  *
  * Leetcode: https://leetcode.com/problems/longest-palindromic-substring/
+ * Youtube: https://www.youtube.com/watch?v=_nCsPn7_OgI and
+ * https://www.youtube.com/watch?v=V-sEwsca1ak
  */
 var longestPalindrome = function(s) {
   if (!s || s.length < 1) {
