@@ -9,7 +9,8 @@
  *
  * Leetcode: https://leetcode.com/problems/longest-palindromic-substring/
  * Youtube: https://www.youtube.com/watch?v=_nCsPn7_OgI and
- * https://www.youtube.com/watch?v=V-sEwsca1ak
+ * https://www.youtube.com/watch?v=V-sEwsca1ak and
+ * https://www.youtube.com/watch?v=nbTSfrEfo6M
  */
 var longestPalindrome = function(s) {
   if (!s || s.length < 1) {
