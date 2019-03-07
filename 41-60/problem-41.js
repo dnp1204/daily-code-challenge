@@ -24,7 +24,6 @@ var longestPalindrome = function(s) {
     if (l > end - start) {
       start = i - Math.floor((l - 1) / 2);
       end = i + Math.floor(l / 2);
-      console.log(start);
     }
   }
 
