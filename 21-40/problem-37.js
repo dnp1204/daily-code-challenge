@@ -8,4 +8,16 @@
  *
  * Given the string "([)]" or "((()", you should return false.
  */
-// TODO:
+var isValid = function(s) {
+  const stack = [];
+  for (let i = 0; i < s.length; i += 1) {
+    const c = s.charAt(i);
+
+    if (c === '(') stack.push(')');
+    else if (c === '{') stack.push('}');
+    else if (c === '[') stack.push(']');
+    else if (stack.length === 0 || stack.pop() !== c) return false;
+  }
+
+  return stack.length === 0;
+};
