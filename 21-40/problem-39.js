@@ -8,7 +8,8 @@
  * Given two strings, compute the edit distance between them.
  *
  * Leetcode: https://leetcode.com/problems/edit-distance/
- * Yotube: https://www.youtube.com/watch?v=We3YDTzNXEk
+ * Youtube: https://www.youtube.com/watch?v=We3YDTzNXEk and
+ * https://www.youtube.com/watch?v=MiqoA-yF-0M
  */
 var minDistance = function(word1, word2) {
   const table = [];
