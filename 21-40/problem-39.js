@@ -32,3 +32,34 @@ var minDistance = function(word1, word2) {
 
   return table[word2.length][word1.length];
 };
+
+function printStep(table, word1, word2) {
+  let i = table.length - 1;
+  let j = table[0].length - 1;
+
+  while (i > 0 && j > 0) {
+    if (word1.charAt(j - 1) !== word2.charAt(i - 1)) {
+      const replace = table[i - 1][j - 1];
+      const deletion = table[i][j - 1];
+      const insertion = table[i - 1][j];
+      const min = Math.min(replace, Math.min(deletion, insertion));
+
+      if (min === replace) {
+        console.log(
+          `Replace ${word1.charAt(j - 1)} with ${word2.charAt(i - 1)}`
+        );
+        i = i - 1;
+        j = j - 1;
+      } else if (min === deletion) {
+        console.log(`Remove ${word1.charAt(j - 1)}`);
+        j = j - 1;
+      } else {
+        console.log(`Insert ${word2.charAt(i - 1)}`);
+        i = i - 1;
+      }
+    } else {
+      i = i - 1;
+      j = j - 1;
+    }
+  }
+}
