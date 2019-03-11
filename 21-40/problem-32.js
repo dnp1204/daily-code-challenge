@@ -12,3 +12,32 @@
  *
  * Leetcode: https://leetcode.com/problems/subsets/
  */
+var subsets = function(nums) {
+  const result = [[]];
+  if (nums.length === 0) return result;
+  const map = {};
+  const helper = function(nums) {
+    if (!map[nums.join('')]) {
+      result.push(nums);
+      map[nums.join('')] = nums;
+    }
+    if (nums.length === 1) return nums;
+    for (let i = 0; i < nums.length; i++) {
+      const newNums = nums.slice(0, i).concat(nums.slice(i + 1, nums.length));
+      helper(newNums);
+    }
+    return result;
+  };
+  return helper(nums);
+};
+
+var subsets2 = function(nums) {
+  const result = [[]];
+  for (const num of nums) {
+    const length = result.length;
+    for (let i = 0; i < length; i++) {
+      result.push(result[i].concat(num));
+    }
+  }
+  return result;
+};
