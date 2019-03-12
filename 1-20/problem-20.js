@@ -1,5 +1,5 @@
 /**
- * Company: Facebook
+ * Company: Facebook.
  *
  * You are given an array of non-negative integers that
  * represents a two-dimensional elevation map where each
@@ -17,5 +17,7 @@
  * the first index, 2 in the second, and 3 in the fourth index
  * (we cannot hold 5 since it would run off to the left), so
  * we can trap 8 units of water.
+ *
+ * Leetcode: https://leetcode.com/problems/trapping-rain-water/
  */
 // TODO:
