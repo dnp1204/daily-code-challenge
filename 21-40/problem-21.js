@@ -1,5 +1,5 @@
 /**
- * Company:  Microsoft
+ * Company: Microsoft
  *
  * You have an N by N board. Write a function that, given N,
  * returns the number of possible arrangements of the board
