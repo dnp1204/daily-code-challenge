@@ -1,5 +1,5 @@
 /**
- * Company: Amazon
+ * Company: Amazon.
  *
  * An sorted array of integers was rotated an unknown number of times.
  * Given such an array, find the index of the element in the array in
@@ -12,8 +12,8 @@
  * You can assume all the integers in the array are unique.
  */
 var search = function(nums, target) {
-  let start = 0,
-    end = nums.length;
+  let start = 0;
+  let end = nums.length;
 
   while (start < end) {
     const mid = Math.floor((start + end) / 2);

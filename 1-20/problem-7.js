@@ -1,5 +1,5 @@
 /**
- * Company: Microsoft
+ * Company: Microsoft.
  *
  * Given an array of numbers, find the length of the longest increasing subsequence
  * in the array. The subsequence does not necessarily have to be contiguous.
@@ -10,12 +10,12 @@
  * Youtube link: https://www.youtube.com/watch?v=CE2b_-XfVDk
  */
 var lengthOfLIS = function(nums) {
-  // return iteratationHelper(nums);
+  // return iterationHelper(nums);
   // return recursionHelper(nums);
   return dpHelper(nums);
 };
 
-const iteratationHelper = function(nums) {
+const iterationHelper = function(nums) {
   if (nums.length === 0) return 0;
   let max = 1;
   const temp = Array(nums.length).fill(1);

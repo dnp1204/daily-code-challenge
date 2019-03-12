@@ -1,5 +1,5 @@
 /**
- * Company: Google
+ * Company: Google.
  *
  * Given an array of strictly the characters 'R', 'G', and 'B',
  * segregate the values of the array so that all the Rs come

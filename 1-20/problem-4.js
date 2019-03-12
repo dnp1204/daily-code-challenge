@@ -1,5 +1,5 @@
 /**
- * Company: Google
+ * Company: Google.
  *
  * Given an array of integers, find the first missing positive
  * integer in linear time and constant space. In other words,
@@ -8,7 +8,10 @@
  * as well
  *
  * For example, the input [3, 4, -1, 1] should give 2. The input
- * [1, 2, 0] should give 3. You can modify the input array in-place
+ * [1, 2, 0] should give 3. You can modify the input array in-place.
+ *
+ * GeeksForGeeks:
+ * https://www.geeksforgeeks.org/find-the-smallest-positive-number-missing-from-an-unsorted-array/
  */
 function findMissingNumber(array) {
   let val = array[0];
@@ -36,3 +39,6 @@ function findMissingNumber(array) {
 
   return array.length + 1;
 }
+
+console.log(findMissingNumber([3, 4, -1, 1]));
+console.log(findMissingNumber([7, 8, 9, 10]));

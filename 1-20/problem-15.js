@@ -1,5 +1,5 @@
 /***
- * Company: Uber
+ * Company: Uber.
  *
  * Given an array of integers, return a new array such that each element at
  * index i of the new array is the product of all the numbers in the original
@@ -9,7 +9,7 @@
  * be [120, 60, 40, 30, 24]. If our input was [3, 2, 1], the expect output
  * would be [2, 3, 6]
  *
- * Follow-up: what if you can't use division
+ * Follow-up: what if you can't use division.
  */
 function findProduct(array) {
   if (array.length === 0) {
