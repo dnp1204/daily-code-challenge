@@ -11,4 +11,12 @@
  *
  * Leetcode: https://leetcode.com/problems/paint-house/
  */
-// TODO:
+function findMinCosts(costs) {
+  if (!costs || !costs.length) return null;
+
+  const numHouses = costs.length;
+  const numColors = costs[0].length;
+}
+
+const costs = [[4, 0, 3], [8, 3, 8], [4, 5, 0], [3, 4, 4], [8, 8, 0]];
+console.log(findMinCosts(costs));
