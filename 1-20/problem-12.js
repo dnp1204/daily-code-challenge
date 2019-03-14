@@ -21,7 +21,7 @@ function getSingle(arr) {
   for (let i = 0; i < arr.length; i++) {
     /**
      * The expression "one & arr[i]" gives the bits that are
-     * there in both 'ones' and new element from arr[].  We
+     * there in both 'ones' and new element from arr[]. We
      * add these bits to 'twos' using bitwise OR
      * Value of 'twos' will be set as 0, 3, 3 and 1 after 1st,
      * 2nd, 3rd and 4th iterations respectively
@@ -56,7 +56,7 @@ function getSingle(arr) {
     /**
      * Remove common bits (the bits that appear third time) from 'twos'
      * Value of 'twos' will be set as 0, 3, 1 and 0 after 1st,
-     * 2nd, 3rd and 4th itearations respectively
+     * 2nd, 3rd and 4th iterations respectively
      */
     twos &= common_bit_mask;
   }
