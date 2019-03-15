@@ -17,7 +17,7 @@ function findNumRooms(intervals) {
   });
   let queue = [intervals[0]];
   let count = 1;
-  console.log(intervals);
+
   for (let i = 1; i < intervals.length; i++) {
     const topInterval = queue[0];
     const currentInterval = intervals[i];
