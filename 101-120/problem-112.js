@@ -8,4 +8,28 @@
  *
  * Leetcode: https://leetcode.com/problems/swap-nodes-in-pairs/
  */
-// TODO:
+var swapPairs = function(head) {
+  if (!head || !head.next) {
+    return head;
+  }
+
+  let prev = head;
+  let current = head.next;
+  head = current;
+
+  while (true) {
+    let next = current.next;
+    current.next = prev;
+
+    if (!next || !next.next) {
+      prev.next = next;
+      break;
+    }
+
+    prev.next = next.next;
+    prev = next;
+    current = prev.next;
+  }
+
+  return head;
+};
