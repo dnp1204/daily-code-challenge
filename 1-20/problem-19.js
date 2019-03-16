@@ -11,7 +11,6 @@
  * For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'],
  * it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
  */
-// TODO:
 function segregate(letters) {
   let pointer = 0;
 
