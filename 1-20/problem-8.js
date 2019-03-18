@@ -13,5 +13,33 @@
  * Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond',
  * and the string "bedbathandbeyond", return either ['bed', 'bath',
  * 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
+ *
+ * Leetcode: https://leetcode.com/problems/word-break-ii/
  */
-// TODO:
+var wordBreak = function(s, wordDict) {
+  const set = new Set();
+  const result = [];
+
+  for (const word of wordDict) {
+    set.add(word);
+  }
+
+  const helper = function(start, end, path = []) {
+    if (start === end) {
+      result.push(path.join(' '));
+      return path;
+    }
+
+    for (let i = start; i <= end; i++) {
+      if (set.has(s.substring(start, i))) {
+        helper(i, end, [...path, s.substring(start, i)]);
+      }
+    }
+
+    return path;
+  };
+
+  helper(0, s.length);
+
+  return result;
+};
