@@ -21,4 +21,65 @@
  *
  * Leetcode: https://leetcode.com/problems/reconstruct-itinerary/
  */
-// TODO:
+var findItinerary = function(tickets) {
+  if (!tickets.length) return [];
+  const map = {};
+  const visited = {};
+  let result = [];
+
+  for (const ticket of tickets) {
+    if (!map[ticket[0]]) map[ticket[0]] = [];
+    map[ticket[0]].push(ticket[1]);
+  }
+
+  const helper = function(origin, n = 0, path = []) {
+    if (n > tickets.length) return result;
+    if (n === tickets.length) {
+      path.push(origin);
+      if (!result.length) {
+        result = path;
+      } else {
+        for (let i = 0; i < path.length; i++) {
+          if (result[i] > path[i]) {
+            result = path;
+            break;
+          }
+        }
+      }
+      return result;
+    }
+
+    const destinations = map[origin];
+    if (destinations) {
+      for (const destination of destinations) {
+        if (!visited[origin + ' ' + destination]) {
+          visited[origin + ' ' + destination] = true;
+          helper(destination, n + 1, [...path, origin]);
+        }
+        visited[origin + ' ' + destination] = false;
+      }
+    }
+
+    return result;
+  };
+
+  return helper('JFK');
+};
+
+console.log(
+  findItinerary([
+    ['MUC', 'LHR'],
+    ['JFK', 'MUC'],
+    ['SFO', 'SJC'],
+    ['LHR', 'SFO']
+  ])
+);
+console.log(
+  findItinerary([
+    ['JFK', 'SFO'],
+    ['JFK', 'ATL'],
+    ['SFO', 'ATL'],
+    ['ATL', 'JFK'],
+    ['ATL', 'SFO']
+  ])
+);
