@@ -19,14 +19,17 @@ function findPrimePair(n) {
 
   const SieveOfEratosthenes = function(n, isPrime) {
     isPrime[0] = isPrime[1] = false;
-    for (let i = 2; i <= n; i++) isPrime[i] = true;
+    for (let i = 2; i <= n; i++) {
+      isPrime[i] = true;
+    }
 
     for (let p = 2; p * p <= n; p++) {
       if (isPrime[p] == true) {
-        for (let i = p * 2; i <= n; i += p) isPrime[i] = false;
+        for (let i = p * 2; i <= n; i += p) {
+          isPrime[i] = false;
+        }
       }
     }
-    return false;
   };
 
   SieveOfEratosthenes(n, isPrime);
