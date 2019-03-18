@@ -10,6 +10,7 @@
  * You can assume the list has at least three integers.
  *
  * Leetcode: https://leetcode.com/problems/maximum-product-of-three-numbers/
+ * GeeksForGeeks: https://www.geeksforgeeks.org/maximum-product-subsequence-size-k/
  */
 var maximumProduct = function(nums) {
   let max1 = (max2 = max3 = Number.MIN_SAFE_INTEGER);
