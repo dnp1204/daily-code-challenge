@@ -12,3 +12,4 @@
  * Leetcode: https://leetcode.com/problems/maximum-product-of-three-numbers/
  */
 // TODO:
+[1, null, null, null, null, 1];
