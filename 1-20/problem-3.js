@@ -1,5 +1,5 @@
 /**
- * Company: Facebook
+ * Company: Facebook.
  *
  * Given an unordered list of flights taken by someone, each represented
  * as (origin, destination) pairs, and a starting airport, compute the
@@ -18,5 +18,7 @@
  * and starting airport 'A', you should return the list ['A', 'B', 'C', 'A', 'C']
  * even though ['A', 'C', 'A', 'B', 'C'] is also a valid itinerary. However,
  * the first one is lexicographically smaller.
+ *
+ * Leetcode: https://leetcode.com/problems/reconstruct-itinerary/
  */
 // TODO:
