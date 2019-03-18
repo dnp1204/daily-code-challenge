@@ -15,6 +15,9 @@
  * 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
  *
  * Leetcode: https://leetcode.com/problems/word-break-ii/
+ *
+ * Note: I still need to come up with a dynamic solution to solve for
+ * large input
  */
 var wordBreak = function(s, wordDict) {
   const set = new Set();
@@ -43,3 +46,8 @@ var wordBreak = function(s, wordDict) {
 
   return result;
 };
+
+console.log(wordBreak('thequickbrownfox', ['quick', 'brown', 'the', 'fox']));
+console.log(
+  wordBreak('bedbathandbeyond', ['bed', 'bath', 'bedbath', 'and', 'beyond'])
+);
