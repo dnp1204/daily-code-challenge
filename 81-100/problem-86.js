@@ -13,6 +13,8 @@
  * If [a, b] is one solution with a <= b, and [c, d] is another solution with c <= d, then
  * [a, b] < [c, d]
  * If a < c OR a == c AND b < d.
+ *
+ * Youtube: https://www.youtube.com/watch?v=I6HrVRGGYNI
  */
 function findPrimePair(n) {
   const isPrime = Array(n + 1);
