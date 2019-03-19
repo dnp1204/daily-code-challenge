@@ -38,9 +38,11 @@ function findPrimePair(n) {
   for (let i = 0; i < n; i++) {
     if (isPrime[i] && isPrime[n - i]) {
       console.log(i + ' ' + (n - i));
-      return;
+      return { firstNum: i, secondNum: n - i };
     }
   }
+
+  return null;
 }
 
 findPrimePair(74);
