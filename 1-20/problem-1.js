@@ -122,3 +122,7 @@ function autocomplete(words = [], prefix) {
 }
 
 autocomplete(['dog', 'deer', 'deal', 'cat', 'done', 'cow', 'bee', 'do'], 'do');
+autocomplete(
+  ['dog', 'deer', 'deal', 'cat', 'done', 'cow', 'bee', 'do', 'carb'],
+  'ca'
+);
