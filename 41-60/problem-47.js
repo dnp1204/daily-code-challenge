@@ -16,5 +16,6 @@
  * return true. The same regular expression on the string "chats" should return false.
  *
  * Leetcode: https://leetcode.com/problems/regular-expression-matching/
+ * Youtube: https://www.youtube.com/watch?v=l3hda49XcDE
  */
 // TODO:
