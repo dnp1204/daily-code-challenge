@@ -13,4 +13,30 @@
  *
  * GeeksForGeeks: https://www.geeksforgeeks.org/random-number-generator-in-arbitrary-probability-distribution-fashion/
  */
-// TODO:
+function findCeil(prefix, random, l, h) {
+  let mid;
+  while (l < h) {
+    mid = Math.floor((l + h) / 2);
+    random > prefix[mid] ? (l = mid + 1) : (h = mid);
+  }
+  return prefix[l] >= random ? l : -1;
+}
+
+function myRand(arr, freq, n) {
+  const prefix = Array(n);
+  prefix[0] = freq[0] * 100;
+
+  for (i = 1; i < n; ++i) {
+    prefix[i] = prefix[i - 1] + freq[i] * 100;
+  }
+  const random = Math.floor(Math.random() * prefix[n - 1]) + 1;
+  const indexC = findCeil(prefix, random, 0, n - 1);
+  return arr[indexC];
+}
+
+const nums = [1, 2, 3, 4];
+const freq = [0.1, 0.5, 0.2, 0.2];
+
+for (let i = 0; i < 10; i++) {
+  console.log(myRand(nums, freq, nums.length));
+}
