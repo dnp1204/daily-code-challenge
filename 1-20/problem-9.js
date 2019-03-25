@@ -17,4 +17,37 @@
  *
  * Leetcode: https://leetcode.com/problems/sliding-window-maximum/
  */
-// TODO:
+/**
+ * @param {number[]} nums
+ * @param {number} k
+ * @return {number[]}
+ */
+var maxSlidingWindow = function(nums, k) {
+  if (!nums.length || k <= 0) return [];
+  if (k === 1) return nums;
+
+  const queue = [];
+  const n = nums.length;
+  const r = Array(n - k + 1);
+  let ri = 0;
+
+  for (let i = 0; i < nums.length; i++) {
+    // remove numbers out of range k
+    while (queue.length && queue[0] < i - k + 1) {
+      queue.shift();
+    }
+
+    // remove smaller numbers in k range as they are useless
+    while (queue.length && nums[queue[queue.length - 1]] < nums[i]) {
+      queue.pop();
+    }
+
+    // q contains index... r contains content
+    queue.push(i);
+    if (i >= k - 1) {
+      r[ri++] = nums[queue[0]];
+    }
+  }
+
+  return r;
+};
