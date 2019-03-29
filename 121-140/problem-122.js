@@ -1,5 +1,5 @@
 /**
- * Company:  Facebook.
+ * Company: Facebook.
  *
  * Given a positive integer n, find the smallest number of squared integers
  * which sum to n.
