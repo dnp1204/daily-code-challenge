@@ -1,5 +1,15 @@
 <h1>Daily coding challenge with Javascript</h1>
 
+<h3>Problem 123 - Company: Amazon</h3>
+
+Given a string, determine whether any permutation of it is a palindrome.
+
+For example, carrace should return true, since it can be rearranged to form racecar, which is a palindrome. daily should return false since there's no rearrangement that can form a palindrome.
+
+[See Solution](./121-140/problem-123.js)
+
+<hr>
+
 <h3>Problem 124 - Company: Slack</h3>
 
 You are given an N by M matrix of 0s and 1s. Starting from the top left corner, how many ways are there to reach the bottom right corner You can only move right and down. 0 represents an empty space while 1 represents a wall you cannot walk through.
