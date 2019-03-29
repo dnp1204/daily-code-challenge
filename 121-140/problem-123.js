@@ -7,7 +7,6 @@
  * form racecar, which is a palindrome. daily should return false, since
  * there's no rearrangement that can form a palindrome.
  */
-// TODO:
 const canFormPalindrome = function(s) {
   const table = {};
   let count = 0;
