@@ -47,3 +47,15 @@ Down, right, down, right<br/>
 The top left corner and bottom right corner will always be 0.
 
 [See Solution](./121-140/problem-124.js)
+
+<hr>
+
+<h3>Problem 125 - Company: Google</h3>
+
+Given a string, return the first recurring character in it, or null if there is no recurring character.
+
+For example, given the string "acbbac", return "b". Given the string "abcdef", return null.
+
+[See Solution](./121-140/problem-125.js)
+
+<hr>
