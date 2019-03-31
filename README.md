@@ -59,3 +59,13 @@ For example, given the string "acbbac", return "b". Given the string "abcdef", r
 [See Solution](./121-140/problem-125.js)
 
 <hr>
+
+<h3>Problem 126 - Uber</h3>
+
+Given a tree where each edge has a weight, compute the length of the longest path in the tree.
+
+The path does not have to pass through the root, and each node can have any amount of children.
+
+[See Solution](./121-140/problem-126.js)
+
+<hr>
