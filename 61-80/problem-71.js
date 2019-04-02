@@ -1,5 +1,5 @@
 /**
- * Company:  Google.
+ * Company: Google.
  *
  * On our special chessboard, two bishops attack each other if they share the same
  * diagonal. This includes bishops that have another bishop located between them,

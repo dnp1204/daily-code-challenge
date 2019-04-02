@@ -1,13 +1,20 @@
 {
   "editor.formatOnSave": true,
   "cSpell.words": [
+    "alibaba",
     "carrace",
+    "coursera",
     "dailycoding",
     "leetcode",
+    "lyft",
+    "mutexes",
     "nums",
+    "palantir",
+    "quora",
     "snapchat",
     "subgrid",
     "triplebyte",
-    "youtube"
+    "youtube",
+    "zillow"
   ]
 }

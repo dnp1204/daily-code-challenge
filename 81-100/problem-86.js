@@ -21,6 +21,7 @@ function findPrimePair(n) {
 
   const SieveOfEratosthenes = function(n, isPrime) {
     isPrime[0] = isPrime[1] = false;
+
     for (let i = 2; i <= n; i++) {
       isPrime[i] = true;
     }
@@ -35,9 +36,9 @@ function findPrimePair(n) {
   };
 
   SieveOfEratosthenes(n, isPrime);
+
   for (let i = 0; i < n; i++) {
     if (isPrime[i] && isPrime[n - i]) {
-      console.log(i + ' ' + (n - i));
       return { firstNum: i, secondNum: n - i };
     }
   }

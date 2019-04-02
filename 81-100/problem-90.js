@@ -3,7 +3,7 @@
  *
  * Given a binary tree, return the level of the tree with minimum sum.
  */
-function findMinumumSumOfLevel(root) {
+function findMinimumSumOfLevel(root) {
   if (!root) return root;
   const queue = [root];
   let min = root.val;
