@@ -28,7 +28,7 @@ function findNumRooms(intervals) {
       queue.shift();
     }
     queue.push(currentInterval);
-    // We need to use priority queue for this, but I am to lazy to implement
+    // We need to use priority queue for this, but I am too lazy to implement
     // it. https://www.geeksforgeeks.org/implementation-priority-queue-javascript/
     queue.sort((interval1, interval2) => interval1.end - interval2.end);
   }
