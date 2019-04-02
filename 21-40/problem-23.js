@@ -8,7 +8,7 @@
  * Implement an efficient sudoku solver.
  *
  * Leetcode: https://leetcode.com/problems/sudoku-solver/
- * Yotube: https://www.youtube.com/watch?v=JzONv5kaPJM
+ * Youtube: https://www.youtube.com/watch?v=JzONv5kaPJM
  */
 /**
  * @param {character[][]} board
