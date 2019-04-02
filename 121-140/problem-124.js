@@ -19,6 +19,8 @@
  * Down, right, down, right
  *
  * The top left corner and bottom right corner will always be 0.
+ *
+ * Leetcode: https://leetcode.com/problems/unique-paths-ii/
  */
 const findWays = function(matrix) {
   let total = 0;
