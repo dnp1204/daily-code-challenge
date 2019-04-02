@@ -1,5 +1,27 @@
 <h1>Daily coding challenge with Javascript</h1>
 
+<h3>Problem 33 - Square</h3>
+
+Given a list of words, return the shortest unique prefix of each word. For example, given the list:
+
+dog <br />
+cat <br />
+apple <br />
+apricot <br />
+fish
+
+Return the list: <br />
+
+d <br />
+c <br />
+app <br />
+apr <br />
+f <br />
+
+[See Solution](./21-40/problem-33.js)
+
+<hr>
+
 <h3>Problem 121 - MongoDB</h3>
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
