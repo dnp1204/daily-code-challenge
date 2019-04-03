@@ -22,6 +22,20 @@ f <br />
 
 <hr>
 
+<h3>Problem 34 - Jane Street</h3>
+
+Given an arithmetic expression in Reverse Polish Notation, write a program to evaluate it.
+
+The expression is given as a list of numbers and operands. For example: [5, 3, '+'] should return 5 + 3 = 8.
+
+For example, [15, 7, 1, 1, '+', '-', '/', 3, '*', 2, 1, 1, '+', '+', '-'] should return 5, since it is equivalent to ((15 / (7 - (1 + 1))) \* 3) - (2 + (1 + 1)) = 5.
+
+You can assume the given expression is always valid.
+
+[See Solution](./21-40/problem-34.js)
+
+<hr>
+
 <h3>Problem 121 - MongoDB</h3>
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
