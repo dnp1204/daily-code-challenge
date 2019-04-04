@@ -5,6 +5,7 @@
  * By the pigeonhole principle, there must be a duplicate. Find it in linear time and space.
  *
  * Leetcode: https://leetcode.com/problems/find-the-duplicate-number/
+ * Youtube: https://www.youtube.com/watch?v=-YiQZi3mLq0
  */
 /**
  * @param {number[]} nums
