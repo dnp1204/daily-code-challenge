@@ -115,3 +115,11 @@ For example, given the binary number 1111 0000 1111 0000 1111 0000 1111 0000, re
 [See Solution](./121-140/problem-127.js)
 
 <hr>
+
+<h3>Problem 128 - Google</h3>
+
+You are given an array of length n + 1 whose elements belong to the set {1, 2, ..., n}. By the pigeonhole principle, there must be a duplicate. Find it in linear time and space.
+
+[See Solution](./121-140/problem-128.js)
+
+<hr>
