@@ -154,3 +154,13 @@ Do not use flatten or otherwise clone the arrays. Some of the arrays can be empt
 [See Solution](./121-140/problem-130.js)
 
 <hr>
+
+<h3>Problem 131 - Airbnb</h3>
+
+Given a list of words, find all pairs of unique indices such that the concatenation of the two words is a palindrome.
+
+For example, given the list ["code", "edoc", "da", "d"], return [(0, 1), (1, 0), (2, 3)].
+
+[See Solution](./121-140/problem-131.js)
+
+<hr>
