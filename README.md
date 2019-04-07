@@ -139,3 +139,18 @@ There are no smaller elements to the right of 1 <br />
 [See Solution](./121-140/problem-129.js)
 
 <hr>
+
+<h3>Problem 130 - Uber</h3>
+
+Implement a 2D iterator class. It will be initialized with an array of arrays, and should implement the following methods:
+
+next(): returns the next element in the array of arrays. If there are no more elements, raise an exception.<br />
+has_next(): returns whether or not the iterator still has elements left.
+
+For example, given the input [[1, 2], [3], [], [4, 5, 6]], calling next() repeatedly should output 1, 2, 3, 4, 5, 6.
+
+Do not use flatten or otherwise clone the arrays. Some of the arrays can be empty.
+
+[See Solution](./121-140/problem-130.js)
+
+<hr>
