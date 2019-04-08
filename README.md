@@ -164,3 +164,25 @@ For example, given the list ["code", "edoc", "da", "d"], return [(0, 1), (1, 0),
 [See Solution](./121-140/problem-131.js)
 
 <hr>
+
+<h3>Problem - Facebook</h3>
+
+Given an N by N matrix, rotate it by 90 degrees clockwise.
+
+For example, given the following matrix:
+
+[[1, 2, 3],<br />
+[4, 5, 6],<br />
+[7, 8, 9]]<br />
+
+you should return:
+
+[[7, 4, 1],<br />
+[8, 5, 2],<br />
+[9, 6, 3]]<br />
+
+Follow-up: What if you couldn't use any extra space?
+
+[See Solution](./121-140/problem-132.js)
+
+<hr>
