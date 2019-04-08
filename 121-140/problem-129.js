@@ -14,5 +14,21 @@
  *
  * Leetcode: https://leetcode.com/problems/count-of-smaller-numbers-after-self/
  */
-// TODO:
-// I will use self balance tree to solve this
+const AVLTree = require('../libraries/AVLTree');
+
+var countSmaller = function(nums) {
+  const tree = new AVLTree();
+  const countSmaller = [];
+
+  for (i = 0; i < nums.length; i++) {
+    countSmaller[i] = 0;
+  }
+
+  for (i = nums.length - 1; i >= 0; i--) {
+    tree.insert(nums[i], countSmaller, i);
+  }
+
+  return countSmaller;
+};
+
+console.log(countSmaller([3, 4, 9, 6, 1]));
