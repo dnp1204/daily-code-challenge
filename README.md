@@ -186,3 +186,13 @@ Follow-up: What if you couldn't use any extra space?
 [See Solution](./121-140/problem-132.js)
 
 <hr>
+
+<h3>Problem 133 - Google</h3>
+
+Given a linked list, sort it in O(n log n) time and constant space.
+
+For example, the linked list 4 -> 1 -> -3 -> 99 should become -3 -> 1 -> 4 -> 99.
+
+[See Solution](./121-140/problem-133.js)
+
+<hr>
