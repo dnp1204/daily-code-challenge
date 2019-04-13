@@ -10,6 +10,8 @@
  * would be [2, 3, 6]
  *
  * Follow-up: what if you can't use division.
+ *
+ * Leetcode: https://leetcode.com/problems/product-of-array-except-self/
  */
 function findProduct(array) {
   if (array.length === 0) {
