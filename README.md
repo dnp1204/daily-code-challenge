@@ -240,3 +240,35 @@ The order of the indices does not matter.
 [See Solution](./121-140/problem-136.js)
 
 <hr>
+
+<h3>Problem 137 - Stripe</h3>
+
+Write a function to flatten a nested dictionary. Namespace the keys with a period.
+
+For example, given the following dictionary:
+
+{<br/>
+  "key": 3,<br/>
+  "foo": {<br/>
+    "a": 5,<br/>
+    "bar": {<br/>
+      "baz": 8<br/>
+    }<br/>
+  }<br/>
+}
+
+it should become:
+
+{<br/>
+  "key": 3,<br/>
+  "foo.a": 5,<br/>
+  "foo.bar.baz": 8<br/>
+}
+
+You can assume keys do not contain dots in them, i.e. no clobbering will occur.
+
+[See Solution](./121-140/problem-137.js)
+
+<hr>
+
+
