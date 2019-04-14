@@ -247,14 +247,14 @@ Write a function to flatten a nested dictionary. Namespace the keys with a perio
 
 For example, given the following dictionary:
 
-{<br/>
+{ <br/>
   "key": 3,<br/>
   "foo": {<br/>
     "a": 5,<br/>
     "bar": {<br/>
       "baz": 8<br/>
     }<br/>
-  }<br/>
+  } <br/>
 }
 
 it should become:
@@ -271,4 +271,15 @@ You can assume keys do not contain dots in them, i.e. no clobbering will occur.
 
 <hr>
 
+<h3>Problem 138 - Microsoft</h3>
+
+Describe and give an example of each of the following types of polymorphism:
+
+Ad-hoc polymorphism <br/>
+Parametric polymorphism <br/>
+Subtype polymorphism <br/>
+
+[See Solution](./121-140/problem-138.js)
+
+<hr>
 
