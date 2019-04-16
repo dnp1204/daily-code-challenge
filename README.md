@@ -283,3 +283,26 @@ Subtype polymorphism <br/>
 
 <hr>
 
+<h3>Problem 139 - Google</h3>
+
+You are given a starting state start, a list of transition probabilities for a Markov chain, and a number of steps num_steps. Run the Markov chain starting from start for num_steps and compute the number of times we visited each state.
+
+For example, given the starting state a, number of steps 5000, and the following transition probabilities:
+
+[ <br/>
+  ('a', 'a', 0.9), <br/>
+  ('a', 'b', 0.075), <br/>
+  ('a', 'c', 0.025), <br/>
+  ('b', 'a', 0.15), <br/>
+  ('b', 'b', 0.8), <br/>
+  ('b', 'c', 0.05), <br/>
+  ('c', 'a', 0.25), <br/>
+  ('c', 'b', 0.25), <br/>
+  ('c', 'c', 0.5) <br/>
+]
+
+One instance of running this Markov chain might produce { 'a': 3012, 'b': 1656, 'c': 332 }.
+
+[See Solution](./121-140/problem-139.js)
+
+<hr>
