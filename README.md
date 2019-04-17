@@ -1,28 +1,28 @@
-<h1>Daily coding challenge with Javascript</h1>
+# Daily coding challenge with Javascript
 
-<h3>Problem 33 - Square</h3>
+## Problem 33 - Square
 
 Given a list of words, return the shortest unique prefix of each word. For example, given the list:
 
-dog <br />
-cat <br />
-apple <br />
-apricot <br />
+dog  
+cat  
+apple  
+apricot  
 fish
 
-Return the list: <br />
+Return the list:  
 
-d <br />
-c <br />
-app <br />
-apr <br />
-f <br />
+d  
+c  
+app  
+apr  
+f  
 
 [See Solution](./21-40/problem-33.js)
 
-<hr>
+---
 
-<h3>Problem 34 - Jane Street</h3>
+## Problem 34 - Jane Street
 
 Given an arithmetic expression in Reverse Polish Notation, write a program to evaluate it.
 
@@ -34,9 +34,9 @@ You can assume the given expression is always valid.
 
 [See Solution](./21-40/problem-34.js)
 
-<hr>
+---
 
-<h3>Problem 121 - MongoDB</h3>
+## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
 
@@ -44,9 +44,9 @@ For example, given [1, 2, 1, 1, 3, 4, 0], return 1.
 
 [See Solution](./121-140/problem-121.js)
 
-<hr>
+---
 
-<h3>Problem 122 - Facebook</h3>
+## Problem 122 - Facebook
 
 Given a positive integer n, find the smallest number of squared integers which sum to n.
 
@@ -54,9 +54,9 @@ For example, given n = 13, return 2 since 13 = 32 + 22 = 9 + 4. Given n = 27, re
 
 [See Solution](./121-140/problem-122.js)
 
-<hr>
+---
 
-<h3>Problem 123 - Amazon</h3>
+## Problem 123 - Amazon
 
 Given a string, determine whether any permutation of it is a palindrome.
 
@@ -64,29 +64,30 @@ For example, carrace should return true, since it can be rearranged to form race
 
 [See Solution](./121-140/problem-123.js)
 
-<hr>
+---
 
-<h3>Problem 124 - Slack</h3>
+## Problem 124 - Slack
 
 You are given an N by M matrix of 0s and 1s. Starting from the top left corner, how many ways are there to reach the bottom right corner You can only move right and down. 0 represents an empty space while 1 represents a wall you cannot walk through.
 
 For example, given the following matrix:
 
-[[0, 0, 1],<br/>
-[0, 0, 1],<br/>
+[[0, 0, 1]  
+[0, 0, 1]  
 [1, 0, 0]]
 
-Return two, as there are only two ways to get to the bottom right:<br/>
-Right, down, down, right<br/>
-Down, right, down, right<br/>
+Return two, as there are only two ways to get to the bottom right  
+
+Right, down, down, right  
+Down, right, down, right  
 
 The top left corner and bottom right corner will always be 0.
 
 [See Solution](./121-140/problem-124.js)
 
-<hr>
+---
 
-<h3>Problem 125 - Google</h3>
+## Problem 125 - Google
 
 Given a string, return the first recurring character in it, or null if there is no recurring character.
 
@@ -94,9 +95,9 @@ For example, given the string "acbbac", return "b". Given the string "abcdef", r
 
 [See Solution](./121-140/problem-125.js)
 
-<hr>
+---
 
-<h3>Problem 126 - Uber</h3>
+## Problem 126 - Uber
 
 Given a tree where each edge has a weight, compute the length of the longest path in the tree.
 
@@ -104,9 +105,9 @@ The path does not have to pass through the root, and each node can have any amou
 
 [See Solution](./121-140/problem-126.js)
 
-<hr>
+---
 
-<h3>Problem 127 - Facebook</h3>
+## Problem 127 - Facebook
 
 Given a 32-bit integer, return the number with its bits reversed.
 
@@ -114,37 +115,37 @@ For example, given the binary number 1111 0000 1111 0000 1111 0000 1111 0000, re
 
 [See Solution](./121-140/problem-127.js)
 
-<hr>
+---
 
-<h3>Problem 128 - Google</h3>
+## Problem 128 - Google
 
 You are given an array of length n + 1 whose elements belong to the set {1, 2, ..., n}. By the pigeonhole principle, there must be a duplicate. Find it in linear time and space.
 
 [See Solution](./121-140/problem-128.js)
 
-<hr>
+---
 
-<h3>Problem 129 - Google</h3>
+## Problem 129 - Google
 
 Given an array of integers, return a new array where each element in the new array is the number of smaller elements to the right of that element in the original input array.
 
 For example, given the array [3, 4, 9, 6, 1], return [1, 1, 2, 1, 0], since:
 
-There is 1 smaller element to the right of 3 <br />
-There is 1 smaller element to the right of 4 <br />
-There are 2 smaller elements to the right of 9 <br />
-There is 1 smaller element to the right of 6 <br />
-There are no smaller elements to the right of 1 <br />
+There is 1 smaller element to the right of 3  
+There is 1 smaller element to the right of 4  
+There are 2 smaller elements to the right of 9  
+There is 1 smaller element to the right of 6  
+There are no smaller elements to the right of 1  
 
 [See Solution](./121-140/problem-129.js)
 
-<hr>
+---
 
-<h3>Problem 130 - Uber</h3>
+## Problem 130 - Uber
 
 Implement a 2D iterator class. It will be initialized with an array of arrays, and should implement the following methods:
 
-next(): returns the next element in the array of arrays. If there are no more elements, raise an exception.<br />
+next(): returns the next element in the array of arrays. If there are no more elements, raise an exception  
 has_next(): returns whether or not the iterator still has elements left.
 
 For example, given the input [[1, 2], [3], [], [4, 5, 6]], calling next() repeatedly should output 1, 2, 3, 4, 5, 6.
@@ -153,9 +154,9 @@ Do not use flatten or otherwise clone the arrays. Some of the arrays can be empt
 
 [See Solution](./121-140/problem-130.js)
 
-<hr>
+---
 
-<h3>Problem 131 - Airbnb</h3>
+## Problem 131 - Airbnb
 
 Given a list of words, find all pairs of unique indices such that the concatenation of the two words is a palindrome.
 
@@ -163,31 +164,31 @@ For example, given the list ["code", "edoc", "da", "d"], return [(0, 1), (1, 0),
 
 [See Solution](./121-140/problem-131.js)
 
-<hr>
+---
 
-<h3>Problem 132 - Facebook</h3>
+## Problem 132 - Facebook
 
 Given an N by N matrix, rotate it by 90 degrees clockwise.
 
 For example, given the following matrix:
 
-[[1, 2, 3],<br />
-[4, 5, 6],<br />
-[7, 8, 9]]<br />
+[[1, 2, 3]  
+[4, 5, 6]  
+[7, 8, 9]]  
 
 you should return:
 
-[[7, 4, 1],<br />
-[8, 5, 2],<br />
-[9, 6, 3]]<br />
+[[7, 4, 1]  
+[8, 5, 2]  
+[9, 6, 3]]  
 
 Follow-up: What if you couldn't use any extra space?
 
 [See Solution](./121-140/problem-132.js)
 
-<hr>
+---
 
-<h3>Problem 133 - Google</h3>
+## Problem 133 - Google
 
 Given a linked list, sort it in O(n log n) time and constant space.
 
@@ -195,9 +196,9 @@ For example, the linked list 4 -> 1 -> -3 -> 99 should become -3 -> 1 -> 4 -> 99
 
 [See Solution](./121-140/problem-133.js)
 
-<hr>
+---
 
-<h3>Problem 134 - Facebook</h3>
+## Problem 134 - Facebook
 
 Given a start word, an end word, and a dictionary of valid words, find the shortest transformation sequence from start to end such that only one letter is changed at each step of the sequence, and each transformed word exists in the dictionary. If there is no possible transformation, return null. Each word in the dictionary have the same length as start and end and is lowercase.
 
@@ -207,9 +208,9 @@ Given start = "dog", end = "cat", and dictionary = {"dot", "tod", "dat", "dar"},
 
 [See Solution](./121-140/problem-134.js)
 
-<hr>
+---
 
-<h3>Problem 135 - Amazon</h3>
+## Problem 135 - Amazon
 
 You are given a list of data entries that represent entries and exits of groups of people into a building. An entry looks like this:
 
@@ -225,9 +226,9 @@ Find the busiest period in the building, that is, the time with the most people 
 
 [See Solution](./121-140/problem-135.js)
 
-<hr>
+---
 
-<h3>Problem 136 - Dropbox</h3>
+## Problem 136 - Dropbox
 
 Given a string s and a list of words words, where each word is the same length, find all starting indices of substrings in s that is a concatenation of every word in words exactly once.
 
@@ -239,75 +240,73 @@ The order of the indices does not matter.
 
 [See Solution](./121-140/problem-136.js)
 
-<hr>
+---
 
-<h3>Problem 137 - Stripe</h3>
+## Problem 137 - Stripe
 
 Write a function to flatten a nested dictionary. Namespace the keys with a period.
 
 For example, given the following dictionary:
 
-{ <br/>
-  "key": 3,<br/>
-  "foo": {<br/>
-    "a": 5,<br/>
-    "bar": {<br/>
-      "baz": 8<br/>
-    }<br/>
-  } <br/>
+{
+  "key": 3,
+  "foo": {
+      "a": 5,
+      "bar": {
+          "baz": 8
+      }
+  }
 }
 
 it should become:
 
-{<br/>
-  "key": 3,<br/>
-  "foo.a": 5,<br/>
-  "foo.bar.baz": 8<br/>
+{
+  "key": 3,
+  "foo.a": 5,
+  "foo.bar.baz": 8
 }
 
 You can assume keys do not contain dots in them, i.e. no clobbering will occur.
 
 [See Solution](./121-140/problem-137.js)
 
-<hr>
+---
 
-<h3>Problem 138 - Microsoft</h3>
+## Problem 138 - Microsoft
 
 Describe and give an example of each of the following types of polymorphism:
 
-Ad-hoc polymorphism <br/>
-Parametric polymorphism <br/>
-Subtype polymorphism <br/>
+Ad-hoc polymorphism  
+Parametric polymorphism  
+Subtype polymorphism  
 
 [See Solution](./121-140/problem-138.js)
 
-<hr>
+---
 
-<h3>Problem 139 - Google</h3>
+## Problem 139 - Google
 
 You are given a starting state start, a list of transition probabilities for a Markov chain, and a number of steps num_steps. Run the Markov chain starting from start for num_steps and compute the number of times we visited each state.
 
 For example, given the starting state a, number of steps 5000, and the following transition probabilities:
 
-[ <br/>
-  ('a', 'a', 0.9), <br/>
-  ('a', 'b', 0.075), <br/>
-  ('a', 'c', 0.025), <br/>
-  ('b', 'a', 0.15), <br/>
-  ('b', 'b', 0.8), <br/>
-  ('b', 'c', 0.05), <br/>
-  ('c', 'a', 0.25), <br/>
-  ('c', 'b', 0.25), <br/>
-  ('c', 'c', 0.5) <br/>
-]
+[('a', 'a', 0.9),  
+('a', 'b', 0.075),  
+('a', 'c', 0.025),  
+('b', 'a', 0.15),  
+('b', 'b', 0.8),  
+('b', 'c', 0.05),  
+('c', 'a', 0.25),  
+('c', 'b', 0.25),  
+('c', 'c', 0.5)]
 
 One instance of running this Markov chain might produce { 'a': 3012, 'b': 1656, 'c': 332 }.
 
 [See Solution](./121-140/problem-139.js)
 
-<hr>
+---
 
-<h3>Problem 140 - Bloomberg</h3>
+## Problem 140 - Bloomberg
 
 Determine whether there exists a one-to-one character mapping from one string s1 to another s2.
 
@@ -317,4 +316,4 @@ Given s1 = foo and s2 = bar, return false since the o cannot map to two characte
 
 [See Solution](./121-140/problem-140.js)
 
-<hr>
+---
