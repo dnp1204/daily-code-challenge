@@ -317,3 +317,15 @@ Given s1 = foo and s2 = bar, return false since the o cannot map to two characte
 [See Solution](./121-140/problem-140.js)
 
 ---
+
+## Problem 141 - Airbnb
+
+Given a linked list and a positive integer k, rotate the list to the right by k places.
+
+For example, given the linked list 7 -> 7 -> 3 -> 5 and k = 2, it should become 3 -> 5 -> 7 -> 7.
+
+Given the linked list 1 -> 2 -> 3 -> 4 -> 5 and k = 3, it should become 3 -> 4 -> 5 -> 1 -> 2.
+
+[See Solution](./141-160/problem-141.js)
+
+---
