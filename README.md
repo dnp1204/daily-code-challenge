@@ -343,3 +343,11 @@ Which of the two games should Alice elect to play? Does it even matter? Write a 
 [See Solution](./141-160/problem-142.js)
 
 ---
+
+## Problem 143 - Google
+
+Given the sequence of keys visited by a post-order traversal of a binary search tree, reconstruct the tree.
+
+[See Solution](./141-160/problem-143.js)
+
+---
