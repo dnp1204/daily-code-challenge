@@ -387,3 +387,11 @@ Given an undirected graph, check if the graph is minimally-connected. You can ch
 [See Solution](./141-160/problem-146.js)
 
 ---
+
+## Problem 147 - Twitch
+
+Describe what happens when you type a URL into your browser and press Enter.
+
+[See Solution](./141-160/problem-147.js)
+
+---
