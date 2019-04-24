@@ -395,3 +395,13 @@ Describe what happens when you type a URL into your browser and press Enter.
 [See Solution](./141-160/problem-147.js)
 
 ---
+
+## Problem 148 - Amazon
+
+Given n numbers, find the greatest common denominator between them.
+
+For example, given the numbers [42, 56, 14], return 14.
+
+[See Solution](./141-160/problem-148.js)
+
+---
