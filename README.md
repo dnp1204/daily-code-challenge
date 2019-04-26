@@ -425,3 +425,7 @@ and
 }  
 
 return 6.
+
+[See Solution](./141-160/problem-149.js)
+
+---
