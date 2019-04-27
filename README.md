@@ -18,7 +18,7 @@ app
 apr  
 f  
 
-[See Solution](./21-40/problem-33.js)
+[See Solution](/problems/21-40/problem-33.js)
 
 ---
 
@@ -32,7 +32,7 @@ For example, [15, 7, 1, 1, '+', '-', '/', 3, '*', 2, 1, 1, '+', '+', '-'] should
 
 You can assume the given expression is always valid.
 
-[See Solution](./21-40/problem-34.js)
+[See Solution](/problems/21-40/problem-34.js)
 
 ---
 
@@ -42,7 +42,7 @@ Given a list of elements, find the majority element, which appears more than hal
 
 For example, given [1, 2, 1, 1, 3, 4, 0], return 1.
 
-[See Solution](./121-140/problem-121.js)
+[See Solution](/problems/121-140/problem-121.js)
 
 ---
 
@@ -52,7 +52,7 @@ Given a positive integer n, find the smallest number of squared integers which s
 
 For example, given n = 13, return 2 since 13 = 32 + 22 = 9 + 4. Given n = 27, return 3 since 27 = 32 + 32 + 32 = 9 + 9 + 9.
 
-[See Solution](./121-140/problem-122.js)
+[See Solution](/problems/121-140/problem-122.js)
 
 ---
 
@@ -62,7 +62,7 @@ Given a string, determine whether any permutation of it is a palindrome.
 
 For example, carrace should return true, since it can be rearranged to form racecar, which is a palindrome. daily should return false since there's no rearrangement that can form a palindrome.
 
-[See Solution](./121-140/problem-123.js)
+[See Solution](/problems/121-140/problem-123.js)
 
 ---
 
@@ -83,7 +83,7 @@ Down, right, down, right
 
 The top left corner and bottom right corner will always be 0.
 
-[See Solution](./121-140/problem-124.js)
+[See Solution](/problems/121-140/problem-124.js)
 
 ---
 
@@ -93,7 +93,7 @@ Given a string, return the first recurring character in it, or null if there is 
 
 For example, given the string "acbbac", return "b". Given the string "abcdef", return null.
 
-[See Solution](./121-140/problem-125.js)
+[See Solution](/problems/121-140/problem-125.js)
 
 ---
 
@@ -103,7 +103,7 @@ Given a tree where each edge has a weight, compute the length of the longest pat
 
 The path does not have to pass through the root, and each node can have any amount of children.
 
-[See Solution](./121-140/problem-126.js)
+[See Solution](/problems/121-140/problem-126.js)
 
 ---
 
@@ -113,7 +113,7 @@ Given a 32-bit integer, return the number with its bits reversed.
 
 For example, given the binary number 1111 0000 1111 0000 1111 0000 1111 0000, return 0000 1111 0000 1111 0000 1111 0000 1111.
 
-[See Solution](./121-140/problem-127.js)
+[See Solution](/problems/121-140/problem-127.js)
 
 ---
 
@@ -121,7 +121,7 @@ For example, given the binary number 1111 0000 1111 0000 1111 0000 1111 0000, re
 
 You are given an array of length n + 1 whose elements belong to the set {1, 2, ..., n}. By the pigeonhole principle, there must be a duplicate. Find it in linear time and space.
 
-[See Solution](./121-140/problem-128.js)
+[See Solution](/problems/121-140/problem-128.js)
 
 ---
 
@@ -137,7 +137,7 @@ There are 2 smaller elements to the right of 9
 There is 1 smaller element to the right of 6  
 There are no smaller elements to the right of 1  
 
-[See Solution](./121-140/problem-129.js)
+[See Solution](/problems/121-140/problem-129.js)
 
 ---
 
@@ -152,7 +152,7 @@ For example, given the input [[1, 2], [3], [], [4, 5, 6]], calling next() repeat
 
 Do not use flatten or otherwise clone the arrays. Some of the arrays can be empty.
 
-[See Solution](./121-140/problem-130.js)
+[See Solution](/problems/121-140/problem-130.js)
 
 ---
 
@@ -162,7 +162,7 @@ Given a list of words, find all pairs of unique indices such that the concatenat
 
 For example, given the list ["code", "edoc", "da", "d"], return [(0, 1), (1, 0), (2, 3)].
 
-[See Solution](./121-140/problem-131.js)
+[See Solution](/problems/121-140/problem-131.js)
 
 ---
 
@@ -184,7 +184,7 @@ you should return:
 
 Follow-up: What if you couldn't use any extra space?
 
-[See Solution](./121-140/problem-132.js)
+[See Solution](/problems/121-140/problem-132.js)
 
 ---
 
@@ -194,7 +194,7 @@ Given a linked list, sort it in O(n log n) time and constant space.
 
 For example, the linked list 4 -> 1 -> -3 -> 99 should become -3 -> 1 -> 4 -> 99.
 
-[See Solution](./121-140/problem-133.js)
+[See Solution](/problems/121-140/problem-133.js)
 
 ---
 
@@ -206,7 +206,7 @@ For example, given start = "dog", end = "cat", and dictionary = {"dot", "dop", "
 
 Given start = "dog", end = "cat", and dictionary = {"dot", "tod", "dat", "dar"}, return null as there is no possible transformation from dog to cat.
 
-[See Solution](./121-140/problem-134.js)
+[See Solution](/problems/121-140/problem-134.js)
 
 ---
 
@@ -224,7 +224,7 @@ This means that 2 people exited the building. timestamp is in Unix time.
 
 Find the busiest period in the building, that is, the time with the most people in the building. Return it as a pair of (start, end) timestamps. You can assume the building always starts off and ends up empty, i.e. with 0 people inside.
 
-[See Solution](./121-140/problem-135.js)
+[See Solution](/problems/121-140/problem-135.js)
 
 ---
 
@@ -238,7 +238,7 @@ Given s = "barfoobazbitbyte" and words = ["dog", "cat"], return [] since there a
 
 The order of the indices does not matter.
 
-[See Solution](./121-140/problem-136.js)
+[See Solution](/problems/121-140/problem-136.js)
 
 ---
 
@@ -268,7 +268,7 @@ it should become:
 
 You can assume keys do not contain dots in them, i.e. no clobbering will occur.
 
-[See Solution](./121-140/problem-137.js)
+[See Solution](/problems/121-140/problem-137.js)
 
 ---
 
@@ -280,7 +280,7 @@ Ad-hoc polymorphism
 Parametric polymorphism  
 Subtype polymorphism  
 
-[See Solution](./121-140/problem-138.js)
+[See Solution](/problems/121-140/problem-138.js)
 
 ---
 
@@ -302,7 +302,7 @@ For example, given the starting state a, number of steps 5000, and the following
 
 One instance of running this Markov chain might produce { 'a': 3012, 'b': 1656, 'c': 332 }.
 
-[See Solution](./121-140/problem-139.js)
+[See Solution](/problems/121-140/problem-139.js)
 
 ---
 
@@ -314,7 +314,7 @@ For example, given s1 = abc and s2 = bcd, return true since we can map a to b, b
 
 Given s1 = foo and s2 = bar, return false since the o cannot map to two characters.
 
-[See Solution](./121-140/problem-140.js)
+[See Solution](/problems/121-140/problem-140.js)
 
 ---
 
@@ -326,7 +326,7 @@ For example, given the linked list 7 -> 7 -> 3 -> 5 and k = 2, it should become 
 
 Given the linked list 1 -> 2 -> 3 -> 4 -> 5 and k = 3, it should become 3 -> 4 -> 5 -> 1 -> 2.
 
-[See Solution](./141-160/problem-141.js)
+[See Solution](/problems/141-160/problem-141.js)
 
 ---
 
@@ -340,7 +340,7 @@ The second game: same, except that the stopping condition is a five followed by 
 
 Which of the two games should Alice elect to play? Does it even matter? Write a program to simulate the two games and calculate their expected value.
 
-[See Solution](./141-160/problem-142.js)
+[See Solution](/problems/141-160/problem-142.js)
 
 ---
 
@@ -348,7 +348,7 @@ Which of the two games should Alice elect to play? Does it even matter? Write a 
 
 Given the sequence of keys visited by a post-order traversal of a binary search tree, reconstruct the tree.
 
-[See Solution](./141-160/problem-143.js)
+[See Solution](/problems/141-160/problem-143.js)
 
 ---
 
@@ -362,7 +362,7 @@ For example, if the stack is [1, 2, 3, 4, 5], it should become [1, 5, 2, 4, 3]. 
 
 Hint: Try working backwards from the end state.
 
-[See Solution](./141-160/problem-144.js)
+[See Solution](/problems/141-160/problem-144.js)
 
 ---
 
@@ -374,7 +374,7 @@ For example, given the input string racecarannakayak, return ["racecar", "anna",
 
 Given the input string abc, return ["a", "b", "c"].
 
-[See Solution](./141-160/problem-145.js)
+[See Solution](/problems/141-160/problem-145.js)
 
 ---
 
@@ -384,7 +384,7 @@ A graph is minimally-connected if it is connected and there is no edge that can 
 
 Given an undirected graph, check if the graph is minimally-connected. You can choose to represent the graph as either an adjacency matrix or adjacency list.
 
-[See Solution](./141-160/problem-146.js)
+[See Solution](/problems/141-160/problem-146.js)
 
 ---
 
@@ -392,7 +392,7 @@ Given an undirected graph, check if the graph is minimally-connected. You can ch
 
 Describe what happens when you type a URL into your browser and press Enter.
 
-[See Solution](./141-160/problem-147.js)
+[See Solution](/problems/141-160/problem-147.js)
 
 ---
 
@@ -402,7 +402,7 @@ Given n numbers, find the greatest common denominator between them.
 
 For example, given the numbers [42, 56, 14], return 14.
 
-[See Solution](./141-160/problem-148.js)
+[See Solution](/problems/141-160/problem-148.js)
 
 ---
 
@@ -426,6 +426,16 @@ and
 
 return 6.
 
-[See Solution](./141-160/problem-149.js)
+[See Solution](/problems/141-160/problem-149.js)
+
+---
+
+## Problem 150 - Microsoft
+
+Given an array of positive integers, divide the array into two subsets such that the difference between the sum of the subsets is as small as possible.
+
+For example, given [5, 10, 15, 20, 25], return the sets {10, 25} and {5, 15, 20}, which has a difference of 5, which is the smallest possible difference.
+
+[See Solution](/problems/141-160/problem-150.js)
 
 ---
