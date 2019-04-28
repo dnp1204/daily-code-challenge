@@ -12,4 +12,57 @@
  *
  * Do not use flatten or otherwise clone the arrays. Some of the arrays can be empty.
  */
-// TODO:
+class Iterator {
+  constructor(arr) {
+    this.arr = arr;
+    this.current = [];
+    this._init();
+  }
+
+  _helper(arr) {
+    if (!arr.length) {
+      if (!this.arr.length) return [];
+      return this._helper(this.arr.shift());
+    }
+
+    if (Array.isArray(arr[0])) return this._helper(arr[0]);
+
+    return arr;
+  }
+
+  _init() {
+    if (this.arr.length) {
+      this.current = this._helper(this.arr.shift());
+    }
+  }
+
+  next() {
+    if (!this.arr.length) throw new Error('No more elements');
+    if (this.current.length) {
+      const element = this.current.shift();
+      if (this.current.length === 0) {
+        this._init();
+      }
+      return element;
+    }
+    this._init();
+    this.next();
+  }
+
+  hasNext() {
+    return this.current.length !== 0;
+  }
+}
+
+const iterator = new Iterator([
+  [1, 2],
+  [3],
+  [],
+  [4, 5, 6],
+  [[7, 8, 9]],
+  [[[[]]]]
+]);
+
+while (iterator.hasNext()) {
+  console.log(iterator.next());
+}
