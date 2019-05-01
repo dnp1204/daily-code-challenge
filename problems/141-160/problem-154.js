@@ -11,4 +11,24 @@
  *
  * Leetcode: https://leetcode.com/problems/maximum-sum-circular-subarray/
  */
-// TODO:
+var maxSubarraySumCircular = function(A) {
+  if (!A.length) return 0;
+  let current = 0,
+    max = -Infinity,
+    minCurrent = 0,
+    min = Infinity;
+  const sum = A.reduce((acc, ele) => acc + ele);
+
+  for (let i = 0; i < A.length; i++) {
+    current = Math.max(current + A[i], A[i]);
+    minCurrent = Math.min(minCurrent + A[i], A[i]);
+    max = Math.max(max, current);
+    min = Math.min(min, minCurrent);
+  }
+
+  if (max > 0) {
+    max = Math.max(max, sum - min);
+  }
+
+  return max;
+};
