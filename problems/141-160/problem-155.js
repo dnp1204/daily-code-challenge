@@ -13,3 +13,22 @@
  *
  * Leetcode: https://leetcode.com/problems/non-overlapping-intervals/
  */
+/**
+ * @param {number[][]} intervals
+ * @return {number}
+ */
+var eraseOverlapIntervals = function(intervals) {
+  intervals.sort((a, b) => a[1] - b[1]);
+  let start = 0,
+    ans = 0;
+
+  for (let i = 1; i < intervals.length; i++) {
+    if (intervals[start][1] > intervals[i][0]) {
+      ans++;
+    } else {
+      start = i;
+    }
+  }
+
+  return ans;
+};
