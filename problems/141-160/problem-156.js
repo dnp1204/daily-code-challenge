@@ -12,3 +12,29 @@
  *
  * Leetcode: https://leetcode.com/problems/jump-game/
  */
+/**
+ * @param {number[]} nums
+ * @return {boolean}
+ */
+var canJump = function(nums) {
+  if (!nums.length || nums.length === 1) return true;
+  let max = nums[0];
+  for (let i = 0; i < nums.length; i++) {
+    if (i > max) return false;
+    max = Math.max(max, nums[i] + i);
+  }
+  return max >= nums.length - 1;
+};
+
+function method1(nums) {
+  if (!nums.length || nums.length === 1) return true;
+  const table = Array(nums.length).fill(-1);
+  table[0] = 0;
+  for (let i = 0; i < nums.length - 1; i++) {
+    if (table[i] !== -1 && nums[i] + i >= nums.length - 1) return true;
+    for (let j = 1; table[i] !== -1 && j <= nums[i]; j++) {
+      table[i + j] = i;
+    }
+  }
+  return false;
+}
