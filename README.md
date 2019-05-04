@@ -548,3 +548,11 @@ For example, given [1, 3, 2, 8, 4, 10] and fee = 2, you should return 9, since y
 [See Solution](/problems/141-160/problem-157.js)
 
 ---
+
+## Problem 158 - Facebook
+
+Suppose you are given two lists of n points, one list p1, p2, ..., pn on the line y = 0 and the other list q1, q2, ..., qn on the line y = 1. Imagine a set of n line segments connecting each point pi to qi. Write an algorithm to determine how many pairs of the line segments intersect.
+
+[See Solution](/problems/141-160/problem-158.js)
+
+---
