@@ -14,4 +14,26 @@
  * it at 10 dollars. Since we did two transactions, there is a 4 dollar fee, so we have
  * 7 + 6 = 13 profit minus 4 dollars of fees.
  */
-// TODO:
+const buyStocks = function(prices, fee) {
+  const k = Math.floor(prices.length / 2);
+  const table = [];
+
+  for (let i = 0; i <= k; i++) {
+    table[i] = [];
+    for (let j = 0; j < prices.length; j++) {
+      table[i][j] = 0;
+    }
+  }
+
+  for (let i = 1; i <= k; i++) {
+    let maxDiff = -prices[0];
+    for (let j = 1; j < prices.length; j++) {
+      table[i][j] = Math.max(table[i][j - 1], prices[j] + maxDiff - fee);
+      maxDiff = Math.max(table[i - 1][j - 1] - prices[j], maxDiff);
+    }
+  }
+
+  return table[k][prices.length - 1];
+};
+
+console.log(buyStocks([1, 3, 2, 8, 4, 10], 2));
