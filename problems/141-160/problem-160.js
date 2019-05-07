@@ -14,4 +14,37 @@
  *
  * Leetcode: https://leetcode.com/problems/most-frequent-subtree-sum/description/
  */
-// TODO:
+/**
+ * @param {TreeNode} root
+ * @return {number[]}
+ */
+var findFrequentTreeSum = function(root) {
+  const map = {};
+  const ans = [];
+  let max = 1;
+
+  const helper = function(node) {
+    if (!node) return 0;
+    if (!node.left && !node.right) {
+      map[node.val] ? map[node.val]++ : (map[node.val] = 1);
+      max = Math.max(max, map[node.val]);
+      return node.val;
+    }
+
+    const sum = node.val + helper(node.left) + helper(node.right);
+    map[sum] ? map[sum]++ : (map[sum] = 1);
+    max = Math.max(max, map[sum]);
+
+    return sum;
+  };
+
+  helper(root);
+
+  for (const key of Object.keys(map)) {
+    if (map[key] === max) {
+      ans.push(parseInt(key));
+    }
+  }
+
+  return ans;
+};
