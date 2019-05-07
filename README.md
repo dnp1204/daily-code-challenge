@@ -592,3 +592,11 @@ Return 2 as it occurs twice: once as the left leaf, and once as the sum of 2 + 5
 [See Solution](/problems/141-160/problem-160.js)
 
 ---
+
+## Problem 161 - Amazon
+
+Given an array and a number k that's smaller than the length of the array, rotate the array to the right k elements in-place.
+
+[See Solution](/problems/161-180/problem-161.js)
+
+---
