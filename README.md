@@ -622,3 +622,13 @@ For example, given the set [3, 5, 10, 20, 21], you should return [5, 10, 20]. Gi
 [See Solution](/problems/161-180/problem-162.js)
 
 ---
+
+## Problem 163 - Facebook.
+
+Given a string of parentheses, find the balanced string that can be produced from it using the minimum number of insertions and deletions. If there are multiple solutions, return any of them.
+
+For example, given "(()", you could return "(())". Given "))()(", you could return "()()()()".
+
+[See Solution](/problems/161-180/problem-163.js)
+
+---
