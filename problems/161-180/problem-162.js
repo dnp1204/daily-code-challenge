@@ -9,4 +9,39 @@
  *
  * Leetcode: https://leetcode.com/problems/largest-divisible-subset/
  */
-// TODO:
+/**
+ * @param {number[]} nums
+ * @return {number[]}
+ */
+var largestDivisibleSubset = function(nums) {
+  const memo = Array(nums.length).fill(1);
+  const ans = [];
+  let max = 1;
+
+  nums.sort((a, b) => a - b);
+
+  for (let i = 1; i < nums.length; i++) {
+    for (let j = i - 1; j >= 0; j--) {
+      if (nums[i] % nums[j] === 0) {
+        memo[i] = Math.max(memo[i], memo[j] + 1);
+        max = Math.max(memo[i], max);
+      }
+    }
+  }
+
+  for (let i = memo.length - 1; i >= 0; i--) {
+    if (!ans.length) {
+      if (memo[i] === max) {
+        ans.push(nums[i]);
+        max--;
+      }
+    } else if (memo[i] === max) {
+      if (ans[ans.length - 1] % nums[i] === 0) {
+        ans.push(nums[i]);
+        max--;
+      }
+    }
+  }
+
+  return ans;
+};
