@@ -633,7 +633,7 @@ For example, given "(()", you could return "(())". Given "))()(", you could retu
 
 ---
 
-## Problem 164 - Microsoft.
+## Problem 164 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
 
