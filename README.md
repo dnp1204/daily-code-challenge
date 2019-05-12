@@ -658,3 +658,11 @@ Write a program that returns the weight of the maximum weight path.
 [See Solution](/problems/161-180/problem-165.js)
 
 ---
+
+## Problem 166 - Palantir
+
+Write a program that checks whether an integer is a palindrome. For example, 121 is a palindrome, as well as 888. 678 is not a palindrome. Do not convert the integer into a string.
+
+[See Solution](/problems/161-180/problem-166.js)
+
+---
