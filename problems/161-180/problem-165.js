@@ -17,4 +17,25 @@
  *
  * Leetcode: https://leetcode.com/problems/triangle/
  */
-// TODO:
+/**
+ * @param {number[][]} triangle
+ * @return {number}
+ */
+var minimumTotal = function(triangle) {
+  if (!triangle.length) return 0;
+
+  const n = triangle.length - 1;
+  const table = Array(triangle.length);
+
+  for (let i = 0; i < triangle[n].length; i++) {
+    table[i] = triangle[n][i];
+  }
+
+  for (let i = n - 1; i >= 0; i--) {
+    for (let j = 0; j < triangle[i].length; j++) {
+      table[j] = triangle[i][j] + Math.min(table[j], table[j + 1]);
+    }
+  }
+
+  return table[0];
+};
