@@ -666,3 +666,13 @@ Write a program that checks whether an integer is a palindrome. For example, 121
 [See Solution](/problems/161-180/problem-166.js)
 
 ---
+
+## Problem 167 - Uber
+
+Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand. Find the minimum element in O(log N) time. You may assume the array does not contain duplicates.
+
+For example, given [5, 7, 10, 3, 4], return 3.
+
+[See Solution](/problems/161-180/problem-167.js)
+
+---
