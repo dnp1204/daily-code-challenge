@@ -684,3 +684,11 @@ Given a complete binary tree, count the number of nodes in faster than O(n) time
 [See Solution](/problems/161-180/problem-168.js)
 
 ---
+
+## Problem 169 - IBM
+
+Given an integer, find the next permutation of it in absolute order. For example, given 48975, the next permutation would be 49578.
+
+[See Solution](/problems/161-180/problem-169.js)
+
+---
