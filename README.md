@@ -704,3 +704,21 @@ Given an integer, find the next permutation of it in absolute order. For example
 [See Solution](/problems/161-180/problem-169.js)
 
 ---
+
+## Problem 170 - Twitter
+
+A permutation can be specified by an array P, where P[i] represents the location of the element at i in the permutation. For example, [2, 1, 0] represents the permutation where elements at the index 0 and 2 are swapped.
+
+Given an array and a permutation, apply the permutation to the array. For example, given the array ["a", "b", "c"] and the permutation [2, 1, 0], return ["c", "b", "a"].
+
+[See Solution](/problems/161-180/problem-170.js)
+
+---
+
+## Problem 171 - Dropbox
+
+Given an undirected graph G, check whether it is bipartite. Recall that a graph is bipartite if its vertices can be divided into two independent sets, U and V, such that no edge connects vertices of the same set.
+
+[See Solution](/problems/161-180/problem-171.js)
+
+---
