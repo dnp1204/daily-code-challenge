@@ -12,6 +12,18 @@ Hint: Try preprocessing the dictionary into a more efficient data structures to 
 
 ---
 
+## Problem 2 - Amazon
+
+An sorted array of integers was rotated an unknown number of times. Given such an array, find the index of the element in the array in faster than linear time. If the element doesn't exist in the array,return null.
+
+For example, given the array [13, 18, 25, 2, 8, 10] and the element 8,return 4 (the index of 8 in the array). 
+
+You can assume all the integers in the array are unique.
+
+[See Solution](/problems/1-20/problem-2.js)
+
+---
+
 ## Problem 33 - Square
 
 Given a list of words, return the shortest unique prefix of each word. For example, given the list:
