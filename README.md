@@ -722,3 +722,21 @@ Given an undirected graph G, check whether it is bipartite. Recall that a graph 
 [See Solution](/problems/161-180/problem-171.js)
 
 ---
+
+## Problem 172 - LinkedIn
+
+Given a linked list of numbers and a pivot k, partition the linked list so that all nodes less than k come before nodes greater than or equal to k.
+
+For example, given the linked list 5 -> 1 -> 8 -> 0 -> 3 and k = 3, the solution could be 1 -> 0 -> 5 -> 8 -> 3.
+
+[See Solution](/problems/161-180/problem-172.js)
+
+---
+
+## Problem 173 - Google
+
+Write a program that computes the length of the longest common subsequence of three given strings. For example, given "epidemiologist", "refrigeration", and "supercalifragilisticexpialodocious", it should return 5, since the longest common subsequence is "eieio".
+
+[See Solution](/problems/161-180/problem-173.js)
+
+---
