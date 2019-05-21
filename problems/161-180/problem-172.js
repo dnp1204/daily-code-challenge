@@ -12,9 +12,9 @@
 var partition = function(head, x) {
   if (!head) return null;
 
-  let current = head,
-    start = head,
-    previous = null;
+  let current = head;
+  let start = head;
+  let previous = null;
 
   while (current) {
     while (current && current.val >= x) {
