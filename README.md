@@ -762,3 +762,13 @@ Given a string and a pattern, find the starting indices of all occurrences of th
 [See Solution](/problems/161-180/problem-175.js)
 
 ---
+
+## Problem 176 - Dropbox
+
+Spreadsheets often use this alphabetical encoding for its columns: "A", "B", "C", ..., "AA", "AB", ..., "ZZ", "AAA", "AAB", ....
+
+Given a column number, return its alphabetical column id. For example, given 1, return "A". Given 27, return "AA".
+
+[See Solution](/problems/161-180/problem-176.js)
+
+---
