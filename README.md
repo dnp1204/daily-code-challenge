@@ -784,3 +784,13 @@ For example, given "2542540123", you should return ['254.25.40.123', '254.254.0.
 [See Solution](/problems/161-180/problem-177.js)
 
 ---
+
+## Problem 178 - Stripe.
+
+Given an integer n, return the length of the longest consecutive run of 1s in its binary representation.
+
+For example, given 156, you should return 3.
+
+[See Solution](/problems/161-180/problem-178.js)
+
+---
