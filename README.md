@@ -8,7 +8,7 @@ For example, given the query string de an the set of strings [dog, deer, deal] r
 
 Hint: Try preprocessing the dictionary into a more efficient data structures to speed up queries.
 
-[See Solution](/problems/1-20/problem-1.js)
+[See Solution](/problems/1-99/problem-1.js)
 
 ---
 
@@ -20,7 +20,7 @@ For example, given the array [13, 18, 25, 2, 8, 10] and the element 8,return 4 (
 
 You can assume all the integers in the array are unique.
 
-[See Solution](/problems/1-20/problem-2.js)
+[See Solution](/problems/1-99/problem-2.js)
 
 ---
 
@@ -42,7 +42,7 @@ app
 apr  
 f  
 
-[See Solution](/problems/21-40/problem-33.js)
+[See Solution](/problems/1-99/problem-33.js)
 
 ---
 
@@ -56,7 +56,7 @@ For example, [15, 7, 1, 1, '+', '-', '/', 3, '*', 2, 1, 1, '+', '+', '-'] should
 
 You can assume the given expression is always valid.
 
-[See Solution](/problems/21-40/problem-34.js)
+[See Solution](/problems/1-99/problem-34.js)
 
 ---
 
@@ -66,7 +66,7 @@ Given a list of elements, find the majority element, which appears more than hal
 
 For example, given [1, 2, 1, 1, 3, 4, 0], return 1.
 
-[See Solution](/problems/121-140/problem-121.js)
+[See Solution](/problems/100-199/problem-121.js)
 
 ---
 
@@ -76,7 +76,7 @@ Given a positive integer n, find the smallest number of squared integers which s
 
 For example, given n = 13, return 2 since 13 = 32 + 22 = 9 + 4. Given n = 27, return 3 since 27 = 32 + 32 + 32 = 9 + 9 + 9.
 
-[See Solution](/problems/121-140/problem-122.js)
+[See Solution](/problems/100-199/problem-122.js)
 
 ---
 
@@ -86,7 +86,7 @@ Given a string, determine whether any permutation of it is a palindrome.
 
 For example, carrace should return true, since it can be rearranged to form racecar, which is a palindrome. daily should return false since there's no rearrangement that can form a palindrome.
 
-[See Solution](/problems/121-140/problem-123.js)
+[See Solution](/problems/100-199/problem-123.js)
 
 ---
 
@@ -107,7 +107,7 @@ Down, right, down, right
 
 The top left corner and bottom right corner will always be 0.
 
-[See Solution](/problems/121-140/problem-124.js)
+[See Solution](/problems/100-199/problem-124.js)
 
 ---
 
@@ -117,7 +117,7 @@ Given a string, return the first recurring character in it, or null if there is 
 
 For example, given the string "acbbac", return "b". Given the string "abcdef", return null.
 
-[See Solution](/problems/121-140/problem-125.js)
+[See Solution](/problems/100-199/problem-125.js)
 
 ---
 
@@ -127,7 +127,7 @@ Given a tree where each edge has a weight, compute the length of the longest pat
 
 The path does not have to pass through the root, and each node can have any amount of children.
 
-[See Solution](/problems/121-140/problem-126.js)
+[See Solution](/problems/100-199/problem-126.js)
 
 ---
 
@@ -137,7 +137,7 @@ Given a 32-bit integer, return the number with its bits reversed.
 
 For example, given the binary number 1111 0000 1111 0000 1111 0000 1111 0000, return 0000 1111 0000 1111 0000 1111 0000 1111.
 
-[See Solution](/problems/121-140/problem-127.js)
+[See Solution](/problems/100-199/problem-127.js)
 
 ---
 
@@ -145,7 +145,7 @@ For example, given the binary number 1111 0000 1111 0000 1111 0000 1111 0000, re
 
 You are given an array of length n + 1 whose elements belong to the set {1, 2, ..., n}. By the pigeonhole principle, there must be a duplicate. Find it in linear time and space.
 
-[See Solution](/problems/121-140/problem-128.js)
+[See Solution](/problems/100-199/problem-128.js)
 
 ---
 
@@ -161,7 +161,7 @@ There are 2 smaller elements to the right of 9
 There is 1 smaller element to the right of 6  
 There are no smaller elements to the right of 1  
 
-[See Solution](/problems/121-140/problem-129.js)
+[See Solution](/problems/100-199/problem-129.js)
 
 ---
 
@@ -176,7 +176,7 @@ For example, given the input [[1, 2], [3], [], [4, 5, 6]], calling next() repeat
 
 Do not use flatten or otherwise clone the arrays. Some of the arrays can be empty.
 
-[See Solution](/problems/121-140/problem-130.js)
+[See Solution](/problems/100-199/problem-130.js)
 
 ---
 
@@ -186,7 +186,7 @@ Given a list of words, find all pairs of unique indices such that the concatenat
 
 For example, given the list ["code", "edoc", "da", "d"], return [(0, 1), (1, 0), (2, 3)].
 
-[See Solution](/problems/121-140/problem-131.js)
+[See Solution](/problems/100-199/problem-131.js)
 
 ---
 
@@ -208,7 +208,7 @@ you should return:
 
 Follow-up: What if you couldn't use any extra space?
 
-[See Solution](/problems/121-140/problem-132.js)
+[See Solution](/problems/100-199/problem-132.js)
 
 ---
 
@@ -218,7 +218,7 @@ Given a linked list, sort it in O(n log n) time and constant space.
 
 For example, the linked list 4 -> 1 -> -3 -> 99 should become -3 -> 1 -> 4 -> 99.
 
-[See Solution](/problems/121-140/problem-133.js)
+[See Solution](/problems/100-199/problem-133.js)
 
 ---
 
@@ -230,7 +230,7 @@ For example, given start = "dog", end = "cat", and dictionary = {"dot", "dop", "
 
 Given start = "dog", end = "cat", and dictionary = {"dot", "tod", "dat", "dar"}, return null as there is no possible transformation from dog to cat.
 
-[See Solution](/problems/121-140/problem-134.js)
+[See Solution](/problems/100-199/problem-134.js)
 
 ---
 
@@ -248,7 +248,7 @@ This means that 2 people exited the building. timestamp is in Unix time.
 
 Find the busiest period in the building, that is, the time with the most people in the building. Return it as a pair of (start, end) timestamps. You can assume the building always starts off and ends up empty, i.e. with 0 people inside.
 
-[See Solution](/problems/121-140/problem-135.js)
+[See Solution](/problems/100-199/problem-135.js)
 
 ---
 
@@ -262,7 +262,7 @@ Given s = "barfoobazbitbyte" and words = ["dog", "cat"], return [] since there a
 
 The order of the indices does not matter.
 
-[See Solution](/problems/121-140/problem-136.js)
+[See Solution](/problems/100-199/problem-136.js)
 
 ---
 
@@ -292,7 +292,7 @@ it should become:
 
 You can assume keys do not contain dots in them, i.e. no clobbering will occur.
 
-[See Solution](/problems/121-140/problem-137.js)
+[See Solution](/problems/100-199/problem-137.js)
 
 ---
 
@@ -304,7 +304,7 @@ Ad-hoc polymorphism
 Parametric polymorphism  
 Subtype polymorphism  
 
-[See Solution](/problems/121-140/problem-138.js)
+[See Solution](/problems/100-199/problem-138.js)
 
 ---
 
@@ -326,7 +326,7 @@ For example, given the starting state a, number of steps 5000, and the following
 
 One instance of running this Markov chain might produce { 'a': 3012, 'b': 1656, 'c': 332 }.
 
-[See Solution](/problems/121-140/problem-139.js)
+[See Solution](/problems/100-199/problem-139.js)
 
 ---
 
@@ -338,7 +338,7 @@ For example, given s1 = abc and s2 = bcd, return true since we can map a to b, b
 
 Given s1 = foo and s2 = bar, return false since the o cannot map to two characters.
 
-[See Solution](/problems/121-140/problem-140.js)
+[See Solution](/problems/100-199/problem-140.js)
 
 ---
 
@@ -350,7 +350,7 @@ For example, given the linked list 7 -> 7 -> 3 -> 5 and k = 2, it should become 
 
 Given the linked list 1 -> 2 -> 3 -> 4 -> 5 and k = 3, it should become 3 -> 4 -> 5 -> 1 -> 2.
 
-[See Solution](/problems/141-160/problem-141.js)
+[See Solution](/problems/100-199/problem-141.js)
 
 ---
 
@@ -364,7 +364,7 @@ The second game: same, except that the stopping condition is a five followed by 
 
 Which of the two games should Alice elect to play? Does it even matter? Write a program to simulate the two games and calculate their expected value.
 
-[See Solution](/problems/141-160/problem-142.js)
+[See Solution](/problems/100-199/problem-142.js)
 
 ---
 
@@ -372,7 +372,7 @@ Which of the two games should Alice elect to play? Does it even matter? Write a 
 
 Given the sequence of keys visited by a post-order traversal of a binary search tree, reconstruct the tree.
 
-[See Solution](/problems/141-160/problem-143.js)
+[See Solution](/problems/100-199/problem-143.js)
 
 ---
 
@@ -386,7 +386,7 @@ For example, if the stack is [1, 2, 3, 4, 5], it should become [1, 5, 2, 4, 3]. 
 
 Hint: Try working backwards from the end state.
 
-[See Solution](/problems/141-160/problem-144.js)
+[See Solution](/problems/100-199/problem-144.js)
 
 ---
 
@@ -398,7 +398,7 @@ For example, given the input string racecarannakayak, return ["racecar", "anna",
 
 Given the input string abc, return ["a", "b", "c"].
 
-[See Solution](/problems/141-160/problem-145.js)
+[See Solution](/problems/100-199/problem-145.js)
 
 ---
 
@@ -408,7 +408,7 @@ A graph is minimally-connected if it is connected and there is no edge that can 
 
 Given an undirected graph, check if the graph is minimally-connected. You can choose to represent the graph as either an adjacency matrix or adjacency list.
 
-[See Solution](/problems/141-160/problem-146.js)
+[See Solution](/problems/100-199/problem-146.js)
 
 ---
 
@@ -416,7 +416,7 @@ Given an undirected graph, check if the graph is minimally-connected. You can ch
 
 Describe what happens when you type a URL into your browser and press Enter.
 
-[See Solution](/problems/141-160/problem-147.js)
+[See Solution](/problems/100-199/problem-147.js)
 
 ---
 
@@ -426,7 +426,7 @@ Given n numbers, find the greatest common denominator between them.
 
 For example, given the numbers [42, 56, 14], return 14.
 
-[See Solution](/problems/141-160/problem-148.js)
+[See Solution](/problems/100-199/problem-148.js)
 
 ---
 
@@ -450,7 +450,7 @@ and
 
 return 6.
 
-[See Solution](/problems/141-160/problem-149.js)
+[See Solution](/problems/100-199/problem-149.js)
 
 ---
 
@@ -460,7 +460,7 @@ Given an array of positive integers, divide the array into two subsets such that
 
 For example, given [5, 10, 15, 20, 25], return the sets {10, 25} and {5, 15, 20}, which has a difference of 5, which is the smallest possible difference.
 
-[See Solution](/problems/141-160/problem-150.js)
+[See Solution](/problems/100-199/problem-150.js)
 
 ---
 
@@ -485,7 +485,7 @@ For example, given the following rectangles:
 
 return true as the first and third rectangle overlap each other.
 
-[See Solution](/problems/141-160/problem-151.js)
+[See Solution](/problems/100-199/problem-151.js)
 
 ---
 
@@ -509,7 +509,7 @@ What will this code print out?
 
 How can we make it print out what we apparently want?
 
-[See Solution](/problems/141-160/problem-152.js)
+[See Solution](/problems/100-199/problem-152.js)
 
 ---
 
@@ -519,7 +519,7 @@ Given an array of elements, return the length of the longest subarray where all 
 
 For example, given the array [5, 1, 3, 5, 2, 3, 4, 1], return 5 as the longest subarray of distinct elements is [5, 2, 3, 4, 1].
 
-[See Solution](/problems/141-160/problem-153.js)
+[See Solution](/problems/100-199/problem-153.js)
 
 ---
 
@@ -531,7 +531,7 @@ For example, given [8, -1, 3, 4], return 15 as we choose the numbers 3, 4, and 8
 
 Given [-4, 5, 1, 0], return 6 as we choose the numbers 5 and 1.
 
-[See Solution](/problems/141-160/problem-154.js)
+[See Solution](/problems/100-199/problem-154.js)
 
 ---
 
@@ -545,7 +545,7 @@ For example, given the intervals (7, 9), (2, 4), (5, 8), return 1 as the last in
 
 The intervals are not necessarily sorted in any order.
 
-[See Solution](/problems/141-160/problem-155.js)
+[See Solution](/problems/100-199/problem-155.js)
 
 ---
 
@@ -557,7 +557,7 @@ For example, given the array [1, 3, 1, 2, 0, 1], we can go from indices 0 -> 1 -
 
 Given the array [1, 2, 1, 0, 0], we can't reach the end, so return false.
 
-[See Solution](/problems/141-160/problem-156.js)
+[See Solution](/problems/100-199/problem-156.js)
 
 ---
 
@@ -569,7 +569,7 @@ You must buy before you can sell the stock, but you can make as many transaction
 
 For example, given [1, 3, 2, 8, 4, 10] and fee = 2, you should return 9, since you could buy the stock at 1 dollar, and sell at 8 dollars, and then buy it at 4 dollars and sell it at 10 dollars. Since we did two transactions, there is a 4 dollar fee, so we have 7 + 6 = 13 profit minus 4 dollars of fees.
 
-[See Solution](/problems/141-160/problem-157.js)
+[See Solution](/problems/100-199/problem-157.js)
 
 ---
 
@@ -577,7 +577,7 @@ For example, given [1, 3, 2, 8, 4, 10] and fee = 2, you should return 9, since y
 
 Suppose you are given two lists of n points, one list p1, p2, ..., pn on the line y = 0 and the other list q1, q2, ..., qn on the line y = 1. Imagine a set of n line segments connecting each point pi to qi. Write an algorithm to determine how many pairs of the line segments intersect.
 
-[See Solution](/problems/141-160/problem-158.js)
+[See Solution](/problems/100-199/problem-158.js)
 
 ---
 
@@ -597,7 +597,7 @@ For example, given the following matrix:
 
 And i1 = 1, j1 = 1, i2 = 3, j2 = 3, return 15 as there are 15 numbers in the matrix smaller than 6 or greater than 23.
 
-[See Solution](/problems/141-160/problem-159.js)
+[See Solution](/problems/100-199/problem-159.js)
 
 ---
 
@@ -613,7 +613,7 @@ For example, given the following tree:
 
 Return 2 as it occurs twice: once as the left leaf, and once as the sum of 2 + 5 - 5.
 
-[See Solution](/problems/141-160/problem-160.js)
+[See Solution](/problems/100-199/problem-160.js)
 
 ---
 
@@ -621,7 +621,7 @@ Return 2 as it occurs twice: once as the left leaf, and once as the sum of 2 + 5
 
 Given an array and a number k that's smaller than the length of the array, rotate the array to the right k elements in-place.
 
-[See Solution](/problems/161-180/problem-161.js)
+[See Solution](/problems/100-199/problem-161.js)
 
 ---
 
@@ -631,7 +631,7 @@ Given a set of distinct positive integers, find the largest subset such that eve
 
 For example, given the set [3, 5, 10, 20, 21], you should return [5, 10, 20]. Given [1, 3, 6, 24], return [1, 3, 6, 24].
 
-[See Solution](/problems/161-180/problem-162.js)
+[See Solution](/problems/100-199/problem-162.js)
 
 ---
 
@@ -641,7 +641,7 @@ Given a string of parentheses, find the balanced string that can be produced fro
 
 For example, given "(()", you could return "(())". Given "))()(", you could return "()()()()".
 
-[See Solution](/problems/161-180/problem-163.js)
+[See Solution](/problems/100-199/problem-163.js)
 
 ---
 
@@ -651,7 +651,7 @@ Let X be a set of n intervals on the real line. We say that a set of points P "s
 
 For example, given the intervals [(1, 4), (4, 5), (7, 9), (9, 12)], you should return [4, 9].
 
-[See Solution](/problems/161-180/problem-164.js)
+[See Solution](/problems/100-199/problem-164.js)
 
 ---
 
@@ -667,7 +667,7 @@ We define a path in the triangle to start at the top and go down one row at a ti
 
 Write a program that returns the weight of the maximum weight path.
 
-[See Solution](/problems/161-180/problem-165.js)
+[See Solution](/problems/100-199/problem-165.js)
 
 ---
 
@@ -675,7 +675,7 @@ Write a program that returns the weight of the maximum weight path.
 
 Write a program that checks whether an integer is a palindrome. For example, 121 is a palindrome, as well as 888. 678 is not a palindrome. Do not convert the integer into a string.
 
-[See Solution](/problems/161-180/problem-166.js)
+[See Solution](/problems/100-199/problem-166.js)
 
 ---
 
@@ -685,7 +685,7 @@ Suppose an array sorted in ascending order is rotated at some pivot unknown to y
 
 For example, given [5, 7, 10, 3, 4], return 3.
 
-[See Solution](/problems/161-180/problem-167.js)
+[See Solution](/problems/100-199/problem-167.js)
 
 ---
 
@@ -693,7 +693,7 @@ For example, given [5, 7, 10, 3, 4], return 3.
 
 Given a complete binary tree, count the number of nodes in faster than O(n) time. Recall that a complete binary tree has every level filled except the last, and the nodes in the last level are filled starting from the left.
 
-[See Solution](/problems/161-180/problem-168.js)
+[See Solution](/problems/100-199/problem-168.js)
 
 ---
 
@@ -701,7 +701,7 @@ Given a complete binary tree, count the number of nodes in faster than O(n) time
 
 Given an integer, find the next permutation of it in absolute order. For example, given 48975, the next permutation would be 49578.
 
-[See Solution](/problems/161-180/problem-169.js)
+[See Solution](/problems/100-199/problem-169.js)
 
 ---
 
@@ -711,7 +711,7 @@ A permutation can be specified by an array P, where P[i] represents the location
 
 Given an array and a permutation, apply the permutation to the array. For example, given the array ["a", "b", "c"] and the permutation [2, 1, 0], return ["c", "b", "a"].
 
-[See Solution](/problems/161-180/problem-170.js)
+[See Solution](/problems/100-199/problem-170.js)
 
 ---
 
@@ -719,7 +719,7 @@ Given an array and a permutation, apply the permutation to the array. For exampl
 
 Given an undirected graph G, check whether it is bipartite. Recall that a graph is bipartite if its vertices can be divided into two independent sets, U and V, such that no edge connects vertices of the same set.
 
-[See Solution](/problems/161-180/problem-171.js)
+[See Solution](/problems/100-199/problem-171.js)
 
 ---
 
@@ -729,7 +729,7 @@ Given a linked list of numbers and a pivot k, partition the linked list so that 
 
 For example, given the linked list 5 -> 1 -> 8 -> 0 -> 3 and k = 3, the solution could be 1 -> 0 -> 5 -> 8 -> 3.
 
-[See Solution](/problems/161-180/problem-172.js)
+[See Solution](/problems/100-199/problem-172.js)
 
 ---
 
@@ -737,7 +737,7 @@ For example, given the linked list 5 -> 1 -> 8 -> 0 -> 3 and k = 3, the solution
 
 Write a program that computes the length of the longest common subsequence of three given strings. For example, given "epidemiologist", "refrigeration", and "supercalifragilisticexpialodocious", it should return 5, since the longest common subsequence is "eieio".
 
-[See Solution](/problems/161-180/problem-173.js)
+[See Solution](/problems/100-199/problem-173.js)
 
 ---
 
@@ -751,7 +751,7 @@ It is conjectured that every such sequence eventually reaches the number 1. Test
 
 Bonus: What input n <= 1000000 gives the longest sequence?
 
-[See Solution](/problems/161-180/problem-174.js)
+[See Solution](/problems/100-199/problem-174.js)
 
 ---
 
@@ -759,7 +759,7 @@ Bonus: What input n <= 1000000 gives the longest sequence?
 
 Given a string and a pattern, find the starting indices of all occurrences of the pattern in the string. For example, given the string "abracadabra" and the pattern "abr", you should return [0, 7].
 
-[See Solution](/problems/161-180/problem-175.js)
+[See Solution](/problems/100-199/problem-175.js)
 
 ---
 
@@ -769,7 +769,7 @@ Spreadsheets often use this alphabetical encoding for its columns: "A", "B", "C"
 
 Given a column number, return its alphabetical column id. For example, given 1, return "A". Given 27, return "AA".
 
-[See Solution](/problems/161-180/problem-176.js)
+[See Solution](/problems/100-199/problem-176.js)
 
 ---
 
@@ -781,7 +781,7 @@ IP addresses must follow the format A.B.C.D, where A, B, C, and D are numbers be
 
 For example, given "2542540123", you should return ['254.25.40.123', '254.254.0.123'].
 
-[See Solution](/problems/161-180/problem-177.js)
+[See Solution](/problems/100-199/problem-177.js)
 
 ---
 
@@ -791,7 +791,7 @@ Given an integer n, return the length of the longest consecutive run of 1s in it
 
 For example, given 156, you should return 3.
 
-[See Solution](/problems/161-180/problem-178.js)
+[See Solution](/problems/100-199/problem-178.js)
 
 ---
 
@@ -823,7 +823,7 @@ For this tree, for example, the bottom view could be `[0, 1, 3, 6, 8, 9]`.
 
 Given the root to a binary tree, return its bottom view.
 
-[See Solution](/problems/161-180/problem-179.js)
+[See Solution](/problems/100-199/problem-179.js)
 
 ---
 
@@ -849,7 +849,7 @@ In addition, note that the Roman numeral system uses subtractive notation for nu
 
 For the input XIV, for instance, you should return 14.
 
-[See Solution](/problems/161-180/problem-180.js)
+[See Solution](/problems/100-199/problem-180.js)
 
 ---
 
@@ -859,6 +859,6 @@ We say a number is sparse if there are no adjacent ones in its binary representa
 
 Do this in faster than O(N log N) time.
 
-[See Solution](/problems/181-200/problem-181.js)
+[See Solution](/problems/100-199/problem-181.js)
 
 ---
