@@ -13,7 +13,7 @@ class Vertex {
     this.neighbors = [];
   }
 
-  addNeighbor(node, weight) {
+  addNeighbor(node, weight = 0) {
     const isExisted = this.neighbors.find(element => {
       if (element.val === node.val) {
         console.log('Updated weight for duplicated node');
@@ -50,6 +50,7 @@ class Graph {
   addEdge(node1, node2, weight = 0, directed = false) {
     if (!node1 || !node2 || !node1.val || !node2.val)
       throw new Error('Invalid graph node');
+
     if (directed) {
       node1.addNeighbor(node2, weight);
     } else {

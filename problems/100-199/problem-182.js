@@ -6,7 +6,25 @@
  *
  * GeeksForGeeks: https://www.geeksforgeeks.org/transpose-graph/
  */
-// TODO:
+const transposeGraph = function(graph) {
+  const newGraph = new Graph();
+
+  for (const key of Object.keys(graph.vertices)) {
+    newGraph.addVertex(key);
+  }
+
+  for (const key of Object.keys(graph.vertices)) {
+    const vertex = graph.vertices[key];
+    const node1 = newGraph.vertices[vertex.val];
+    for (const neighbor of vertex.neighbors) {
+      const node2 = newGraph.vertices[neighbor.node.val];
+      newGraph.addEdge(node2, node1, 0, true);
+    }
+  }
+
+  return newGraph;
+};
+
 const { Graph } = require('../../libraries/Graph');
 
 const graph = new Graph();
@@ -28,4 +46,10 @@ graph.addEdge(nodeD, nodeC, 0, true);
 graph.addEdge(nodeE, nodeB, 0, true);
 graph.addEdge(nodeE, nodeD, 0, true);
 
+console.log('Before:');
 console.log(graph.toString());
+
+const newGraph = transposeGraph(graph);
+
+console.log('After:');
+console.log(newGraph.toString());
