@@ -47,11 +47,15 @@ class Graph {
     return node;
   }
 
-  addEdge(node1, node2, weight = 0) {
+  addEdge(node1, node2, weight = 0, directed = false) {
     if (!node1 || !node2 || !node1.val || !node2.val)
       throw new Error('Invalid graph node');
-    node1.addNeighbor(node2, weight);
-    node2.addNeighbor(node1, weight);
+    if (directed) {
+      node1.addNeighbor(node2, weight);
+    } else {
+      node1.addNeighbor(node2, weight);
+      node2.addNeighbor(node1, weight);
+    }
   }
 
   dijkstraAllHelper(map, key, path, result) {
@@ -174,6 +178,18 @@ class Graph {
     }
 
     return null;
+  }
+
+  toString() {
+    let str = '';
+    for (const key of Object.keys(this.vertices)) {
+      const neighbors = [];
+      for (const node of this.vertices[key]['neighbors']) {
+        neighbors.push(node.node.val);
+      }
+      str = `${str}Vertex: ${key} with neighbors [${neighbors.join(', ')}]\n`;
+    }
+    return str;
   }
 }
 

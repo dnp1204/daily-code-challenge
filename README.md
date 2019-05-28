@@ -862,3 +862,11 @@ Do this in faster than O(N log N) time.
 [See Solution](/problems/100-199/problem-181.js)
 
 ---
+
+## Problem 182 - Yahoo
+
+Write an algorithm that computes the reversal of a directed graph. For example, if a graph consists of A -> B -> C, it should become A <- B <- C.
+
+[See Solution](/problems/100-199/problem-182.js)
+
+---
