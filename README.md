@@ -870,3 +870,13 @@ Write an algorithm that computes the reversal of a directed graph. For example, 
 [See Solution](/problems/100-199/problem-182.js)
 
 ---
+
+## Problem 183 - Salesforce
+
+Connect 4 is a game where opponents take turns dropping red or black discs into a 7 x 6 vertically suspended grid. The game ends either when one player creates a line of four consecutive discs of their color (horizontally, vertically, or diagonally), or when there are no more spots left in the grid.
+
+Design and implement Connect 4.
+
+[See Solution](/problems/100-199/problem-183.js)
+
+---
