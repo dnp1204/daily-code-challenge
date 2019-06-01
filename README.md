@@ -900,3 +900,13 @@ Let's define a "sevenish" number to be one which is either a power of 7, or the 
 [See Solution](/problems/100-199/problem-185.js)
 
 ---
+
+## Problem 186 - Quora
+
+Given an absolute pathname that may have . or .. as part of it, return the shortest standardized path.
+
+For example, given "/usr/bin/../bin/./scripts/../", return "/usr/bin/".
+
+[See Solution](/problems/100-199/problem-186.js)
+
+---
