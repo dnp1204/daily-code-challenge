@@ -910,3 +910,11 @@ For example, given "/usr/bin/../bin/./scripts/../", return "/usr/bin/".
 [See Solution](/problems/100-199/problem-186.js)
 
 ---
+
+## Problem 187 - Palantir
+
+Typically, an implementation of in-order traversal of a binary tree has O(h) space complexity, where h is the height of the tree. Write a program to compute the in-order traversal of a binary tree using O(1) space.
+
+[See Solution](/problems/100-199/problem-187.js)
+
+---
