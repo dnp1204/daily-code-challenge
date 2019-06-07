@@ -962,3 +962,11 @@ Boggle is a game played on a 4 x 4 grid of letters. The goal is to find as many 
 [See Solution](/problems/100-199/problem-191.js)
 
 ---
+
+## Problem 192 - Twitter
+
+Given a list of numbers, create an algorithm that arranges them in order to form the largest possible integer. For example, given [10, 7, 76, 415], you should return 77641510.
+
+[See Solution](/problems/100-199/problem-192.js)
+
+---
