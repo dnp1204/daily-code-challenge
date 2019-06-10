@@ -997,3 +997,13 @@ For example, if N = 1 and k = 5, we will need to try dropping the egg at every f
 [See Solution](/problems/100-199/problem-194.js)
 
 ---
+
+## Problem 195 - IBM
+
+Given a string with repeated characters, rearrange the string so that no two adjacent characters are the same. If this is not possible, return None.
+
+For example, given "aaabbc", you could return "ababac". Given "aaab", return None.
+
+[See Solution](/problems/100-199/problem-195.js)
+
+---
