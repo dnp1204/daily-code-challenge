@@ -1026,3 +1026,11 @@ For example, you should be able to run the following code:
 [See Solution](/problems/100-199/problem-196.js)
 
 ---
+
+## Problem 197 - Apple
+
+Implement the function fib(n), which returns the nth number in the Fibonacci sequence, using only O(1) space.
+
+[See Solution](/problems/100-199/problem-197.js)
+
+---
