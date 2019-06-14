@@ -1042,3 +1042,11 @@ Recall that the minimum spanning tree is the subset of edges of a tree that conn
 [See Solution](/problems/100-199/problem-198.js)
 
 ---
+
+## Problem 199 - Facebook
+
+Given an array of numbers of length N, find both the minimum and maximum using less than 2 * (N - 2) comparisons.
+
+[See Solution](/problems/100-199/problem-199.js)
+
+---
