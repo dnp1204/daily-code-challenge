@@ -13,5 +13,6 @@
  *
  * Given perfect knowledge of the sequence of cards in the deck, implement a blackjack solver that
  * maximizes the player's score (that is, wins minus losses).
+ *
+ * Leetcode: https://leetcode.com/discuss/interview-question/object-oriented-design/159168/design-blackjack-game
  */
-// TODO:
