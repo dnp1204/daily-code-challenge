@@ -14,4 +14,19 @@
  *
  * Leetcode: https://leetcode.com/problems/h-index/
  */
-// TODO:
+var hIndex = function(citations) {
+  const n = citations.length;
+  citations.sort((a, b) => a - b);
+
+  if (n === 0) return 0;
+  if (citations[0] >= n) return n;
+
+  let ans = 0,
+    max = 0;
+
+  for (let i = 0; i < n; i++) {
+    if (citations[i] >= n - i) return n - i;
+  }
+
+  return ans;
+};
