@@ -657,17 +657,17 @@ For example, given "(()", you could return "(())". Given "))()(", you could retu
 
 ---
 
-## Problem 164 - Microsoft
+## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
 
 For example, given the intervals [(1, 4), (4, 5), (7, 9), (9, 12)], you should return [4, 9].
 
-[See Solution](/problems/100-199/problem-164.js)
+[See Solution](/problems/200-299/problem-200.js)
 
 ---
 
-## Problem 165 - Google
+## Problem 201 - Google
 
 You are given an array of arrays of integers, where each array corresponds to a row in a triangle of numbers. For example, [[1], [2, 3], [1, 5, 1]] represents the triangle:
 
@@ -679,81 +679,81 @@ We define a path in the triangle to start at the top and go down one row at a ti
 
 Write a program that returns the weight of the maximum weight path.
 
-[See Solution](/problems/100-199/problem-165.js)
+[See Solution](/problems/200-299/problem-201.js)
 
 ---
 
-## Problem 166 - Palantir
+## Problem 202 - Palantir
 
 Write a program that checks whether an integer is a palindrome. For example, 121 is a palindrome, as well as 888. 678 is not a palindrome. Do not convert the integer into a string.
 
-[See Solution](/problems/100-199/problem-166.js)
+[See Solution](/problems/200-299/problem-202.js)
 
 ---
 
-## Problem 167 - Uber
+## Problem 203 - Uber
 
 Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand. Find the minimum element in O(log N) time. You may assume the array does not contain duplicates.
 
 For example, given [5, 7, 10, 3, 4], return 3.
 
-[See Solution](/problems/100-199/problem-167.js)
+[See Solution](/problems/200-299/problem-203.js)
 
 ---
 
-## Problem 168 - Amazon
+## Problem 204 - Amazon
 
 Given a complete binary tree, count the number of nodes in faster than O(n) time. Recall that a complete binary tree has every level filled except the last, and the nodes in the last level are filled starting from the left.
 
-[See Solution](/problems/100-199/problem-168.js)
+[See Solution](/problems/200-299/problem-204.js)
 
 ---
 
-## Problem 169 - IBM
+## Problem 205 - IBM
 
 Given an integer, find the next permutation of it in absolute order. For example, given 48975, the next permutation would be 49578.
 
-[See Solution](/problems/100-199/problem-169.js)
+[See Solution](/problems/200-299/problem-205.js)
 
 ---
 
-## Problem 170 - Twitter
+## Problem 206 - Twitter
 
 A permutation can be specified by an array P, where P[i] represents the location of the element at i in the permutation. For example, [2, 1, 0] represents the permutation where elements at the index 0 and 2 are swapped.
 
 Given an array and a permutation, apply the permutation to the array. For example, given the array ["a", "b", "c"] and the permutation [2, 1, 0], return ["c", "b", "a"].
 
-[See Solution](/problems/100-199/problem-170.js)
+[See Solution](/problems/200-299/problem-206.js)
 
 ---
 
-## Problem 171 - Dropbox
+## Problem 207 - Dropbox
 
 Given an undirected graph G, check whether it is bipartite. Recall that a graph is bipartite if its vertices can be divided into two independent sets, U and V, such that no edge connects vertices of the same set.
 
-[See Solution](/problems/100-199/problem-171.js)
+[See Solution](/problems/200-299/problem-207.js)
 
 ---
 
-## Problem 172 - LinkedIn
+## Problem 208 - LinkedIn
 
 Given a linked list of numbers and a pivot k, partition the linked list so that all nodes less than k come before nodes greater than or equal to k.
 
 For example, given the linked list 5 -> 1 -> 8 -> 0 -> 3 and k = 3, the solution could be 1 -> 0 -> 5 -> 8 -> 3.
 
-[See Solution](/problems/100-199/problem-172.js)
+[See Solution](/problems/200-299/problem-208.js)
 
 ---
 
-## Problem 173 - Google
+## Problem 209 - Google
 
 Write a program that computes the length of the longest common subsequence of three given strings. For example, given "epidemiologist", "refrigeration", and "supercalifragilisticexpialodocious", it should return 5, since the longest common subsequence is "eieio".
 
-[See Solution](/problems/100-199/problem-173.js)
+[See Solution](/problems/200-299/problem-209.js)
 
 ---
 
-## Problem 174 - Apple
+## Problem 210 - Apple
 
 A Collatz sequence in mathematics can be defined as follows. Starting with any positive integer:
 
@@ -763,29 +763,29 @@ It is conjectured that every such sequence eventually reaches the number 1. Test
 
 Bonus: What input n <= 1000000 gives the longest sequence?
 
-[See Solution](/problems/100-199/problem-174.js)
+[See Solution](/problems/200-299/problem-210.js)
 
 ---
 
-## Problem 175 - Microsoft
+## Problem 211 - Microsoft
 
 Given a string and a pattern, find the starting indices of all occurrences of the pattern in the string. For example, given the string "abracadabra" and the pattern "abr", you should return [0, 7].
 
-[See Solution](/problems/100-199/problem-175.js)
+[See Solution](/problems/200-299/problem-211.js)
 
 ---
 
-## Problem 176 - Dropbox
+## Problem 212 - Dropbox
 
 Spreadsheets often use this alphabetical encoding for its columns: "A", "B", "C", ..., "AA", "AB", ..., "ZZ", "AAA", "AAB", ....
 
 Given a column number, return its alphabetical column id. For example, given 1, return "A". Given 27, return "AA".
 
-[See Solution](/problems/100-199/problem-176.js)
+[See Solution](/problems/200-299/problem-212.js)
 
 ---
 
-## Problem 177 - Snapchat
+## Problem 213 - Snapchat
 
 Given a string of digits, generate all possible valid IP address combinations.
 
@@ -793,21 +793,21 @@ IP addresses must follow the format A.B.C.D, where A, B, C, and D are numbers be
 
 For example, given "2542540123", you should return ['254.25.40.123', '254.254.0.123'].
 
-[See Solution](/problems/100-199/problem-177.js)
+[See Solution](/problems/200-299/problem-213.js)
 
 ---
 
-## Problem 178 - Stripe
+## Problem 214 - Stripe
 
 Given an integer n, return the length of the longest consecutive run of 1s in its binary representation.
 
 For example, given 156, you should return 3.
 
-[See Solution](/problems/100-199/problem-178.js)
+[See Solution](/problems/200-299/problem-214.js)
 
 ---
 
-## Problem 179 - Yelp
+## Problem 215 - Yelp
 
 The horizontal distance of a binary tree node describes how far left or right the node will be when the tree is printed out.
 
@@ -835,11 +835,11 @@ For this tree, for example, the bottom view could be `[0, 1, 3, 6, 8, 9]`.
 
 Given the root to a binary tree, return its bottom view.
 
-[See Solution](/problems/100-199/problem-179.js)
+[See Solution](/problems/200-299/problem-215.js)
 
 ---
 
-## Problem 180 - Facebook
+## Problem 216 - Facebook
 
 Given a number in Roman numeral format, convert it to decimal.
 
@@ -861,39 +861,39 @@ In addition, note that the Roman numeral system uses subtractive notation for nu
 
 For the input XIV, for instance, you should return 14.
 
-[See Solution](/problems/100-199/problem-180.js)
+[See Solution](/problems/200-299/problem-216.js)
 
 ---
 
-## Problem 181 - Oracle
+## Problem 217 - Oracle
 
 We say a number is sparse if there are no adjacent ones in its binary representation. For example, 21 (10101) is sparse, but 22 (10110) is not. For a given input N, find the smallest sparse number greater than or equal to N.
 
 Do this in faster than O(N log N) time.
 
-[See Solution](/problems/100-199/problem-181.js)
+[See Solution](/problems/200-299/problem-217.js)
 
 ---
 
-## Problem 182 - Yahoo
+## Problem 218 - Yahoo
 
 Write an algorithm that computes the reversal of a directed graph. For example, if a graph consists of A -> B -> C, it should become A <- B <- C.
 
-[See Solution](/problems/100-199/problem-182.js)
+[See Solution](/problems/200-299/problem-218.js)
 
 ---
 
-## Problem 183 - Salesforce
+## Problem 219 - Salesforce
 
 Connect 4 is a game where opponents take turns dropping red or black discs into a 7 x 6 vertically suspended grid. The game ends either when one player creates a line of four consecutive discs of their color (horizontally, vertically, or diagonally), or when there are no more spots left in the grid.
 
 Design and implement Connect 4.
 
-[See Solution](/problems/100-199/problem-183.js)
+[See Solution](/problems/200-299/problem-219.js)
 
 ---
 
-## Problem 184 - Square
+## Problem 220 - Square
 
 In front of you is a row of N coins, with values v1, v1, ..., vn.
 
@@ -901,37 +901,37 @@ You are asked to play the following game. You and an opponent take turns choosin
 
 Write a program that returns the maximum amount of money you can win with certainty, if you move first, assuming your opponent plays optimally.
 
-[See Solution](/problems/100-199/problem-184.js)
+[See Solution](/problems/200-299/problem-220.js)
 
 ---
 
-## Problem 185 - Zillow
+## Problem 221 - Zillow
 
 Let's define a "sevenish" number to be one which is either a power of 7, or the sum of unique powers of 7. The first few sevenish numbers are 1, 7, 8, 49, and so on. Create an algorithm to find the nth sevenish number.
 
-[See Solution](/problems/100-199/problem-185.js)
+[See Solution](/problems/200-299/problem-221.js)
 
 ---
 
-## Problem 186 - Quora
+## Problem 222 - Quora
 
 Given an absolute pathname that may have . or .. as part of it, return the shortest standardized path.
 
 For example, given "/usr/bin/../bin/./scripts/../", return "/usr/bin/".
 
-[See Solution](/problems/100-199/problem-186.js)
+[See Solution](/problems/200-299/problem-222.js)
 
 ---
 
-## Problem 187 - Palantir
+## Problem 223 - Palantir
 
 Typically, an implementation of in-order traversal of a binary tree has O(h) space complexity, where h is the height of the tree. Write a program to compute the in-order traversal of a binary tree using O(1) space.
 
-[See Solution](/problems/100-199/problem-187.js)
+[See Solution](/problems/200-299/problem-223.js)
 
 ---
 
-## Problem 188 - Amazon
+## Problem 224 - Amazon
 
 Given a sorted array, find the smallest positive integer that is not the sum of a subset of the array.
 
@@ -939,11 +939,11 @@ For example, for the input [1, 2, 3, 10], you should return 7.
 
 Do this in O(N) time.
 
-[See Solution](/problems/100-199/problem-188.js)
+[See Solution](/problems/200-299/problem-224.js)
 
 ---
 
-## Problem 189 - Bloomberg
+## Problem 225 - Bloomberg
 
 There are N prisoners standing in a circle, waiting to be executed. The executions are carried out starting with the kth person, and removing every successive kth person going clockwise until there is no one left.
 
@@ -953,37 +953,37 @@ For example, if N = 5 and k = 2, the order of executions would be [2, 4, 1, 5, 3
 
 Bonus: Find an O(log N) solution if k = 2.
 
-[See Solution](/problems/100-199/problem-189.js)
+[See Solution](/problems/200-299/problem-225.js)
 
 ---
 
-## Problem 190 - Airbnb
+## Problem 226 - Airbnb
 
 You come across a dictionary of sorted words in a language you've never seen before. Write a program that returns the correct order of letters in this language.
 
 For example, given ['xww', 'wxyz', 'wxyw', 'ywx', 'ywz'], you should return ['x', 'z', 'w', 'y'].
 
-[See Solution](/problems/100-199/problem-190.js)
+[See Solution](/problems/200-299/problem-226.js)
 
 ---
 
-## Problem 191 - Facebook
+## Problem 227 - Facebook
 
 Boggle is a game played on a 4 x 4 grid of letters. The goal is to find as many words as possible that can be formed by a sequence of adjacent letters in the grid, using each cell at most once. Given a game board and a dictionary of valid words, implement a Boggle solver.
 
-[See Solution](/problems/100-199/problem-191.js)
+[See Solution](/problems/200-299/problem-227.js)
 
 ---
 
-## Problem 192 - Twitter
+## Problem 228 - Twitter
 
 Given a list of numbers, create an algorithm that arranges them in order to form the largest possible integer. For example, given [10, 7, 76, 415], you should return 77641510.
 
-[See Solution](/problems/100-199/problem-192.js)
+[See Solution](/problems/200-299/problem-228.js)
 
 ---
 
-## Problem 193 - Flipkart
+## Problem 229 - Flipkart
 
 Snakes and Ladders is a game played on a 10 x 10 board, the goal of which is get from square 1 to square 100. On each turn players will roll a six-sided die and move forward a number of spaces equal to the result. If they land on a square that represents a snake or ladder, they will be transported ahead or behind, respectively, to a new square.
 
@@ -994,11 +994,11 @@ For convenience, here are the squares representing snakes and ladders, and their
 snakes = {16: 6, 48: 26, 49: 11, 56: 53, 62: 19, 64: 60, 87: 24, 93: 73, 95: 75, 98: 78}  
 ladders = {1: 38, 4: 14, 9: 31, 21: 42, 28: 84, 36: 44, 51: 67, 71: 91, 80: 100}
 
-[See Solution](/problems/100-199/problem-193.js)
+[See Solution](/problems/200-299/problem-229.js)
 
 ---
 
-## Problem 194 - Goldman Sachs
+## Problem 230 - Goldman Sachs
 
 You are given N identical eggs and access to a building with k floors. Your task is to find the lowest floor that will cause an egg to break, if dropped from that floor. Once an egg breaks, it cannot be dropped again. If an egg breaks when dropped from the xth floor, you can assume it will also break when dropped from any floor greater than x.
 
@@ -1006,21 +1006,21 @@ Write an algorithm that finds the minimum number of trial drops it will take, in
 
 For example, if N = 1 and k = 5, we will need to try dropping the egg at every floor, beginning with the first, until we reach the fifth floor, so our solution will be 5.
 
-[See Solution](/problems/100-199/problem-194.js)
+[See Solution](/problems/200-299/problem-230.js)
 
 ---
 
-## Problem 195 - IBM
+## Problem 231 - IBM
 
 Given a string with repeated characters, rearrange the string so that no two adjacent characters are the same. If this is not possible, return None.
 
 For example, given "aaabbc", you could return "ababac". Given "aaab", return None.
 
-[See Solution](/problems/100-199/problem-195.js)
+[See Solution](/problems/200-299/problem-231.js)
 
 ---
 
-## Problem 196 - Google
+## Problem 232 - Google
 
 Implement a PrefixMapSum class with the following methods:
 
@@ -1035,31 +1035,31 @@ For example, you should be able to run the following code:
     mapsum.insert("column", 2)  
     assert mapsum.sum("col") == 5  
 
-[See Solution](/problems/100-199/problem-196.js)
+[See Solution](/problems/200-299/problem-232.js)
 
 ---
 
-## Problem 197 - Apple
+## Problem 233 - Apple
 
 Implement the function fib(n), which returns the nth number in the Fibonacci sequence, using only O(1) space.
 
-[See Solution](/problems/100-199/problem-197.js)
+[See Solution](/problems/200-299/problem-233.js)
 
 ---
 
-## Problem 198 - Microsoft
+## Problem 234 - Microsoft
 
 Recall that the minimum spanning tree is the subset of edges of a tree that connect all its vertices with the smallest possible total edge weight. Given an undirected graph with weighted edges, compute the maximum weight spanning tree.
 
-[See Solution](/problems/100-199/problem-198.js)
+[See Solution](/problems/200-299/problem-234.js)
 
 ---
 
-## Problem 199 - Facebook
+## Problem 235 - Facebook
 
 Given an array of numbers of length N, find both the minimum and maximum using less than 2 * (N - 2) comparisons.
 
-[See Solution](/problems/100-199/problem-199.js)
+[See Solution](/problems/200-299/problem-235.js)
 
 ---
 
