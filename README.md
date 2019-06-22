@@ -819,16 +819,14 @@ More rigorously, we can define it as follows:
 
 For example, for the following tree, `hd(1) = -2`, and `hd(6) = 0`.
 
-```bash
-             5
-          /     \
-        3         7
-      /  \      /   \
-    1     4    6     9
-   /                /
-  0                8
-```
-  
+            5
+         /     \
+        3       7 
+       / \     / \
+      1   4   6   9
+     /           /
+    0           8  
+
 The bottom view of a tree, then, consists of the lowest node at each horizontal distance. If there are two nodes at the same depth and horizontal distance, either is acceptable.
 
 For this tree, for example, the bottom view could be `[0, 1, 3, 6, 8, 9]`.
@@ -845,17 +843,15 @@ Given a number in Roman numeral format, convert it to decimal.
 
 The values of Roman numerals are as follows:
 
-```bash
-{
-    'M': 1000,
-    'D': 500,
-    'C': 100,
-    'L': 50,
-    'X': 10,
-    'V': 5,
-    'I': 1
-}
-```
+    {
+        'M': 1000,
+        'D': 500,
+        'C': 100,
+        'L': 50,
+        'X': 10,
+        'V': 5,
+        'I': 1
+    }
 
 In addition, note that the Roman numeral system uses subtractive notation for numbers such as IV and XL.
 
