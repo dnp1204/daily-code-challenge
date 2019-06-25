@@ -8,5 +8,24 @@
  *
  * For example, given [6, 2, 4, 0, 5, 1, 1, 4, 2, 9], you should return 2, as the optimal
  * solution involves jumping from 6 to 5, and then from 5 to 9.
+ *
+ * Leetcode: https://leetcode.com/problems/jump-game-ii/
  */
-// TODO:
+var jump = function(nums) {
+  const n = nums.length;
+  let ans = 0,
+    prev = 0,
+    curr = 0,
+    i = 0;
+
+  while (curr < n - 1) {
+    ans++;
+    prev = curr;
+
+    for (; i <= prev; i++) {
+      curr = Math.max(curr, i + nums[i]);
+    }
+  }
+
+  return ans;
+};
