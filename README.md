@@ -1187,3 +1187,13 @@ For example, given [6, 2, 4, 0, 5, 1, 1, 4, 2, 9], you should return 2, as the o
 [See Solution](/problems/200-299/problem-245.js)
 
 ---
+
+## Problem 246 - Dropbox
+
+Given a list of words, determine whether the words can be chained to form a circle. A word X can be placed in front of another word Y in a circle if the last character of X is same as the first character of Y.
+
+For example, the words ['chair', 'height', 'racket', touch', 'tunic'] can form the following circle: chair --> racket --> touch --> height --> tunic --> chair.
+
+[See Solution](/problems/200-299/problem-246.js)
+
+---
