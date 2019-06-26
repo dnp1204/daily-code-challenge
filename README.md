@@ -1197,3 +1197,11 @@ For example, the words ['chair', 'height', 'racket', 'touch', 'tunic'] can form 
 [See Solution](/problems/200-299/problem-246.js)
 
 ---
+
+## Problem 247 - PayPal
+
+Given a binary tree, determine whether or not it is height-balanced. A height-balanced binary tree can be defined as one in which the heights of the two subtrees of any node never differ by more than one.
+
+[See Solution](/problems/200-299/problem-247.js)
+
+---
