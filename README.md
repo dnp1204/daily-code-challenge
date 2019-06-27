@@ -1205,3 +1205,11 @@ Given a binary tree, determine whether or not it is height-balanced. A height-ba
 [See Solution](/problems/200-299/problem-247.js)
 
 ---
+
+## Problem 248 - Nvidia
+
+Find the maximum of two numbers without using any if-else statements, branching, or direct comparisons.
+
+[See Solution](/problems/200-299/problem-248.js)
+
+---
