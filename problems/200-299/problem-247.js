@@ -7,4 +7,24 @@
  *
  * Leetcode: https://leetcode.com/problems/balanced-binary-tree/
  */
-// TODO:
+var isBalanced = function(root) {
+  let result = true;
+
+  var maxDepth = function(root) {
+    if (root === null || !result) return 0;
+
+    const left = maxDepth(root.left);
+    const right = maxDepth(root.right);
+
+    if (Math.abs(left - right) > 1) {
+      result = false;
+      return 0;
+    }
+
+    return 1 + Math.max(left, right);
+  };
+
+  maxDepth(root);
+
+  return result;
+};
