@@ -1213,3 +1213,11 @@ Find the maximum of two numbers without using any if-else statements, branching,
 [See Solution](/problems/200-299/problem-248.js)
 
 ---
+
+## Problem 249 - Salesforce
+
+Given an array of integers, find the maximum XOR of any two elements.
+
+[See Solution](/problems/200-299/problem-249.js)
+
+---
