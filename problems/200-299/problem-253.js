@@ -11,5 +11,22 @@
  *  h   s z   a
  *  i i   i z
  *   s     g
+ *
+ * Leetcode: https://leetcode.com/problems/zigzag-conversion/
  */
-// TODO:
+var convert = function(s, numRows) {
+  if (numRows === 1 || numRows > s.length) return s;
+
+  let L = Array(numRows).fill('');
+  let index = 0,
+    step = 1;
+
+  for (let i = 0; i < s.length; i += 1) {
+    L[index] += s.charAt(i);
+    if (index === 0) step = 1;
+    else if (index === numRows - 1) step = -1;
+    index += step;
+  }
+
+  return L.join('');
+};
