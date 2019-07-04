@@ -20,13 +20,13 @@ const findEgyptianFraction = function(a, b) {
   }
 
   if (a > b) {
-    console.log(Math.floor(a / b) + ' + ');
+    console.log(`${Math.floor(a / b)} + `);
     findEgyptianFraction(a % b, b);
     return;
   }
 
   const n = Math.ceil(b / a);
-  console.log('1/' + n + ' + ');
+  console.log(`1 / ${n} + `);
 
   findEgyptianFraction(a * n - b, b * n);
 };
