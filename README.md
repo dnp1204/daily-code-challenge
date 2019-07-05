@@ -1319,3 +1319,11 @@ Given a graph, find its transitive closure.
 [See Solution](/problems/200-299/problem-255.js)
 
 ---
+
+## Problem 256 - Fitbit
+
+Given a linked list, rearrange the node values such that they appear in alternating low -> high -> low -> high ... form. For example, given 1 -> 2 -> 3 -> 4 -> 5, you should return 1 -> 3 -> 2 -> 5 -> 4.
+
+[See Solution](/problems/200-299/problem-256.js)
+
+---
