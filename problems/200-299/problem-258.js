@@ -9,4 +9,33 @@
  *
  * Leetcode: https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
  */
-// TODO:
+var zigzagLevelOrder = function(root) {
+  if (!root) return [];
+
+  const result = [];
+  let queue = [root];
+  let even = false;
+
+  while (queue.length) {
+    const nextLevel = [];
+    const level = [];
+
+    while (queue.length) {
+      const node = queue.shift();
+      level.push(node.val);
+      if (node.left) nextLevel.push(node.left);
+      if (node.right) nextLevel.push(node.right);
+    }
+
+    if (even) {
+      level.reverse();
+      result.push(level);
+    } else {
+      result.push(level);
+    }
+    queue = nextLevel;
+    even = !even;
+  }
+
+  return result;
+};
