@@ -1402,3 +1402,11 @@ Given a dictionary of character frequencies, build a Huffman tree, and use it to
 [See Solution](/problems/200-299/problem-261.js)
 
 ---
+
+## Problem 262 - Mozilla
+
+A bridge in a connected (undirected) graph is an edge that, if removed, causes the graph to become disconnected. Find all the bridges in a graph.
+
+[See Solution](/problems/200-299/problem-262.js)
+
+---
