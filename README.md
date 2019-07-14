@@ -1425,3 +1425,15 @@ We can consider a sentence valid if it conforms to the following rules:
 [See Solution](/problems/200-299/problem-263.js)
 
 ---
+
+## Problem 264 - LinkedIn
+
+Given a set of characters C and an integer k, a De Bruijn sequence is a cyclic sequence in which every possible k-length string of characters in C occurs exactly once.
+
+For example, suppose C = {0, 1} and k = 3. Then our sequence should contain the substrings {'000', '001', '010', '011', '100', '101', '110', '111'}, and one possible solution would be 00010111.
+
+Create an algorithm that finds a De Bruijn sequence.
+
+[See Solution](/problems/200-299/problem-264.js)
+
+---
