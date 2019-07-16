@@ -1456,6 +1456,29 @@ A step word is formed by taking a given word, adding a letter, and anagramming t
 
 Given a dictionary of words and an input word, create a function that returns all valid step words.
 
-[See Solution](/problems/200-299/problem-265.js)
+[See Solution](/problems/200-299/problem-266.js)
+
+---
+
+## Problem 267 - Oracle
+
+You are presented with an 8 by 8 matrix representing the positions of pieces on a chess board. The only pieces on the board are the black king and various white pieces. Given this matrix, determine whether the king is in check.
+
+For details on how each piece moves, see [here](https://en.wikipedia.org/wiki/Chess_piece#Moves_of_the_pieces).
+
+For example, given the following matrix:
+
+...K....  
+........  
+.B......  
+......P.  
+.......R  
+..N.....  
+........  
+.....Q..  
+
+You should return True, since the bishop is attacking the king diagonally.
+
+[See Solution](/problems/200-299/problem-267.js)
 
 ---
