@@ -1482,3 +1482,11 @@ You should return True, since the bishop is attacking the king diagonally.
 [See Solution](/problems/200-299/problem-267.js)
 
 ---
+
+## Problem 268 - Indeed
+
+Given a 32-bit positive integer N, determine whether it is a power of four in faster than O(log N) time.
+
+[See Solution](/problems/200-299/problem-268.js)
+
+---
