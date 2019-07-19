@@ -17,4 +17,43 @@
  *
  * Leetcode: https://leetcode.com/problems/push-dominoes/
  */
-// TODO:
+var pushDominoes = function(dominoes) {
+  dominoes = dominoes.split('');
+  const n = dominoes.length;
+
+  for (let i = 0; i < n; i++) {
+    while (i < n && dominoes[i] === '.') {
+      i++;
+    }
+
+    if (i === n) break;
+
+    if (dominoes[i] === 'R') {
+      let end = i + 1;
+      while (end < n && dominoes[end] === '.') {
+        end++;
+      }
+
+      if (end === n || dominoes[end] === 'R') {
+        while (i < end) dominoes[i++] = 'R';
+        i = end - 1;
+      } else {
+        let j = end;
+        while (i < j - 1) {
+          dominoes[++i] = 'R';
+          dominoes[--j] = 'L';
+          if (i === j) dominoes[i] = '.';
+        }
+        i = end;
+      }
+      continue;
+    }
+
+    let end = i - 1;
+    while (end >= 0 && dominoes[end] === '.' && dominoes[i] === 'L') {
+      dominoes[end--] = 'L';
+    }
+  }
+
+  return dominoes.join('');
+};
