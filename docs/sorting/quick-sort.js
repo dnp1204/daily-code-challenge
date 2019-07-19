@@ -1,36 +1,34 @@
-// Merge Sort
-// Merge function from earlier
-function merge(arr1, arr2) {
-  let results = [];
-  let i = 0;
-  let j = 0;
-  while (i < arr1.length && j < arr2.length) {
-    if (arr2[j] > arr1[i]) {
-      results.push(arr1[i]);
-      i++;
-    } else {
-      results.push(arr2[j]);
-      j++;
+// Quick sort
+function pivot(arr, start = 0, end = arr.length - 1) {
+  const swap = (arr, idx1, idx2) => {
+    [arr[idx1], arr[idx2]] = [arr[idx2], arr[idx1]];
+  };
+
+  // We are assuming the pivot is always the first element
+  let pivot = arr[start];
+  let swapIdx = start;
+
+  for (let i = start + 1; i <= end; i++) {
+    if (pivot > arr[i]) {
+      swapIdx++;
+      swap(arr, swapIdx, i);
     }
   }
-  while (i < arr1.length) {
-    results.push(arr1[i]);
-    i++;
-  }
-  while (j < arr2.length) {
-    results.push(arr2[j]);
-    j++;
-  }
-  return results;
+
+  // Swap the pivot from the start the swapPoint
+  swap(arr, start, swapIdx);
+  return swapIdx;
 }
 
-// Recursive Merge Sort
-function mergeSort(arr) {
-  if (arr.length <= 1) return arr;
-  let mid = Math.floor(arr.length / 2);
-  let left = mergeSort(arr.slice(0, mid));
-  let right = mergeSort(arr.slice(mid));
-  return merge(left, right);
+function quickSort(arr, left = 0, right = arr.length - 1) {
+  if (left < right) {
+    let pivotIndex = pivot(arr, left, right); //3
+    //left
+    quickSort(arr, left, pivotIndex - 1);
+    //right
+    quickSort(arr, pivotIndex + 1, right);
+  }
+  return arr;
 }
 
-mergeSort([10, 24, 76, 73]);
+quickSort([100, -3, 2, 4, 6, 9, 1, 2, 5, 3, 23]);
