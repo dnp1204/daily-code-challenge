@@ -1517,18 +1517,28 @@ Assuming all nodes are connected, determine how long it will take for every node
 
 For example, given N = 5, and the following edges:
 
-edges = [
-    (0, 1, 5),
-    (0, 2, 3),
-    (0, 5, 4),
-    (1, 3, 8),
-    (2, 3, 1),
-    (3, 5, 10),
-    (3, 4, 5)
-]
+    edges = [  
+        (0, 1, 5),  
+        (0, 2, 3),  
+        (0, 5, 4),  
+        (1, 3, 8),  
+        (2, 3, 1),  
+        (3, 5, 10),  
+        (3, 4, 5)  
+    ]  
 
 You should return 9, because propagating the message from 0 -> 2 -> 3 -> 4 will take that much time.
 
 [See Solution](/problems/200-299/problem-270.js)
+
+---
+
+## Problem 271 -  Netflix
+
+Given a sorted list of integers of length N, determine if an element x is in the list without performing any multiplication, division, or bit-shift operations.
+
+Do this in O(log N) time.
+
+[See Solution](/problems/200-299/problem-271.js)
 
 ---
