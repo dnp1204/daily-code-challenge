@@ -1542,3 +1542,13 @@ Do this in O(log N) time.
 [See Solution](/problems/200-299/problem-271.js)
 
 ---
+
+## Problem 272 - Spotify
+
+Write a function, throw_dice(N, faces, total), that determines how many ways it is possible to throw N dice with some number of faces each to get a specific total.
+
+For example, throw_dice(3, 6, 7) should equal 15.
+
+[See Solution](/problems/200-299/problem-272.js)
+
+---
