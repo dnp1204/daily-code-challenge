@@ -16,4 +16,20 @@
  *
  * Leetcode: https://leetcode.com/problems/count-and-say/
  */
-// TODO:
+var countAndSay = function(n) {
+  let result = ['1'];
+  for (let i = 2; i <= n; i++) {
+    const temp = [];
+    for (let j = 0, count = 1; j < result.length; j++) {
+      if (j + 1 === result.length || result[j] !== result[j + 1]) {
+        temp.push(count + '');
+        temp.push(result[j]);
+        count = 1;
+      } else {
+        count++;
+      }
+    }
+    result = temp;
+  }
+  return result.join('');
+};
