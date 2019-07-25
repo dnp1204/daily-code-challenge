@@ -1592,3 +1592,15 @@ Given an integer N, print the Nth term of this sequence.
 [See Solution](/problems/200-299/problem-275.js)
 
 ---
+
+## Problem 276 - Dropbox
+
+Implement an efficient string matching algorithm.
+
+That is, given a string of length N and a pattern of length k, write a program that searches for the pattern in the string with less than O(N * k) worst-case time complexity.
+
+If the pattern is found, return the start index of its location. If not, return False.
+
+[See Solution](/problems/200-299/problem-276.js)
+
+---
