@@ -1571,6 +1571,24 @@ Don't use eval or a similar built-in parser.
 
 For example, given '-1 + (2 + 3)', you should return 4.
 
-[See Solution](/problems/200-299/problem-273.js)
+[See Solution](/problems/200-299/problem-274.js)
+
+---
+
+## Problem 275 - Epic
+
+The "look and say" sequence is defined as follows: beginning with the term 1, each subsequent term visually describes the digits appearing in the previous term. The first few terms are as follows:
+
+1  
+11  
+21  
+1211  
+111221  
+
+As an example, the fourth term is 1211, since the third term consists of one 2 and one 1.
+
+Given an integer N, print the Nth term of this sequence.
+
+[See Solution](/problems/200-299/problem-275.js)
 
 ---
