@@ -1623,3 +1623,7 @@ Visually, this can be represented as follows.
     4     | 11110xxx 10xxxxxx 10xxxxxx 10xxxxxx
 
 Write a program that takes in an array of integers representing byte values, and returns whether it is a valid UTF-8 encoding.
+
+[See Solution](/problems/200-299/problem-277.js)
+
+---
