@@ -1627,3 +1627,11 @@ Write a program that takes in an array of integers representing byte values, and
 [See Solution](/problems/200-299/problem-277.js)
 
 ---
+
+## Problem 278 - Amazon
+
+Given an integer N, construct all possible binary search trees with N nodes.
+
+[See Solution](/problems/200-299/problem-278.js)
+
+---
