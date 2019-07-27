@@ -1,11 +1,11 @@
-export class Node {
+class Node {
   constructor(val) {
     this.val = val;
     this.next = null;
   }
 }
 
-export class LinkedList {
+class LinkedList {
   constructor() {
     this.head = null;
     this.tail = null;
@@ -46,3 +46,5 @@ export class LinkedList {
     return result.join(' -> ');
   }
 }
+
+module.exports = { LinkedList, Node };
