@@ -28,16 +28,13 @@ const findFiendGroups = function(friends) {
     result.push(key);
     visited.set(key, true);
 
-    for (const friend of friends[key]) {
-      dfs(friend, result);
-    }
+    for (const friend of friends[key]) dfs(friend, result);
 
     return result;
   };
 
   for (const key of Object.keys(friends)) {
-    if (visited.get(key)) continue;
-    ans.push(dfs(key));
+    if (!visited.get(key)) ans.push(dfs(key));
   }
 
   return ans;
