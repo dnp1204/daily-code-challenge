@@ -1657,3 +1657,11 @@ Given a friendship list such as the one above, determine the number of friend gr
 [See Solution](/problems/200-299/problem-279.js)
 
 ---
+
+## Problem 280 - Pandora
+
+Given an undirected graph, determine if it contains a cycle.
+
+[See Solution](/problems/200-299/problem-280.js)
+
+---
