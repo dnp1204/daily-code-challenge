@@ -1688,3 +1688,11 @@ Given an input consisting of brick lengths for each row such as the one above, r
 [See Solution](/problems/200-299/problem-281.js)
 
 ---
+
+## Problem 282 - Netflix
+
+Given an array of integers, determine whether it contains a Pythagorean triplet. Recall that a Pythogorean triplet (a, b, c) is defined by the equation a2+ b2= c2.
+
+[See Solution](/problems/200-299/problem-282.js)
+
+---
