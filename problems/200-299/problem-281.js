@@ -23,4 +23,18 @@
  *
  * Leetcode: https://leetcode.com/problems/brick-wall/
  */
-// TODO:
+var leastBricks = function(wall) {
+  const map = {};
+  let ans = wall.length;
+
+  for (let i = 0; i < wall.length; i++) {
+    let sum = 0;
+    for (let j = 0; j < wall[i].length - 1; j++) {
+      sum += wall[i][j];
+      map[sum] ? map[sum]++ : (map[sum] = 1);
+      ans = Math.min(ans, wall.length - map[sum]);
+    }
+  }
+
+  return ans;
+};
