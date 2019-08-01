@@ -20,4 +20,7 @@
  *
  * Given an input consisting of brick lengths for each row such as the one above, return the fewest number
  * of bricks that must be cut to create a vertical line.
+ *
+ * Leetcode: https://leetcode.com/problems/brick-wall/
  */
+// TODO:
