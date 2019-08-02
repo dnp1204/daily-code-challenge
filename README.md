@@ -1708,3 +1708,19 @@ Given an integer N, write a program that returns, in order, the first N regular 
 [See Solution](/problems/200-299/problem-283.js)
 
 ---
+
+## Problem 284 - Yext
+
+Two nodes in a binary tree can be called cousins if they are on the same level of the tree but have different parents. For example, in the following diagram 4 and 6 are cousins.
+
+        1
+       / \
+      2   3
+     / \   \
+    4   5   6
+
+Given a binary tree and a particular node, find all cousins of that node.
+
+[See Solution](/problems/200-299/problem-284.js)
+
+---
