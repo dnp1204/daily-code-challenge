@@ -10,4 +10,19 @@
  *
  * Can you do this using just one forward pass through the array?
  */
-// TODO:
+const findNumberOfBuilding = function(buildings) {
+  let ans = 0;
+  let max = 0;
+
+  for (let i = buildings.length - 1; i >= 0; i--) {
+    const building = buildings[i];
+    if (building > max) {
+      ans++;
+      max = building;
+    }
+  }
+
+  return ans;
+};
+
+console.log(findNumberOfBuilding([3, 7, 8, 3, 6, 1]));
