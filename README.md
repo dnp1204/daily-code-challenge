@@ -1758,3 +1758,21 @@ As a result, your function should return [(0, 3), (4, 5), (11, 3), (15, 0), (19,
 [See Solution](/problems/200-299/problem-286.js)
 
 ---
+
+## Problem 287 - Quora
+
+You are given a list of (website, user) pairs that represent users visiting websites. Come up with a program that identifies the top k pairs of websites with the greatest similarity.
+
+For example, suppose k = 1, and the list of tuples is:
+
+[('a', 1), ('a', 3), ('a', 5),  
+ ('b', 2), ('b', 6),  
+ ('c', 1), ('c', 2), ('c', 3), ('c', 4), ('c', 5),  
+ ('d', 4), ('d', 5), ('d', 6), ('d', 7),  
+ ('e', 1), ('e', 3), ('e': 5), ('e', 6)]
+
+Then a reasonable similarity metric would most likely conclude that a and e are the most similar, so your program should return [('a', 'e')].
+
+[See Solution](/problems/200-299/problem-287.js)
+
+---
