@@ -1938,3 +1938,11 @@ Bonus: Can you do this using only O(k) space?
 [See Solution](/problems/200-299/problem-295.js)
 
 ---
+
+## Problem 296 - Etsy
+
+Given a sorted array, convert it into a height-balanced binary search tree.
+
+[See Solution](/problems/200-299/problem-296.js)
+
+---
