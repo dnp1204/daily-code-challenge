@@ -2005,7 +2005,7 @@ pipes = {
 
 On election day, a voting machine writes data in the form (voter_id, candidate_id) to a text file. Write a program that reads this file as a stream and returns the top 3 candidates at any given time. If you find a voter voting more than once, report this as fraud.
 
-[See Solution](/problems/200-299/problem-300.js)
+[See Solution](/problems/300-399/problem-300.js)
 
 ---
 
@@ -2018,7 +2018,7 @@ check(value): Check whether a value is in the set.
 
 The check method may return occasional false positives (in other words, incorrectly identifying an element as part of the set), but should always correctly identify a true element.
 
-[See Solution](/problems/200-299/problem-301.js)
+[See Solution](/problems/300-399/problem-301.js)
 
 ---
 
@@ -2034,7 +2034,7 @@ For example, suppose the input for a three-by-six grid is the following:
 
 Considering the edges of the matrix as boundaries, this divides the grid into three triangles, so you should return 3.
 
-[See Solution](/problems/200-299/problem-302.js)
+[See Solution](/problems/300-399/problem-302.js)
 
 ---
 
@@ -2044,7 +2044,7 @@ Given a clock time in hh:mm format, determine, to the nearest degree, the angle 
 
 Bonus: When, during the course of a day, will the angle be zero?
 
-[See Solution](/problems/200-299/problem-303.js)
+[See Solution](/problems/300-399/problem-303.js)
 
 ---
 
@@ -2054,6 +2054,6 @@ A knight is placed on a given square on an 8 x 8 chessboard. It is then moved ra
 
 After k moves, what is the probability that the knight remains on the board?
 
-[See Solution](/problems/200-299/problem-304.js)
+[See Solution](/problems/300-399/problem-304.js)
 
 ---
