@@ -2118,6 +2118,16 @@ Given an input such as the one above, return the lowest possible cost of moving 
 
 Write an algorithm that finds the total number of set bits in all integers between 1 and N.
 
-[See Solution](/problems/300-399/problem-309.js)
+[See Solution](/problems/300-399/problem-310.js)
+
+---
+
+## Problem 311 - Sumo Logic
+
+Given an unsorted array, in which all elements are distinct, find a "peak" element in O(log N) time.
+
+An element is considered a peak if it is greater than both its left and right neighbors. It is guaranteed that the first and last elements are lower than all others.
+
+[See Solution](/problems/300-399/problem-311.js)
 
 ---
