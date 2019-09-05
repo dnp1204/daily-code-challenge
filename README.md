@@ -2208,3 +2208,13 @@ Write a function that returns the bitwise AND of all integers between M and N, i
 [See Solution](/problems/300-399/problem-317.js)
 
 ---
+
+## Problem 318 - Apple
+
+You are going on a road trip, and would like to create a suitable music playlist. The trip will require N songs, though you only have M songs downloaded, where M < N. A valid playlist should select each song at least once, and guarantee a buffer of B songs between repeats.
+
+Given N, M, and B, determine the number of valid playlists.
+
+[See Solution](/problems/300-399/problem-318.js)
+
+---
