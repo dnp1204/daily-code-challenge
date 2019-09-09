@@ -2253,3 +2253,15 @@ For example, given 100, you can reach 1 in five steps with the following route: 
 [See Solution](/problems/300-399/problem-321.js)
 
 ---
+
+## Problem 322 - Flipkart
+
+Starting from 0 on a number line, you would like to make a series of jumps that lead to the integer N.
+
+On the ith jump, you may move exactly i places to the left or right.
+
+Find a path with the fewest number of jumps required to get from 0 to N.
+
+[See Solution](/problems/300-399/problem-322.js)
+
+---
