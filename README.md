@@ -2318,3 +2318,13 @@ Given a sequence S, construct the corresponding Cartesian tree.
 [See Solution](/problems/300-399/problem-326.js)
 
 ---
+
+## Problem 327 - Salesforce
+
+Write a program to merge two binary trees. Each node in the new tree should hold a value equal to the sum of the values of the corresponding nodes of the input trees.
+
+If only one input tree has a node in a given position, the corresponding node in the new tree should match that input node.
+
+[See Solution](/problems/300-399/problem-327.js)
+
+---
