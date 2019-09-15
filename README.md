@@ -2328,3 +2328,15 @@ If only one input tree has a node in a given position, the corresponding node in
 [See Solution](/problems/300-399/problem-327.js)
 
 ---
+
+## Problem 328 - Facebook
+
+In chess, the Elo rating system is used to calculate player strengths based on game results.
+
+A simplified description of the Elo system is as follows. Every player begins at the same score. For each subsequent game, the loser transfers some points to the winner, where the amount of points transferred depends on how unlikely the win is. For example, a 1200-ranked player should gain much more points for beating a 2000-ranked player than for beating a 1300-ranked player.
+
+Implement this system.
+
+[See Solution](/problems/300-399/problem-328.js)
+
+---
