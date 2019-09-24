@@ -2457,3 +2457,11 @@ For example, if N = 3, and our integers are [1, 2, 3], there are two ways, shown
 [See Solution](/problems/300-399/problem-336.js)
 
 ---
+
+## Problem 337 - Apple
+
+Given a linked list, uniformly shuffle the nodes. What if we want to prioritize space over time?
+
+[See Solution](/problems/300-399/problem-337.js)
+
+---
