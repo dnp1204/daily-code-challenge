@@ -2777,3 +2777,13 @@ For example, suppose your input is [1.3, 2.3, 4.4]. In this case you cannot do b
 [See Solution](/problems/300-399/problem-355.js)
 
 ---
+
+## Problem 356 - Netflix
+
+Implement a queue using a set of fixed-length arrays.
+
+The queue should support enqueue, dequeue, and get_size operations.
+
+[See Solution](/problems/300-399/problem-356.js)
+
+---
