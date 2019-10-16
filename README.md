@@ -2818,3 +2818,15 @@ Create a data structure that performs all the following operations in O(1) time:
 [See Solution](/problems/300-399/problem-358.js)
 
 ---
+
+## Problem 359 - Slack
+
+You are given a string formed by concatenating several words corresponding to the integers zero through nine and then anagramming.
+
+For example, the input could be 'niesevehrtfeev', which is an anagram of 'threefiveseven'. Note that there can be multiple instances of each integer.
+
+Given this string, return the original integers in sorted order. In the example above, this would be 357.
+
+[See Solution](/problems/300-399/problem-359.js)
+
+---
