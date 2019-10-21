@@ -2886,3 +2886,11 @@ add_subtract(-5)(10)(3)(9) -> -5 + 10 - 3 + 9 -> 11
 [See Solution](/problems/300-399/problem-363.js)
 
 ---
+
+## Problem 364 - Facebook
+
+Describe an algorithm to compute the longest increasing subsequence of an array of numbers in O(n log n) time.
+
+[See Solution](/problems/300-399/problem-364.js)
+
+---
