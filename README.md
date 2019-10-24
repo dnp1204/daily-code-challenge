@@ -1,38 +1,12 @@
 # Daily coding challenge with Javascript
 
-## Problem 1 - Twitter
+## Problem 1
 
-Implement an autocomplete system. That is, given a query string s and a set of all possible query strings, return all strings in the set that have s as prefix.
+Given a list of numbers, return whether any two sums to k. For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
 
-For example, given the query string de an the set of strings [dog, deer, deal] returns [deer, deal]
-
-Hint: Try preprocessing the dictionary into a more efficient data structures to speed up queries.
+Bonus: Can you do this in one pass?
 
 [See Solution](/problems/1-99/problem-1.js)
-
----
-
-## Problem 2 - Amazon
-
-An sorted array of integers was rotated an unknown number of times. Given such an array, find the index of the element in the array in faster than linear time. If the element doesn't exist in the array,return null.
-
-For example, given the array [13, 18, 25, 2, 8, 10] and the element 8,return 4 (the index of 8 in the array).
-
-You can assume all the integers in the array are unique.
-
-[See Solution](/problems/1-99/problem-2.js)
-
----
-
-## Problem 3 - Facebook
-
-Given an unordered list of flights taken by someone, each represented as (origin, destination) pairs, and a starting airport, compute the person's itinerary. If no such itinerary exists, return null. If there are multiple possible itineraries, return the lexicographically smallest one. All flights must be used in the itinerary. For example, given the list of flights [('SFO', 'HKO'), ('YYZ', 'SFO'), ('YUL', 'YYZ'), ('HKO', 'ORD')] and starting airport 'YUL', you should return the list ['YUL', 'YYZ', 'SFO', 'HKO', 'ORD'].
-
-Given the list of flights [('SFO', 'COM'), ('COM', 'YYZ')] and starting airport 'COM', you should return null.
-
-Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')] and starting airport 'A', you should return the list ['A', 'B', 'C', 'A', 'C'] even though ['A', 'C', 'A', 'B', 'C'] is also a valid itinerary. However, the first one is lexicographically smaller.
-
-[See Solution](/problems/1-99/problem-3.js)
 
 ---
 
