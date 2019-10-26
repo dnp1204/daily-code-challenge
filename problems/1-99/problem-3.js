@@ -1,85 +1,73 @@
 /**
- * Company: Facebook.
+ * Company: Google.
  *
- * Given an unordered list of flights taken by someone, each represented
- * as (origin, destination) pairs, and a starting airport, compute the
- * person's itinerary. If no such itinerary exists, return null. If there
- * are multiple possible itineraries, return the lexicographically smallest
- * one. All flights must be used in the itinerary.
+ * Given the root to a binary tree, implement serialize (root), which
+ * serializes the tree into a string, and deserialize(s), which
+ * deserializes the string back into the tree.
  *
- * For example, given the list of flights [('SFO', 'HKO'), ('YYZ', 'SFO'),
- * ('YUL', 'YYZ'), ('HKO', 'ORD')] and starting airport 'YUL', you should
- * return the list ['YUL', 'YYZ', 'SFO', 'HKO', 'ORD'].
+ * For example, given the following Node class
  *
- * Given the list of flights [('SFO', 'COM'), ('COM', 'YYZ')] and starting
- * airport 'COM', you should return null.
+ * class Node:
+ *  def __init__(self, val, left=None, right=None):
+ *    self.val = val
+ *    self.left = left
+ *    self.right = right
  *
- * Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')]
- * and starting airport 'A', you should return the list ['A', 'B', 'C', 'A', 'C']
- * even though ['A', 'C', 'A', 'B', 'C'] is also a valid itinerary. However,
- * the first one is lexicographically smaller.
- *
- * Leetcode: https://leetcode.com/problems/reconstruct-itinerary/
+ * The following test should pass:
+ * node = Node('root', Node('left', Node('left.left)), Node('right))
+ * assert deserialize(serialize(node)).left.left.val == 'left.left'
  */
-var findItinerary = function(tickets) {
-  if (!tickets.length) return [];
-  const map = {};
-  const visited = {};
-  let result = [];
+/**
+ * Encodes a tree to a single string.
+ *
+ * @param {TreeNode} root
+ * @return {string}
+ */
+var serialize = function(root) {
+  if (!root) return '';
+  const data = [root.val];
+  const queue = [root];
 
-  for (const ticket of tickets) {
-    if (!map[ticket[0]]) map[ticket[0]] = [];
-    map[ticket[0]].push(ticket[1]);
+  while (queue.length) {
+    const node = queue.shift();
+    if (node.left) queue.push(node.left);
+    if (node.right) queue.push(node.right);
+
+    data.push(node.left ? node.left.val : null);
+    data.push(node.right ? node.right.val : null);
   }
 
-  const helper = function(origin, n = 0, path = []) {
-    if (n > tickets.length) return result;
-    if (n === tickets.length) {
-      path.push(origin);
-      if (!result.length) {
-        result = path;
-      } else {
-        for (let i = 0; i < path.length; i++) {
-          if (result[i] > path[i]) {
-            result = path;
-            break;
-          }
-        }
-      }
-      return result;
-    }
+  let index = data.length - 1;
+  while (data[index] == null) {
+    index--;
+  }
 
-    const destinations = map[origin];
-    if (destinations) {
-      for (const destination of destinations) {
-        if (!visited[origin + ' ' + destination]) {
-          visited[origin + ' ' + destination] = true;
-          helper(destination, n + 1, [...path, origin]);
-        }
-        visited[origin + ' ' + destination] = false;
-      }
-    }
-
-    return result;
-  };
-
-  return helper('JFK');
+  return data.slice(0, index + 1);
 };
 
-console.log(
-  findItinerary([
-    ['MUC', 'LHR'],
-    ['JFK', 'MUC'],
-    ['SFO', 'SJC'],
-    ['LHR', 'SFO']
-  ])
-);
-console.log(
-  findItinerary([
-    ['JFK', 'SFO'],
-    ['JFK', 'ATL'],
-    ['SFO', 'ATL'],
-    ['ATL', 'JFK'],
-    ['ATL', 'SFO']
-  ])
-);
+/**
+ * Decodes your encoded data to tree.
+ *
+ * @param {string} data
+ * @return {TreeNode}
+ */
+var deserialize = function(data) {
+  if (!data.length) return null;
+  const root = new TreeNode(data[0]);
+  const queue = [root];
+
+  for (let i = 1; i < data.length; i++) {
+    const node = queue.shift();
+    if (data[i] != null) {
+      const treeNode = new TreeNode(data[i]);
+      node.left = treeNode;
+      queue.push(node.left);
+    }
+    if (data[++i] != null) {
+      const treeNode = new TreeNode(data[i]);
+      node.right = treeNode;
+      queue.push(node.right);
+    }
+  }
+  return root;
+};

@@ -22,6 +22,27 @@ Follow-up: what if you can't use division?
 
 ---
 
+## Problem 3 - Google
+
+Given the root to a binary tree, implement serialize(root), which serializes the tree into a string, and deserialize(s), which deserializes the string back into the tree.
+
+For example, given the following Node class
+
+    class Node:
+        def __init__(self, val, left=None, right=None):
+            self.val = val
+            self.left = left
+            self.right = right
+
+The following test should pass:
+
+    node = Node('root', Node('left', Node('left.left')), Node('right'))
+    assert deserialize(serialize(node)).left.left.val == 'left.left'
+
+[See Solution](/problems/1-99/problem-3.js)
+
+---
+
 ## Problem 33 - Square
 
 Given a list of words, return the shortest unique prefix of each word. For example, given the list:
