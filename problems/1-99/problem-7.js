@@ -1,103 +1,61 @@
 /**
- * Company: Microsoft.
+ * Company: Facebook.
  *
- * Given an array of numbers, find the length of the longest increasing subsequence
- * in the array. The subsequence does not necessarily have to be contiguous.
+ * Given the mapping a = 1, b = 2,..., z = 26, and an encoded message,
+ * count the number of ways it can be decoded
  *
- * For example, given the array [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15],
- * the longest increasing subsequence has length 6: it is 0, 2, 6, 9, 11, 15.
+ * For example, the message '111' would give 3, since it could be
+ * decoded as 'aaa', 'ka', and 'ak'. You can assume that the messages
+ * are decodable. For example '001' is not allowed
  *
- * Youtube link: https://www.youtube.com/watch?v=CE2b_-XfVDk
+ * Leetcode: https://leetcode.com/problems/decode-ways/
  */
-var lengthOfLIS = function(nums) {
-  // return iterationHelper(nums);
-  // return recursionHelper(nums);
-  return dpHelper(nums);
-};
+function countWaysOfDecoded(message) {
+  // return helper(message, message.length);
+  return helperDP(message, message.length);
+}
 
-const iterationHelper = function(nums) {
-  if (nums.length === 0) return 0;
-  let max = 1;
-  const temp = Array(nums.length).fill(1);
-  for (let i = 1; i < nums.length; i++) {
-    for (let j = 0; j < i; j++) {
-      if (nums[j] < nums[i]) {
-        temp[i] = Math.max(temp[i], temp[j] + 1);
-        if (max < temp[i]) {
-          max = temp[i];
-        }
-      }
-    }
-  }
-  return max;
-};
-
-const recursionHelper = function(nums) {
-  let temp,
-    max = 0;
-
-  const helper = function(nums, n) {
-    if (n == 0) return 1;
-
-    let max = 1,
-      temp;
-    for (let i = 0; i < n; i++) {
-      if (nums[i] < nums[n]) {
-        temp = 1 + helper(nums, i);
-        if (temp > max) {
-          max = temp;
-        }
-      }
-    }
-
-    return max;
-  };
-
-  for (let i = 0; i < nums.length; i++) {
-    temp = helper(nums, i);
-    if (max < temp) {
-      max = temp;
-    }
+function helper(message, k) {
+  if (k === 0) {
+    return 1;
   }
 
-  return max;
-};
-
-const dpHelper = function(nums) {
-  if (nums.length === 0) return 0;
-
-  const tailTable = [];
-  let len = 0;
-
-  tailTable[0] = nums[0];
-  len = 1;
-
-  const ceilIndex = function(A, l, r, key) {
-    while (r - l > 1) {
-      const m = Math.floor((l + r) / 2);
-      if (A[m] >= key) {
-        r = m;
-      } else {
-        l = m;
-      }
-    }
-
-    return r;
-  };
-
-  for (let i = 1; i < nums.length; i++) {
-    if (nums[i] < tailTable[0]) {
-      tailTable[0] = nums[i];
-    } else if (nums[i] > tailTable[len - 1]) {
-      tailTable[len] = nums[i];
-      len += 1;
-    } else {
-      const index = ceilIndex(tailTable, -1, len - 1, nums[i]);
-      tailTable[index] = nums[i];
-    }
+  s = message.length - k;
+  if (message[s] === '0') {
+    return 0;
   }
 
-  console.log(tailTable);
+  let result = helper(message, k - 1);
+  if (k >= 2 && parseInt(message.substring(s, s + 2)) <= 26) {
+    result += helper(message, k - 2);
+  }
 
-  return len;
-};
+  return result;
+}
+
+function helperDP(message, k, memo = []) {
+  if (k === 0) {
+    return 1;
+  }
+
+  s = message.length - k;
+  if (message[s] === '0') {
+    return 0;
+  }
+
+  if (memo[k]) {
+    return memo[k];
+  }
+
+  let result = helper(message, k - 1, memo);
+  if (k >= 2 && parseInt(message.substring(s, s + 2)) <= 26) {
+    result += helper(message, k - 2, memo);
+  }
+
+  memo[k] = result;
+  return result;
+}
+
+console.log(countWaysOfDecoded('111'));
+console.log(countWaysOfDecoded('11111111111111111111111'));
+console.log(countWaysOfDecoded('12345'));
