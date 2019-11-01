@@ -94,6 +94,26 @@ You can assume that the messages are decodable. For example, '001' is not allowe
 
 ---
 
+## Problem 8 - Google [Difficulty: Easy]
+
+A unival tree (which stands for "universal value") is a tree where all nodes under it have the same value.
+
+Given the root to a binary tree, count the number of unival subtrees.
+
+For example, the following tree has 5 unival subtrees:
+
+      0
+     / \
+    1   0
+       / \
+      1   0
+     / \
+    1   1
+
+[See Solution](/problems/1-99/problem-8.js)
+
+---
+
 ## Problem 33 - Square
 
 Given a list of words, return the shortest unique prefix of each word. For example, given the list:

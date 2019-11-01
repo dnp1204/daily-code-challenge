@@ -1,53 +1,30 @@
 /**
- * Company: Microsoft.
+ * Company: Google.
  *
- * Given a dictionary of words and a string made up of those words
- * (no spaces), return the original sentence in a list. If there is
- * more than one possible reconstruction, return any of them. If
- * there is no possible reconstruction, then return null.
+ * A unival tree (which stands for 'universal value') is a tree where
+ * all nodes under it have the same value.
+ * Given the root to binary tree, count the number of unival subtrees
  *
- * For example, given the set of words 'quick', 'brown', 'the', 'fox',
- * and the string "thequickbrownfox", you should return
- * ['the', 'quick', 'brown', 'fox'].
- *
- * Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond',
- * and the string "bedbathandbeyond", return either ['bed', 'bath',
- * 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
- *
- * Leetcode: https://leetcode.com/problems/word-break-ii/
- *
- * Note: I still need to come up with a dynamic solution to solve for
- * large input
+ * For example, the following tree has 5 unival subtrees:
+ *          0
+ *         / \
+ *        1   0
+ *           / \
+ *          1   0
+ *         / \
+ *        1   1
  */
-var wordBreak = function(s, wordDict) {
-  const set = new Set();
-  const result = [];
+function countUnivalSubtrees(root) {
+  let count = 0;
 
-  for (const word of wordDict) {
-    set.add(word);
-  }
-
-  const helper = function(start, end, path = []) {
-    if (start === end) {
-      result.push(path.join(' '));
-      return path;
-    }
-
-    for (let i = start; i <= end; i++) {
-      if (set.has(s.substring(start, i))) {
-        helper(i, end, [...path, s.substring(start, i)]);
-      }
-    }
-
-    return path;
+  const helper = function(root) {
+    if (!root) return true;
+    if (!helper(root.left) || !helper(root.right)) return false;
+    if (root.left && root.value !== root.left.value) return false;
+    if (root.right && root.value !== root.right.value) return false;
+    count++;
+    return true;
   };
 
-  helper(0, s.length);
-
-  return result;
-};
-
-console.log(wordBreak('thequickbrownfox', ['quick', 'brown', 'the', 'fox']));
-console.log(
-  wordBreak('bedbathandbeyond', ['bed', 'bath', 'bedbath', 'and', 'beyond'])
-);
+  return count;
+}
