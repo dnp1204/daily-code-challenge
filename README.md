@@ -126,6 +126,14 @@ Follow-up: Can you do this in O(N) time and constant space?
 
 ---
 
+## Problem 10 - Apple [Difficulty: Medium]
+
+Implement a job scheduler which takes in a function f and an integer n, and calls f after n milliseconds.
+
+[See Solution](/problems/1-99/problem-10.js)
+
+---
+
 ## Problem 33 - Square
 
 Given a list of words, return the shortest unique prefix of each word. For example, given the list:
