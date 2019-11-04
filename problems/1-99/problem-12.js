@@ -1,68 +1,52 @@
 /**
- * Company: Google.
+ * Company: Amazon.
  *
- * Given an array of integers where every integer occurs three times
- * except for one integer, which only occurs once, find and return
- * the non-duplicated integer.
+ * There exists a staircase with N steps, and you can climb up
+ * either 1 or 2 steps at a time. Given N, write a function that
+ * returns the number of unique ways you can climb the staircase.
+ * The order of the steps matters.
  *
- * For example, given [6, 1, 3, 3, 3, 6, 6], return 1. Given
- * [13, 19, 13, 13], return 19.
+ * For example, if N is 4, then there are 5 unique ways:
+ * 1, 1, 1, 1
+ * 2, 1, 1
+ * 1, 2, 1
+ * 1, 1, 2
+ * 2, 2
  *
- * Do this in O(N) time and O(1) space.
+ * What if, instead of being able to climb 1 or 2 steps at a time,
+ * you could climb any number from a set of positive integers X?
+ * For example, if X = {1, 3, 5}, you could climb 1, 3, or 5 steps at
+ * a time.
  *
- * GeeksForGeeks: https://www.geeksforgeeks.org/find-the-element-that-appears-once/
+ * Leetcode: https://leetcode.com/problems/climbing-stairs/
  */
-function getSingle(arr) {
-  let ones = 0;
-  let twos = 0;
-  let common_bit_mask;
-
-  // Let us take the example of {3, 3, 2, 3} to understand this
-  for (let i = 0; i < arr.length; i++) {
-    /**
-     * The expression "one & arr[i]" gives the bits that are
-     * there in both 'ones' and new element from arr[]. We
-     * add these bits to 'twos' using bitwise OR
-     * Value of 'twos' will be set as 0, 3, 3 and 1 after 1st,
-     * 2nd, 3rd and 4th iterations respectively
-     */
-    twos = twos | (ones & arr[i]);
-
-    /**
-     * XOR the new bits with previous 'ones' to get all bits
-     * appearing odd number of times
-     * Value of 'ones' will be set as 3, 0, 2 and 3 after 1st,
-     * 2nd, 3rd and 4th iterations respectively
-     */
-    ones = ones ^ arr[i];
-
-    /**
-     * The common bits are those bits which appear third time
-     * So these bits should not be there in both 'ones' and 'twos'.
-     * common_bit_mask contains all these bits as 0, so that the bits can
-     * be removed from 'ones' and 'twos'
-     * Value of 'common_bit_mask' will be set as 00, 00, 01 and 10
-     * after 1st, 2nd, 3rd and 4th iterations respectively
-     */
-    common_bit_mask = ~(ones & twos);
-
-    /**
-     * Remove common bits (the bits that appear third time) from 'ones'
-     * Value of 'ones' will be set as 3, 0, 0 and 2 after 1st,
-     * 2nd, 3rd and 4th iterations respectively
-     */
-    ones &= common_bit_mask;
-
-    /**
-     * Remove common bits (the bits that appear third time) from 'twos'
-     * Value of 'twos' will be set as 0, 3, 1 and 0 after 1st,
-     * 2nd, 3rd and 4th iterations respectively
-     */
-    twos &= common_bit_mask;
+var climbStairs = function(n) {
+  if (n === 0 || n === 1) {
+    return 1;
   }
 
-  return ones;
-}
+  let nums = [];
+  nums[0] = 1;
+  nums[1] = 1;
 
-console.log(getSingle([6, 1, 3, 3, 3, 6, 6]));
-console.log(getSingle([13, 19, 13, 13]));
+  for (let i = 2; i <= n; i += 1) {
+    nums[i] = nums[i - 1] + nums[i - 2];
+  }
+
+  return nums[nums.length - 1];
+};
+
+var climbStairsX = function(n, steps) {
+  if (n === 0) return 1;
+  let nums = [];
+  nums[0] = 1;
+
+  for (let i = 1; i < n; i++) {
+    let total = 0;
+    for (const step of steps) {
+      if (i >= step) total += nums[i - step];
+    }
+    nums[i] = total;
+  }
+  return nums[nums.length - 1];
+};
