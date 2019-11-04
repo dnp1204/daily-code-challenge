@@ -1,95 +1,128 @@
 /**
- * Company: Google.
+ * Company: Twitter.
  *
- * You are given an M by N matrix consisting of booleans that
- * represents a board. Each True boolean represents a wall. Each
- * False boolean represents a tile you can walk on.
+ * Implement an autocomplete system. That is, given a query string s and
+ * a set of all possible query strings, return all strings in the set that
+ * have s as prefix.
  *
- * Given this matrix, a start coordinate, and an end coordinate,
- * return the minimum number of steps required to reach the end
- * coordinate from the start. If there is no possible path, then
- * return null. You can move up, left, down, and right. You cannot
- * move through walls. You cannot wrap around the edges of the board.
+ * For example, given the query string de an the set of strings [dog, deer, deal]
+ * returns [deer, deal]
  *
- * For example, given the following board:
- * [[f, f, f, f],
- * [t, t, f, t],
- * [f, f, f, f],
- * [f, f, f, f]]
- * and start = (3, 0) (bottom left) and end = (0, 0) (top left), the
- * minimum number of steps required to reach the end is 7, since we
- * would need to go through (1, 2) because there is a wall everywhere
- * else on the second row.
+ * Hint: Try preprocessing the dictionary into a more efficient data structures to
+ * speed up queries.
+ *
+ * Youtube: https://www.youtube.com/watch?v=AXjmTQ8LEoI&t=1010s
  */
-class Point {
-  constructor(x, y) {
-    this.x = x;
-    this.y = y;
+class TrieNode {
+  constructor(parent) {
+    this.parent = parent;
+    this.children = {};
+    this.endOfWord = false;
   }
 }
 
-function solveMaze(maze, start, end) {
-  let minSteps = Number.MAX_SAFE_INTEGER;
-  const visited = [];
+class Trie {
+  constructor() {
+    this.root = new TrieNode('root');
+  }
 
-  for (let i = 0; i < maze.length; i++) {
-    visited[i] = [];
-    for (let j = 0; j < maze.length; j++) {
-      visited[i][j] = false;
+  init(words) {
+    for (const word of words) {
+      this.insert(word);
     }
   }
 
-  const helper = function(maze, start, end, steps) {
-    if (start.x === end.x && start.y === end.y) {
-      minSteps = Math.min(minSteps, steps);
-      return steps;
+  insert(word) {
+    let current = this.root;
+
+    for (let i = 0; i < word.length; i++) {
+      let char = word.charAt(i);
+
+      if (current.children[char]) {
+        if (i === word.length - 1) {
+          current.endOfWord = true;
+        } else {
+          current = current.children[char];
+        }
+      } else {
+        let newNode = new TrieNode(char);
+
+        if (i === word.length - 1) {
+          newNode.endOfWord = true;
+        }
+
+        current.children[char] = newNode;
+        current = current.children[char];
+      }
     }
 
-    const { x, y } = start;
-    if (
-      x < 0 ||
-      x >= maze.length ||
-      y < 0 ||
-      y >= maze[0].length ||
-      maze[x][y] === 't'
-    ) {
-      return null;
+    return this.root;
+  }
+
+  searchWithPrefixHelper(node, current, result) {
+    if (node.endOfWord) {
+      result.push(current.join(''));
     }
 
-    if (x + 1 < maze.length && !visited[x + 1][y]) {
-      visited[x + 1][y] = true;
-      helper(maze, { x: x + 1, y }, end, steps + 1);
-      visited[x + 1][y] = false;
+    const children = node.children;
+    for (const key of Object.keys(children)) {
+      this.searchWithPrefixHelper(children[key], [...current, key], result);
     }
 
-    if (x - 1 >= 0 && !visited[x - 1][y]) {
-      visited[x - 1][y] = true;
-      helper(maze, { x: x - 1, y }, end, steps + 1);
-      visited[x - 1][y] = false;
+    return result;
+  }
+
+  searchWithPrefix(prefix) {
+    let current = this.root;
+    let result = [];
+
+    for (let i = 0; i < prefix.length; i++) {
+      const char = prefix.charAt(i);
+      const children = current.children[char];
+
+      if (children) {
+        if (children.endOfWord) {
+          result.push(prefix);
+        }
+        current = current.children[char];
+      } else {
+        console.log('Cannot find the result');
+        return null;
+      }
     }
 
-    if (y + 1 < maze[0].length && !visited[x][y + 1]) {
-      visited[x][y + 1] = true;
-      helper(maze, { x, y: y + 1 }, end, steps + 1);
-      visited[x][y + 1] = false;
-    }
+    this.searchWithPrefixHelper(current, prefix.split(''), result);
 
-    if (y - 1 >= 0 && !visited[x][y - 1]) {
-      visited[x][y - 1] = true;
-      helper(maze, { x, y: y - 1 }, end, steps + 1);
-      visited[x][y - 1] = false;
-    }
-    return steps;
-  };
+    return result;
+  }
 
-  helper(maze, start, end, 0);
-  return minSteps;
+  toString() {
+    const queue = [this.root];
+    while (queue.length) {
+      const allChild = [];
+      const node = queue.shift();
+      const children = node.children;
+
+      for (const key of Object.keys(children)) {
+        queue.push(children[key]);
+        allChild.push(`${key} is end of word ${children[key].endOfWord}`);
+      }
+
+      if (allChild.length) {
+        console.log(node.parent + "'s children are " + allChild.join(', '));
+      }
+    }
+  }
 }
 
-const maze = [
-  ['f', 'f', 'f', 'f'],
-  ['t', 't', 'f', 't'],
-  ['f', 'f', 'f', 'f'],
-  ['f', 'f', 'f', 'f']
-];
-console.log(solveMaze(maze, new Point(3, 0), new Point(0, 0)));
+function autocomplete(words = [], prefix) {
+  const trie = new Trie();
+  trie.init(words);
+  console.log(trie.searchWithPrefix(prefix));
+}
+
+autocomplete(['dog', 'deer', 'deal', 'cat', 'done', 'cow', 'bee', 'do'], 'do');
+autocomplete(
+  ['dog', 'deer', 'deal', 'cat', 'done', 'cow', 'bee', 'do', 'carb'],
+  'ca'
+);

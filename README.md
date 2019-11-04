@@ -134,6 +134,18 @@ Implement a job scheduler which takes in a function f and an integer n, and call
 
 ---
 
+## Problem 11 - Twitter [Difficulty: Medium]
+
+Implement an autocomplete system. That is, given a query string s and a set of all possible query strings, return all strings in the set that have s as a prefix.
+
+For example, given the query string de and the set of strings [dog, deer, deal], return [deer, deal].
+
+Hint: Try preprocessing the dictionary into a more efficient data structure to speed up queries.
+
+[See Solution](/problems/1-99/problem-11.js)
+
+---
+
 ## Problem 33 - Square
 
 Given a list of words, return the shortest unique prefix of each word. For example, given the list:
