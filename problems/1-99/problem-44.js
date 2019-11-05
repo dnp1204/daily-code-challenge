@@ -1,61 +1,31 @@
 /**
- * Company: Amazon.
+ * Company: Facebook.
  *
- * Given an integer k and a string s, find the length of the longest
- * substring that contains at most k distinct characters.
+ * Given an array of integers, write a function to determine whether the array
+ * could become non-decreasing by modifying at most 1 element.
  *
- * For example, given s = "abcba" and k = 2, the longest substring with
- * k distinct characters is "bcb".
+ * For example, given the array [10, 5, 7], you should return true, since we can
+ * modify the 10 into a 1 to make the array non-decreasing.
  *
- * Leetcode: https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/
+ * Given the array [10, 5, 1], you should return false, since we can't modify any
+ * one element to get a non-decreasing array.
+ *
+ * Leetcode: https://leetcode.com/problems/non-decreasing-array/
  */
-function findLongestDistinctChars(s, k) {
-  let index = (currentStart = num = 0);
-  let end = s.length;
-  let result = '';
-  let store = {};
+var checkPossibility = function(nums) {
+  if (nums.length === 0) return true;
+  let count = 0;
 
-  const isNotValid = function() {
-    let numOfElements = 0;
-    for (const key in store) {
-      if (store[key] > 0) {
-        numOfElements++;
-      }
+  for (let i = 0; i < nums.length - 1; i++) {
+    if (nums[i] > nums[i + 1]) {
+      if (count++ > 0) return false;
+      const isRightLessThanLeft = i > 0 && nums[i + 1] < nums[i - 1];
+      const isGreaterThanNextRight =
+        i < nums.length - 2 && nums[i] > nums[i + 2];
+
+      if (isRightLessThanLeft && isGreaterThanNextRight) return false;
     }
-    return numOfElements < k;
-  };
-
-  while (index < end) {
-    if (!store[s.charAt(index)]) {
-      if (num + 1 > k) {
-        while (!isNotValid()) {
-          store[s.charAt(currentStart)] -= 1;
-          currentStart++;
-        }
-      } else {
-        num++;
-      }
-      store[s.charAt(index)] = 1;
-    } else {
-      store[s.charAt(index)] += 1;
-    }
-
-    if (index - currentStart + 1 > result.length) {
-      result = s.substring(currentStart, index + 1);
-    }
-
-    index++;
   }
 
-  if (num < k) return 'Error';
-  return result;
-}
-
-console.log(findLongestDistinctChars('aabacbebebe', 1), '{"acbebebea"}');
-console.log(findLongestDistinctChars('aabbcc', 1), '{"aa" , "bb" , "cc"}');
-console.log(findLongestDistinctChars('aabbcc', 2), '{"aabb" , "bbcc"}');
-console.log(
-  findLongestDistinctChars('aabbcc', 3),
-  '{"aabbcc" , "abbcc" , "aabbc" , "abbc" }'
-);
-console.log(findLongestDistinctChars('aaabbb', 3), 'error');
+  return true;
+};

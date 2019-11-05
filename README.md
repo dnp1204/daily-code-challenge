@@ -164,6 +164,16 @@ What if, instead of being able to climb 1 or 2 steps at a time, you could climb 
 
 ---
 
+## Problem 13 - Amazon [Difficulty: Hard]
+
+Given an integer k and a string s, find the length of the longest substring that contains at most k distinct characters.
+
+For example, given s = "abcba" and k = 2, the longest substring with k distinct characters is "bcb".
+
+[See Solution](/problems/1-99/problem-13.js)
+
+---
+
 ## Problem 33 - Square
 
 Given a list of words, return the shortest unique prefix of each word. For example, given the list:
