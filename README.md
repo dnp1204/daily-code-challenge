@@ -174,6 +174,16 @@ For example, given s = "abcba" and k = 2, the longest substring with k distinct 
 
 ---
 
+## Problem 14 - Google [Difficulty: Medium]
+
+The area of a circle is defined as πr^2. Estimate π to 3 decimal places using a Monte Carlo method.
+
+Hint: The basic equation of a circle is x^2 + y^2 = r^2.
+
+[See Solution](/problems/1-99/problem-14.js)
+
+---
+
 ## Problem 33 - Square
 
 Given a list of words, return the shortest unique prefix of each word. For example, given the list:
