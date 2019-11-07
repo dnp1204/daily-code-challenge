@@ -184,42 +184,6 @@ Hint: The basic equation of a circle is x^2 + y^2 = r^2.
 
 ---
 
-## Problem 33 - Square
-
-Given a list of words, return the shortest unique prefix of each word. For example, given the list:
-
-dog  
-cat  
-apple  
-apricot  
-fish
-
-Return the list:  
-
-d  
-c  
-app  
-apr  
-f  
-
-[See Solution](/problems/1-99/problem-33.js)
-
----
-
-## Problem 34 - Jane Street
-
-Given an arithmetic expression in Reverse Polish Notation, write a program to evaluate it.
-
-The expression is given as a list of numbers and operands. For example: [5, 3, '+'] should return 5 + 3 = 8.
-
-For example, [15, 7, 1, 1, '+', '-', '/', 3, '*', 2, 1, 1, '+', '+', '-'] should return 5, since it is equivalent to ((15 / (7 - (1 + 1))) \* 3) - (2 + (1 + 1)) = 5.
-
-You can assume the given expression is always valid.
-
-[See Solution](/problems/1-99/problem-34.js)
-
----
-
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
