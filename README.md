@@ -184,6 +184,14 @@ Hint: The basic equation of a circle is x^2 + y^2 = r^2.
 
 ---
 
+## Problem 15 - Facebook [Difficulty: Medium]
+
+Given a stream of elements too large to store in memory, pick a random element from the stream with uniform probability.
+
+[See Solution](/problems/1-99/problem-15.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
