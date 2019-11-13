@@ -285,6 +285,16 @@ Do this in O(M + N) time (where M and N are the lengths of the lists) and consta
 
 ---
 
+## Problem 21 - Snapchat [Difficulty: Easy]
+
+Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.
+
+For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
+
+[See Solution](/problems/1-99/problem-21.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
