@@ -359,6 +359,18 @@ Given the regular expression ".*at" and the string "chat", your function should 
 
 ---
 
+## Problem 26 - Google [Difficulty: Medium]
+
+Given a singly linked list and an integer k, remove the kth last element from the list. k is guaranteed to be smaller than the length of the list.
+
+The list is very long, so making more than one pass is prohibitively expensive.
+
+Do this in constant space and in one pass.
+
+[See Solution](/problems/1-99/problem-26.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
