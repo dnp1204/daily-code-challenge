@@ -342,6 +342,23 @@ You may augment the node to add parent pointers or any other property you would 
 
 ---
 
+## Problem 25 - Facebook [Difficulty: Hard]
+
+Implement regular expression matching with the following special characters:
+
+* (.) (period) which matches any single character
+* (*) (asterisk) which matches zero or more of the preceding element
+
+That is, implement a function that takes in a string and a valid regular expression and returns whether or not the string matches the regular expression.
+
+For example, given the regular expression "ra." and the string "ray", your function should return true. The same regular expression on the string "raymond" should return false.
+
+Given the regular expression ".*at" and the string "chat", your function should return true. The same regular expression on the string "chats" should return false.
+
+[See Solution](/problems/1-99/problem-25.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
