@@ -427,6 +427,16 @@ Given the input [3, 0, 1, 3, 0, 5], we can hold 3 units in the first index, 2 in
 
 ---
 
+## Problem 31 - Google [Difficulty: Easy]
+
+The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. For example, the edit distance between “kitten” and “sitting” is three: substitute the “k” for “s”, substitute the “e” for “i”, and append a “g”.
+
+Given two strings, compute the edit distance between them.
+
+[See Solution](/problems/1-99/problem-31.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
