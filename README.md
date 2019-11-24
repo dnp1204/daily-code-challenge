@@ -3319,3 +3319,13 @@ And then called kv.max_key(1), it should return 2, since it's the largest key wi
 [See Solution](/problems/300-399/problem-368.js)
 
 ---
+
+## Problem 369 - Two Sigma [Difficulty: Medium]
+
+You’re tracking stock price at a given instance of time. Implement an API with the following functions: add(), update(), remove(), which adds/updates/removes a data point for the stock price you are tracking. The data is given as (timestamp, price), where timestamp is specified in unix epoch time.
+
+Also, provide max(), min(), and average() functions that give the max/min/average of all values seen thus far.
+
+[See Solution](/problems/300-399/problem-369.js)
+
+---
