@@ -3382,3 +3382,23 @@ The total active time would be 1260 seconds.
 [See Solution](/problems/300-399/problem-370.js)
 
 ---
+
+## Problem 371 - Google [Difficulty: Hard]
+
+You are given a series of arithmetic equations as a string, such as:
+
+    y = x + 1
+    5 = x + 3
+    10 = z + y + 2
+
+The equations use addition only and are separated by newlines. Return a mapping of all variables to their values. If it's not possible, then return null. In this example, you should return:
+
+    {
+        x: 2,
+        y: 3,
+        z: 5
+    }
+
+[See Solution](/problems/300-399/problem-371.js)
+
+---
