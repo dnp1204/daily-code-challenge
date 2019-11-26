@@ -3414,3 +3414,13 @@ The equations use addition only and are separated by newlines. Return a mapping 
 [See Solution](/problems/300-399/problem-371.js)
 
 ---
+
+## Problem 371 - Amazon [Difficulty: Easy]
+
+Write a function that takes a natural number as input and returns the number of digits the input has.
+
+Constraint: don't use any loops.
+
+[See Solution](/problems/300-399/problem-372.js)
+
+---
