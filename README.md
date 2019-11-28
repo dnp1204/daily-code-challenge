@@ -3454,3 +3454,13 @@ For example, given L = [5, 2, 99, 3, 4, 1, 100], return 5 as we can build a sequ
 [See Solution](/problems/300-399/problem-373.js)
 
 ---
+
+## Problem 374 - Amazon [Difficulty: Hard]
+
+Given a sorted array arr of distinct integers, return the lowest index i for which arr[i] == i. Return null if there is no such index.
+
+For example, given the array [-5, -3, 2, 3], return 2 since arr[2] == 2. Even though arr[3] == 3, we return 2 since it's the lowest index.
+
+[See Solution](/problems/300-399/problem-374.js)
+
+---
