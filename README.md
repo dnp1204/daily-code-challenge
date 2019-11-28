@@ -491,6 +491,14 @@ For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should beco
 
 ---
 
+## Problem 36 - Dropbox [Difficulty: Medium]
+
+Given the root to a binary search tree, find the second largest node in the tree.
+
+[See Solution](/problems/1-99/problem-36.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
