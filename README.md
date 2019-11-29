@@ -499,6 +499,16 @@ Given the root to a binary search tree, find the second largest node in the tree
 
 ---
 
+## Problem 37 - Google [Difficulty: Easy]
+
+The power set of a set is the set of all its subsets. Write a function that, given a set, generates its power set.
+
+For example, given the set {1, 2, 3}, it should return {{}, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, {1, 2, 3}}.
+
+[See Solution](/problems/1-99/problem-37.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
