@@ -536,6 +536,18 @@ You can represent a live cell with an asterisk (*) and a dead cell with a dot (.
 
 ---
 
+## Problem 40 - Google [Difficulty: Hard]
+
+Given an array of integers where every integer occurs three times except for one integer, which only occurs once, find and return the non-duplicated integer.
+
+For example, given [6, 1, 3, 3, 3, 6, 6], return 1. Given [13, 19, 13, 13], return 19.
+
+Do this in O(N) time and O(1) space.
+
+[See Solution](/problems/1-99/problem-40.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
