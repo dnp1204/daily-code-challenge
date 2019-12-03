@@ -3598,7 +3598,7 @@ You should return the following, as a string:
 
 ---
 
-## Problem 378 - Microsoft [Difficulty: Easy]
+## Problem 379 - Microsoft [Difficulty: Easy]
 
 Given a string, generate all possible subsequences of the string.
 
