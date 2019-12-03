@@ -3597,3 +3597,23 @@ You should return the following, as a string:
 [See Solution](/problems/300-399/problem-378.js)
 
 ---
+
+## Problem 378 - Microsoft [Difficulty: Easy]
+
+Given a string, generate all possible subsequences of the string.
+
+For example, given the string xyz, return an array or set with the following strings:
+
+    x
+    y
+    z
+    xy
+    xz
+    yz
+    xyz
+
+Note that zx is not a valid subsequence since it is not in the order of the given string.
+
+[See Solution](/problems/300-399/problem-379.js)
+
+---
