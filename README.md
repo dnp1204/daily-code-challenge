@@ -574,6 +574,20 @@ For example, given S = [12, 1, 61, 5, 9, 2] and k = 24, return [12, 9, 2, 1] sin
 
 ---
 
+## Problem 43 - Amazon [Difficulty: Easy]
+
+Implement a stack that has the following methods:
+
+* push(val), which pushes an element onto the stack
+* pop(), which pops off and returns the topmost element of the stack. If there are no elements in the stack, then it should throw an error or return null.
+* max(), which returns the maximum value in the stack currently. If there are no elements in the stack, then it should throw an error or return null.
+
+Each method should run in constant time.
+
+[See Solution](/problems/1-99/problem-43.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
