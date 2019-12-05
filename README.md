@@ -3655,3 +3655,21 @@ Bonus: Can you do it in O(log n) time?
 [See Solution](/problems/300-399/problem-380.js)
 
 ---
+
+## Problem 381 - Paypal [Difficulty: Easy]
+
+Read [this Wikipedia article on Base64 encoding](https://en.wikipedia.org/wiki/Base64).
+
+Implement a function that converts a hex string to base64.
+
+For example, the string:
+
+    deadbeef
+
+should produce:
+
+    3q2+7w==
+
+[See Solution](/problems/300-399/problem-381.js)
+
+---
