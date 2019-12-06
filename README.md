@@ -3701,3 +3701,21 @@ should produce:
 [See Solution](/problems/300-399/problem-381.js)
 
 ---
+
+## Problem 382 - Google [Difficulty: Easy]
+
+Yesterday you implemented a function that encodes a hexadecimal string into Base64.
+
+Write a function to decode a Base64 string back to a hexadecimal string.
+
+For example, the following string:
+
+    3q2+7w==
+
+should produce:
+
+    deadbeef
+
+[See Solution](/problems/300-399/problem-382.js)
+
+---
