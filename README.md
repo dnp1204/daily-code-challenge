@@ -602,6 +602,14 @@ For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has th
 
 ---
 
+## Problem 45 - Two Sigma [Difficulty: Easy]
+
+Using a function rand5() that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function rand7() that returns an integer from 1 to 7 (inclusive).
+
+[See Solution](/problems/1-99/problem-45.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
@@ -3717,5 +3725,19 @@ should produce:
     deadbeef
 
 [See Solution](/problems/300-399/problem-382.js)
+
+---
+
+## Problem 383 - Gusto [Difficulty: Medium]
+
+Implement the function embolden(s, lst) which takes in a string s and list of substrings lst, and wraps all substrings in s with an HTML bold tag `<b>` and `</b>`.
+
+If two bold tags overlap or are contiguous, they should be merged.
+
+For example, given s = abcdefg and lst = ["bc", "ef"], return the string `a<b>bc</b>d<b>ef</b>g`.
+
+Given s = abcdefg and lst = ["bcd", "def"], return the string `a<b>bcdef</b>g`, since they overlap.
+
+[See Solution](/problems/300-399/problem-383.js)
 
 ---
