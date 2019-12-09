@@ -610,6 +610,16 @@ Using a function rand5() that returns an integer from 1 to 5 (inclusive) with un
 
 ---
 
+## Problem 46 - Amazon [Difficulty: Hard]
+
+Given a string, find the longest palindromic contiguous substring. If there are more than one with the maximum length, return any one.
+
+For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The longest palindromic substring of "bananas" is "anana".
+
+[See Solution](/problems/1-99/problem-46.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
