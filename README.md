@@ -620,6 +620,16 @@ For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The long
 
 ---
 
+## Problem 47 - Facebook [Difficulty: Easy]
+
+Given a array of numbers representing the stock prices of a company in chronological order, write a function that calculates the maximum profit you could have made from buying and selling that stock once. You must buy before you can sell it.
+
+For example, given [9, 11, 8, 5, 7, 10], you should return 5, since you could buy the stock at 5 dollars and sell it at 10 dollars.
+
+[See Solution](/problems/1-99/problem-47.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
