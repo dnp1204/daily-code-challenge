@@ -3837,3 +3837,11 @@ For example, given the string tweet, return tteew. eettw would also be acceptabl
 [See Solution](/problems/300-399/problem-386.js)
 
 ---
+
+## Problem 387 - Amazon [Difficulty: Medium]
+
+How would you explain the difference between an API and SDK to a non-technical person?
+
+[See Solution](/problems/300-399/problem-387.js)
+
+---
