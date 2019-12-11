@@ -630,6 +630,30 @@ For example, given [9, 11, 8, 5, 7, 10], you should return 5, since you could bu
 
 ---
 
+## Problem 48 - Google [Difficulty: Medium]
+
+Given pre-order and in-order traversals of a binary tree, write a function to reconstruct the tree.
+
+For example, given the following preorder traversal:
+
+[a, b, d, e, c, f, g]
+
+And the following inorder traversal:
+
+[d, b, e, a, f, c, g]
+
+You should return the following tree:
+
+        a
+       / \
+      b   c
+     / \ / \
+    d  e f  g
+
+[See Solution](/problems/1-99/problem-47.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
