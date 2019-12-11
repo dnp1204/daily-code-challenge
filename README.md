@@ -654,6 +654,20 @@ You should return the following tree:
 
 ---
 
+## Problem 49 - Amazon [Difficulty: Medium]
+
+Given an array of numbers, find the maximum sum of any contiguous subarray of the array.
+
+For example, given the array [34, -50, 42, 14, -5, 86], the maximum sum would be 137, since we would take elements 42, 14, -5, and 86.
+
+Given the array [-5, -1, -8, -9], the maximum sum would be 0, since we would not take any elements.
+
+Do this in O(N) time.
+
+[See Solution](/problems/1-99/problem-49.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
