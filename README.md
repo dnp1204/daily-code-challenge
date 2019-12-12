@@ -668,6 +668,26 @@ Do this in O(N) time.
 
 ---
 
+## Problem 50 - Microsoft [Difficulty: Easy]
+
+Suppose an arithmetic expression is given as a binary tree. Each leaf is an integer and each internal node is one of '+', '−', '∗', or '/'.
+
+Given the root to such a tree, write a function to evaluate it.
+
+For example, given the following tree:
+
+        *
+       / \
+      +    +
+     / \  / \
+    3  2  4  5
+
+You should return 45, as it is (3 + 2) * (4 + 5).
+
+[See Solution](/problems/1-99/problem-50.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
