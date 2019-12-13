@@ -688,6 +688,18 @@ You should return 45, as it is (3 + 2) * (4 + 5).
 
 ---
 
+## Problem 51 - Facebook [Difficulty: Medium]
+
+Given a function that generates perfectly random numbers between 1 and k (inclusive), where k is an input, write a function that shuffles a deck of cards represented as an array using only swaps.
+
+It should run in O(N) time.
+
+Hint: Make sure each one of the 52! permutations of the deck is equally likely.
+
+[See Solution](/problems/1-99/problem-51.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
