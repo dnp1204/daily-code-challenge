@@ -3873,3 +3873,11 @@ How would you explain web cookies to someone non-technical?
 [See Solution](/problems/300-399/problem-388.js)
 
 ---
+
+## Problem 389 - Google [Difficulty: Hard]
+
+Explain the difference between composition and inheritance. In which cases would you use each?
+
+[See Solution](/problems/300-399/problem-389.js)
+
+---
