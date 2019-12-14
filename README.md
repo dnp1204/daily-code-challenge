@@ -700,6 +700,19 @@ Hint: Make sure each one of the 52! permutations of the deck is equally likely.
 
 ---
 
+## Problem 52 - Google [Difficulty: Hard]
+
+Implement an LRU (Least Recently Used) cache. It should be able to be initialized with a cache size n, and contain the following methods:
+
+* set(key, value): sets key to value. If there are already n items in the cache and we are adding a new item, then it should also remove the least recently used item.
+* get(key): gets the value at key. If no such key exists, return null.
+
+Each operation should run in O(1) time.
+
+[See Solution](/problems/1-99/problem-52.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
