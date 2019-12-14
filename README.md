@@ -3893,3 +3893,11 @@ Explain the difference between composition and inheritance. In which cases would
 [See Solution](/problems/300-399/problem-389.js)
 
 ---
+
+## Problem 390 - Two Sigma [Difficulty: Medium]
+
+You are given an unsorted list of 999,000 unique integers, each from 1 and 1,000,000. Find the missing 1000 numbers. What is the computational and space complexity of your solution?
+
+[See Solution](/problems/300-399/problem-390.js)
+
+---
