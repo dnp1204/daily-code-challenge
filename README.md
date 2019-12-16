@@ -721,6 +721,16 @@ Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, fir
 
 ---
 
+## Problem 54 - Dropbox [Difficulty: Hard]
+
+Sudoku is a puzzle where you're given a partially-filled 9 by 9 grid with digits. The objective is to fill the grid with the constraint that every row, column, and box (3 by 3 subgrid) must contain all of the digits from 1 to 9.
+
+Implement an efficient sudoku solver.
+
+[See Solution](/problems/1-99/problem-54.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
