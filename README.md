@@ -731,6 +731,19 @@ Implement an efficient sudoku solver.
 
 ---
 
+## Problem 55 - Microsoft [Difficulty: Easy]
+
+Implement a URL shortener with the following methods:
+
+* shorten(url), which shortens the url into a six-character alphanumeric string, such as zLg6wl.
+* restore(short), which expands the shortened string into the original url. If no such shortened string exists, return null.
+
+Hint: What if we enter the same URL twice?
+
+[See Solution](/problems/1-99/problem-55.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
