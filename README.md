@@ -3997,3 +3997,21 @@ For example, given the array [9, 6, 1, 3, 8, 10, 12, 11], return (8, 12) since 8
 [See Solution](/problems/300-399/problem-393.js)
 
 ---
+
+## Problem 394 - Uber [Difficulty: Easy]
+
+Given a binary tree and an integer k, return whether there exists a root-to-leaf path that sums up to `k`.
+
+For example, given `k = 18` and the following binary tree:
+
+        8
+       / \
+      4   13
+     / \   \
+    2   6   19
+
+Return `True` since the path `8 -> 4 -> 6` sums to 18.
+
+[See Solution](/problems/300-399/problem-394.js)
+
+---
