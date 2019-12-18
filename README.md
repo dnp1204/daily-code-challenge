@@ -744,6 +744,14 @@ Hint: What if we enter the same URL twice?
 
 ---
 
+## Problem 56 - Google [Difficulty: Medium]
+
+Given an undirected graph represented as an adjacency matrix and an integer k, write a function to determine whether each vertex in the graph can be colored such that no two adjacent vertices share the same color using at most k colors.
+
+[See Solution](/problems/1-99/problem-56.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
