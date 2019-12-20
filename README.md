@@ -4035,3 +4035,21 @@ Return `True` since the path `8 -> 4 -> 6` sums to 18.
 [See Solution](/problems/300-399/problem-394.js)
 
 ---
+
+## Problem 395 - Robinhood [Difficulty: Medium]
+
+Given an array of strings, group anagrams together.
+
+For example, given the following array:
+
+    ['eat', 'ate', 'apt', 'pat', 'tea', 'now']
+
+Return:
+
+    [['eat', 'ate', 'tea'],
+    ['apt', 'pat'],
+    ['now']]
+
+[See Solution](/problems/300-399/problem-395.js)
+
+---
