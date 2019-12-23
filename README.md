@@ -798,6 +798,18 @@ Given the multiset {15, 5, 20, 10, 35}, it would return false, since we can't sp
 
 ---
 
+## Problem 61 - Google [Difficulty: Medium]
+
+Implement integer exponentiation. That is, implement the pow(x, y) function, where x and y are integers and returns x^y.
+
+Do this faster than the naive method of repeated multiplication.
+
+For example, pow(2, 10) should return 1024.
+
+[See Solution](/problems/1-99/problem-61.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
