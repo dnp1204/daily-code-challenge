@@ -778,6 +778,14 @@ You can assume all the integers in the array are unique.
 
 ---
 
+## Problem 59 - Google [Difficulty: Hard]
+
+Implement a file syncing algorithm for two computers over a low-bandwidth network. What if we know the files in the two computers are mostly the same?
+
+[See Solution](/problems/1-99/problem-59.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
