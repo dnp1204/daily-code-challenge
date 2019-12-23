@@ -4152,3 +4152,23 @@ Do this in one pass.
 [See Solution](/problems/300-399/problem-398.js)
 
 ---
+
+## Problem 399 - Facebook [Difficulty: Hard]
+
+Given a list of strictly positive integers, partition the list into 3 contiguous partitions which each sum up to the same value. If not possible, return null.
+
+For example, given the following list:
+
+    [3, 5, 8, 0, 8]
+
+Return the following 3 partitions:
+
+    [[3, 5],
+     [8, 0],
+     [8]]
+
+Which each add up to 8.
+
+[See Solution](/problems/300-399/problem-399.js)
+
+---
