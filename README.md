@@ -4099,3 +4099,19 @@ Return:
 [See Solution](/problems/300-399/problem-395.js)
 
 ---
+
+## Problem 396 - Google [Difficulty: Hard]
+
+Given a string, return the length of the longest palindromic subsequence in the string.
+
+For example, given the following string:
+
+    MAPTPTMTPA
+
+Return 7, since the longest palindromic subsequence in the string is `APTMTPA`. Recall that a subsequence of a string does not have to be contiguous!
+
+Your algorithm should run in O(n^2) time and space.
+
+[See Solution](/problems/300-399/problem-396.js)
+
+---
