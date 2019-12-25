@@ -810,6 +810,21 @@ For example, pow(2, 10) should return 1024.
 
 ---
 
+## Problem 62 - Facebook [Difficulty: Medium]
+
+There is an N by M matrix of zeroes. Given N and M, write a function to count the number of ways of starting at the top-left corner and getting to the bottom-right corner. You can only move right or down.
+
+For example, given a 2 by 2 matrix, you should return 2, since there are two ways to get to the bottom-right:
+
+* Right, then down
+* Down, then right
+
+Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
+
+[See Solution](/problems/1-99/problem-62.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
