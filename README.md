@@ -825,6 +825,23 @@ Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
 
 ---
 
+## Problem 63 - Microsoft [Difficulty: Easy]
+
+Given a 2D matrix of characters and a target word, write a function that returns whether the word can be found in the matrix by going left-to-right, or up-to-down.
+
+For example, given the following matrix:
+
+    [['F', 'A', 'C', 'I'],
+     ['O', 'B', 'Q', 'P'],
+     ['A', 'N', 'O', 'B'],
+     ['M', 'A', 'S', 'S']]
+
+and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
+
+[See Solution](/problems/1-99/problem-63.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
