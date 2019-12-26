@@ -4216,3 +4216,13 @@ You can assume that you can do some pre-processing. sum() should be optimized ov
 [See Solution](/problems/400-499/problem-400.js)
 
 ---
+
+## Problem 401 - Twitter [Difficulty: Easy]
+
+A permutation can be specified by an array `P`, where `P[i]` represents the location of the element at `i` in the permutation. For example, `[2, 1, 0]` represents the permutation where elements at the index `0` and `2` are swapped.
+
+Given an array and a permutation, apply the permutation to the array. For example, given the array `["a", "b", "c"]` and the permutation `[2, 1, 0]`, return `["c", "b", "a"]`.
+
+[See Solution](/problems/400-499/problem-401.js)
+
+---
