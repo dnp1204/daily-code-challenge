@@ -842,6 +842,16 @@ and the target word 'FOAM', you should return true, since it's the leftmost colu
 
 ---
 
+## Problem 64 - Google [Difficulty: Hard]
+
+A knight's tour is a sequence of moves by a knight on a chessboard such that all squares are visited once.
+
+Given N, write a function to return the number of knight's tours on an N by N chessboard.
+
+[See Solution](/problems/1-99/problem-64.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
