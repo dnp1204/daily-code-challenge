@@ -4302,3 +4302,13 @@ Using a function rand5() that returns an integer from 1 to 5 (inclusive) with un
 [See Solution](/problems/400-499/problem-403.js)
 
 ---
+
+## Problem 404 - Snapchat [Difficulty: Easy]
+
+Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.
+
+For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
+
+[See Solution](/problems/400-499/problem-404.js)
+
+---
