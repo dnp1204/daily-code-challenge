@@ -900,6 +900,19 @@ Write a function to simulate an unbiased coin toss.
 
 ---
 
+## Problem 67 - Google [Difficulty: Hard]
+
+Implement an LFU (Least Frequently Used) cache. It should be able to be initialized with a cache size `n`, and contain the following methods:
+
+* `set(key, value)`: sets `key` to `value`. If there are already n items in the cache and we are adding a new item, then it should also remove the least frequently used item. If there is a tie, then the least recently used key should be removed.
+* `get(key)`: gets the value at `key`. If no such key exists, return null.
+
+Each operation should run in O(1) time.
+
+[See Solution](/problems/1-99/problem-67.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
