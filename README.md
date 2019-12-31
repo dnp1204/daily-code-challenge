@@ -940,6 +940,18 @@ You should return 2, since bishops 1 and 3 attack each other, as well as bishops
 
 ---
 
+## Problem 69 - Facebook [Difficulty: Easy]
+
+Given a list of integers, return the largest product that can be made by multiplying any three integers.
+
+For example, if the list is `[-10, -10, 5, 2]`, we should return `500`, since that's `-10 * -10 * 5`.
+
+You can assume the list has at least three integers.
+
+[See Solution](/problems/1-99/problem-69.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
