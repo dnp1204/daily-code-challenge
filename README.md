@@ -952,6 +952,18 @@ You can assume the list has at least three integers.
 
 ---
 
+## Problem 70 - Microsoft [Difficulty: Easy]
+
+A number is considered perfect if its digits sum up to exactly 10.
+
+Given a positive integer n, return the n-th perfect number.
+
+For example, given 1, you should return 19. Given 2, you should return 28.
+
+[See Solution](/problems/1-99/problem-70.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
