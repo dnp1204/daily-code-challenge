@@ -3937,3 +3937,13 @@ For example, suppose your input is `[1.3, 2.3, 4.4]`. In this case you cannot do
 [See Solution](/problems/400-499/problem-410.js)
 
 ---
+
+## Problem 411 - Google [Difficulty: Hard]
+
+Given a string which we can delete at most k, return whether you can make a palindrome.
+
+For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get 'waterretaw'.
+
+[See Solution](/problems/400-499/problem-411.js)
+
+---
