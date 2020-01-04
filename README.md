@@ -1003,6 +1003,14 @@ Should return null, since we have an infinite loop.
 
 ---
 
+## Problem 73 - Google [Difficulty: Easy]
+
+Given the head of a singly linked list, reverse it in-place.
+
+[See Solution](/problems/1-99/problem-73.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
