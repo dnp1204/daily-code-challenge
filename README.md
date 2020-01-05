@@ -3973,3 +3973,21 @@ For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get 
 [See Solution](/problems/400-499/problem-411.js)
 
 ---
+
+## Problem 412 - Epic [Difficulty: Medium]
+
+The "look and say" sequence is defined as follows: beginning with the term 1, each subsequent term visually describes the digits appearing in the previous term. The first few terms are as follows:
+
+    1   
+    11
+    21
+    1211
+    111221
+
+As an example, the fourth term is `1211`, since the third term consists of one `2` and one `1`.
+
+Given an integer `N`, print the `N`th term of this sequence.
+
+[See Solution](/problems/400-499/problem-412.js)
+
+---
