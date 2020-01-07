@@ -4055,3 +4055,11 @@ What if, instead of being able to climb 1 or 2 steps at a time, you could climb 
 [See Solution](/problems/400-499/problem-413.js)
 
 ---
+
+## Problem 414 - Microsoft [Difficulty: Hard]
+
+You have an N by N board. Write a function that, given N, returns the number of possible arrangements of the board where N queens can be placed on the board without threatening each other, i.e. no two queens share the same row, column, or diagonal.
+
+[See Solution](/problems/400-499/problem-414.js)
+
+---
