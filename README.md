@@ -1095,6 +1095,14 @@ For example, given [(1, 3), (5, 8), (4, 10), (20, 25)], you should return [(1, 3
 
 ---
 
+## Problem 78 - Google [Difficulty: Medium]
+
+Given k sorted singly linked lists, write a function to merge all the lists into one sorted singly linked list.
+
+[See Solution](/problems/1-99/problem-78.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
