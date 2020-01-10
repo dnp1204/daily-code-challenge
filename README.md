@@ -1103,6 +1103,18 @@ Given k sorted singly linked lists, write a function to merge all the lists into
 
 ---
 
+## Problem 79 - Facebook [Difficulty: Medium]
+
+Given an array of integers, write a function to determine whether the array could become non-decreasing by modifying at most 1 element.
+
+For example, given the array [10, 5, 7], you should return true, since we can modify the 10 into a 1 to make the array non-decreasing.
+
+Given the array [10, 5, 1], you should return false, since we can't modify any one element to get a non-decreasing array.
+
+[See Solution](/problems/1-99/problem-79.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
