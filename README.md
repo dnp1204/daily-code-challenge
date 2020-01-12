@@ -1115,6 +1115,20 @@ Given the array [10, 5, 1], you should return false, since we can't modify any o
 
 ---
 
+## Problem 80 - Google [Difficulty: Easy]
+
+Given the root of a binary tree, return a deepest node. For example, in the following tree, return d.
+
+        a
+       / \
+      b   c
+     /
+    d
+
+[See Solution](/problems/1-99/problem-80.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
