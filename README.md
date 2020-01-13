@@ -1139,6 +1139,16 @@ For example if {“2”: [“a”, “b”, “c”], 3: [“d”, “e”, “f
 
 ---
 
+## Problem 82 - Microsoft [Difficulty: Easy]
+
+Using a read7() method that returns 7 characters from a file, implement readN(n) which reads n characters.
+
+For example, given a file with the content “Hello world”, three read7() returns “Hello w”, “orld” and then “”.
+
+[See Solution](/problems/1-99/problem-82.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
