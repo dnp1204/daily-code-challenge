@@ -1129,6 +1129,16 @@ Given the root of a binary tree, return a deepest node. For example, in the foll
 
 ---
 
+## Problem 81 - Yelp [Difficulty: Easy]
+
+Given a mapping of digits to letters (as in a phone number), and a digit string, return all possible letters the number could represent. You can assume each valid number in the mapping is a single digit.
+
+For example if {“2”: [“a”, “b”, “c”], 3: [“d”, “e”, “f”], …} then “23” should return [“ad”, “ae”, “af”, “bd”, “be”, “bf”, “cd”, “ce”, “cf"].
+
+[See Solution](/problems/1-99/problem-81.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.

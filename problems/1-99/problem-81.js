@@ -22,7 +22,6 @@ var letterCombinations = function(digits) {
     '9': ['w', 'x', 'y', 'z']
   };
   const nums = digits.split('');
-  const result = [];
 
   const helper = function(nums) {
     if (nums.length === 0) return [];
