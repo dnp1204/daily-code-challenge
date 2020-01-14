@@ -1149,6 +1149,30 @@ For example, given a file with the content “Hello world”, three read7() retu
 
 ---
 
+## Problem 83 - Google [Difficulty: Medium]
+
+Invert a binary tree.
+
+For example, given the following tree:
+
+        a
+       / \
+      b   c
+     / \  /
+    d   e f
+
+should become:
+
+      a
+     / \
+    c   b
+    \  / \
+     f e  d
+
+[See Solution](/problems/1-99/problem-83.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
