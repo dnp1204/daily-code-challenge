@@ -4266,3 +4266,13 @@ Given an array of a million integers between zero and a billion, out of order, h
 [See Solution](/problems/400-499/problem-421.js)
 
 ---
+
+## Problem 422 - Salesforce [Difficulty: Easy]
+
+Write a program to merge two binary trees. Each node in the new tree should hold a value equal to the sum of the values of the corresponding nodes of the input trees.
+
+If only one input tree has a node in a given position, the corresponding node in the new tree should match that input node.
+
+[See Solution](/problems/400-499/problem-422.js)
+
+---
