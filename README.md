@@ -1173,6 +1173,23 @@ should become:
 
 ---
 
+## Problem 84 - Amazon [Difficulty: Medium]
+
+Given a matrix of 1s and 0s, return the number of "islands" in the matrix. A 1 represents land and 0 represents water, so an island is a group of 1s that are neighboring whose perimeter is surrounded by water.
+
+For example, this matrix has 4 islands.
+
+    1 0 0 0 0
+    0 0 1 1 0
+    0 1 1 0 0
+    0 0 0 0 0
+    1 1 0 0 1
+    1 1 0 0 1
+
+[See Solution](/problems/1-99/problem-84.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
