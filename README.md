@@ -1190,6 +1190,14 @@ For example, this matrix has 4 islands.
 
 ---
 
+## Problem 85 - Facebook [Difficulty: Medium]
+
+Given three 32-bit integers x, y, and b, return x if b is 1 and y if b is 0, using only mathematical or bit operations. You can assume b can only be 1 or 0.
+
+[See Solution](/problems/1-99/problem-85.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
