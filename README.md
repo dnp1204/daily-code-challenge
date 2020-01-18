@@ -4320,3 +4320,15 @@ Given a graph, find its transitive closure.
 [See Solution](/problems/400-499/problem-423.js)
 
 ---
+
+## Problem 424 - Facebook [Difficulty: Medium]
+
+Given an array of integers in which two elements appear exactly once and all other elements appear exactly twice, find the two elements that appear only once.
+
+For example, given the array `[2, 4, 6, 8, 10, 2, 6, 10]`, return `4` and `8`. The order does not matter.
+
+Follow-up: Can you do this in linear time and constant space?
+
+[See Solution](/problems/400-499/problem-424.js)
+
+---
