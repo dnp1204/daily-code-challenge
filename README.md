@@ -1208,6 +1208,35 @@ For example, given the string "()())()", you should return 1. Given the string "
 
 ---
 
+## Problem 87 - Uber [Difficulty: Hard]
+
+A rule looks like this:
+
+    A NE B
+
+This means this means point `A` is located northeast of point `B`.
+
+    A SW C
+
+means that point `A` is southwest of `C`.
+
+Given a list of rules, check if the sum of the rules validate. For example:
+
+    A N B
+    B NE C
+    C N A
+
+does not validate, since `A` cannot be both north and south of `C`.
+
+    A NW B
+    A N B
+
+is considered valid.
+
+[See Solution](/problems/1-99/problem-87.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
