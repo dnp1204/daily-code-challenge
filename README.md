@@ -4361,3 +4361,26 @@ Follow-up: Can you do this in linear time and constant space?
 [See Solution](/problems/400-499/problem-424.js)
 
 ---
+
+## Problem 425 - Oracle [Difficulty: Hard]
+
+You are presented with an `8` by `8` matrix representing the positions of pieces on a chess board. The only pieces on the board are the black king and various white pieces. Given this matrix, determine whether the king is in check.
+
+For details on how each piece moves, see here.
+
+For example, given the following matrix:
+
+    ...K....
+    ........
+    .B......
+    ......P.
+    .......R
+    ..N.....
+    ........
+    .....Q..
+
+You should return `True`, since the bishop is attacking the king diagonally.
+
+[See Solution](/problems/400-499/problem-425.js)
+
+---
