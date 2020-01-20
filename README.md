@@ -1245,6 +1245,16 @@ Implement division of two positive integers without using the division, multipli
 
 ---
 
+## Problem 89 - LinkedIn [Difficulty: Medium]
+
+Determine whether a tree is a valid binary search tree.
+
+A binary search tree is a tree with two children, left and right, and satisfies the constraint that the key in the left child must be less than or equal to the root and the key in the right child must be greater than or equal to the root.
+
+[See Solution](/problems/1-99/problem-89.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
