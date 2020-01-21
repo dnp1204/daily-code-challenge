@@ -1255,6 +1255,14 @@ A binary search tree is a tree with two children, left and right, and satisfies 
 
 ---
 
+## Problem 90 - Google [Difficulty: Medium]
+
+Given an integer `n` and a list of integers `l`, write a function that randomly generates a number from `0` to `n-1` that isn't in `l` (uniform).
+
+[See Solution](/problems/1-99/problem-90.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
