@@ -4471,3 +4471,26 @@ For example, given the stones `[1, 1, 3, 3, 2, 1]`, the optimal solution is to p
 [See Solution](/problems/400-499/problem-428.js)
 
 ---
+
+## Problem 429 - Stitch Fix [Difficulty: Medium]
+
+Pascal's triangle is a triangular array of integers constructed with the following formula:
+
+* The first row consists of the number 1.
+* For each subsequent row, each element is the sum of the numbers directly above it, on either side.
+
+For example, here are the first few rows:
+
+        1
+       1 1
+      1 2 1
+     1 3 3 1
+    1 4 6 4 1
+
+Given an input k, return the kth row of Pascal's triangle.
+
+Bonus: Can you do this using only O(k) space?
+
+[See Solution](/problems/400-499/problem-429.js)
+
+---
