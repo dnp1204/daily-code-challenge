@@ -1263,6 +1263,21 @@ Given an integer `n` and a list of integers `l`, write a function that randomly 
 
 ---
 
+## Problem 91 - Dropbox [Difficulty: Easy]
+
+What does the below code snippet print out? How can we fix the anonymous functions to behave as we'd expect?
+
+    functions = []
+    for i in range(10):
+        functions.append(lambda : i)
+
+    for f in functions:
+        print(f())
+
+[See Solution](/problems/1-99/problem-91.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
