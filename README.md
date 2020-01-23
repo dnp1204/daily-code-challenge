@@ -4506,3 +4506,13 @@ Bonus: Can you do this using only O(k) space?
 [See Solution](/problems/400-499/problem-429.js)
 
 ---
+
+## Problem 430 - Facebook [Difficulty: Hard]
+
+Given a string of parentheses, find the balanced string that can be produced from it using the minimum number of insertions and deletions. If there are multiple solutions, return any of them.
+
+For example, given "(()", you could return "(())". Given "))()(", you could return "()()()()".
+
+[See Solution](/problems/400-499/problem-430.js)
+
+---
