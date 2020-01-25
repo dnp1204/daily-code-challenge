@@ -1,8 +1,8 @@
 /**
- * Company: Snapchat.
+ * Company: Apple.
  *
- * Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.
+ * Given a tree, find the largest tree/subtree that is a BST.
  *
- * For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
+ * Given a tree, return the size of the largest tree/subtree that is a BST.
  * TODO:
  */

@@ -1,8 +1,7 @@
 /**
- * Company: Twitter.
+ * Company: Two Sigma.
  *
- * A strobogrammatic number is a positive number that appears the same after being rotated 180 degrees. For example, 16891 is strobogrammatic.
- *
- * Create a program that finds all strobogrammatic numbers with N digits.
+ * Using a function rand5() that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function rand7()
+ * that returns an integer from 1 to 7 (inclusive).
  * TODO:
  */

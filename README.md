@@ -3570,7 +3570,7 @@ Implement a quack using three stacks and O(1) additional memory, so that the amo
 
 ---
 
-## Problem 367 - Two Sigma [Difficulty: Medium]
+## Problem 366 - Two Sigma [Difficulty: Medium]
 
 Given two sorted iterators, merge it into one iterator.
 
@@ -3593,11 +3593,11 @@ You should be able to do:
 
 Bonus: Make it work without pulling in the contents of the iterators in memory.
 
-[See Solution](/problems/300-399/problem-367.js)
+[See Solution](/problems/300-399/problem-366.js)
 
 ---
 
-## Problem 368 - Google [Difficulty: Hard]
+## Problem 367 - Google [Difficulty: Hard]
 
 Implement a key value store, where keys and values are integers, with the following methods:
 
@@ -3612,21 +3612,21 @@ For example, if we ran the following calls:
 
 And then called kv.max_key(1), it should return 2, since it's the largest key with value 1.
 
-[See Solution](/problems/300-399/problem-368.js)
+[See Solution](/problems/300-399/problem-367.js)
 
 ---
 
-## Problem 369 - Two Sigma [Difficulty: Medium]
+## Problem 368 - Two Sigma [Difficulty: Medium]
 
 You’re tracking stock price at a given instance of time. Implement an API with the following functions: add(), update(), remove(), which adds/updates/removes a data point for the stock price you are tracking. The data is given as (timestamp, price), where timestamp is specified in unix epoch time.
 
 Also, provide max(), min(), and average() functions that give the max/min/average of all values seen thus far.
 
-[See Solution](/problems/300-399/problem-369.js)
+[See Solution](/problems/300-399/problem-368.js)
 
 ---
 
-## Problem 370 - Postmates [Difficulty: Easy]
+## Problem 369 - Postmates [Difficulty: Easy]
 
 The “active time” of a courier is the time between the pickup and dropoff of a delivery. Given a set of data formatted like the following:
 
@@ -3645,11 +3645,11 @@ For example, if the input is the following:
 
 The total active time would be 1260 seconds.
 
-[See Solution](/problems/300-399/problem-370.js)
+[See Solution](/problems/300-399/problem-369.js)
 
 ---
 
-## Problem 371 - Google [Difficulty: Hard]
+## Problem 370 - Google [Difficulty: Hard]
 
 You are given a series of arithmetic equations as a string, such as:
 
@@ -3665,41 +3665,41 @@ The equations use addition only and are separated by newlines. Return a mapping 
         z: 5
     }
 
-[See Solution](/problems/300-399/problem-371.js)
+[See Solution](/problems/300-399/problem-370.js)
 
 ---
 
-## Problem 372 - Amazon [Difficulty: Easy]
+## Problem 371 - Amazon [Difficulty: Easy]
 
 Write a function that takes a natural number as input and returns the number of digits the input has.
 
 Constraint: don't use any loops.
 
-[See Solution](/problems/300-399/problem-372.js)
+[See Solution](/problems/300-399/problem-371.js)
 
 ---
 
-## Problem 373 - Facebook [Difficulty: Hard]
+## Problem 372 - Facebook [Difficulty: Hard]
 
 Given a list of integers L, find the maximum length of a sequence of consecutive numbers that can be formed using elements from L.
 
 For example, given L = [5, 2, 99, 3, 4, 1, 100], return 5 as we can build a sequence [1, 2, 3, 4, 5] which has length 5.
 
-[See Solution](/problems/300-399/problem-373.js)
+[See Solution](/problems/300-399/problem-372.js)
 
 ---
 
-## Problem 374 - Amazon [Difficulty: Hard]
+## Problem 373 - Amazon [Difficulty: Hard]
 
 Given a sorted array arr of distinct integers, return the lowest index i for which arr[i] == i. Return null if there is no such index.
 
 For example, given the array [-5, -3, 2, 3], return 2 since arr[2] == 2. Even though arr[3] == 3, we return 2 since it's the lowest index.
 
-[See Solution](/problems/300-399/problem-374.js)
+[See Solution](/problems/300-399/problem-373.js)
 
 ---
 
-## Problem 375 - Google [Difficulty: Medium]
+## Problem 374 - Google [Difficulty: Medium]
 
 The h-index is a metric used to measure the impact and productivity of a scientist or researcher.
 
@@ -3713,11 +3713,11 @@ For example, if the array was:
 
 This means the researcher has 5 papers with 4, 1, 0, 2, and 3 citations respectively. The h-index for this researcher is 2, since they have 2 papers with at least 2 citations and the remaining 3 papers have no more than 2 citations.
 
-[See Solution](/problems/300-399/problem-375.js)
+[See Solution](/problems/300-399/problem-374.js)
 
 ---
 
-## Problem 376 - Google [Difficulty: Easy]
+## Problem 375 - Google [Difficulty: Easy]
 
 You are writing an AI for a 2D map game. You are somewhere in a 2D grid, and there are coins strewn about over the map.
 
@@ -3740,11 +3740,11 @@ return (0, 4), since that coin is closest. This map would be represented in our 
 Our position: (0, 2)
 Coins: [(0, 4), (1, 0), (2, 0), (3, 2)]
 
-[See Solution](/problems/300-399/problem-376.js)
+[See Solution](/problems/300-399/problem-375.js)
 
 ---
 
-## Problem 377 - Microsoft [Difficulty: Hard]
+## Problem 376 - Microsoft [Difficulty: Hard]
 
 Given an array of numbers arr and a window of size k, print out the median of each window of size k starting from the left and moving right by one position each time.
 
@@ -3763,11 +3763,11 @@ Your function should print out the following:
 
 Recall that the median of an even-sized list is the average of the two middle numbers.
 
-[See Solution](/problems/300-399/problem-377.js)
+[See Solution](/problems/300-399/problem-376.js)
 
 ---
 
-## Problem 378 - Coinbase [Difficulty: Medium]
+## Problem 377 - Coinbase [Difficulty: Medium]
 
 Write a function that takes in a number, string, list, or dictionary and returns its JSON encoding. It should also handle nulls.
 
@@ -3779,11 +3779,11 @@ You should return the following, as a string:
 
     '[null, 123, ["a", "b"], {"c": "d"}]'
 
-[See Solution](/problems/300-399/problem-378.js)
+[See Solution](/problems/300-399/problem-377.js)
 
 ---
 
-## Problem 379 - Microsoft [Difficulty: Easy]
+## Problem 378 - Microsoft [Difficulty: Easy]
 
 Given a string, generate all possible subsequences of the string.
 
@@ -3799,11 +3799,11 @@ For example, given the string xyz, return an array or set with the following str
 
 Note that zx is not a valid subsequence since it is not in the order of the given string.
 
-[See Solution](/problems/300-399/problem-379.js)
+[See Solution](/problems/300-399/problem-378.js)
 
 ---
 
-## Problem 380 - Nextdoor [Difficulty: Medium]
+## Problem 379 - Nextdoor [Difficulty: Medium]
 
 Implement integer division without using the division operator. Your function should return a tuple of (dividend, remainder) and it should take two numbers, the product and divisor.
 
@@ -3811,11 +3811,11 @@ For example, calling divide(10, 3) should return (3, 1) since the divisor is 3 a
 
 Bonus: Can you do it in O(log n) time?
 
-[See Solution](/problems/300-399/problem-380.js)
+[See Solution](/problems/300-399/problem-379.js)
 
 ---
 
-## Problem 381 - Paypal [Difficulty: Easy]
+## Problem 380 - Paypal [Difficulty: Easy]
 
 Read [this Wikipedia article on Base64 encoding](https://en.wikipedia.org/wiki/Base64).
 
@@ -3829,11 +3829,11 @@ should produce:
 
     3q2+7w==
 
-[See Solution](/problems/300-399/problem-381.js)
+[See Solution](/problems/300-399/problem-380.js)
 
 ---
 
-## Problem 382 - Google [Difficulty: Easy]
+## Problem 381 - Google [Difficulty: Easy]
 
 Yesterday you implemented a function that encodes a hexadecimal string into Base64.
 
@@ -3847,11 +3847,11 @@ should produce:
 
     deadbeef
 
-[See Solution](/problems/300-399/problem-382.js)
+[See Solution](/problems/300-399/problem-381.js)
 
 ---
 
-## Problem 383 - Gusto [Difficulty: Medium]
+## Problem 382 - Gusto [Difficulty: Medium]
 
 Implement the function embolden(s, lst) which takes in a string s and list of substrings lst, and wraps all substrings in s with an HTML bold tag `<b>` and `</b>`.
 
@@ -3861,11 +3861,11 @@ For example, given s = abcdefg and lst = ["bc", "ef"], return the string `a<b>bc
 
 Given s = abcdefg and lst = ["bcd", "def"], return the string `a<b>bcdef</b>g`, since they overlap.
 
-[See Solution](/problems/300-399/problem-383.js)
+[See Solution](/problems/300-399/problem-382.js)
 
 ---
 
-## Problem 384 - WeWork [Difficulty: Hard]
+## Problem 383 - WeWork [Difficulty: Hard]
 
 You are given an array of integers representing coin denominations and a total amount of money. Write a function to compute the fewest number of coins needed to make up that amount. If it is not possible to make that amount, return null.
 
@@ -3873,11 +3873,11 @@ For example, given an array of [1, 5, 10] and an amount 56, return 7 since we ca
 
 Given an array of [5, 8] and an amount 15, return 3 since we can use 5 5-cent coins.
 
-[See Solution](/problems/300-399/problem-384.js)
+[See Solution](/problems/300-399/problem-383.js)
 
 ---
 
-## Problem 385 - Apple [Difficulty: Medium]
+## Problem 384 - Apple [Difficulty: Medium]
 
 You are given a hexadecimal-encoded string that has been XOR'd against a single char.
 
@@ -3889,53 +3889,53 @@ You should be able to decrypt it and get:
 
     Hello world from Daily Coding Problem
 
-[See Solution](/problems/300-399/problem-385.js)
+[See Solution](/problems/300-399/problem-384.js)
 
 ---
 
-## Problem 386 - Twitter [Difficulty: Easy]
+## Problem 385 - Twitter [Difficulty: Easy]
 
 Given a string, sort it in decreasing order based on the frequency of characters. If there are multiple possible solutions, return any of them.
 
 For example, given the string tweet, return tteew. eettw would also be acceptable.
 
+[See Solution](/problems/300-399/problem-385.js)
+
+---
+
+## Problem 386 - Amazon [Difficulty: Medium]
+
+How would you explain the difference between an API and SDK to a non-technical person?
+
 [See Solution](/problems/300-399/problem-386.js)
 
 ---
 
-## Problem 387 - Amazon [Difficulty: Medium]
+## Problem 387 - Airtable [Difficulty: Medium]
 
-How would you explain the difference between an API and SDK to a non-technical person?
+How would you explain web cookies to someone non-technical?
 
 [See Solution](/problems/300-399/problem-387.js)
 
 ---
 
-## Problem 388 - Airtable [Difficulty: Medium]
+## Problem 388 - Google [Difficulty: Hard]
 
-How would you explain web cookies to someone non-technical?
+Explain the difference between composition and inheritance. In which cases would you use each?
 
 [See Solution](/problems/300-399/problem-388.js)
 
 ---
 
-## Problem 389 - Google [Difficulty: Hard]
+## Problem 389 - Two Sigma [Difficulty: Medium]
 
-Explain the difference between composition and inheritance. In which cases would you use each?
+You are given an unsorted list of 999,000 unique integers, each from 1 and 1,000,000. Find the missing 1000 numbers. What is the computational and space complexity of your solution?
 
 [See Solution](/problems/300-399/problem-389.js)
 
 ---
 
-## Problem 390 - Two Sigma [Difficulty: Medium]
-
-You are given an unsorted list of 999,000 unique integers, each from 1 and 1,000,000. Find the missing 1000 numbers. What is the computational and space complexity of your solution?
-
-[See Solution](/problems/300-399/problem-390.js)
-
----
-
-## Problem 391 - Facebook [Difficulty: Hard]
+## Problem 390 - Facebook [Difficulty: Hard]
 
 We have some historical clickstream data gathered from our site anonymously using cookies. The histories contain URLs that users have visited in chronological order.
 
@@ -3950,11 +3950,11 @@ You should return the following:
 
     ['/login', '/user', '/one']
 
-[See Solution](/problems/300-399/problem-391.js)
+[See Solution](/problems/300-399/problem-390.js)
 
 ---
 
-## Problem 392 - Google [Difficulty: Hard]
+## Problem 391 - Google [Difficulty: Hard]
 
 You are given a 2D matrix of 1s and 0s where 1 represents land and 0 represents water.
 
@@ -3973,21 +3973,21 @@ For example, given the following matrix:
 
 Return 14.
 
-[See Solution](/problems/300-399/problem-392.js)
+[See Solution](/problems/300-399/problem-391.js)
 
 ---
 
-## Problem 393 - Airbnb [Difficulty: Medium]
+## Problem 392 - Airbnb [Difficulty: Medium]
 
 Given an array of integers, return the largest range, inclusive, of integers that are all included in the array.
 
 For example, given the array [9, 6, 1, 3, 8, 10, 12, 11], return (8, 12) since 8, 9, 10, 11, and 12 are all in the array.
 
-[See Solution](/problems/300-399/problem-393.js)
+[See Solution](/problems/300-399/problem-392.js)
 
 ---
 
-## Problem 394 - Uber [Difficulty: Easy]
+## Problem 393 - Uber [Difficulty: Easy]
 
 Given a binary tree and an integer k, return whether there exists a root-to-leaf path that sums up to `k`.
 
@@ -4001,11 +4001,11 @@ For example, given `k = 18` and the following binary tree:
 
 Return `True` since the path `8 -> 4 -> 6` sums to 18.
 
-[See Solution](/problems/300-399/problem-394.js)
+[See Solution](/problems/300-399/problem-393.js)
 
 ---
 
-## Problem 395 - Robinhood [Difficulty: Medium]
+## Problem 394 - Robinhood [Difficulty: Medium]
 
 Given an array of strings, group anagrams together.
 
@@ -4019,11 +4019,11 @@ Return:
     ['apt', 'pat'],
     ['now']]
 
-[See Solution](/problems/300-399/problem-395.js)
+[See Solution](/problems/300-399/problem-394.js)
 
 ---
 
-## Problem 396 - Google [Difficulty: Hard]
+## Problem 395 - Google [Difficulty: Hard]
 
 Given a string, return the length of the longest palindromic subsequence in the string.
 
@@ -4035,11 +4035,11 @@ Return 7, since the longest palindromic subsequence in the string is `APTMTPA`. 
 
 Your algorithm should run in O(n^2) time and space.
 
-[See Solution](/problems/300-399/problem-396.js)
+[See Solution](/problems/300-399/problem-395.js)
 
 ---
 
-## Problem 397 - Microsoft [Difficulty: Medium]
+## Problem 396 - Microsoft [Difficulty: Medium]
 
 You are given a list of jobs to be done, where each job is represented by a start time and end time. Two jobs are compatible if they don't overlap. Find the largest subset of compatible jobs.
 
@@ -4060,11 +4060,11 @@ Return:
     (4, 7),
     (8, 11)]
 
-[See Solution](/problems/300-399/problem-397.js)
+[See Solution](/problems/300-399/problem-396.js)
 
 ---
 
-## Problem 398 - Amazon [Difficulty: Medium]
+## Problem 397 - Amazon [Difficulty: Medium]
 
 Given a linked list and an integer `k`, remove the k-th node from the end of the list and return the head of the list.
 
@@ -4072,11 +4072,11 @@ Given a linked list and an integer `k`, remove the k-th node from the end of the
 
 Do this in one pass.
 
-[See Solution](/problems/300-399/problem-398.js)
+[See Solution](/problems/300-399/problem-397.js)
 
 ---
 
-## Problem 399 - Facebook [Difficulty: Hard]
+## Problem 398 - Facebook [Difficulty: Hard]
 
 Given a list of strictly positive integers, partition the list into 3 contiguous partitions which each sum up to the same value. If not possible, return null.
 
@@ -4092,11 +4092,11 @@ Return the following 3 partitions:
 
 Which each add up to 8.
 
-[See Solution](/problems/300-399/problem-399.js)
+[See Solution](/problems/300-398/problem-399.js)
 
 ---
 
-## Problem 400 - Goldman Sachs [Difficulty: Hard]
+## Problem 399 - Goldman Sachs [Difficulty: Hard]
 
 Given a list of numbers L, implement a method sum(i, j) which returns the sum from the sublist L[i:j] (including i, excluding j).
 
@@ -4104,59 +4104,59 @@ For example, given L = [1, 2, 3, 4, 5], sum(1, 3) should return sum([2, 3]), whi
 
 You can assume that you can do some pre-processing. sum() should be optimized over the pre-processing step.
 
+[See Solution](/problems/399-499/problem-400.js)
+
+---
+
+## Problem 400 - Twitter [Difficulty: Easy]
+
+A permutation can be specified by an array `P`, where `P[i]` represents the location of the element at `i` in the permutation. For example, `[2, 1, 0]` represents the permutation where elements at the index `0` and `2` are swapped.
+
+Given an array and a permutation, apply the permutation to the array. For example, given the array `["a", "b", "c"]` and the permutation `[2, 1, 0]`, return `["c", "b", "a"]`.
+
 [See Solution](/problems/400-499/problem-400.js)
 
 ---
 
 ## Problem 401 - Twitter [Difficulty: Easy]
 
-A permutation can be specified by an array `P`, where `P[i]` represents the location of the element at `i` in the permutation. For example, `[2, 1, 0]` represents the permutation where elements at the index `0` and `2` are swapped.
+A strobogrammatic number is a positive number that appears the same after being rotated 180 degrees. For example, 16891 is strobogrammatic.
 
-Given an array and a permutation, apply the permutation to the array. For example, given the array `["a", "b", "c"]` and the permutation `[2, 1, 0]`, return `["c", "b", "a"]`.
+Create a program that finds all strobogrammatic numbers with N digits.
 
 [See Solution](/problems/400-499/problem-401.js)
 
 ---
 
-## Problem 402 - Twitter [Difficulty: Easy]
+## Problem 402 - Two Sigma [Difficulty: Easy]
 
-A strobogrammatic number is a positive number that appears the same after being rotated 180 degrees. For example, 16891 is strobogrammatic.
-
-Create a program that finds all strobogrammatic numbers with N digits.
+Using a function rand5() that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function rand7() that returns an integer from 1 to 7 (inclusive).
 
 [See Solution](/problems/400-499/problem-402.js)
 
 ---
 
-## Problem 403 - Two Sigma [Difficulty: Easy]
-
-Using a function rand5() that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function rand7() that returns an integer from 1 to 7 (inclusive).
-
-[See Solution](/problems/400-499/problem-403.js)
-
----
-
-## Problem 404 - Snapchat [Difficulty: Easy]
+## Problem 403 - Snapchat [Difficulty: Easy]
 
 Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.
 
 For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
 
-[See Solution](/problems/400-499/problem-404.js)
+[See Solution](/problems/400-499/problem-403.js)
 
 ---
 
-## Problem 405 - Apple [Difficulty: Hard]
+## Problem 404 - Apple [Difficulty: Hard]
 
 Given a tree, find the largest tree/subtree that is a BST.
 
 Given a tree, return the size of the largest tree/subtree that is a BST.
 
-[See Solution](/problems/400-499/problem-405.js)
+[See Solution](/problems/400-499/problem-404.js)
 
 ---
 
-## Problem 406 - Quantcast [Difficulty: Hard]
+## Problem 405 - Quantcast [Difficulty: Hard]
 
 You are presented with an array representing a Boolean expression. The elements are of two kinds:
 
@@ -4167,11 +4167,11 @@ Determine the number of ways to group the array elements using parentheses so th
 
 For example, suppose the input is `['F', '|', 'T', '&', 'T']`. In this case, there are two acceptable groupings: `(F | T) & T` and `F | (T & T)`.
 
-[See Solution](/problems/400-499/problem-406.js)
+[See Solution](/problems/400-499/problem-405.js)
 
 ---
 
-## Problem 407 - Samsung [Difficulty: Medium]
+## Problem 406 - Samsung [Difficulty: Medium]
 
 A group of houses is connected to the main water plant by means of a set of pipes. A house can either be connected by a set of pipes extending directly to the plant, or indirectly by a pipe to a nearby house which is otherwise connected.
 
@@ -4190,21 +4190,21 @@ In the following setup, for example, we can remove all but the pipes from `plant
         'C': {}
     }
 
-[See Solution](/problems/400-499/problem-407.js)
+[See Solution](/problems/400-499/problem-406.js)
 
 ---
 
-## Problem 408 - Facebook [Difficulty: Medium]
+## Problem 407 - Facebook [Difficulty: Medium]
 
 Given an array of numbers representing the stock prices of a company in chronological order and an integer `k`, return the maximum profit you can make from `k` buys and sells. You must buy the stock before you can sell it, and you must sell the stock before you can buy it again.
 
 For example, given `k` = 2 and the array `[5, 2, 4, 0, 1]`, you should return 3.
 
-[See Solution](/problems/400-499/problem-408.js)
+[See Solution](/problems/400-499/problem-407.js)
 
 ---
 
-## Problem 409 - Google [Difficulty: Hard]
+## Problem 408 - Google [Difficulty: Hard]
 
 PageRank is an algorithm used by Google to rank the importance of different websites. While there have been changes over the years, the central idea is to assign each site a score based on the importance of other pages that link to that page.
 
@@ -4216,11 +4216,11 @@ Here, `Sx`, `Sy`, `...`, `Sz` denote the scores of all the other sites that have
 
 Given a directed graph of links between various websites, write a program that calculates each site's page rank.
 
-[See Solution](/problems/400-499/problem-409.js)
+[See Solution](/problems/400-499/problem-408.js)
 
 ---
 
-## Problem 410 - Airbnb [Difficulty: Hard]
+## Problem 409 - Airbnb [Difficulty: Hard]
 
 You are given an array `X` of floating-point numbers `x1`, `x2`, ... `xn`. These can be rounded up or down to create a corresponding array `Y` of integers `y1`, `y2`, ... `yn`.
 
@@ -4231,21 +4231,21 @@ Write an algorithm that finds an appropriate `Y` array with the following proper
 
 For example, suppose your input is `[1.3, 2.3, 4.4]`. In this case you cannot do better than `[1, 2, 5]`, which has an absolute difference of `|1.3 - 1| + |2.3 - 2| + |4.4 - 5| = 1`.
 
-[See Solution](/problems/400-499/problem-410.js)
+[See Solution](/problems/400-499/problem-409.js)
 
 ---
 
-## Problem 411 - Google [Difficulty: Hard]
+## Problem 410 - Google [Difficulty: Hard]
 
 Given a string which we can delete at most k, return whether you can make a palindrome.
 
 For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get 'waterretaw'.
 
-[See Solution](/problems/400-499/problem-411.js)
+[See Solution](/problems/400-499/problem-410.js)
 
 ---
 
-## Problem 412 - Epic [Difficulty: Medium]
+## Problem 411 - Epic [Difficulty: Medium]
 
 The "look and say" sequence is defined as follows: beginning with the term 1, each subsequent term visually describes the digits appearing in the previous term. The first few terms are as follows:
 
@@ -4259,11 +4259,11 @@ As an example, the fourth term is `1211`, since the third term consists of one `
 
 Given an integer `N`, print the `N`th term of this sequence.
 
-[See Solution](/problems/400-499/problem-412.js)
+[See Solution](/problems/400-499/problem-411.js)
 
 ---
 
-## Problem 413 - Amazon [Difficulty: Hard]
+## Problem 412 - Amazon [Difficulty: Hard]
 
 There exists a staircase with N steps, and you can climb up either 1 or 2 steps at a time. Given N, write a function that returns the number of unique ways you can climb the staircase. The order of the steps matters.
 
@@ -4277,19 +4277,19 @@ For example, if N is 4, then there are 5 unique ways:
 
 What if, instead of being able to climb 1 or 2 steps at a time, you could climb any number from a set of positive integers X? For example, if X = {1, 3, 5}, you could climb 1, 3, or 5 steps at a time.
 
+[See Solution](/problems/400-499/problem-412.js)
+
+---
+
+## Problem 413 - Microsoft [Difficulty: Hard]
+
+You have an N by N board. Write a function that, given N, returns the number of possible arrangements of the board where N queens can be placed on the board without threatening each other, i.e. no two queens share the same row, column, or diagonal.
+
 [See Solution](/problems/400-499/problem-413.js)
 
 ---
 
-## Problem 414 - Microsoft [Difficulty: Hard]
-
-You have an N by N board. Write a function that, given N, returns the number of possible arrangements of the board where N queens can be placed on the board without threatening each other, i.e. no two queens share the same row, column, or diagonal.
-
-[See Solution](/problems/400-499/problem-414.js)
-
----
-
-## Problem 415 - Affirm [Difficulty: Hard]
+## Problem 414 - Affirm [Difficulty: Hard]
 
 Given a array of numbers representing the stock prices of a company in chronological order, write a function that calculates the maximum profit you could have made from buying and selling that stock. You're also given a number fee that represents a transaction fee for each buy and sell transaction.
 
@@ -4297,11 +4297,11 @@ You must buy before you can sell the stock, but you can make as many transaction
 
 For example, given [1, 3, 2, 8, 4, 10] and fee = 2, you should return 9, since you could buy the stock at 1 dollar, and sell at 8 dollars, and then buy it at 4 dollars and sell it at 10 dollars. Since we did two transactions, there is a 4 dollar fee, so we have 7 + 6 = 13 profit minus 4 dollars of fees.
 
-[See Solution](/problems/400-499/problem-415.js)
+[See Solution](/problems/400-499/problem-414.js)
 
 ---
 
-## Problem 416 - Google [Difficulty: Easy]
+## Problem 415 - Google [Difficulty: Easy]
 
 You are in an infinite 2D grid where you can move in any of the 8 directions:
 
@@ -4324,21 +4324,21 @@ Example:
 
 It takes 1 step to move from `(0, 0)` to `(1, 1)`. It takes one more step to move from `(1, 1)` to `(1, 2)`.
 
-[See Solution](/problems/400-499/problem-416.js)
+[See Solution](/problems/400-499/problem-415.js)
 
 ---
 
-## Problem 417 - Amazon [Difficulty: Easy]
+## Problem 416 - Amazon [Difficulty: Easy]
 
 Given a linked list, remove all consecutive nodes that sum to zero. Print out the remaining nodes.
 
 For example, suppose you are given the input 3 -> 4 -> -7 -> 5 -> -6 -> 6. In this case, you should first remove 3 -> 4 -> -7, then -6 -> 6, leaving only 5.
 
-[See Solution](/problems/400-499/problem-417.js)
+[See Solution](/problems/400-499/problem-416.js)
 
 ---
 
-## Problem 418 - Atlassian [Difficulty: Easy]
+## Problem 417 - Atlassian [Difficulty: Easy]
 
 MegaCorp wants to give bonuses to its employees based on how many lines of codes they have written. They would like to give the smallest positive amount to each worker consistent with the constraint that if a developer has written more lines of code than their neighbor, they should receive more money.
 
@@ -4346,11 +4346,11 @@ Given an array representing a line of seats of employees at MegaCorp, determine 
 
 For example, given `[10, 40, 200, 1000, 60, 30]`, you should return `[1, 2, 3, 4, 2, 1]`.
 
-[See Solution](/problems/400-499/problem-418.js)
+[See Solution](/problems/400-499/problem-417.js)
 
 ---
 
-## Problem 419 - PagerDuty [Difficulty: Easy]
+## Problem 418 - PagerDuty [Difficulty: Easy]
 
 Given a positive integer `N`, find the smallest number of steps it will take to reach `1`.
 
@@ -4361,11 +4361,11 @@ There are two kinds of permitted steps:
 
 For example, given `100`, you can reach `1` in five steps with the following route: `100 -> 10 -> 9 -> 3 -> 2 -> 1`.
 
-[See Solution](/problems/400-499/problem-419.js)
+[See Solution](/problems/400-499/problem-418.js)
 
 ---
 
-## Problem 420 - Microsoft [Difficulty: Easy]
+## Problem 419 - Microsoft [Difficulty: Easy]
 
 A number is considered perfect if its digits sum up to exactly 10.
 
@@ -4373,29 +4373,29 @@ Given a positive integer `n`, return the `n`-th perfect number.
 
 For example, given 1, you should return 19. Given 2, you should return 28.
 
+[See Solution](/problems/400-499/problem-419.js)
+
+---
+
+## Problem 420 - Amazon [Difficulty: Medium]
+
+Given an array of a million integers between zero and a billion, out of order, how can you efficiently sort it? Assume that you cannot store an array of a billion elements in memory.
+
 [See Solution](/problems/400-499/problem-420.js)
 
 ---
 
-## Problem 421 - Amazon [Difficulty: Medium]
-
-Given an array of a million integers between zero and a billion, out of order, how can you efficiently sort it? Assume that you cannot store an array of a billion elements in memory.
-
-[See Solution](/problems/400-499/problem-421.js)
-
----
-
-## Problem 422 - Salesforce [Difficulty: Easy]
+## Problem 421 - Salesforce [Difficulty: Easy]
 
 Write a program to merge two binary trees. Each node in the new tree should hold a value equal to the sum of the values of the corresponding nodes of the input trees.
 
 If only one input tree has a node in a given position, the corresponding node in the new tree should match that input node.
 
-[See Solution](/problems/400-499/problem-422.js)
+[See Solution](/problems/400-499/problem-421.js)
 
 ---
 
-## Problem 423 - Microsoft [Difficulty: Easy]
+## Problem 422 - Microsoft [Difficulty: Easy]
 
 The transitive closure of a graph is a measure of which vertices are reachable from other vertices. It can be represented as a matrix M, where `M[i][j] == 1` if there is a path between vertices `i` and `j`, and otherwise `0`.
 
@@ -4417,11 +4417,11 @@ The transitive closure of this graph would be:
 
 Given a graph, find its transitive closure.
 
-[See Solution](/problems/400-499/problem-423.js)
+[See Solution](/problems/400-499/problem-422.js)
 
 ---
 
-## Problem 424 - Facebook [Difficulty: Medium]
+## Problem 423 - Facebook [Difficulty: Medium]
 
 Given an array of integers in which two elements appear exactly once and all other elements appear exactly twice, find the two elements that appear only once.
 
@@ -4429,11 +4429,11 @@ For example, given the array `[2, 4, 6, 8, 10, 2, 6, 10]`, return `4` and `8`. T
 
 Follow-up: Can you do this in linear time and constant space?
 
-[See Solution](/problems/400-499/problem-424.js)
+[See Solution](/problems/400-499/problem-423.js)
 
 ---
 
-## Problem 425 - Oracle [Difficulty: Hard]
+## Problem 424 - Oracle [Difficulty: Hard]
 
 You are presented with an `8` by `8` matrix representing the positions of pieces on a chess board. The only pieces on the board are the black king and various white pieces. Given this matrix, determine whether the king is in check.
 
@@ -4452,19 +4452,19 @@ For example, given the following matrix:
 
 You should return `True`, since the bishop is attacking the king diagonally.
 
+[See Solution](/problems/400-499/problem-424.js)
+
+---
+
+## Problem 425 - Facebook [Difficulty: Easy]
+
+Given a binary tree, return the level of the tree with minimum sum.
+
 [See Solution](/problems/400-499/problem-425.js)
 
 ---
 
-## Problem 426 - Facebook [Difficulty: Easy]
-
-Given a binary tree, return the level of the tree with minimum sum.
-
-[See Solution](/problems/400-499/problem-426.js)
-
----
-
-## Problem 427 - Square [Difficulty: Medium]
+## Problem 426 - Square [Difficulty: Medium]
 
 A competitive runner would like to create a route that starts and ends at his house, with the condition that the route goes entirely uphill at first, and then entirely downhill.
 
@@ -4486,11 +4486,11 @@ For example, suppose you are given the following input:
 
 In this case, the shortest valid path would be 0 -> 2 -> 4 -> 0, with a distance of 28.
 
-[See Solution](/problems/400-499/problem-427.js)
+[See Solution](/problems/400-499/problem-426.js)
 
 ---
 
-## Problem 428 - Uber [Difficulty: Hard]
+## Problem 427 - Uber [Difficulty: Hard]
 
 You have `N` stones in a row, and would like to create from them a pyramid. This pyramid should be constructed such that the height of each stone increases by one until reaching the tallest stone, after which the heights decrease by one. In addition, the start and end stones of the pyramid should each be one stone high.
 
@@ -4498,11 +4498,11 @@ You can change the height of any stone by paying a cost of `1` unit to lower its
 
 For example, given the stones `[1, 1, 3, 3, 2, 1]`, the optimal solution is to pay `2` to create `[0, 1, 2, 3, 2, 1]`.
 
-[See Solution](/problems/400-499/problem-428.js)
+[See Solution](/problems/400-499/problem-427.js)
 
 ---
 
-## Problem 429 - Stitch Fix [Difficulty: Medium]
+## Problem 428 - Stitch Fix [Difficulty: Medium]
 
 Pascal's triangle is a triangular array of integers constructed with the following formula:
 
@@ -4521,21 +4521,21 @@ Given an input k, return the kth row of Pascal's triangle.
 
 Bonus: Can you do this using only O(k) space?
 
-[See Solution](/problems/400-499/problem-429.js)
+[See Solution](/problems/400-499/problem-428.js)
 
 ---
 
-## Problem 430 - Facebook [Difficulty: Hard]
+## Problem 429 - Facebook [Difficulty: Hard]
 
 Given a string of parentheses, find the balanced string that can be produced from it using the minimum number of insertions and deletions. If there are multiple solutions, return any of them.
 
 For example, given "(()", you could return "(())". Given "))()(", you could return "()()()()".
 
-[See Solution](/problems/400-499/problem-430.js)
+[See Solution](/problems/400-499/problem-429.js)
 
 ---
 
-## Problem 431 - Google [Difficulty: Hard]
+## Problem 430 - Google [Difficulty: Hard]
 
 Design a system to crawl and copy all of Wikipedia using a distributed network of machines.
 
@@ -4548,6 +4548,6 @@ Some questions you may want to consider as part of your solution are:
 * How will you deal with your client machines being blacklisted?
 * How can you update your database when Wikipedia pages are added or updated?
 
-[See Solution](/problems/400-499/problem-431.js)
+[See Solution](/problems/400-499/problem-430.js)
 
 ---

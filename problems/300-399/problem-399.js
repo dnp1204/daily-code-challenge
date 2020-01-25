@@ -1,19 +1,10 @@
 /**
- * Company: Facebook.
+ * Company: Goldman Sachs.
  *
- * Given a list of strictly positive integers, partition the list into 3 contiguous partitions which each sum up to the same value.
- * If not possible, return null.
+ * Given a list of numbers L, implement a method sum(i, j) which returns the sum from the sublist L[i:j] (including i, excluding j).
  *
- * For example, given the following list:
+ * For example, given L = [1, 2, 3, 4, 5], sum(1, 3) should return sum([2, 3]), which is 5.
  *
- * [3, 5, 8, 0, 8]
- *
- * Return the following 3 partitions:
- *
- * [[3, 5],
- *  [8, 0],
- *  [8]]
- *
- * Which each add up to 8.
+ * You can assume that you can do some pre-processing. sum() should be optimized over the pre-processing step.
  * TODO:
  */

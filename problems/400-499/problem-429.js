@@ -1,12 +1,9 @@
 /**
- * Company: Stitch Fix.
+ * Company: Facebook.
  *
- * Pascal's triangle is a triangular array of integers constructed with the following formula:
+ * Given a string of parentheses, find the balanced string that can be produced from it using the minimum number of insertions
+ * and deletions. If there are multiple solutions, return any of them.
  *
- * The first row consists of the number 1.
- * For each subsequent row, each element is the sum of the numbers directly above it, on either side.
- *
- * Given an input k, return the kth row of Pascal's triangle.
- * Bonus: Can you do this using only O(k) space?
+ * For example, given "(()", you could return "(())". Given "))()(", you could return "()()()()".
  * TODO:
  */

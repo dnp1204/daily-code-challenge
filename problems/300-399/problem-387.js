@@ -1,6 +1,5 @@
 /**
- * Company: Amazon.
+ * Company: Airtable.
  *
- * How would you explain the difference between an API and SDK to a non-technical person?
- * TODO:
+ * How would you explain web cookies to someone non-technical?
  */

@@ -1,8 +1,17 @@
 /**
- * Company: Google.
+ * Company: Epic.
  *
- * Given a string which we can delete at most k, return whether you can make a palindrome.
+ * The "look and say" sequence is defined as follows: beginning with the term 1, each subsequent term visually describes the
+ * digits appearing in the previous term. The first few terms are as follows:
  *
- * For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get 'waterretaw'.
+ * 1
+ * 11
+ * 21
+ * 1211
+ * 111221
+ *
+ * As an example, the fourth term is 1211, since the third term consists of one 2 and one 1.
+ *
+ * Given an integer N, print the Nth term of this sequence.
  * TODO:
  */

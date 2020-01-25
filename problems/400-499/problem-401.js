@@ -1,10 +1,8 @@
 /**
  * Company: Twitter.
  *
- * A permutation can be specified by an array P, where P[i] represents the location of the element at i in the permutation.
- * For example, [2, 1, 0] represents the permutation where elements at the index 0 and 2 are swapped.
+ * A strobogrammatic number is a positive number that appears the same after being rotated 180 degrees. For example, 16891 is strobogrammatic.
  *
- * Given an array and a permutation, apply the permutation to the array. For example, given the array ["a", "b", "c"] and
- * the permutation [2, 1, 0], return ["c", "b", "a"].
+ * Create a program that finds all strobogrammatic numbers with N digits.
  * TODO:
  */

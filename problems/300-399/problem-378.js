@@ -1,14 +1,17 @@
 /**
- * Company: Coinbase.
+ * Company: Microsoft.
  *
- * Write a function that takes in a number, string, list, or dictionary and returns its JSON encoding. It should also handle nulls.
+ * Given a string, generate all possible subsequences of the string.
  *
- * For example, given the following input:
+ * For example, given the string xyz, return an array or set with the following strings:
+ * x
+ * y
+ * z
+ * xy
+ * xz
+ * yz
+ * xyz
  *
- * [None, 123, ["a", "b"], {"c":"d"}]
- *
- * You should return the following, as a string:
- *
- * '[null, 123, ["a", "b"], {"c": "d"}]'
+ * Note that zx is not a valid subsequence since it is not in the order of the given string.
  * TODO:
  */

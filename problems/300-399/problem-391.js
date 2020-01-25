@@ -1,19 +1,24 @@
 /**
- * Company: Facebook.
+ * Company: Google.
  *
- * We have some historical clickstream data gathered from our site anonymously using cookies. The histories contain URLs that users have
- * visited in chronological order.
+ * You are given a 2D matrix of 1s and 0s where 1 represents land and 0 represents water.
  *
- * Write a function that takes two users' browsing histories as input and returns the longest contiguous sequence of URLs that appear in
- * both.
+ * Grid cells are connected horizontally orvertically (not diagonally). The grid is completely surrounded by water, and there is exactly
+ * one island (i.e., one or more connected land cells).
  *
- * For example, given the following two users' histories:
+ * An island is a group is cells connected horizontally or vertically, but not diagonally. There is guaranteed to be exactly one island
+ * in this grid, and the island doesn't have water inside that isn't connected to the water around the island. Each cell has a side length
+ * of 1.
  *
- * user1 = ['/home', '/register', '/login', '/user', '/one', '/two']
- * user2 = ['/home', '/red', '/login', '/user', '/one', '/pink']
+ * Determine the perimeter of this island.
  *
- * You should return the following:
+ * For example, given the following matrix:
  *
- * ['/login', '/user', '/one']
+ * [[0, 1, 1, 0],
+ * [1, 1, 1, 0],
+ * [0, 1, 1, 0],
+ * [0, 0, 1, 0]]
+ *
+ * Return 14.
  * TODO:
  */

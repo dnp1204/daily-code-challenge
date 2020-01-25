@@ -1,7 +1,8 @@
 /**
- * Company: Two Sigma.
+ * Company: Snapchat.
  *
- * Using a function rand5() that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function rand7()
- * that returns an integer from 1 to 7 (inclusive).
+ * Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.
+ *
+ * For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
  * TODO:
  */

@@ -1,25 +1,11 @@
 /**
- * Company: Microsoft.
+ * Company: Facebook.
  *
- * The transitive closure of a graph is a measure of which vertices are reachable from other vertices. It can be represented
- * as a matrix M, where M[i][j] == 1 if there is a path between vertices i and j, and otherwise 0.
+ * Given an array of integers in which two elements appear exactly once and all other elements appear exactly twice, find
+ * the two elements that appear only once.
  *
- * For example, suppose we are given the following graph in adjacency list form:
+ * For example, given the array [2, 4, 6, 8, 10, 2, 6, 10], return 4 and 8. The order does not matter.
  *
- * graph = [
- *  [0, 1, 3],
- *  [1, 2],
- *  [2],
- *  [3]
- * ]
- *
- * The transitive closure of this graph would be:
- *
- * [1, 1, 1, 1]
- * [0, 1, 1, 0]
- * [0, 0, 1, 0]
- * [0, 0, 0, 1]
- *
- * Given a graph, find its transitive closure.
+ * Follow-up: Can you do this in linear time and constant space?
  * TODO:
  */

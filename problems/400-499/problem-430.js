@@ -1,9 +1,16 @@
 /**
- * Company: Facebook.
+ * Company: Google.
  *
- * Given a string of parentheses, find the balanced string that can be produced from it using the minimum number of insertions
- * and deletions. If there are multiple solutions, return any of them.
+ * Design a system to crawl and copy all of Wikipedia using a distributed network of machines.
  *
- * For example, given "(()", you could return "(())". Given "))()(", you could return "()()()()".
+ * More specifically, suppose your server has access to a set of client machines. Your client machines can execute code you have
+ * written to access Wikipedia pages, download and parse their data, and write the results to a database.
+ *
+ * Some questions you may want to consider as part of your solution are:
+ *
+ * How will you reach as many pages as possible?
+ * How can you keep track of pages that have already been visited?
+ * How will you deal with your client machines being blacklisted?
+ * How can you update your database when Wikipedia pages are added or updated?
  * TODO:
  */

@@ -1,23 +1,9 @@
 /**
- * Company: Samsung.
+ * Company: Facebook.
  *
- * A group of houses is connected to the main water plant by means of a set of pipes. A house can either be connected by a set of pipes
- * extending directly to the plant, or indirectly by a pipe to a nearby house which is otherwise connected.
+ * Given an array of numbers representing the stock prices of a company in chronological order and an integer k, return the maximum profit
+ * you can make from k buys and sells. You must buy the stock before you can sell it, and you must sell the stock before you can buy it again.
  *
- * For example, here is a possible configuration, where A, B, and C are houses, and arrows represent pipes:
- *
- * A <--> B <--> C <--> plant
- *
- * Each pipe has an associated cost, which the utility company would like to minimize. Given an undirected graph of pipe connections,
- * return the lowest cost configuration of pipes such that each house has access to water.
- *
- * In the following setup, for example, we can remove all but the pipes from plant to A, plant to B, and B to C, for a total cost of 16.
- *
- * pipes = {
- *  'plant': {'A': 1, 'B': 5, 'C': 20},
- *  'A': {'C': 15},
- *  'B': {'C': 10},
- *  'C': {}
- * }
+ * For example, given k = 2 and the array [5, 2, 4, 0, 1], you should return 3.
  * TODO:
  */

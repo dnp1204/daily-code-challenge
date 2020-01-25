@@ -1,17 +1,16 @@
 /**
- * Company: Google.
+ * Company: Airbnb.
  *
- * PageRank is an algorithm used by Google to rank the importance of different websites. While there have been changes over the years,
- * the central idea is to assign each site a score based on the importance of other pages that link to that page.
+ * You are given an array X of floating-point numbers x1, x2, ... xn. These can be rounded up or down to create a corresponding array Y
+ * of integers y1, y2, ... yn.
  *
- * More mathematically, suppose there are N sites, and each site i has a certain count Ci of outgoing links. Then the score for a particular
- * site Sj is defined as :
+ * Write an algorithm that finds an appropriate Y array with the following properties:
  *
- * score(Sj) = (1 - d) / N + d * (score(Sx) / Cx+ score(Sy) / Cy+ ... + score(Sz) / Cz))
+ * The rounded sums of both arrays should be equal.
+ * The absolute pairwise difference between elements is minimized. In other words, |x1- y1| + |x2- y2| + ... + |xn- yn| should be as small
+ * as possible.
  *
- * Here, Sx, Sy, ..., Sz denote the scores of all the other sites that have outgoing links to Sj, and d is a damping factor, usually set to
- * around 0.85, used to model the probability that a user will stop searching.
- *
- * Given a directed graph of links between various websites, write a program that calculates each site's page rank.
+ * For example, suppose your input is [1.3, 2.3, 4.4]. In this case you cannot do better than [1, 2, 5], which has an absolute difference
+ * of |1.3 - 1| + |2.3 - 2| + |4.4 - 5| = 1.
  * TODO:
  */

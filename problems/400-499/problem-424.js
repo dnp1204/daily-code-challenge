@@ -1,11 +1,22 @@
 /**
- * Company: Facebook.
+ * Company: Oracle.
  *
- * Given an array of integers in which two elements appear exactly once and all other elements appear exactly twice, find
- * the two elements that appear only once.
+ * You are presented with an 8 by 8 matrix representing the positions of pieces on a chess board. The only pieces on the
+ * board are the black king and various white pieces. Given this matrix, determine whether the king is in check.
  *
- * For example, given the array [2, 4, 6, 8, 10, 2, 6, 10], return 4 and 8. The order does not matter.
+ * For details on how each piece moves, see here.
  *
- * Follow-up: Can you do this in linear time and constant space?
+ * For example, given the following matrix:
+ *
+ * ...K....
+ * ........
+ * .B......
+ * ......P.
+ * .......R
+ * ..N.....
+ * ........
+ * .....Q..
+ *
+ * You should return True, since the bishop is attacking the king diagonally.
  * TODO:
  */

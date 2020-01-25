@@ -1,13 +1,12 @@
 /**
- * Company: Uber.
+ * Company: Stitch Fix.
  *
- * You have N stones in a row, and would like to create from them a pyramid. This pyramid should be constructed such that the height
- * of each stone increases by one until reaching the tallest stone, after which the heights decrease by one. In addition, the start
- * and end stones of the pyramid should each be one stone high.
+ * Pascal's triangle is a triangular array of integers constructed with the following formula:
  *
- * You can change the height of any stone by paying a cost of 1 unit to lower its height by 1, as many times as necessary. Given this
- * information, determine the lowest cost method to produce this pyramid.
+ * The first row consists of the number 1.
+ * For each subsequent row, each element is the sum of the numbers directly above it, on either side.
  *
- * For example, given the stones [1, 1, 3, 3, 2, 1], the optimal solution is to pay 2 to create [0, 1, 2, 3, 2, 1].
+ * Given an input k, return the kth row of Pascal's triangle.
+ * Bonus: Can you do this using only O(k) space?
  * TODO:
  */

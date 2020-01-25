@@ -1,27 +1,13 @@
 /**
- * Company: Square.
+ * Company: Uber.
  *
- * A competitive runner would like to create a route that starts and ends at his house, with the condition that the route
- * goes entirely uphill at first, and then entirely downhill.
+ * You have N stones in a row, and would like to create from them a pyramid. This pyramid should be constructed such that the height
+ * of each stone increases by one until reaching the tallest stone, after which the heights decrease by one. In addition, the start
+ * and end stones of the pyramid should each be one stone high.
  *
- * Given a dictionary of places of the form {location: elevation}, and a dictionary mapping paths between some of these
- * locations to their corresponding distances, find the length of the shortest route satisfying the condition above. Assume
- * the runner's home is location 0.
+ * You can change the height of any stone by paying a cost of 1 unit to lower its height by 1, as many times as necessary. Given this
+ * information, determine the lowest cost method to produce this pyramid.
  *
- * For example, suppose you are given the following input:
- *
- * elevations = {0: 5, 1: 25, 2: 15, 3: 20, 4: 10}
- * paths = {
- *  (0, 1): 10,
- *  (0, 2): 8,
- *  (0, 3): 15,
- *  (1, 3): 12,
- *  (2, 4): 10,
- *  (3, 4): 5,
- *  (3, 0): 17,
- *  (4, 0): 10
- * }
- *
- * In this case, the shortest valid path would be 0 -> 2 -> 4 -> 0, with a distance of 28.
+ * For example, given the stones [1, 1, 3, 3, 2, 1], the optimal solution is to pay 2 to create [0, 1, 2, 3, 2, 1].
  * TODO:
  */

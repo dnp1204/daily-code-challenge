@@ -1,25 +1,17 @@
 /**
- * Company: Two Sigma.
+ * Company: Google.
  *
- * Given two sorted iterators, merge it into one iterator.
+ * Implement a key value store, where keys and values are integers, with the following methods:
  *
- * For example, given these two iterators:
+ * update(key, vl): updates the value at key to val, or sets it if doesn't exist
+ * get(key): returns the value with key, or None if no such value exists
+ * max_key(val): returns the largest key with value val, or None if no key with that value exists
  *
- *  foo = iter([5, 10, 15])
- *  bar = iter([3, 8, 9])
+ * For example, if we ran the following calls:
  *
- * You should be able to do:
+ * kv.update(1, 1)
+ * kv.update(2, 1)
  *
- *  for num in merge_iterators(foo, bar):
- *    print(num)
- *
- * # 3
- * # 5
- * # 8
- * # 9
- * # 10
- * # 15
- *
- * Bonus: Make it work without pulling in the contents of the iterators in memory.
+ * And then called kv.max_key(1), it should return 2, since it's the largest key with value 1.
  * TODO:
  */

@@ -1,10 +1,10 @@
 /**
- * Company: Goldman Sachs.
+ * Company: Twitter.
  *
- * Given a list of numbers L, implement a method sum(i, j) which returns the sum from the sublist L[i:j] (including i, excluding j).
+ * A permutation can be specified by an array P, where P[i] represents the location of the element at i in the permutation.
+ * For example, [2, 1, 0] represents the permutation where elements at the index 0 and 2 are swapped.
  *
- * For example, given L = [1, 2, 3, 4, 5], sum(1, 3) should return sum([2, 3]), which is 5.
- *
- * You can assume that you can do some pre-processing. sum() should be optimized over the pre-processing step.
+ * Given an array and a permutation, apply the permutation to the array. For example, given the array ["a", "b", "c"] and
+ * the permutation [2, 1, 0], return ["c", "b", "a"].
  * TODO:
  */
