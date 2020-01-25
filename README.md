@@ -1290,6 +1290,16 @@ For example, given {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC10
 
 ---
 
+## Problem 93 - Apple [Difficulty: Hard]
+
+Given a tree, find the largest tree/subtree that is a BST.
+
+Given a tree, return the size of the largest tree/subtree that is a BST.
+
+[See Solution](/problems/1-99/problem-93.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
