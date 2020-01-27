@@ -1320,6 +1320,16 @@ Can you perform the operation without allocating extra memory (disregarding the 
 
 ---
 
+## Problem 96 - Microsoft [Difficulty: Easy]
+
+Given a number in the form of a list of digits, return all possible permutations.
+
+For example, given `[1,2,3]`, return `[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]`.
+
+[See Solution](/problems/1-99/problem-96.js)
+
+---
+
 ## Problem 121 - MongoDB
 
 Given a list of elements, find the majority element, which appears more than half the time (> floor(len(lst) / 2.0)). You can assume that such element exists.
