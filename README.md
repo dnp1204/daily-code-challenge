@@ -4581,3 +4581,13 @@ Given an integer n, find the next biggest integer with the same number of 1-bits
 [See Solution](/problems/400-499/problem-431.js)
 
 ---
+
+## Problem 432 - Oracle [Difficulty: Easy]
+
+Given a binary search tree, find the floor and ceiling of a given integer. The floor is the highest element in the tree less than or equal to an integer, while the ceiling is the lowest element in the tree greater than or equal to an integer.
+
+If either value does not exist, return None.
+
+[See Solution](/problems/400-499/problem-432.js)
+
+---
