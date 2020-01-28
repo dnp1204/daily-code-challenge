@@ -4621,3 +4621,27 @@ If either value does not exist, return None.
 [See Solution](/problems/400-499/problem-432.js)
 
 ---
+
+## Problem 433 - Google [Difficulty: Medium]
+
+Given pre-order and in-order traversals of a binary tree, write a function to reconstruct the tree.
+
+For example, given the following preorder traversal:
+
+[a, b, d, e, c, f, g]
+
+And the following inorder traversal:
+
+[d, b, e, a, f, c, g]
+
+You should return the following tree:
+
+        a
+       / \
+      b   c
+     / \ / \
+    d  e f  g
+
+[See Solution](/problems/400-499/problem-433.js)
+
+---
