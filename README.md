@@ -1423,6 +1423,29 @@ It takes 1 step to move from `(0, 0)` to `(1, 1)`. It takes one more step to mov
 
 ---
 
+## Problem 101 - Alibaba [Difficulty: Easy]
+
+Given an even number (greater than 2), return two prime numbers whose sum will be equal to the given number.
+
+A solution will always exist. See [Goldbach’s conjecture](https://en.wikipedia.org/wiki/Goldbach%27s_conjecture).
+
+Example:
+
+    Input: 4
+    Output: 2 + 2 = 4
+
+If there are more than one solution possible, return the lexicographically smaller solution.
+
+If [a, b] is one solution with a <= b, and [c, d] is another solution with c <= d, then
+
+    [a, b] < [c, d]
+
+If a < c OR a==c AND b < d.
+
+[See Solution](/problems/100-419/problem-101.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
