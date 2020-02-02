@@ -1446,6 +1446,16 @@ If a < c OR a==c AND b < d.
 
 ---
 
+## Problem 102 - Lyft [Difficulty: Medium]
+
+Given a list of integers and a number K, return which contiguous elements of the list sum to K.
+
+For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2, 3, 4], since 2 + 3 + 4 = 9.
+
+[See Solution](/problems/100-419/problem-102.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
