@@ -1456,6 +1456,18 @@ For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2
 
 ---
 
+## Problem 103 - Square [Difficulty: Medium]
+
+Given a string and a set of characters, return the shortest substring containing all the characters in the set.
+
+For example, given the string "figehaeci" and the set of characters {a, e, i}, you should return "aeci".
+
+If there is no substring containing all the characters in the set, return null.
+
+[See Solution](/problems/100-419/problem-103.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
