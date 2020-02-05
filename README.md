@@ -1468,6 +1468,16 @@ If there is no substring containing all the characters in the set, return null.
 
 ---
 
+## Problem 104 - Google [Difficulty: Easy]
+
+Determine whether a doubly linked list is a palindrome. What if it’s singly linked?
+
+For example, `1 -> 4 -> 3 -> 4 -> 1` returns `True` while `1 -> 4` returns `False`.
+
+[See Solution](/problems/100-419/problem-104.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
