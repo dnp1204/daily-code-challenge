@@ -1478,6 +1478,16 @@ For example, `1 -> 4 -> 3 -> 4 -> 1` returns `True` while `1 -> 4` returns `Fals
 
 ---
 
+## Problem 105 - Facebook [Difficulty: Easy]
+
+Given a function `f`, and `N` return a debounced `f` of `N` milliseconds.
+
+That is, as long as the debounced `f` continues to be invoked, `f` itself will not be called for `N` milliseconds.
+
+[See Solution](/problems/100-419/problem-105.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
