@@ -1498,6 +1498,20 @@ For example, `[2, 0, 1, 0]` returns `True` while [`1, 1, 0, 1]` returns `False`.
 
 ---
 
+## Problem 107 - Microsoft [Difficulty: Easy]
+
+Print the nodes in a binary tree level-wise. For example, the following should print 1, 2, 3, 4, 5.
+
+      1
+     / \
+    2   3
+       / \
+      4   5
+
+[See Solution](/problems/100-419/problem-107.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
