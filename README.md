@@ -1522,6 +1522,18 @@ For example, if A is `abcde` and B is `cdeab`, return true. If A is `abc` and B 
 
 ---
 
+## Problem 109 - Cisco [Difficulty: Medium]
+
+Given an unsigned 8-bit integer, swap its even and odd bits. The 1st and 2nd bit should be swapped, the 3rd and 4th bit should be swapped, and so on.
+
+For example, `10101010` should be `01010101`. `11100010` should be `11010001`.
+
+Bonus: Can you do this in one line?
+
+[See Solution](/problems/100-419/problem-109.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
