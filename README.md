@@ -1534,6 +1534,24 @@ Bonus: Can you do this in one line?
 
 ---
 
+## Problem 110 - Facebook [Difficulty: Medium]
+
+Given a binary tree, return all paths from the root to leaves.
+
+For example, given the tree:
+
+      1
+     / \
+    2   3
+       / \
+      4   5
+
+Return `[[1, 2], [1, 3, 4], [1, 3, 5]]`.
+
+[See Solution](/problems/100-419/problem-110.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
