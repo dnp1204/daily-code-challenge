@@ -1,8 +1,16 @@
 /**
- * Company: Twitter.
+ * Company: Microsoft.
  *
- * A strobogrammatic number is a positive number that appears the same after being rotated 180 degrees. For example, 16891 is strobogrammatic.
+ * Implement 3 stacks using a single list:
  *
- * Create a program that finds all strobogrammatic numbers with N digits.
+ * class Stack:
+ *  def __init__(self):
+ *    self.list = []
+ *
+ *  def pop(self, stack_number):
+ *    pass
+ *
+ *  def push(self, item, stack_number):
+ *    pass
  * TODO:
  */

@@ -1,10 +1,7 @@
 /**
- * Company: Twitter.
+ * Company: Microsoft.
  *
- * A permutation can be specified by an array P, where P[i] represents the location of the element at i in the permutation.
- * For example, [2, 1, 0] represents the permutation where elements at the index 0 and 2 are swapped.
- *
- * Given an array and a permutation, apply the permutation to the array. For example, given the array ["a", "b", "c"] and
- * the permutation [2, 1, 0], return ["c", "b", "a"].
+ * You have an N by N board. Write a function that, given N, returns the number of possible arrangements of the board where N
+ * queens can be placed on the board without threatening each other, i.e. no two queens share the same row, column, or diagonal.
  * TODO:
  */

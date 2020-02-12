@@ -4346,178 +4346,11 @@ Return the following 3 partitions:
 
 Which each add up to 8.
 
-[See Solution](/problems/300-398/problem-399.js)
+[See Solution](/problems/300-399/problem-398.js)
 
 ---
 
-## Problem 399 - Goldman Sachs [Difficulty: Hard]
-
-Given a list of numbers L, implement a method sum(i, j) which returns the sum from the sublist L[i:j] (including i, excluding j).
-
-For example, given L = [1, 2, 3, 4, 5], sum(1, 3) should return sum([2, 3]), which is 5.
-
-You can assume that you can do some pre-processing. sum() should be optimized over the pre-processing step.
-
-[See Solution](/problems/399-499/problem-400.js)
-
----
-
-## Problem 400 - Twitter [Difficulty: Easy]
-
-A permutation can be specified by an array `P`, where `P[i]` represents the location of the element at `i` in the permutation. For example, `[2, 1, 0]` represents the permutation where elements at the index `0` and `2` are swapped.
-
-Given an array and a permutation, apply the permutation to the array. For example, given the array `["a", "b", "c"]` and the permutation `[2, 1, 0]`, return `["c", "b", "a"]`.
-
-[See Solution](/problems/400-499/problem-400.js)
-
----
-
-## Problem 401 - Twitter [Difficulty: Easy]
-
-A strobogrammatic number is a positive number that appears the same after being rotated 180 degrees. For example, 16891 is strobogrammatic.
-
-Create a program that finds all strobogrammatic numbers with N digits.
-
-[See Solution](/problems/400-499/problem-401.js)
-
----
-
-## Problem 402 - Two Sigma [Difficulty: Easy]
-
-Using a function rand5() that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function rand7() that returns an integer from 1 to 7 (inclusive).
-
-[See Solution](/problems/400-499/problem-402.js)
-
----
-
-## Problem 403 - Snapchat [Difficulty: Easy]
-
-Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.
-
-For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
-
-[See Solution](/problems/400-499/problem-403.js)
-
----
-
-## Problem 404 - Apple [Difficulty: Hard]
-
-Given a tree, find the largest tree/subtree that is a BST.
-
-Given a tree, return the size of the largest tree/subtree that is a BST.
-
-[See Solution](/problems/400-499/problem-404.js)
-
----
-
-## Problem 405 - Quantcast [Difficulty: Hard]
-
-You are presented with an array representing a Boolean expression. The elements are of two kinds:
-
-* `T` and `F`, representing the values `True` and `False`.
-* `&`, `|`, and `^`, representing the bitwise operators for `AND`, `OR`, and `XOR`.
-
-Determine the number of ways to group the array elements using parentheses so that the entire expression evaluates to `True`.
-
-For example, suppose the input is `['F', '|', 'T', '&', 'T']`. In this case, there are two acceptable groupings: `(F | T) & T` and `F | (T & T)`.
-
-[See Solution](/problems/400-499/problem-405.js)
-
----
-
-## Problem 406 - Samsung [Difficulty: Medium]
-
-A group of houses is connected to the main water plant by means of a set of pipes. A house can either be connected by a set of pipes extending directly to the plant, or indirectly by a pipe to a nearby house which is otherwise connected.
-
-For example, here is a possible configuration, where `A`, `B`, and `C` are houses, and arrows represent pipes:
-
-    A <--> B <--> C <--> plant
-
-Each pipe has an associated cost, which the utility company would like to minimize. Given an undirected graph of pipe connections, return the lowest cost configuration of pipes such that each house has access to water.
-
-In the following setup, for example, we can remove all but the pipes from `plant` to `A`, `plant` to `B`, and `B` to `C`, for a total cost of `16`.
-
-    pipes = {
-        'plant': {'A': 1, 'B': 5, 'C': 20},
-        'A': {'C': 15},
-        'B': {'C': 10},
-        'C': {}
-    }
-
-[See Solution](/problems/400-499/problem-406.js)
-
----
-
-## Problem 407 - Facebook [Difficulty: Medium]
-
-Given an array of numbers representing the stock prices of a company in chronological order and an integer `k`, return the maximum profit you can make from `k` buys and sells. You must buy the stock before you can sell it, and you must sell the stock before you can buy it again.
-
-For example, given `k` = 2 and the array `[5, 2, 4, 0, 1]`, you should return 3.
-
-[See Solution](/problems/400-499/problem-407.js)
-
----
-
-## Problem 408 - Google [Difficulty: Hard]
-
-PageRank is an algorithm used by Google to rank the importance of different websites. While there have been changes over the years, the central idea is to assign each site a score based on the importance of other pages that link to that page.
-
-More mathematically, suppose there are `N` sites, and each site `i` has a certain count `Ci` of outgoing links. Then the score for a particular site `Sj` is defined as :
-
-`score(Sj) = (1 - d) / N + d * (score(Sx) / Cx+ score(Sy) / Cy+ ... + score(Sz) / Cz))`
-
-Here, `Sx`, `Sy`, `...`, `Sz` denote the scores of all the other sites that have outgoing links to `Sj`, and `d` is a damping factor, usually set to around `0.85`, used to model the probability that a user will stop searching.
-
-Given a directed graph of links between various websites, write a program that calculates each site's page rank.
-
-[See Solution](/problems/400-499/problem-408.js)
-
----
-
-## Problem 409 - Airbnb [Difficulty: Hard]
-
-You are given an array `X` of floating-point numbers `x1`, `x2`, ... `xn`. These can be rounded up or down to create a corresponding array `Y` of integers `y1`, `y2`, ... `yn`.
-
-Write an algorithm that finds an appropriate `Y` array with the following properties:
-
-* The rounded sums of both arrays should be equal.
-* The absolute pairwise difference between elements is minimized. In other words, `|x1- y1| + |x2- y2| + ... + |xn- yn|` should be as small as possible.
-
-For example, suppose your input is `[1.3, 2.3, 4.4]`. In this case you cannot do better than `[1, 2, 5]`, which has an absolute difference of `|1.3 - 1| + |2.3 - 2| + |4.4 - 5| = 1`.
-
-[See Solution](/problems/400-499/problem-409.js)
-
----
-
-## Problem 410 - Google [Difficulty: Hard]
-
-Given a string which we can delete at most k, return whether you can make a palindrome.
-
-For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get 'waterretaw'.
-
-[See Solution](/problems/400-499/problem-410.js)
-
----
-
-## Problem 411 - Epic [Difficulty: Medium]
-
-The "look and say" sequence is defined as follows: beginning with the term 1, each subsequent term visually describes the digits appearing in the previous term. The first few terms are as follows:
-
-    1   
-    11
-    21
-    1211
-    111221
-
-As an example, the fourth term is `1211`, since the third term consists of one `2` and one `1`.
-
-Given an integer `N`, print the `N`th term of this sequence.
-
-[See Solution](/problems/400-499/problem-411.js)
-
----
-
-## Problem 412 - Amazon [Difficulty: Hard]
+## Problem 399 - Amazon [Difficulty: Hard]
 
 There exists a staircase with N steps, and you can climb up either 1 or 2 steps at a time. Given N, write a function that returns the number of unique ways you can climb the staircase. The order of the steps matters.
 
@@ -4531,19 +4364,19 @@ For example, if N is 4, then there are 5 unique ways:
 
 What if, instead of being able to climb 1 or 2 steps at a time, you could climb any number from a set of positive integers X? For example, if X = {1, 3, 5}, you could climb 1, 3, or 5 steps at a time.
 
-[See Solution](/problems/400-499/problem-412.js)
+[See Solution](/problems/300-399/problem-399.js)
 
 ---
 
-## Problem 413 - Microsoft [Difficulty: Hard]
+## Problem 400 - Microsoft [Difficulty: Hard]
 
 You have an N by N board. Write a function that, given N, returns the number of possible arrangements of the board where N queens can be placed on the board without threatening each other, i.e. no two queens share the same row, column, or diagonal.
 
-[See Solution](/problems/400-499/problem-413.js)
+[See Solution](/problems/400-499/problem-400.js)
 
 ---
 
-## Problem 414 - Microsoft [Difficulty: Hard]
+## Problem 401 - Microsoft [Difficulty: Hard]
 
 Implement 3 stacks using a single list:
 
@@ -4557,6 +4390,6 @@ Implement 3 stacks using a single list:
         def push(self, item, stack_number):
             pass
 
-[See Solution](/problems/400-499/problem-414.js)
+[See Solution](/problems/400-499/problem-401.js)
 
 ---
