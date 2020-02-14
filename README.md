@@ -1582,6 +1582,16 @@ Follow-up: given a mutable string representation, can you perform this operation
 
 ---
 
+## Problem 114 - Facebook [Difficulty: Hard]
+
+Given a string and a set of delimiters, reverse the words in the string while maintaining the relative order of the delimiters. For example, given "hello/world:here", return "here/world:hello"
+
+Follow-up: Does your solution work for the following cases: "hello/world:here/", "hello//world:here"
+
+[See Solution](/problems/100-419/problem-114.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
