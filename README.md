@@ -1600,6 +1600,16 @@ Given two non-empty binary trees s and t, check whether tree t has exactly the s
 
 ---
 
+## Problem 116 - Jane Street [Difficulty: Medium]
+
+Generate a finite, but an arbitrarily large binary tree quickly in O(1).
+
+That is, `generate()` should return a tree whose size is unbounded but finite.
+
+[See Solution](/problems/100-419/problem-116.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
