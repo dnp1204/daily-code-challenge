@@ -1592,6 +1592,14 @@ Follow-up: Does your solution work for the following cases: "hello/world:here/",
 
 ---
 
+## Problem 115 - Google [Difficulty: Hard]
+
+Given two non-empty binary trees s and t, check whether tree t has exactly the same structure and node values with a subtree of s. A subtree of s is a tree consists of a node in s and all of this node's descendants. The tree s could also be considered as a subtree of itself.
+
+[See Solution](/problems/100-419/problem-115.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
