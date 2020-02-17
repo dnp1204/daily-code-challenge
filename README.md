@@ -1419,7 +1419,7 @@ Example:
 
 It takes 1 step to move from `(0, 0)` to `(1, 1)`. It takes one more step to move from `(1, 1)` to `(1, 2)`.
 
-[See Solution](/problems/100-419/problem-100.js)
+[See Solution](/problems/100-199/problem-100.js)
 
 ---
 
@@ -1442,7 +1442,7 @@ If [a, b] is one solution with a <= b, and [c, d] is another solution with c <= 
 
 If a < c OR a==c AND b < d.
 
-[See Solution](/problems/100-419/problem-101.js)
+[See Solution](/problems/100-199/problem-101.js)
 
 ---
 
@@ -1452,7 +1452,7 @@ Given a list of integers and a number K, return which contiguous elements of the
 
 For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2, 3, 4], since 2 + 3 + 4 = 9.
 
-[See Solution](/problems/100-419/problem-102.js)
+[See Solution](/problems/100-199/problem-102.js)
 
 ---
 
@@ -1464,7 +1464,7 @@ For example, given the string "figehaeci" and the set of characters {a, e, i}, y
 
 If there is no substring containing all the characters in the set, return null.
 
-[See Solution](/problems/100-419/problem-103.js)
+[See Solution](/problems/100-199/problem-103.js)
 
 ---
 
@@ -1474,7 +1474,7 @@ Determine whether a doubly linked list is a palindrome. What if it’s singly li
 
 For example, `1 -> 4 -> 3 -> 4 -> 1` returns `True` while `1 -> 4` returns `False`.
 
-[See Solution](/problems/100-419/problem-104.js)
+[See Solution](/problems/100-199/problem-104.js)
 
 ---
 
@@ -1484,7 +1484,7 @@ Given a function `f`, and `N` return a debounced `f` of `N` milliseconds.
 
 That is, as long as the debounced `f` continues to be invoked, `f` itself will not be called for `N` milliseconds.
 
-[See Solution](/problems/100-419/problem-105.js)
+[See Solution](/problems/100-199/problem-105.js)
 
 ---
 
@@ -1494,7 +1494,7 @@ Given an integer list where each number represents the number of hops you can ma
 
 For example, `[2, 0, 1, 0]` returns `True` while [`1, 1, 0, 1]` returns `False`.
 
-[See Solution](/problems/100-419/problem-106.js)
+[See Solution](/problems/100-199/problem-106.js)
 
 ---
 
@@ -1508,7 +1508,7 @@ Print the nodes in a binary tree level-wise. For example, the following should p
        / \
       4   5
 
-[See Solution](/problems/100-419/problem-107.js)
+[See Solution](/problems/100-199/problem-107.js)
 
 ---
 
@@ -1518,7 +1518,7 @@ Given two strings A and B, return whether or not A can be shifted some number of
 
 For example, if A is `abcde` and B is `cdeab`, return true. If A is `abc` and B is `acb`, return false.
 
-[See Solution](/problems/100-419/problem-108.js)
+[See Solution](/problems/100-199/problem-108.js)
 
 ---
 
@@ -1530,7 +1530,7 @@ For example, `10101010` should be `01010101`. `11100010` should be `11010001`.
 
 Bonus: Can you do this in one line?
 
-[See Solution](/problems/100-419/problem-109.js)
+[See Solution](/problems/100-199/problem-109.js)
 
 ---
 
@@ -1548,7 +1548,7 @@ For example, given the tree:
 
 Return `[[1, 2], [1, 3, 4], [1, 3, 5]]`.
 
-[See Solution](/problems/100-419/problem-110.js)
+[See Solution](/problems/100-199/problem-110.js)
 
 ---
 
@@ -1558,7 +1558,7 @@ Given a word W and a string `S`, find all starting indices in `S` which are anag
 
 For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
 
-[See Solution](/problems/100-419/problem-111.js)
+[See Solution](/problems/100-199/problem-111.js)
 
 ---
 
@@ -1568,7 +1568,7 @@ Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in
 
 According to the definition of [LCA on Wikipedia](https://en.wikipedia.org/wiki/Lowest_common_ancestor): “The lowest common ancestor is defined between two nodes v and w as the lowest node in T that has both v and w as descendants (where we allow a node to be a descendant of itself).”
 
-[See Solution](/problems/100-419/problem-112.js)
+[See Solution](/problems/100-199/problem-112.js)
 
 ---
 
@@ -1578,7 +1578,7 @@ Given a string of words delimited by spaces, reverse the words in string. For ex
 
 Follow-up: given a mutable string representation, can you perform this operation in-place?
 
-[See Solution](/problems/100-419/problem-113.js)
+[See Solution](/problems/100-199/problem-113.js)
 
 ---
 
@@ -1588,7 +1588,7 @@ Given a string and a set of delimiters, reverse the words in the string while ma
 
 Follow-up: Does your solution work for the following cases: "hello/world:here/", "hello//world:here"
 
-[See Solution](/problems/100-419/problem-114.js)
+[See Solution](/problems/100-199/problem-114.js)
 
 ---
 
@@ -1596,7 +1596,7 @@ Follow-up: Does your solution work for the following cases: "hello/world:here/",
 
 Given two non-empty binary trees s and t, check whether tree t has exactly the same structure and node values with a subtree of s. A subtree of s is a tree consists of a node in s and all of this node's descendants. The tree s could also be considered as a subtree of itself.
 
-[See Solution](/problems/100-419/problem-115.js)
+[See Solution](/problems/100-199/problem-115.js)
 
 ---
 
@@ -1606,7 +1606,7 @@ Generate a finite, but an arbitrarily large binary tree quickly in O(1).
 
 That is, `generate()` should return a tree whose size is unbounded but finite.
 
-[See Solution](/problems/100-419/problem-116.js)
+[See Solution](/problems/100-199/problem-116.js)
 
 ---
 
@@ -1614,7 +1614,7 @@ That is, `generate()` should return a tree whose size is unbounded but finite.
 
 Given a binary tree, return the level of the tree with minimum sum.
 
-[See Solution](/problems/100-419/problem-117.js)
+[See Solution](/problems/100-199/problem-117.js)
 
 ---
 
