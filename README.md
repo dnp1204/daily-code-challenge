@@ -1610,6 +1610,14 @@ That is, `generate()` should return a tree whose size is unbounded but finite.
 
 ---
 
+## Problem 117 - Facebook [Difficulty: Easy]
+
+Given a binary tree, return the level of the tree with minimum sum.
+
+[See Solution](/problems/100-419/problem-117.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
