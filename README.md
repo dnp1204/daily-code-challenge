@@ -1618,6 +1618,16 @@ Given a binary tree, return the level of the tree with minimum sum.
 
 ---
 
+## Problem 118 - Google [Difficulty: Easy]
+
+Given a sorted list of integers, square the elements and give the output in sorted order.
+
+For example, given [-9, -2, 0, 2, 3], return [0, 4, 4, 9, 81].
+
+[See Solution](/problems/100-199/problem-118.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
