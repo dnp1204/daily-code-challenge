@@ -1628,6 +1628,16 @@ For example, given [-9, -2, 0, 2, 3], return [0, 4, 4, 9, 81].
 
 ---
 
+## Problem 119 - Google [Difficulty: Medium]
+
+Given a set of closed intervals, find the smallest set of numbers that covers all the intervals. If there are multiple smallest sets, return any of them.
+
+For example, given the intervals `[0, 3], [2, 6], [3, 4], [6, 9]`, one set of numbers that covers all these intervals is `{3, 6}`.
+
+[See Solution](/problems/100-199/problem-119.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
