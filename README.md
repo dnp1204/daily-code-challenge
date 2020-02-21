@@ -1638,6 +1638,14 @@ For example, given the intervals `[0, 3], [2, 6], [3, 4], [6, 9]`, one set of nu
 
 ---
 
+## Problem 120 - Microsoft [Difficulty: Medium]
+
+Implement the singleton pattern with a twist. First, instead of storing one instance, store two instances. And in every even call of `getInstance()`, return the first instance and in every odd call of `getInstance()`, return the second instance.
+
+[See Solution](/problems/100-199/problem-120.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
