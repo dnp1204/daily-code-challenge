@@ -1646,6 +1646,16 @@ Implement the singleton pattern with a twist. First, instead of storing one inst
 
 ---
 
+## Problem 121 - Google [Difficulty: Hard]
+
+Given a string which we can delete at most k, return whether you can make a palindrome.
+
+For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get 'waterretaw'.
+
+[See Solution](/problems/100-199/problem-121.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
