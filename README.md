@@ -1656,6 +1656,22 @@ For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get 
 
 ---
 
+## Problem 122 - Zillow [Difficulty: Medium]
+
+You are given a 2-d `matrix` where each cell represents number of coins in that cell. Assuming we start at `matrix[0][0]`, and can only move right or down, find the maximum number of coins you can collect by the bottom right corner.
+
+For example, in this matrix
+
+    0 3 1 1
+    2 0 0 4
+    1 5 3 1
+
+The most we can collect is 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
+
+[See Solution](/problems/100-199/problem-122.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
