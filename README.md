@@ -1672,6 +1672,27 @@ The most we can collect is 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
 
 ---
 
+## Problem 123 - LinkedIn [Difficulty: Hard]
+
+Given a string, return whether it represents a number. Here are the different kinds of numbers:
+
+* "10", a positive integer
+* "-10", a negative integer
+* "10.1", a positive real number
+* "-10.1", a negative real number
+* "1e5", a number in scientific notation
+
+And here are examples of non-numbers:
+
+* "a"
+* "x 1"
+* "a -2"
+* "-"
+
+[See Solution](/problems/100-199/problem-123.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
