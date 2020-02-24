@@ -1693,6 +1693,16 @@ And here are examples of non-numbers:
 
 ---
 
+## Problem 124 - Microsoft [Difficulty: Easy]
+
+You have `n` fair coins and you flip them all at the same time. Any that come up tails you set aside. The ones that come up heads you flip again. How many rounds do you expect to play before only one coin remains?
+
+Write a function that, given `n`, returns the number of rounds you'd expect to play until one coin remains.
+
+[See Solution](/problems/100-199/problem-124.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
