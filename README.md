@@ -1703,6 +1703,24 @@ Write a function that, given `n`, returns the number of rounds you'd expect to p
 
 ---
 
+## Problem 125 - Google [Difficulty: Easy]
+
+Given the root of a binary search tree, and a target `K`, return two nodes in the tree whose sum equals `K`.
+
+For example, given the following tree and `K` of 20
+
+       10
+      /   \
+    5      15
+          /  \
+        11    15
+
+Return the nodes `5` and `15`.
+
+[See Solution](/problems/100-199/problem-125.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
