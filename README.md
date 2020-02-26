@@ -1721,6 +1721,14 @@ Return the nodes `5` and `15`.
 
 ---
 
+## Problem 126 - Facebook [Difficulty: Medium]
+
+Write a function that rotates a list by k elements. For example, `[1, 2, 3, 4, 5, 6]` rotated by two becomes `[3, 4, 5, 6, 1, 2]`. Try solving this without creating a copy of the list. How many swap or move operations do you need?
+
+[See Solution](/problems/100-199/problem-126.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
