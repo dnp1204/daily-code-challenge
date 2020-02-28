@@ -1,5 +1,5 @@
 /**
- * Company: None.
+ * Company: Unknown.
  *
  * The Tower of Hanoi is a puzzle game with three rods and n disks, each a different size.
  *
