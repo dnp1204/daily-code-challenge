@@ -1783,6 +1783,14 @@ For example, with n = 3, we can do this in 7 moves:
 
 ---
 
+## Problem 129 - Unknown [Difficulty: Medium]
+
+Given a real number n, find the square root of n. For example, given n = 9, return 3.
+
+[See Solution](/problems/100-199/problem-129.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
