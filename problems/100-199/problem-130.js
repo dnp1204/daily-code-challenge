@@ -11,11 +11,6 @@
  * Leetcode: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/
  * Youtube: https://www.youtube.com/watch?v=oDhu5uGq_ic
  */
-/**
- * @param {number} k
- * @param {number[]} prices
- * @return {number}
- */
 var maxProfit = function(k, prices) {
   const table = [];
   if (k >= prices.length / 2) return quickSolve(prices);
