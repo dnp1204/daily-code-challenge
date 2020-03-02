@@ -6,14 +6,6 @@
  *
  * Leetcode: https://leetcode.com/problems/copy-list-with-random-pointer/
  */
-/**
- * Definition for a Node.
- * function Node(val,next,random) {
- *    this.val = val;
- *    this.next = next;
- *    this.random = random;
- * };
- */
 var copyRandomList = function(head) {
   if (!head) return head;
   let current = head;
