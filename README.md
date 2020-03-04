@@ -1809,6 +1809,20 @@ Given the head to a singly linked list, where each node also has a “random” 
 
 ---
 
+## Problem 132 - Riot Games [Difficulty: Easy]
+
+Design and implement a HitCounter class that keeps track of requests (or hits). It should support the following operations:
+
+* `record(timestamp)`: records a hit that happened at timestamp
+* `total()`: returns the total number of hits recorded
+* `range(lower, upper)`: returns the number of hits that occurred between timestamps `lower` and `upper` (inclusive)
+
+Follow-up: What if our system has limited memory?
+
+[See Solution](/problems/100-199/problem-132.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
