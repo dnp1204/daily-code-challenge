@@ -1823,6 +1823,24 @@ Follow-up: What if our system has limited memory?
 
 ---
 
+## Problem 133 - Amazon [Difficulty: Medium]
+
+Given a node in a binary search tree, return the next bigger element, also known as the inorder successor.
+
+For example, the inorder successor of 22 is 30.
+
+      10
+     /  \
+    5    30
+        /  \
+      22    35
+
+You can assume each node has a `parent` pointer.
+
+[See Solution](/problems/100-199/problem-133.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
