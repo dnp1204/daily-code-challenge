@@ -1841,6 +1841,20 @@ You can assume each node has a `parent` pointer.
 
 ---
 
+## Problem 134 - Facebook [Difficulty: Easy]
+
+You have a large array with most of the elements as zero.
+
+Use a more space-efficient data structure, SparseArray, that implements the same interface:
+
+* `init(arr, size)`: initialize with the original large array and size.
+* `set(i, val)`: updates index at `i` with `val`.
+* `get(i)`: gets the value at index `i`.
+
+[See Solution](/problems/100-199/problem-134.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
