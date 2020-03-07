@@ -1873,6 +1873,23 @@ For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
 
 ---
 
+## Problem 136 - Google [Difficulty: Medium]
+
+Given an N by M matrix consisting only of 1's and 0's, find the largest rectangle containing only 1's and return its area.
+
+For example, given the following matrix:
+
+    [[1, 0, 0, 0],
+     [1, 0, 1, 1],
+     [1, 0, 1, 1],
+     [0, 1, 0, 0]]
+
+Return 4.
+
+[See Solution](/problems/100-199/problem-136.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
