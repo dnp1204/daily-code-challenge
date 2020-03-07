@@ -1855,6 +1855,24 @@ Use a more space-efficient data structure, SparseArray, that implements the same
 
 ---
 
+## Problem 135 - Apple [Difficulty: Easy]
+
+Given a binary tree, find a minimum path sum from root to a leaf.
+
+For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
+
+      10
+     /  \
+    5    5
+     \     \
+      2     1
+           /
+         -1
+
+[See Solution](/problems/100-199/problem-135.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
