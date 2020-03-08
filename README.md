@@ -1890,6 +1890,20 @@ Return 4.
 
 ---
 
+## Problem 137 - Amazon [Difficulty: Medium]
+
+Implement a bit array.
+
+A bit array is a space efficient array that holds a value of `1` or `0` at each index.
+
+* `init(size)`: initialize the array with `size`
+* `set(i, val)`: updates index at `i` with `val` where `val` is either `1` or `0`.
+* `get(i)`: gets the value at index `i`.
+
+[See Solution](/problems/100-199/problem-137.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
