@@ -1904,6 +1904,18 @@ A bit array is a space efficient array that holds a value of `1` or `0` at each 
 
 ---
 
+## Problem 138 - Google [Difficulty: Hard]
+
+Find the minimum number of coins required to make `n` cents.
+
+You can use standard American denominations, that is, 1¢, 5¢, 10¢, and 25¢.
+
+For example, given `n = 16`, return `3` since we can make it with a 10¢, a 5¢, and a 1¢.
+
+[See Solution](/problems/100-199/problem-138.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
