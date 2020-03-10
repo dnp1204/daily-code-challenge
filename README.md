@@ -1916,6 +1916,29 @@ For example, given `n = 16`, return `3` since we can make it with a 10¢, a 5¢,
 
 ---
 
+## Problem 139 - Google [Difficulty: Medium]
+
+Given an `iterator` with methods `next()` and `hasNext()`, create a wrapper iterator, `PeekableInterface`, which also implements `peek()`. peek shows the next element that would be returned on `next()`.
+
+Here is the interface:
+
+    class PeekableInterface(object):
+        def __init__(self, iterator):
+            pass
+
+        def peek(self):
+            pass
+
+        def next(self):
+            pass
+
+        def hasNext(self):
+            pass
+
+[See Solution](/problems/100-199/problem-139.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
