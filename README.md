@@ -1939,6 +1939,18 @@ Here is the interface:
 
 ---
 
+## Problem 140 - Facebook [Difficulty: Medium]
+
+Given an array of integers in which two elements appear exactly once and all other elements appear exactly twice, find the two elements that appear only once.
+
+For example, given the array `[2, 4, 6, 8, 10, 2, 6, 10]`, return `4` and `8`. The order does not matter.
+
+Follow-up: Can you do this in linear time and constant space?
+
+[See Solution](/problems/100-199/problem-140.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
