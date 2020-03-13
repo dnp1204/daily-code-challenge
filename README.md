@@ -1951,6 +1951,24 @@ Follow-up: Can you do this in linear time and constant space?
 
 ---
 
+## Problem 141 - Microsoft [Difficulty: Hard]
+
+Implement 3 stacks using a single list:
+
+    class Stack:
+        def __init__(self):
+            self.list = []
+
+        def pop(self, stack_number):
+            pass
+
+        def push(self, item, stack_number):
+            pass
+
+[See Solution](/problems/400-499/problem-141.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
@@ -4752,23 +4770,5 @@ What if, instead of being able to climb 1 or 2 steps at a time, you could climb 
 You have an N by N board. Write a function that, given N, returns the number of possible arrangements of the board where N queens can be placed on the board without threatening each other, i.e. no two queens share the same row, column, or diagonal.
 
 [See Solution](/problems/400-499/problem-400.js)
-
----
-
-## Problem 401 - Microsoft [Difficulty: Hard]
-
-Implement 3 stacks using a single list:
-
-    class Stack:
-        def __init__(self):
-            self.list = []
-
-        def pop(self, stack_number):
-            pass
-
-        def push(self, item, stack_number):
-            pass
-
-[See Solution](/problems/400-499/problem-401.js)
 
 ---
