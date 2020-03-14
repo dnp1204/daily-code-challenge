@@ -1969,6 +1969,16 @@ Implement 3 stacks using a single list:
 
 ---
 
+## Problem 142 - Google [Difficulty: Hard]
+
+You're given a string consisting solely of `(`, `)`, and `*`. `*` can represent either a `(`, `)`, or an empty string. Determine whether the parentheses are balanced.
+
+For example, `(()*` and `(*)` are balanced. `)*(` is not balanced.
+
+[See Solution](/problems/400-499/problem-142.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
