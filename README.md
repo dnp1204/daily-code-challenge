@@ -2047,6 +2047,14 @@ We do not remove the tree at the root or its left child because it still has a `
 
 ---
 
+## Problem 147 - Unknown [Difficulty: Hard]
+
+Given a list, sort it using this method: `reverse(lst, i, j)`, which reverses `lst` from `i` to `j`.
+
+[See Solution](/problems/400-499/problem-147.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
