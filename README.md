@@ -2055,6 +2055,18 @@ Given a list, sort it using this method: `reverse(lst, i, j)`, which reverses `l
 
 ---
 
+## Problem 148 - Apple [Difficulty: Medium]
+
+[Gray code](https://en.wikipedia.org/wiki/Gray_code) is a binary code where each successive value differ in only one bit, as well as when wrapping around. Gray code is common in hardware so that we don't see temporary spurious values during transitions.
+
+Given a number of bits `n`, generate a possible gray code for it.
+
+For example, for n = `2`, one gray code would be `[00, 01, 11, 10]`.
+
+[See Solution](/problems/400-499/problem-148.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
