@@ -2067,6 +2067,18 @@ For example, for n = `2`, one gray code would be `[00, 01, 11, 10]`.
 
 ---
 
+## Problem 149 - Goldman Sachs [Difficulty: Hard]
+
+Given a list of numbers `L`, implement a method `sum(i, j)` which returns the sum from the sublist `L[i:j]` (including `i`, excluding `j`).
+
+For example, given `L = [1, 2, 3, 4, 5]`, `sum(1, 3)` should return `sum([2, 3])`, which is `5`.
+
+You can assume that you can do some pre-processing. `sum()` should be optimized over the pre-processing step.
+
+[See Solution](/problems/400-499/problem-149.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
