@@ -2123,6 +2123,16 @@ You can generate random numbers between 0 and 1 uniformly.
 
 ---
 
+## Problem 153 - Unknown [Difficulty: Hard]
+
+Find an efficient algorithm to find the smallest distance (measured in number of words) between any two given words in a string.
+
+For example, given words "hello", and "world" and a text content of "dog cat hello cat dog dog hello cat world", return 1 because there's only one word "cat" in between the two words.
+
+[See Solution](/problems/400-499/problem-153.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
