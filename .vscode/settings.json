@@ -1,5 +1,7 @@
 {
   "editor.formatOnSave": true,
+  "git.enableSmartCommit": true,
+  "git.smartCommitChanges": "all",
   "cSpell.words": [
     "alibaba",
     "anagramming",
