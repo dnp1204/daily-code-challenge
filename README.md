@@ -2133,6 +2133,22 @@ For example, given words "hello", and "world" and a text content of "dog cat hel
 
 ---
 
+## Problem 154 - Amazon [Difficulty: Easy]
+
+Implement a stack API using only a heap. A stack implements the following methods:
+
+* `push(item)`, which adds an element to the stack
+* `pop()`, which removes and returns the most recently added element (or throws an error if there is nothing on the stack)
+
+Recall that a heap has the following operations:
+
+* `push(item)`, which adds a new key to the heap
+* `pop()`, which removes and returns the max value of the heap
+
+[See Solution](/problems/400-499/problem-154.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
