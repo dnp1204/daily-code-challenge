@@ -2149,6 +2149,18 @@ Recall that a heap has the following operations:
 
 ---
 
+## Problem 155 - MongoDB [Difficulty: Medium]
+
+Given a list of elements, find the majority element, which appears more than half the time (`> floor(len(lst) / 2.0)`).
+
+You can assume that such element exists.
+
+For example, given `[1, 2, 1, 1, 3, 4, 0]`, return 1.
+
+[See Solution](/problems/400-499/problem-155.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
