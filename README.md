@@ -2173,6 +2173,16 @@ Given `n` = 27, return 3 since 27 = 32 + 32 + 32 = 9 + 9 + 9.
 
 ---
 
+## Problem 157 - Amazon [Difficulty: Easy]
+
+Given a string, determine whether any permutation of it is a palindrome.
+
+For example, `carrace` should return true, since it can be rearranged to form `racecar`, which is a palindrome. daily should return false, since there's no rearrangement that can form a palindrome.
+
+[See Solution](/problems/400-499/problem-157.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
