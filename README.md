@@ -2183,6 +2183,29 @@ For example, `carrace` should return true, since it can be rearranged to form `r
 
 ---
 
+## Problem 158 - Slack [Difficulty: Medium]
+
+You are given an N by M matrix of `0`s and `1`s. Starting from the top left corner, how many ways are there to reach the bottom right corner?
+
+You can only move right and down. `0` represents an empty space while `1` represents a wall you cannot walk through.
+
+For example, given the following matrix:
+
+    [[0, 0, 1],
+     [0, 0, 1],
+     [1, 0, 0]]
+
+Return two, as there are only two ways to get to the bottom right:
+
+* Right, down, down, right
+* Down, right, down, right
+
+The top left corner and bottom right corner will always be 0.
+
+[See Solution](/problems/400-499/problem-158.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
