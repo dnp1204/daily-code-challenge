@@ -2206,6 +2206,16 @@ The top left corner and bottom right corner will always be 0.
 
 ---
 
+## Problem 159 - Google [Difficulty: Easy]
+
+Given a string, return the first recurring character in it, or null if there is no recurring character.
+
+For example, given the string "acbbac", return "b". Given the string "abcdef", return null.
+
+[See Solution](/problems/400-499/problem-159.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
