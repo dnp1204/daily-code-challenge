@@ -2216,6 +2216,28 @@ For example, given the string "acbbac", return "b". Given the string "abcdef", r
 
 ---
 
+## Problem 160 - Uber [Difficulty: Hard]
+
+Given a tree where each edge has a weight, compute the length of the longest path in the tree.
+
+For example, given the following tree:
+
+      a
+     /|\
+    b c d
+       / \
+      e   f
+     / \
+    g   h
+
+and the weights: `a-b: 3, a-c: 5, a-d: 8, d-e: 2, d-f: 4, e-g: 1, e-h: 1`, the longest path would be `c -> a -> d -> f`, with a length of 17.
+
+The path does not have to pass through the root, and each node can have any amount of children.
+
+[See Solution](/problems/400-499/problem-160.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
