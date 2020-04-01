@@ -2238,6 +2238,16 @@ The path does not have to pass through the root, and each node can have any amou
 
 ---
 
+## Problem 161 - Facebook [Difficulty: Easy]
+
+Given a 32-bit integer, return the number with its bits reversed.
+
+For example, given the binary number `1111 0000 1111 0000 1111 0000 1111 0000`, return `0000 1111 0000 1111 0000 1111 0000 1111`.
+
+[See Solution](/problems/400-499/problem-161.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
