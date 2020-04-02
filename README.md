@@ -2248,6 +2248,28 @@ For example, given the binary number `1111 0000 1111 0000 1111 0000 1111 0000`, 
 
 ---
 
+## Problem 162 - Square [Difficulty: Medium]
+
+Given a list of words, return the shortest unique prefix of each word. For example, given the list:
+
+* dog
+* cat
+* apple
+* apricot
+* fish
+
+Return the list:
+
+* d
+* c
+* app
+* apr
+* f
+
+[See Solution](/problems/400-499/problem-162.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
