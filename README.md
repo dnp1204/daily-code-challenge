@@ -2284,6 +2284,14 @@ You can assume the given expression is always valid.
 
 ---
 
+## Problem 164 - Google [Difficulty: Medium]
+
+You are given an array of length `n + 1` whose elements belong to the set `{1, 2, ..., n}`. By the pigeonhole principle, there must be a duplicate. Find it in linear time and space.
+
+[See Solution](/problems/400-499/problem-164.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
