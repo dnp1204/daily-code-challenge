@@ -2292,6 +2292,22 @@ You are given an array of length `n + 1` whose elements belong to the set `{1, 2
 
 ---
 
+## Problem 165 - Google [Difficulty: Medium]
+
+Given an array of integers, return a new array where each element in the new array is the number of smaller elements to the right of that element in the original input array.
+
+For example, given the array `[3, 4, 9, 6, 1]`, return `[1, 1, 2, 1, 0]`, since:
+
+* There is 1 smaller element to the right of 3
+* There is 1 smaller element to the right of 4
+* There are 2 smaller elements to the right of 9
+* There is 1 smaller element to the right of 6
+* There are no smaller elements to the right of 1
+
+[See Solution](/problems/400-499/problem-165.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
