@@ -2308,6 +2308,21 @@ For example, given the array `[3, 4, 9, 6, 1]`, return `[1, 1, 2, 1, 0]`, since:
 
 ---
 
+## Problem 166 - Uber [Difficulty: Medium]
+
+Implement a 2D iterator class. It will be initialized with an array of arrays, and should implement the following methods:
+
+* `next()`: returns the next element in the array of arrays. If there are no more elements, raise an exception.
+* `has_next()`: returns whether or not the iterator still has elements left.
+
+For example, given the input [[1, 2], [3], [], [4, 5, 6]], calling `next()` repeatedly should output `1, 2, 3, 4, 5, 6`.
+
+Do not use `flatten` or otherwise clone the arrays. Some of the arrays can be empty.
+
+[See Solution](/problems/400-499/problem-166.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
