@@ -2323,6 +2323,16 @@ Do not use `flatten` or otherwise clone the arrays. Some of the arrays can be em
 
 ---
 
+## Problem 167 - Airbnb [Difficulty: Hard]
+
+Given a list of words, find all pairs of unique indices such that the concatenation of the two words is a palindrome.
+
+For example, given the list `["code", "edoc", "da", "d"]`, return `[(0, 1), (1, 0), (2, 3)]`.
+
+[See Solution](/problems/400-499/problem-167.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
