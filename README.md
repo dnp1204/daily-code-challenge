@@ -2333,6 +2333,28 @@ For example, given the list `["code", "edoc", "da", "d"]`, return `[(0, 1), (1, 
 
 ---
 
+## Problem 168 - Facebook [Difficulty: Medium]
+
+Given an N by N matrix, rotate it by 90 degrees clockwise.
+
+For example, given the following matrix:
+
+    [[1, 2, 3],
+     [4, 5, 6],
+     [7, 8, 9]]
+
+you should return:
+
+    [[7, 4, 1],
+     [8, 5, 2],
+     [9, 6, 3]]
+
+Follow-up: What if you couldn't use any extra space?
+
+[See Solution](/problems/400-499/problem-168.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
