@@ -2355,6 +2355,16 @@ Follow-up: What if you couldn't use any extra space?
 
 ---
 
+## Problem 169 - Google [Difficulty: Medium]
+
+Given a linked list, sort it in O(n log n) time and constant space.
+
+For example, the linked list `4 -> 1 -> -3 -> 99` should become `-3 -> 1 -> 4 -> 99`.
+
+[See Solution](/problems/400-499/problem-169.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
