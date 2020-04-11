@@ -2377,6 +2377,24 @@ Given `start = "dog"`, `end = "cat"`, and `dictionary = {"dot", "tod", "dat", "d
 
 ---
 
+## Problem 171 - Amazon [Difficulty: Easy]
+
+You are given a list of data entries that represent entries and exits of groups of people into a building. An entry looks like this:
+
+`{"timestamp": 1526579928, count: 3, "type": "enter"}`
+
+This means 3 people entered the building. An exit looks like this:
+
+`{"timestamp": 1526580382, count: 2, "type": "exit"}`
+
+This means that 2 people exited the building. `timestamp` is in [Unix time](https://en.wikipedia.org/wiki/Unix_time).
+
+Find the busiest period in the building, that is, the time with the most people in the building. Return it as a pair of `(start, end)` timestamps. You can assume the building always starts off and ends up empty, i.e. with 0 people inside.
+
+[See Solution](/problems/400-499/problem-171.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
