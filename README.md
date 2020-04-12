@@ -2395,6 +2395,20 @@ Find the busiest period in the building, that is, the time with the most people 
 
 ---
 
+## Problem 172 - Dropbox [Difficulty: Medium]
+
+Given a string `s` and a list of words `words`, where each word is the same length, find all starting indices of substrings in `s` that is a concatenation of every word in `words` exactly once.
+
+For example, given s = "dogcatcatcodecatdog" and words = ["cat", "dog"], return [0, 13], since "dogcat" starts at index 0 and "catdog" starts at index 13.
+
+Given s = "barfoobazbitbyte" and words = ["dog", "cat"], return [] since there are no substrings composed of "dog" and "cat" in `s`.
+
+The order of the indices does not matter.
+
+[See Solution](/problems/400-499/problem-172.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
