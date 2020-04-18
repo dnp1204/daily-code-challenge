@@ -2487,6 +2487,18 @@ Given `s1 = foo` and `s2 = bar`, return `false` since the `o` cannot map to two 
 
 ---
 
+## Problem 177 - Airbnb [Difficulty: Easy]
+
+Given a linked list and a positive integer `k`, rotate the list to the right by `k` places.
+
+For example, given the linked list `7 -> 7 -> 3 -> 5` and `k = 2`, it should become `3 -> 5 -> 7 -> 7`.
+
+Given the linked list `1 -> 2 -> 3 -> 4 -> 5` and `k = 3`, it should become `3 -> 4 -> 5 -> 1 -> 2`.
+
+[See Solution](/problems/400-499/problem-177.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
