@@ -2513,6 +2513,22 @@ Which of the two games should Alice elect to play? Does it even matter? Write a 
 
 ---
 
+## Problem 179 - Google [Difficulty: Medium]
+
+Given the sequence of keys visited by a postorder traversal of a binary search tree, reconstruct the tree.
+
+For example, given the sequence `2, 4, 3, 8, 7, 5`, you should construct the following tree:
+
+        5
+       / \
+      3   7
+     / \   \
+    2   4   8
+
+[See Solution](/problems/400-499/problem-179.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
