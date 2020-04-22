@@ -2543,6 +2543,18 @@ Hint: Try working backwards from the end state.
 
 ---
 
+## Problem 181 - Google [Difficulty: Hard]
+
+Given a string, split it into as few strings as possible such that each string is a palindrome.
+
+For example, given the input string `racecarannakayak`, return `["racecar", "anna", "kayak"]`.
+
+Given the input string `abc`, return `["a", "b", "c"]`.
+
+[See Solution](/problems/400-499/problem-181.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
