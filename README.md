@@ -2555,6 +2555,16 @@ Given the input string `abc`, return `["a", "b", "c"]`.
 
 ---
 
+## Problem 182 - Facebook [Difficulty: Medium]
+
+A graph is minimally-connected if it is connected and there is no edge that can be removed while still leaving the graph connected. For example, any binary tree is minimally-connected.
+
+Given an undirected graph, check if the graph is minimally-connected. You can choose to represent the graph as either an adjacency matrix or adjacency list.
+
+[See Solution](/problems/400-499/problem-182.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
