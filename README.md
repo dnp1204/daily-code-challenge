@@ -2565,6 +2565,14 @@ Given an undirected graph, check if the graph is minimally-connected. You can ch
 
 ---
 
+## Problem 183 - Twitch [Difficulty: Hard]
+
+Describe what happens when you type a URL into your browser and press Enter.
+
+[See Solution](/problems/400-499/problem-183.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
