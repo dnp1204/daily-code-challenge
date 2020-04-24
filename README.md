@@ -2573,6 +2573,16 @@ Describe what happens when you type a URL into your browser and press Enter.
 
 ---
 
+## Problem 184 - Amazon [Difficulty: Hard]
+
+Given `n` numbers, find the greatest common denominator between them.
+
+For example, given the numbers `[42, 56, 14]`, return `14`.
+
+[See Solution](/problems/400-499/problem-184.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
