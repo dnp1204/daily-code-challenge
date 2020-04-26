@@ -2583,6 +2583,30 @@ For example, given the numbers `[42, 56, 14]`, return `14`.
 
 ---
 
+## Problem 185 - Google [Difficulty: Easy]
+
+Given two rectangles on a 2D graph, return the area of their intersection. If the rectangles don't intersect, return 0.
+
+For example, given the following rectangles:
+
+    {
+        "top_left": (1, 4),
+        "dimensions": (3, 3) # width, height
+    }
+
+and
+
+    {
+        "top_left": (0, 5),
+        "dimensions": (4, 3) # width, height
+    }
+
+return 6.
+
+[See Solution](/problems/400-499/problem-185.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
