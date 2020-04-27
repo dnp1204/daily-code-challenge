@@ -2617,6 +2617,31 @@ For example, given `[5, 10, 15, 20, 25]`, return the sets `{10, 25}` and `{5, 15
 
 ---
 
+## Problem 187 - Google [Difficulty: Easy]
+
+You are given given a list of rectangles represented by min and max x- and y-coordinates. Compute whether or not a pair of rectangles overlap each other. If one rectangle completely covers another, it is considered overlapping.
+
+For example, given the following rectangles:
+
+    {
+        "top_left": (1, 4),
+        "dimensions": (3, 3) # width, height
+    },
+    {
+        "top_left": (-1, 3),
+        "dimensions": (2, 1)
+    },
+    {
+        "top_left": (0, 5),
+        "dimensions": (4, 3)
+    }
+
+return true as the first and third rectangle overlap each other.
+
+[See Solution](/problems/400-499/problem-187.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
