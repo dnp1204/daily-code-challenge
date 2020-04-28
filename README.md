@@ -2642,6 +2642,30 @@ return true as the first and third rectangle overlap each other.
 
 ---
 
+## Problem 188 - Google [Difficulty: Medium]
+
+What will this code print out?
+
+    def make_functions():
+        flist = []
+
+        for i in [1, 2, 3]:
+            def print_i():
+                print(i)
+            flist.append(print_i)
+
+        return flist
+
+    functions = make_functions()
+    for f in functions:
+        f()
+
+How can we make it print out what we apparently want?
+
+[See Solution](/problems/400-499/problem-188.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
