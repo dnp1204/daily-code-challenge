@@ -2734,6 +2734,26 @@ Suppose you are given two lists of `n` points, one list p1, p2, ..., pn on the l
 
 ---
 
+## Problem 195 - Google [Difficulty: Hard]
+
+Let A be an N by M matrix in which every row and every column is sorted.
+
+Given i1, j1, i2, and j2, compute the number of elements of M smaller than M[i1, j1] and larger than M[i2, j2].
+
+For example, given the following matrix:
+
+    [[1, 3, 7, 10, 15, 20],
+     [2, 6, 9, 14, 22, 25],
+     [3, 8, 10, 15, 25, 30],
+     [10, 11, 12, 23, 30, 35],
+     [20, 25, 30, 35, 40, 45]]
+
+And i1 = 1, j1 = 1, i2 = 3, j2 = 3, return 15 as there are 15 numbers in the matrix smaller than 6 or greater than 23.
+
+[See Solution](/problems/400-499/problem-195.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
