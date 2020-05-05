@@ -2726,6 +2726,14 @@ For example, given [1, 3, 2, 8, 4, 10] and `fee = 2`, you should return 9, since
 
 ---
 
+## Problem 194 - Facebook [Difficulty: Easy]
+
+Suppose you are given two lists of `n` points, one list p1, p2, ..., pn on the line y = 0 and the other list q1, q2, ..., qn on the line y = 1. Imagine a set of `n` line segments connecting each point pi to qi. Write an algorithm to determine how many pairs of the line segments intersect.
+
+[See Solution](/problems/400-499/problem-194.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
