@@ -2754,6 +2754,22 @@ And i1 = 1, j1 = 1, i2 = 3, j2 = 3, return 15 as there are 15 numbers in the mat
 
 ---
 
+## Problem 196 - Apple [Difficulty: Easy]
+
+Given the root of a binary tree, find the most frequent subtree sum. The subtree sum of a node is the sum of all values under a node, including the node itself.
+
+For example, given the following tree:
+
+      5
+     / \
+    2  -5
+
+Return `2` as it occurs twice: once as the left leaf, and once as the sum of `2 + 5 - 5`.
+
+[See Solution](/problems/400-499/problem-196.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
