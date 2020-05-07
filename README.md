@@ -2770,6 +2770,14 @@ Return `2` as it occurs twice: once as the left leaf, and once as the sum of `2 
 
 ---
 
+## Problem 197 - Amazon [Difficulty: Easy]
+
+Given an array and a number `k` that's smaller than the length of the array, rotate the array to the right `k` elements in-place.
+
+[See Solution](/problems/400-499/problem-197.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
