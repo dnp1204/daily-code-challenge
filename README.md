@@ -2788,6 +2788,16 @@ For example, given the set [3, 5, 10, 20, 21], you should return [5, 10, 20]. Gi
 
 ---
 
+## Problem 199 - Facebook [Difficulty: Hard]
+
+Given a string of parentheses, find the balanced string that can be produced from it using the minimum number of insertions and deletions. If there are multiple solutions, return any of them.
+
+For example, given "(()", you could return "(())". Given "))()(", you could return "()()()()".
+
+[See Solution](/problems/400-499/problem-199.js)
+
+---
+
 ## Problem 200 - Microsoft
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
