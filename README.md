@@ -2808,9 +2808,9 @@ For example, given the intervals `[(1, 4), (4, 5), (7, 9), (9, 12)]`, you should
 
 ---
 
-## Problem 201 - Google
+## Problem 201 - Google [Difficulty: Easy]
 
-You are given an array of arrays of integers, where each array corresponds to a row in a triangle of numbers. For example, [[1], [2, 3], [1, 5, 1]] represents the triangle:
+You are given an array of arrays of integers, where each array corresponds to a row in a triangle of numbers. For example, `[[1], [2, 3], [1, 5, 1]]` represents the triangle:
 
       1
      2 3
