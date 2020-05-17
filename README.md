@@ -2868,7 +2868,7 @@ Given an array and a permutation, apply the permutation to the array. For exampl
 
 ---
 
-## Problem 207 - Dropbox
+## Problem 207 - Dropbox [Difficulty: Medium]
 
 Given an undirected graph G, check whether it is bipartite. Recall that a graph is bipartite if its vertices can be divided into two independent sets, U and V, such that no edge connects vertices of the same set.
 
