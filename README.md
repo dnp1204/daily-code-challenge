@@ -2858,7 +2858,7 @@ Given an integer, find the next permutation of it in absolute order. For example
 
 ---
 
-## Problem 206 - Twitter
+## Problem 206 - Twitter [Difficulty: Easy]
 
 A permutation can be specified by an array P, where P[i] represents the location of the element at i in the permutation. For example, [2, 1, 0] represents the permutation where elements at the index 0 and 2 are swapped.
 
