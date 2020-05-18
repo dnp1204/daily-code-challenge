@@ -2876,7 +2876,7 @@ Given an undirected graph G, check whether it is bipartite. Recall that a graph 
 
 ---
 
-## Problem 208 - LinkedIn
+## Problem 208 - LinkedIn [Difficulty: Medium]
 
 Given a linked list of numbers and a pivot k, partition the linked list so that all nodes less than k come before nodes greater than or equal to k.
 
