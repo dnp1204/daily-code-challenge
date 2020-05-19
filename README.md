@@ -2886,7 +2886,7 @@ For example, given the linked list 5 -> 1 -> 8 -> 0 -> 3 and k = 3, the solution
 
 ---
 
-## Problem 209 - Google
+## Problem 209 - Google [Difficulty: Hard]
 
 Write a program that computes the length of the longest common subsequence of three given strings. For example, given "epidemiologist", "refrigeration", and "supercalifragilisticexpialodocious", it should return 5, since the longest common subsequence is "eieio".
 
