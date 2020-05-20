@@ -2894,7 +2894,7 @@ Write a program that computes the length of the longest common subsequence of th
 
 ---
 
-## Problem 210 - Apple
+## Problem 210 - Apple [Difficulty: Easy]
 
 A Collatz sequence in mathematics can be defined as follows. Starting with any positive integer:
 
