@@ -2926,7 +2926,7 @@ Given a column number, return its alphabetical column id. For example, given 1, 
 
 ---
 
-## Problem 213 - Snapchat
+## Problem 213 - Snapchat [Difficulty: Medium]
 
 Given a string of digits, generate all possible valid IP address combinations.
 
