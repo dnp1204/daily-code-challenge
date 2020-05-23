@@ -2916,7 +2916,7 @@ Given a string and a pattern, find the starting indices of all occurrences of th
 
 ---
 
-## Problem 212 - Dropbox
+## Problem 212 - Dropbox [Difficulty: Easy]
 
 Spreadsheets often use this alphabetical encoding for its columns: "A", "B", "C", ..., "AA", "AB", ..., "ZZ", "AAA", "AAB", ....
 
