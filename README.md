@@ -2938,7 +2938,7 @@ For example, given "2542540123", you should return ['254.25.40.123', '254.254.0.
 
 ---
 
-## Problem 214 - Stripe
+## Problem 214 - Stripe [Difficulty: Easy]
 
 Given an integer n, return the length of the longest consecutive run of 1s in its binary representation.
 
