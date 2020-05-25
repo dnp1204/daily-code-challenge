@@ -2948,7 +2948,7 @@ For example, given 156, you should return 3.
 
 ---
 
-## Problem 215 - Yelp
+## Problem 215 - Yelp [Difficulty: Medium]
 
 The horizontal distance of a binary tree node describes how far left or right the node will be when the tree is printed out.
 
