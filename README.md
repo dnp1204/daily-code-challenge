@@ -2978,7 +2978,7 @@ Given the root to a binary tree, return its bottom view.
 
 ---
 
-## Problem 216 - Facebook
+## Problem 216 - Facebook [Difficulty: Medium]
 
 Given a number in Roman numeral format, convert it to decimal.
 
