@@ -3030,7 +3030,7 @@ Design and implement Connect 4.
 
 ---
 
-## Problem 220 - Square
+## Problem 220 - Square [Difficulty: Medium]
 
 In front of you is a row of N coins, with values v1, v1, ..., vn.
 
