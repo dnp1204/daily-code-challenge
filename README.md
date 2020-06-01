@@ -3050,7 +3050,7 @@ Let's define a "sevenish" number to be one which is either a power of 7, or the 
 
 ---
 
-## Problem 222 - Quora
+## Problem 222 - Quora [Difficulty: Medium]
 
 Given an absolute pathname that may have . or .. as part of it, return the shortest standardized path.
 
