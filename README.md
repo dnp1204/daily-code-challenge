@@ -3068,7 +3068,7 @@ Typically, an implementation of in-order traversal of a binary tree has O(h) spa
 
 ---
 
-## Problem 224 - Amazon
+## Problem 224 - Amazon [Difficulty: Easy]
 
 Given a sorted array, find the smallest positive integer that is not the sum of a subset of the array.
 
