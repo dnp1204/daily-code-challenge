@@ -3080,7 +3080,7 @@ Do this in O(N) time.
 
 ---
 
-## Problem 225 - Bloomberg
+## Problem 225 - Bloomberg [Difficulty: Easy]
 
 There are N prisoners standing in a circle, waiting to be executed. The executions are carried out starting with the kth person, and removing every successive kth person going clockwise until there is no one left.
 
