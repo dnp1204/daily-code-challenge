@@ -3094,7 +3094,7 @@ Bonus: Find an O(log N) solution if k = 2.
 
 ---
 
-## Problem 226 - Airbnb
+## Problem 226 - Airbnb [Difficulty: Hard]
 
 You come across a dictionary of sorted words in a language you've never seen before. Write a program that returns the correct order of letters in this language.
 
