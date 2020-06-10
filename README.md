@@ -3147,11 +3147,11 @@ For example, if `N = 1` and `k = 5`, we will need to try dropping the egg at eve
 
 ---
 
-## Problem 231 - IBM
+## Problem 231 - IBM [Difficulty: Medium]
 
-Given a string with repeated characters, rearrange the string so that no two adjacent characters are the same. If this is not possible, return None.
+Given a string with repeated characters, rearrange the string so that no two adjacent characters are the same. If this is not possible, return `None`.
 
-For example, given "aaabbc", you could return "ababac". Given "aaab", return None.
+For example, given "aaabbc", you could return "ababac". Given "aaab", return `None`.
 
 [See Solution](/problems/200-299/problem-231.js)
 
