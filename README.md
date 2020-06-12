@@ -3176,9 +3176,9 @@ For example, you should be able to run the following code:
 
 ---
 
-## Problem 233 - Apple
+## Problem 233 - Apple [Difficulty: Easy]
 
-Implement the function fib(n), which returns the nth number in the Fibonacci sequence, using only O(1) space.
+Implement the function `fib(n)`, which returns the nth number in the Fibonacci sequence, using only `O(1)` space.
 
 [See Solution](/problems/200-299/problem-233.js)
 
