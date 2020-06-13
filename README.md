@@ -3184,7 +3184,7 @@ Implement the function `fib(n)`, which returns the nth number in the Fibonacci s
 
 ---
 
-## Problem 234 - Microsoft
+## Problem 234 - Microsoft [Difficulty: Hard]
 
 Recall that the minimum spanning tree is the subset of edges of a tree that connect all its vertices with the smallest possible total edge weight. Given an undirected graph with weighted edges, compute the maximum weight spanning tree.
 
