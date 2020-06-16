@@ -3210,7 +3210,7 @@ Determine if a new point p lies inside this polygon. (If p is on the boundary of
 
 ---
 
-## Problem 237 - Amazon
+## Problem 237 - Amazon [Difficulty: Easy]
 
 A tree is symmetric if its data and shape remain unchanged when it is reflected about the root node. The following tree is an example:
 
