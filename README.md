@@ -3357,7 +3357,7 @@ Find the maximum of two numbers without using any if-else statements, branching,
 
 ---
 
-## Problem 249 - Salesforce
+## Problem 249 - Salesforce [Difficulty: Hard]
 
 Given an array of integers, find the maximum XOR of any two elements.
 
