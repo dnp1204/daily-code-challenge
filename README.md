@@ -3365,13 +3365,20 @@ Given an array of integers, find the maximum XOR of any two elements.
 
 ---
 
-## Problem 250 - Google
+## Problem 250 - Google [Difficulty: Medium]
 
 A cryptarithmetic puzzle is a mathematical game where the digits of some numbers are represented by letters. Each letter represents a unique digit.
 
-For example, a puzzle of the form: Send + More = MONEY may have the solution:
+For example, a puzzle of the form:
 
-{'S': 9, 'E': 5, 'N': 6, 'D': 7, 'M': 1, 'O', 0, 'R': 8, 'Y': 2}
+      SEND
+    + MORE
+    --------
+     MONEY
+
+may have the solution:
+
+`{'S': 9, 'E': 5, 'N': 6, 'D': 7, 'M': 1, 'O', 0, 'R': 8, 'Y': 2}`
 
 Given a three-word puzzle like the one above, create an algorithm that finds a solution.
 
