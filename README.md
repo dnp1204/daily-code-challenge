@@ -3386,7 +3386,7 @@ Given a three-word puzzle like the one above, create an algorithm that finds a s
 
 ---
 
-## Problem 251 -  Amazon
+## Problem 251 -  Amazon [Difficulty: Medium]
 
 Given an array of a million integers between zero and a billion, out of order, how can you efficiently sort it? Assume that you cannot store an array of a billion elements in memory.
 
