@@ -3404,11 +3404,11 @@ Create an algorithm to turn an ordinary fraction `a / b`, where `a < b`, into an
 
 ---
 
-## Problem 253 - PayPal
+## Problem 253 - PayPal [Difficulty: Medium]
 
-Given a string and a number of lines k, print the string in zigzag form. In zigzag, characters are printed out diagonally from top left to bottom right until reaching the kth line, then back up to top right, and so on.
+Given a string and a number of lines `k`, print the string in zigzag form. In zigzag, characters are printed out diagonally from top left to bottom right until reaching the `kth` line, then back up to top right, and so on.
 
-For example, given the sentence "thisisazigzag" and k = 4, you should print:
+For example, given the sentence `"thisisazigzag"` and `k = 4`, you should print:
 
     t     a     g
      h   s z   a
