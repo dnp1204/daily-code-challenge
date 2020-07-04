@@ -3445,9 +3445,9 @@ You should convert it to:
 
 ---
 
-## Problem 255 - Microsoft
+## Problem 255 - Microsoft [Difficulty: Easy]
 
-The transitive closure of a graph is a measure of which vertices are reachable from other vertices. It can be represented as a matrix M, where M[i][j] == 1 if there is a path between vertices i and j, and otherwise 0.
+The transitive closure of a graph is a measure of which vertices are reachable from other vertices. It can be represented as a matrix M, where `M[i][j] == 1` if there is a path between vertices `i` and `j`, and otherwise `0`.
 
 For example, suppose we are given the following graph in adjacency list form:
 
