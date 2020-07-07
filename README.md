@@ -3487,7 +3487,7 @@ Given an array of integers out of order, determine the bounds of the smallest wi
 
 ---
 
-## Problem 258 - Morgan Stanley
+## Problem 258 - Morgan Stanley [Difficulty: Easy]
 
 In Ancient Greece, it was common to write text with the first line going left to right, the second line going right to left, and continuing to go back and forth. This style was called "boustrophedon".
 
@@ -3501,7 +3501,7 @@ For example, given the following tree:
      / \       / \
     4   5     6   7
 
-You should return [1, 3, 2, 4, 5, 6, 7].
+You should return `[1, 3, 2, 4, 5, 6, 7]`.
 
 [See Solution](/problems/200-299/problem-258.js)
 
