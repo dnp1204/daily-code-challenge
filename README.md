@@ -3601,7 +3601,7 @@ For example, given `[10, 40, 200, 1000, 60, 30]`, you should return `[1, 2, 3, 4
 
 ---
 
-## Problem 266 - Pivotal
+## Problem 266 - Pivotal [Difficulty: Easy]
 
 A step word is formed by taking a given word, adding a letter, and anagramming the result. For example, starting with the word "APPLE", you can add an "A" and anagram to get "APPEAL".
 
