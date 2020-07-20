@@ -3684,11 +3684,11 @@ You should return `9`, because propagating the message from `0 -> 2 -> 3 -> 4` w
 
 ---
 
-## Problem 271 -  Netflix
+## Problem 271 -  Netflix [Difficulty: Hard]
 
-Given a sorted list of integers of length N, determine if an element x is in the list without performing any multiplication, division, or bit-shift operations.
+Given a sorted list of integers of length `N`, determine if an element `x` is in the list without performing any multiplication, division, or bit-shift operations.
 
-Do this in O(log N) time.
+Do this in `O(log N)` time.
 
 [See Solution](/problems/200-299/problem-271.js)
 
