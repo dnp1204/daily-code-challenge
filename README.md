@@ -3694,7 +3694,7 @@ Do this in `O(log N)` time.
 
 ---
 
-## Problem 272 - Spotify [Difficulty: Hard]
+## Problem 272 - Spotify [Difficulty: Medium]
 
 Write a function, `throw_dice(N, faces, total)`, that determines how many ways it is possible to throw `N` dice with some number of faces each to get a specific total.
 
