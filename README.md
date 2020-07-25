@@ -3744,13 +3744,13 @@ Given an integer `N`, print the `N`th term of this sequence.
 
 ---
 
-## Problem 276 - Dropbox
+## Problem 276 - Dropbox [Difficulty: Hard]
 
 Implement an efficient string matching algorithm.
 
-That is, given a string of length N and a pattern of length k, write a program that searches for the pattern in the string with less than O(N * k) worst-case time complexity.
+That is, given a string of length `N` and a pattern of length `k`, write a program that searches for the pattern in the string with less than `O(N * k)` worst-case time complexity.
 
-If the pattern is found, return the start index of its location. If not, return False.
+If the pattern is found, return the start index of its location. If not, return `False`.
 
 [See Solution](/problems/200-299/problem-276.js)
 
