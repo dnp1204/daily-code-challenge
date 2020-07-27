@@ -3780,9 +3780,9 @@ Write a program that takes in an array of integers representing byte values, and
 
 ---
 
-## Problem 278 - Amazon
+## Problem 278 - Amazon [Difficulty: Easy]
 
-Given an integer N, construct all possible binary search trees with N nodes.
+Given an integer `N`, construct all possible binary search trees with `N` nodes.
 
 [See Solution](/problems/200-299/problem-278.js)
 
