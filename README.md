@@ -3810,7 +3810,7 @@ Given a friendship list such as the one above, determine the number of friend gr
 
 ---
 
-## Problem 280 - Pandora
+## Problem 280 - Pandora [Difficulty: Easy]
 
 Given an undirected graph, determine if it contains a cycle.
 
