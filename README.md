@@ -3818,7 +3818,7 @@ Given an undirected graph, determine if it contains a cycle.
 
 ---
 
-## Problem 281 - LinkedIn
+## Problem 281 - LinkedIn [Difficulty: Medium]
 
 A wall consists of several rows of bricks of various integer lengths and uniform height. Your goal is to find a vertical line going from the top to the bottom of the wall that cuts through the fewest number of bricks. If the line goes through the edge between two bricks, this does not count as a cut.
 
