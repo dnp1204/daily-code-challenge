@@ -3861,9 +3861,9 @@ Given an integer `N`, write a program that returns, in order, the first N regula
 
 ---
 
-## Problem 284 - Yext
+## Problem 284 - Yext [Difficulty: Medium]
 
-Two nodes in a binary tree can be called cousins if they are on the same level of the tree but have different parents. For example, in the following diagram 4 and 6 are cousins.
+Two nodes in a binary tree can be called cousins if they are on the same level of the tree but have different parents. For example, in the following diagram `4` and `6` are cousins.
 
         1
        / \
