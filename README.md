@@ -4092,7 +4092,7 @@ Bonus: Can you do this using only `O(k)` space?
 
 ---
 
-## Problem 296 - Etsy
+## Problem 296 - Etsy [Difficulty: Hard]
 
 Given a sorted array, convert it into a height-balanced binary search tree.
 
