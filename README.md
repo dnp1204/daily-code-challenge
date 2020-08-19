@@ -4163,14 +4163,14 @@ On election day, a voting machine writes data in the form `(voter_id, candidate_
 
 ---
 
-## Problem 301 - Triplebyte
+## Problem 301 - Triplebyte [Difficulty: Medium]
 
 Implement a data structure which carries out the following operations without resizing the underlying array:
 
-add(value): Add a value to the set of values.  
-check(value): Check whether a value is in the set.
+* `add(value)`: Add a value to the set of values.
+* `check(value)`: Check whether a value is in the set.
 
-The check method may return occasional false positives (in other words, incorrectly identifying an element as part of the set), but should always correctly identify a true element.
+The `check` method may return occasional false positives (in other words, incorrectly identifying an element as part of the set), but should always correctly identify a true element.
 
 [See Solution](/problems/300-399/problem-301.js)
 
