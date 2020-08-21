@@ -4192,9 +4192,9 @@ Considering the edges of the matrix as boundaries, this divides the grid into th
 
 ---
 
-## Problem 303 - Microsoft
+## Problem 303 - Microsoft [Difficulty: Easy]
 
-Given a clock time in hh:mm format, determine, to the nearest degree, the angle between the hour and the minute hands.
+Given a clock time in `hh:mm` format, determine, to the nearest degree, the angle between the hour and the minute hands.
 
 Bonus: When, during the course of a day, will the angle be zero?
 
