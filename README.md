@@ -4232,7 +4232,7 @@ Come up with an algorithm that sorts this list in `O(N log k)` time.
 
 ---
 
-## Problem 307 - Oracle
+## Problem 307 - Oracle [Difficulty: Easy]
 
 Given a binary search tree, find the floor and ceiling of a given integer. The floor is the highest element in the tree less than or equal to an integer, while the ceiling is the lowest element in the tree greater than or equal to an integer.
 
