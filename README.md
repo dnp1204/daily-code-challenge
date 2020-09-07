@@ -4374,7 +4374,7 @@ Given `N`, `M`, and `B`, determine the number of valid playlists.
 
 ---
 
-## Problem 319 - Airbnb
+## Problem 319 - Airbnb [Difficulty: Hard]
 
 An 8-puzzle is a game played on a 3 x 3 board of tiles, with the ninth tile missing. The remaining tiles are labeled 1 through 8 but shuffled randomly. Tiles may slide horizontally or vertically into an empty space, but may not be removed from the board.
 
