@@ -4453,14 +4453,14 @@ Create a data structure that can efficiently convert a certain quantity of one u
 
 ---
 
-## Problem 326 - Netflix
+## Problem 326 - Netflix [Difficulty: Hard]
 
-A Cartesian tree with sequence S is a binary tree defined by the following two properties:
+A Cartesian tree with sequence `S` is a binary tree defined by the following two properties:
 
 * It is heap-ordered, so that each parent value is strictly less than that of its children.
-* An in-order traversal of the tree produces nodes with values that correspond exactly to S.
+* An in-order traversal of the tree produces nodes with values that correspond exactly to `S`.
 
-For example, given the sequence [3, 2, 6, 1, 9], the resulting Cartesian tree would be:
+For example, given the sequence `[3, 2, 6, 1, 9]`, the resulting Cartesian tree would be:
 
           1
         /   \   
@@ -4468,7 +4468,7 @@ For example, given the sequence [3, 2, 6, 1, 9], the resulting Cartesian tree wo
      / \
     3   6
 
-Given a sequence S, construct the corresponding Cartesian tree.
+Given a sequence `S`, construct the corresponding Cartesian tree.
 
 [See Solution](/problems/300-399/problem-326.js)
 
