@@ -4474,7 +4474,7 @@ Given a sequence `S`, construct the corresponding Cartesian tree.
 
 ---
 
-## Problem 327 - Salesforce
+## Problem 327 - Salesforce [Difficulty: Easy]
 
 Write a program to merge two binary trees. Each node in the new tree should hold a value equal to the sum of the values of the corresponding nodes of the input trees.
 
