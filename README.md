@@ -4484,7 +4484,7 @@ If only one input tree has a node in a given position, the corresponding node in
 
 ---
 
-## Problem 328 - Facebook
+## Problem 328 - Facebook [Difficulty: Medium]
 
 In chess, the Elo rating system is used to calculate player strengths based on game results.
 
