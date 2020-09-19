@@ -4540,11 +4540,11 @@ Given a `2-CNF` formula, find a way to assign truth values to satisfy it, or ret
 
 ---
 
-## Problem 331 - LinkedIn
+## Problem 331 - LinkedIn [Difficulty: Medium]
 
-You are given a string consisting of the letters x and y, such as xyxxxyxyy. In addition, you have an operation called flip, which changes a single x to y or vice versa.
+You are given a string consisting of the letters `x` and `y`, such as `xyxxxyxyy`. In addition, you have an operation called `flip`, which changes a single `x` to `y` or vice versa.
 
-Determine how many times you would need to apply this operation to ensure that all x's come before all y's. In the preceding example, it suffices to flip the second and sixth characters, so you should return 2.
+Determine how many times you would need to apply this operation to ensure that all `x`'s come before all `y`'s. In the preceding example, it suffices to flip the second and sixth characters, so you should return `2`.
 
 [See Solution](/problems/300-399/problem-331.js)
 
