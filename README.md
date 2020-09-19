@@ -4550,12 +4550,12 @@ Determine how many times you would need to apply this operation to ensure that a
 
 ---
 
-## Problem 332 - Jane Street
+## Problem 332 - Jane Street [Difficulty: Easy]
 
-Given integers M and N, write a program that counts how many positive integer pairs (a, b) satisfy the following conditions:
+Given integers `M` and `N`, write a program that counts how many positive integer pairs `(a, b)` satisfy the following conditions:
 
-* a + b = M
-* a XOR b = N
+* `a + b = M`
+* `a XOR b = N`
 
 [See Solution](/problems/300-399/problem-332.js)
 
