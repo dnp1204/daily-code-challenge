@@ -4613,7 +4613,7 @@ For example, if `N = 3`, and our integers are `[1, 2, 3]`, there are two ways, s
 
 ---
 
-## Problem 337 - Apple
+## Problem 337 - Apple [Difficulty: Hard]
 
 Given a linked list, uniformly shuffle the nodes. What if we want to prioritize space over time?
 
