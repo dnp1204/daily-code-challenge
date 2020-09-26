@@ -4621,9 +4621,9 @@ Given a linked list, uniformly shuffle the nodes. What if we want to prioritize 
 
 ---
 
-## Problem 338 - Facebook
+## Problem 338 - Facebook [Difficulty: Medium]
 
-Given an integer n, find the next biggest integer with the same number of 1-bits on. For example, given the number 6 (0110 in binary), return 9 (1001).
+Given an integer n, find the next biggest integer with the same number of 1-bits on. For example, given the number 6 (`0110` in binary), return 9 (`1001`).
 
 [See Solution](/problems/300-399/problem-338.js)
 
