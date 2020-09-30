@@ -4691,9 +4691,9 @@ Implement your own version of `reduce`.
 
 ---
 
-## Problem 343 - Google
+## Problem 343 - Google [Difficulty: Medium]
 
-Given a binary search tree and a range [a, b] (inclusive), return the sum of the elements of the binary search tree within the range.
+Given a binary search tree and a range `[a, b]` (inclusive), return the sum of the elements of the binary search tree within the range.
 
 For example, given the following tree:
 
@@ -4703,7 +4703,7 @@ For example, given the following tree:
      / \ / \
     2  4 6  10
 
-and the range [4, 9], return 23 (5 + 4 + 6 + 8).
+and the range `[4, 9]`, return `23` (5 + 4 + 6 + 8).
 
 [See Solution](/problems/300-399/problem-343.js)
 
