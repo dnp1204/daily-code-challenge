@@ -4784,9 +4784,9 @@ For example, suppose we are given the string `daily` and `k = 1`. The best we ca
 
 ---
 
-## Problem 348 - Zillow
+## Problem 348 - Zillow [Difficulty: Easy]
 
-A ternary search tree is a trie-like data structure where each node may have up to three children. Here is an example which represents the words code, cob, be, ax, war, and we.
+A ternary search tree is a trie-like data structure where each node may have up to three children. Here is an example which represents the words `code`, `cob`, `be`, `ax`, `war`, and `we`.
 
           c
        /  |  \
@@ -4802,7 +4802,7 @@ The tree is structured according to the following rules:
 * right child nodes link to words lexicographically later than the parent prefix
 * middle child nodes continue the current word
 
-For instance, since code is the first word inserted in the tree, and cob lexicographically precedes cod, cob is represented as a left child extending from cod.
+For instance, since `code` is the first word inserted in the tree, and `cob` lexicographically precedes `cod`, `cob` is represented as a left child extending from `cod`.
 
 Implement insertion and search functions for a ternary search tree.
 
