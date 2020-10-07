@@ -4839,15 +4839,15 @@ Implement Soundex.
 
 ---
 
-## Problem 350 - Uber
+## Problem 350 - Uber [Difficulty: Medium]
 
-Write a program that determines the smallest number of perfect squares that sum up to N.
+Write a program that determines the smallest number of perfect squares that sum up to `N`.
 
 Here are a few examples:
 
-* Given N = 4, return 1 (4)
-* Given N = 17, return 2 (16 + 1)
-* Given N = 18, return 2 (9 + 9)
+* Given `N = 4`, return `1` (4)
+* Given `N = 17`, return `2` (16 + 1)
+* Given `N = 18`, return `2` (9 + 9)
 
 [See Solution](/problems/300-399/problem-350.js)
 
