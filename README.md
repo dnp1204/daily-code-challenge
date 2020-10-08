@@ -4853,7 +4853,7 @@ Here are a few examples:
 
 ---
 
-## Problem 351 - Quora
+## Problem 351 - Quora [Difficulty: Hard]
 
 Word sense disambiguation is the problem of determining which sense a word takes on in a particular setting, if that word has multiple meanings. For example, in the sentence "I went to get money from the bank", bank probably means the place where people deposit money, not the land beside a river or lake.
 
