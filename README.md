@@ -4871,9 +4871,9 @@ Given a sentence, most of whose words are contained in the meaning list above, c
 
 ---
 
-## Problem 352 - Palantir
+## Problem 352 - Palantir [Difficulty: Easy]
 
-A typical American-style crossword puzzle grid is an N x N matrix with black and white squares, which obeys the following rules:
+A typical American-style crossword puzzle grid is an `N x N` matrix with black and white squares, which obeys the following rules:
 
 * Every white square must be part of an "across" word and a "down" word.
 * No word can be fewer than three letters long.
