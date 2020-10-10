@@ -4886,9 +4886,9 @@ Write a program to determine whether a given matrix qualifies as a crossword gri
 
 ---
 
-## Problem 353 - Square
+## Problem 353 - Square [Difficulty: Medium]
 
-You are given a histogram consisting of rectangles of different heights. These heights are represented in an input list, such that [1, 3, 2, 5] corresponds to the following diagram:
+You are given a histogram consisting of rectangles of different heights. These heights are represented in an input list, such that `[1, 3, 2, 5]` corresponds to the following diagram:
 
           x
           x  
@@ -4896,7 +4896,7 @@ You are given a histogram consisting of rectangles of different heights. These h
       x x x
     x x x x
 
-Determine the area of the largest rectangle that can be formed only from the bars of the histogram. For the diagram above, for example, this would be six, representing the 2 x 3 area at the bottom right.
+Determine the area of the largest rectangle that can be formed only from the bars of the histogram. For the diagram above, for example, this would be six, representing the `2 x 3` area at the bottom right.
 
 [See Solution](/problems/300-399/problem-353.js)
 
