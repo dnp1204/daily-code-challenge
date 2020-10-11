@@ -4902,7 +4902,7 @@ Determine the area of the largest rectangle that can be formed only from the bar
 
 ---
 
-## Problem 354 - Google
+## Problem 354 - Google [Difficulty: Hard]
 
 Design a system to crawl and copy all of Wikipedia using a distributed network of machines.
 
