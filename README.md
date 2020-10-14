@@ -4934,11 +4934,11 @@ For example, suppose your input is `[1.3, 2.3, 4.4]`. In this case you cannot do
 
 ---
 
-## Problem 356 - Netflix
+## Problem 356 - Netflix [Difficulty: Hard]
 
 Implement a queue using a set of fixed-length arrays.
 
-The queue should support enqueue, dequeue, and get_size operations.
+The queue should support `enqueue`, `dequeue`, and `get_size` operations.
 
 [See Solution](/problems/300-399/problem-356.js)
 
