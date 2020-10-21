@@ -5036,16 +5036,16 @@ Write a function, `add_subtract`, which alternately adds and subtracts curried a
     add_subtract(7) -> 7
 
     add_subtract(1)(2)(3) -> 1 + 2 - 3 -> 0
-    
+
     add_subtract(-5)(10)(3)(9) -> -5 + 10 - 3 + 9 -> 11
 
 [See Solution](/problems/300-399/problem-363.js)
 
 ---
 
-## Problem 364 - Facebook
+## Problem 364 - Facebook [Difficulty: Medium]
 
-Describe an algorithm to compute the longest increasing subsequence of an array of numbers in O(n log n) time.
+Describe an algorithm to compute the longest increasing subsequence of an array of numbers in `O(n log n)` time.
 
 [See Solution](/problems/300-399/problem-364.js)
 
