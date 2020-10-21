@@ -5031,10 +5031,12 @@ Create a program that finds all strobogrammatic numbers with `N` digits.
 
 ## Problem 363 - Squarespace [Difficulty: Medium]
 
-Write a function, add_subtract, which alternately adds and subtracts curried arguments. Here are some sample operations:
+Write a function, `add_subtract`, which alternately adds and subtracts curried arguments. Here are some sample operations:
 
     add_subtract(7) -> 7
+
     add_subtract(1)(2)(3) -> 1 + 2 - 3 -> 0
+    
     add_subtract(-5)(10)(3)(9) -> -5 + 10 - 3 + 9 -> 11
 
 [See Solution](/problems/300-399/problem-363.js)
