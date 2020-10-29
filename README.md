@@ -5131,7 +5131,7 @@ Also, provide max(), min(), and average() functions that give the max/min/averag
 
 ---
 
-## Problem 369 - Postmates [Difficulty: Easy]
+## Problem 370 - Postmates [Difficulty: Easy]
 
 The “active time” of a courier is the time between the pickup and dropoff of a delivery. Given a set of data formatted like the following:
 
@@ -5150,7 +5150,7 @@ For example, if the input is the following:
 
 The total active time would be 1260 seconds.
 
-[See Solution](/problems/300-399/problem-369.js)
+[See Solution](/problems/300-399/problem-370.js)
 
 ---
 
