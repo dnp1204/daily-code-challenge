@@ -5154,7 +5154,7 @@ The total active time would be 1260 seconds.
 
 ---
 
-## Problem 370 - Google [Difficulty: Hard]
+## Problem 371 - Google [Difficulty: Hard]
 
 You are given a series of arithmetic equations as a string, such as:
 
@@ -5170,7 +5170,7 @@ The equations use addition only and are separated by newlines. Return a mapping 
         z: 5
     }
 
-[See Solution](/problems/300-399/problem-370.js)
+[See Solution](/problems/300-399/problem-371.js)
 
 ---
 
