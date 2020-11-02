@@ -1,27 +1,19 @@
 /**
  * Company: Google.
  *
- * You are writing an AI for a 2D map game. You are somewhere in a 2D grid, and there are coins strewn about over the map.
+ * The h-index is a metric used to measure the impact and productivity of a scientist or researcher.
  *
- * Given the position of all the coins and your current position, find the closest coin to you in terms of Manhattan distance.
- * That is, you can move around up, down, left, and right, but not diagonally. If there are multiple possible closest coins,
- * return any of them.
+ * A scientist has index _h_ if _h_ of their _N_ papers have at least _h_ citations each, and the other N - h papers have
+ * no more than _h_ citations each. If there are multiple possible values for _h_, the maximum value is used.
  *
- * For example, given the following map, where you are x, coins are o, and empty spaces are . (top left is 0, 0):
+ * Given an array of natural numbers, with each value representing the number of citations of a researcher's paper, return
+ * the h-index of that researcher.
  *
- * ---------------------
- * | . | . | x | . | o |
- * ---------------------
- * | o | . | . | . | . |
- * ---------------------
- * | o | . | . | . | o |
- * ---------------------
- * | . | . | o | . | . |
- * ---------------------
+ * For example, if the array was:
  *
- * return (0, 4), since that coin is closest. This map would be represented in our question as:
+ * [4, 0, 0, 2, 3]
  *
- * Our position: (0, 2)
- * Coins: [(0, 4), (1, 0), (2, 0), (3, 2)]
+ * This means the researcher has 5 papers with 4, 1, 0, 2, and 3 citations respectively. The h-index for this researcher is
+ * 2, since they have 2 papers with at least 2 citations and the remaining 3 papers have no more than 2 citations.
  * TODO:
  */
