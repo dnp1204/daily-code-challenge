@@ -1,22 +1,27 @@
 /**
- * Company: Microsoft.
+ * Company: Google.
  *
- * Given an array of numbers arr and a window of size k, print out the median of each window of size k starting from the left and moving
- * right by one position each time.
+ * You are writing an AI for a 2D map game. You are somewhere in a 2D grid, and there are coins strewn about over the map.
  *
- * For example, given the following array and k = 3:
+ * Given the position of all the coins and your current position, find the closest coin to you in terms of Manhattan distance.
+ * That is, you can move around up, down, left, and right, but not diagonally. If there are multiple possible closest coins,
+ * return any of them.
  *
- * [-1, 5, 13, 8, 2, 3, 3, 1]
+ * For example, given the following map, where you are x, coins are o, and empty spaces are . (top left is 0, 0):
  *
- * Your function should print out the following:
+ * ---------------------
+ * | . | . | x | . | o |
+ * ---------------------
+ * | o | . | . | . | . |
+ * ---------------------
+ * | o | . | . | . | o |
+ * ---------------------
+ * | . | . | o | . | . |
+ * ---------------------
  *
- * 5 <- median of [-1, 5, 13]
- * 8 <- median of [5, 13, 8]
- * 8 <- median of [13, 8, 2]
- * 3 <- median of [8, 2, 3]
- * 3 <- median of [2, 3, 3]
- * 3 <- median of [3, 3, 1]
+ * return (0, 4), since that coin is closest. This map would be represented in our question as:
  *
- * Recall that the median of an even-sized list is the average of the two middle numbers.
+ * Our position: (0, 2)
+ * Coins: [(0, 4), (1, 0), (2, 0), (3, 2)]
  * TODO:
  */
