@@ -1,14 +1,22 @@
 /**
- * Company: Coinbase.
+ * Company: Microsoft.
  *
- * Write a function that takes in a number, string, list, or dictionary and returns its JSON encoding. It should also handle nulls.
+ * Given an array of numbers arr and a window of size k, print out the median of each window of size k starting from the left and moving
+ * right by one position each time.
  *
- * For example, given the following input:
+ * For example, given the following array and k = 3:
  *
- * [None, 123, ["a", "b"], {"c":"d"}]
+ * [-1, 5, 13, 8, 2, 3, 3, 1]
  *
- * You should return the following, as a string:
+ * Your function should print out the following:
  *
- * '[null, 123, ["a", "b"], {"c": "d"}]'
+ * 5 <- median of [-1, 5, 13]
+ * 8 <- median of [5, 13, 8]
+ * 8 <- median of [13, 8, 2]
+ * 3 <- median of [8, 2, 3]
+ * 3 <- median of [2, 3, 3]
+ * 3 <- median of [3, 3, 1]
+ *
+ * Recall that the median of an even-sized list is the average of the two middle numbers.
  * TODO:
  */
