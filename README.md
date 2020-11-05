@@ -5272,7 +5272,7 @@ Recall that the median of an even-sized list is the average of the two middle nu
 
 ---
 
-## Problem 377 - Coinbase [Difficulty: Medium]
+## Problem 378 - Coinbase [Difficulty: Medium]
 
 Write a function that takes in a number, string, list, or dictionary and returns its JSON encoding. It should also handle nulls.
 
@@ -5284,7 +5284,7 @@ You should return the following, as a string:
 
     '[null, 123, ["a", "b"], {"c": "d"}]'
 
-[See Solution](/problems/300-399/problem-377.js)
+[See Solution](/problems/300-399/problem-378.js)
 
 ---
 
