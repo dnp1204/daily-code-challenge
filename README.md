@@ -5288,11 +5288,11 @@ You should return the following, as a string:
 
 ---
 
-## Problem 378 - Microsoft [Difficulty: Easy]
+## Problem 379 - Microsoft [Difficulty: Easy]
 
 Given a string, generate all possible subsequences of the string.
 
-For example, given the string xyz, return an array or set with the following strings:
+For example, given the string `xyz`, return an array or set with the following strings:
 
     x
     y
@@ -5302,9 +5302,9 @@ For example, given the string xyz, return an array or set with the following str
     yz
     xyz
 
-Note that zx is not a valid subsequence since it is not in the order of the given string.
+Note that `zx` is not a valid subsequence since it is not in the order of the given string.
 
-[See Solution](/problems/300-399/problem-378.js)
+[See Solution](/problems/300-399/problem-379.js)
 
 ---
 

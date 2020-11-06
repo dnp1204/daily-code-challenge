@@ -1,11 +1,17 @@
 /**
- * Company: Nextdoor.
+ * Company: Microsoft.
  *
- * Implement integer division without using the division operator. Your function should return a tuple of (dividend, remainder)
- * and it should take two numbers, the product and divisor.
+ * Given a string, generate all possible subsequences of the string.
  *
- * For example, calling divide(10, 3) should return (3, 1) since the divisor is 3 and the remainder is 1.
+ * For example, given the string xyz, return an array or set with the following strings:
+ * x
+ * y
+ * z
+ * xy
+ * xz
+ * yz
+ * xyz
  *
- * Bonus: Can you do it in O(log n) time?
+ * Note that zx is not a valid subsequence since it is not in the order of the given string.
  * TODO:
  */
