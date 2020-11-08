@@ -5320,7 +5320,7 @@ Bonus: Can you do it in O(log n) time?
 
 ---
 
-## Problem 380 - Paypal [Difficulty: Easy]
+## Problem 381 - Paypal [Difficulty: Easy]
 
 Read [this Wikipedia article on Base64 encoding](https://en.wikipedia.org/wiki/Base64).
 
@@ -5334,7 +5334,7 @@ should produce:
 
     3q2+7w==
 
-[See Solution](/problems/300-399/problem-380.js)
+[See Solution](/problems/300-399/problem-381.js)
 
 ---
 

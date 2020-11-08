@@ -1,16 +1,17 @@
 /**
- * Company: Google.
+ * Company: Paypal.
  *
- * Yesterday you implemented a function that encodes a hexadecimal string into Base64.
+ * Read this Wikipedia article on Base64 encoding.
  *
- * Write a function to decode a Base64 string back to a hexadecimal string.
+ * Implement a function that converts a hex string to base64.
  *
- * For example, the following string:
+ * For example, the string:
  *
- * 3q2+7w==
+ * deadbeef
  *
  * should produce:
  *
- * deadbeef
+ * 3q2+7w==
+ *
  * TODO:
  */
