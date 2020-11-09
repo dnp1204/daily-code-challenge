@@ -5338,7 +5338,7 @@ should produce:
 
 ---
 
-## Problem 381 - Google [Difficulty: Easy]
+## Problem 382 - Google [Difficulty: Easy]
 
 Yesterday you implemented a function that encodes a hexadecimal string into Base64.
 
@@ -5352,7 +5352,7 @@ should produce:
 
     deadbeef
 
-[See Solution](/problems/300-399/problem-381.js)
+[See Solution](/problems/300-399/problem-382.js)
 
 ---
 
