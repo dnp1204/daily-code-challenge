@@ -1,14 +1,11 @@
 /**
- * Company: Apple.
+ * Company: WeWork.
  *
- * You are given a hexadecimal-encoded string that has been XOR'd against a single char.
+ * You are given an array of integers representing coin denominations and a total amount of money. Write a function to compute the fewest
+ * number of coins needed to make up that amount. If it is not possible to make that amount, return null.
  *
- * Decrypt the message. For example, given the string:
+ * For example, given an array of [1, 5, 10] and an amount 56, return 7 since we can use 5 dimes, 1 nickel, and 1 penny.
  *
- * 7a575e5e5d12455d405e561254405d5f1276535b5e4b12715d565b5c551262405d505e575f
- *
- * You should be able to decrypt it and get:
- *
- * Hello world from Daily Coding Problem
+ * Given an array of [5, 8] and an amount 15, return 3 since we can use 5 5-cent coins.
  * TODO:
  */
