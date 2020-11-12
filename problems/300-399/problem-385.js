@@ -1,8 +1,14 @@
 /**
- * Company: Twitter.
+ * Company: Apple.
  *
- * Given a string, sort it in decreasing order based on the frequency of characters. If there are multiple possible solutions, return any of them.
+ * You are given a hexadecimal-encoded string that has been XOR'd against a single char.
  *
- * For example, given the string tweet, return tteew. eettw would also be acceptable.
+ * Decrypt the message. For example, given the string:
+ *
+ * 7a575e5e5d12455d405e561254405d5f1276535b5e4b12715d565b5c551262405d505e575f
+ *
+ * You should be able to decrypt it and get:
+ *
+ * Hello world from Daily Coding Problem
  * TODO:
  */

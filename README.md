@@ -5382,7 +5382,7 @@ Given an array of `[5, 8]` and an amount `15`, return `3` since we can use 5 5-c
 
 ---
 
-## Problem 384 - Apple [Difficulty: Medium]
+## Problem 385 - Apple [Difficulty: Medium]
 
 You are given a hexadecimal-encoded string that has been XOR'd against a single char.
 
@@ -5394,7 +5394,7 @@ You should be able to decrypt it and get:
 
     Hello world from Daily Coding Problem
 
-[See Solution](/problems/300-399/problem-384.js)
+[See Solution](/problems/300-399/problem-385.js)
 
 ---
 
