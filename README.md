@@ -5398,13 +5398,13 @@ You should be able to decrypt it and get:
 
 ---
 
-## Problem 385 - Twitter [Difficulty: Easy]
+## Problem 386 - Twitter [Difficulty: Easy]
 
 Given a string, sort it in decreasing order based on the frequency of characters. If there are multiple possible solutions, return any of them.
 
-For example, given the string tweet, return tteew. eettw would also be acceptable.
+For example, given the string `tweet`, return `tteew`. `eettw` would also be acceptable.
 
-[See Solution](/problems/300-399/problem-385.js)
+[See Solution](/problems/300-399/problem-386.js)
 
 ---
 

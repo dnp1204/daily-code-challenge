@@ -1,6 +1,8 @@
 /**
- * Company: Amazon.
+ * Company: Twitter.
  *
- * How would you explain the difference between an API and SDK to a non-technical person?
+ * Given a string, sort it in decreasing order based on the frequency of characters. If there are multiple possible solutions, return any of them.
+ *
+ * For example, given the string tweet, return tteew. eettw would also be acceptable.
  * TODO:
  */
