@@ -5408,11 +5408,11 @@ For example, given the string `tweet`, return `tteew`. `eettw` would also be acc
 
 ---
 
-## Problem 386 - Amazon [Difficulty: Medium]
+## Problem 387 - Amazon [Difficulty: Medium]
 
 How would you explain the difference between an API and SDK to a non-technical person?
 
-[See Solution](/problems/300-399/problem-386.js)
+[See Solution](/problems/300-399/problem-387.js)
 
 ---
 
