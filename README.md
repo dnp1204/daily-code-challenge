@@ -5416,11 +5416,11 @@ How would you explain the difference between an API and SDK to a non-technical p
 
 ---
 
-## Problem 387 - Airtable [Difficulty: Medium]
+## Problem 388 - Airtable [Difficulty: Medium]
 
 How would you explain web cookies to someone non-technical?
 
-[See Solution](/problems/300-399/problem-387.js)
+[See Solution](/problems/300-399/problem-388.js)
 
 ---
 
