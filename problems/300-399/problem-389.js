@@ -1,7 +1,7 @@
 /**
- * Company: Two Sigma.
+ * Company: Google.
  *
- * You are given an unsorted list of 999,000 unique integers, each from 1 and 1,000,000. Find the missing 1000 numbers. What is the
- * computational and space complexity of your solution?
- * TODO:
+ * Explain the difference between composition and inheritance. In which cases would you use each?
+ * Answer: https://javarevisited.blogspot.com/2015/06/difference-between-inheritance-and-Composition-in-Java-OOP.html
+ * And https://www.thoughtworks.com/insights/blog/composition-vs-inheritance-how-choose
  */
