@@ -5440,7 +5440,7 @@ You are given an unsorted list of 999,000 unique integers, each from 1 and 1,000
 
 ---
 
-## Problem 390 - Facebook [Difficulty: Hard]
+## Problem 391 - Facebook [Difficulty: Hard]
 
 We have some historical clickstream data gathered from our site anonymously using cookies. The histories contain URLs that users have visited in chronological order.
 
@@ -5455,7 +5455,7 @@ You should return the following:
 
     ['/login', '/user', '/one']
 
-[See Solution](/problems/300-399/problem-390.js)
+[See Solution](/problems/300-399/problem-391.js)
 
 ---
 
