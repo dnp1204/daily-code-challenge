@@ -1,8 +1,24 @@
 /**
- * Company: Airbnb.
+ * Company: Google.
  *
- * Given an array of integers, return the largest range, inclusive, of integers that are all included in the array.
+ * You are given a 2D matrix of 1s and 0s where 1 represents land and 0 represents water.
  *
- * For example, given the array [9, 6, 1, 3, 8, 10, 12, 11], return (8, 12) since 8, 9, 10, 11, and 12 are all in the array.
+ * Grid cells are connected horizontally orvertically (not diagonally). The grid is completely surrounded by water, and there is exactly
+ * one island (i.e., one or more connected land cells).
+ *
+ * An island is a group is cells connected horizontally or vertically, but not diagonally. There is guaranteed to be exactly one island
+ * in this grid, and the island doesn't have water inside that isn't connected to the water around the island. Each cell has a side length
+ * of 1.
+ *
+ * Determine the perimeter of this island.
+ *
+ * For example, given the following matrix:
+ *
+ * [[0, 1, 1, 0],
+ * [1, 1, 1, 0],
+ * [0, 1, 1, 0],
+ * [0, 0, 1, 0]]
+ *
+ * Return 14.
  * TODO:
  */

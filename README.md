@@ -5459,7 +5459,7 @@ You should return the following:
 
 ---
 
-## Problem 391 - Google [Difficulty: Hard]
+## Problem 392 - Google [Difficulty: Hard]
 
 You are given a 2D matrix of 1s and 0s where 1 represents land and 0 represents water.
 
@@ -5476,9 +5476,9 @@ For example, given the following matrix:
     [0, 1, 1, 0],
     [0, 0, 1, 0]]
 
-Return 14.
+Return `14`.
 
-[See Solution](/problems/300-399/problem-391.js)
+[See Solution](/problems/300-399/problem-392.js)
 
 ---
 
