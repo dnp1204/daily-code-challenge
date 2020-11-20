@@ -1,6 +1,8 @@
 /**
- * Company: Uber.
+ * Company: Airbnb.
  *
- * Given a binary tree and an integer k, return whether there exists a root-to-leaf path that sums up to k.
+ * Given an array of integers, return the largest range, inclusive, of integers that are all included in the array.
+ *
+ * For example, given the array [9, 6, 1, 3, 8, 10, 12, 11], return (8, 12) since 8, 9, 10, 11, and 12 are all in the array.
  * TODO:
  */
