@@ -1,16 +1,6 @@
 /**
- * Company: Robinhood.
+ * Company: Uber.
  *
- * Given an array of strings, group anagrams together.
- *
- * For example, given the following array:
- *
- * ['eat', 'ate', 'apt', 'pat', 'tea', 'now']
- *
- * Return:
- *
- * [['eat', 'ate', 'tea'],
- * ['apt', 'pat'],
- * ['now']]
+ * Given a binary tree and an integer k, return whether there exists a root-to-leaf path that sums up to k.
  * TODO:
  */
