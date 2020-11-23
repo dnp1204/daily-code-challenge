@@ -5510,7 +5510,7 @@ Return `True` since the path `8 -> 4 -> 6` sums to 18.
 
 ---
 
-## Problem 394 - Robinhood [Difficulty: Medium]
+## Problem 395 - Robinhood [Difficulty: Medium]
 
 Given an array of strings, group anagrams together.
 
@@ -5524,7 +5524,7 @@ Return:
     ['apt', 'pat'],
     ['now']]
 
-[See Solution](/problems/300-399/problem-394.js)
+[See Solution](/problems/300-399/problem-395.js)
 
 ---
 

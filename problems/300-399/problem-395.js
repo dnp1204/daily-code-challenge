@@ -1,15 +1,16 @@
 /**
- * Company: Google.
+ * Company: Robinhood.
  *
- * Given a string, return the length of the longest palindromic subsequence in the string.
+ * Given an array of strings, group anagrams together.
  *
- * For example, given the following string:
+ * For example, given the following array:
  *
- * MAPTPTMTPA
+ * ['eat', 'ate', 'apt', 'pat', 'tea', 'now']
  *
- * Return 7, since the longest palindromic subsequence in the string is APTMTPA. Recall that a subsequence of a string does not have
- * to be contiguous!
+ * Return:
  *
- * Your algorithm should run in O(n^2) time and space.
+ * [['eat', 'ate', 'tea'],
+ * ['apt', 'pat'],
+ * ['now']]
  * TODO:
  */
