@@ -5528,7 +5528,7 @@ Return:
 
 ---
 
-## Problem 395 - Google [Difficulty: Hard]
+## Problem 396 - Google [Difficulty: Hard]
 
 Given a string, return the length of the longest palindromic subsequence in the string.
 
@@ -5540,7 +5540,7 @@ Return 7, since the longest palindromic subsequence in the string is `APTMTPA`. 
 
 Your algorithm should run in O(n^2) time and space.
 
-[See Solution](/problems/300-399/problem-395.js)
+[See Solution](/problems/300-399/problem-396.js)
 
 ---
 
