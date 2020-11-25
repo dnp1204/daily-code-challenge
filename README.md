@@ -5544,7 +5544,7 @@ Your algorithm should run in O(n^2) time and space.
 
 ---
 
-## Problem 396 - Microsoft [Difficulty: Medium]
+## Problem 397 - Microsoft [Difficulty: Medium]
 
 You are given a list of jobs to be done, where each job is represented by a start time and end time. Two jobs are compatible if they don't overlap. Find the largest subset of compatible jobs.
 
@@ -5565,7 +5565,7 @@ Return:
     (4, 7),
     (8, 11)]
 
-[See Solution](/problems/300-399/problem-396.js)
+[See Solution](/problems/300-399/problem-397.js)
 
 ---
 
