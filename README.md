@@ -5569,7 +5569,7 @@ Return:
 
 ---
 
-## Problem 397 - Amazon [Difficulty: Medium]
+## Problem 398 - Amazon [Difficulty: Medium]
 
 Given a linked list and an integer `k`, remove the k-th node from the end of the list and return the head of the list.
 
@@ -5577,7 +5577,7 @@ Given a linked list and an integer `k`, remove the k-th node from the end of the
 
 Do this in one pass.
 
-[See Solution](/problems/300-399/problem-397.js)
+[See Solution](/problems/300-399/problem-398.js)
 
 ---
 
