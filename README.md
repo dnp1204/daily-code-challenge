@@ -5581,7 +5581,7 @@ Do this in one pass.
 
 ---
 
-## Problem 398 - Facebook [Difficulty: Hard]
+## Problem 399 - Facebook [Difficulty: Hard]
 
 Given a list of strictly positive integers, partition the list into 3 contiguous partitions which each sum up to the same value. If not possible, return null.
 
@@ -5597,7 +5597,7 @@ Return the following 3 partitions:
 
 Which each add up to 8.
 
-[See Solution](/problems/300-399/problem-398.js)
+[See Solution](/problems/300-399/problem-399.js)
 
 ---
 
