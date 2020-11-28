@@ -5601,27 +5601,13 @@ Which each add up to 8.
 
 ---
 
-## Problem 399 - Amazon [Difficulty: Hard]
+## Problem 400 - Goldman Sachs [Difficulty: Hard]
 
-There exists a staircase with N steps, and you can climb up either 1 or 2 steps at a time. Given N, write a function that returns the number of unique ways you can climb the staircase. The order of the steps matters.
+Given a list of numbers `L`, implement a method `sum(i, j)` which returns the sum from the sublist `L[i:j]` (including `i`, excluding `j`).
 
-For example, if N is 4, then there are 5 unique ways:
+For example, given `L = [1, 2, 3, 4, 5]`, `sum(1, 3)` should return `sum([2, 3])`, which is `5`.
 
-* 1, 1, 1, 1
-* 2, 1, 1
-* 1, 2, 1
-* 1, 1, 2
-* 2, 2
-
-What if, instead of being able to climb 1 or 2 steps at a time, you could climb any number from a set of positive integers X? For example, if X = {1, 3, 5}, you could climb 1, 3, or 5 steps at a time.
-
-[See Solution](/problems/300-399/problem-399.js)
-
----
-
-## Problem 400 - Microsoft [Difficulty: Hard]
-
-You have an N by N board. Write a function that, given N, returns the number of possible arrangements of the board where N queens can be placed on the board without threatening each other, i.e. no two queens share the same row, column, or diagonal.
+You can assume that you can do some pre-processing. `sum()` should be optimized over the pre-processing step.
 
 [See Solution](/problems/400-499/problem-400.js)
 
