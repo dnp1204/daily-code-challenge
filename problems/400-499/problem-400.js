@@ -6,4 +6,5 @@
  * For example, given L = [1, 2, 3, 4, 5], sum(1, 3) should return sum([2, 3]), which is 5.
  *
  * You can assume that you can do some pre-processing. sum() should be optimized over the pre-processing step.
+ * TODO:
  */
