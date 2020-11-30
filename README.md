@@ -5622,3 +5622,13 @@ Given an array and a permutation, apply the permutation to the array. For exampl
 [See Solution](/problems/400-499/problem-401.js)
 
 ---
+
+## Problem 402 - Twitter [Difficulty: Easy]
+
+A strobogrammatic number is a positive number that appears the same after being rotated 180 degrees. For example, `16891` is strobogrammatic.
+
+Create a program that finds all strobogrammatic numbers with `N` digits.
+
+[See Solution](/problems/400-499/problem-402.js)
+
+---
