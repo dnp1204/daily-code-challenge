@@ -5632,3 +5632,11 @@ Create a program that finds all strobogrammatic numbers with `N` digits.
 [See Solution](/problems/400-499/problem-402.js)
 
 ---
+
+## Problem 403 - Two Sigma [Difficulty: Easy]
+
+Using a function rand5() that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function rand7() that returns an integer from 1 to 7 (inclusive).
+
+[See Solution](/problems/400-499/problem-403.js)
+
+---
