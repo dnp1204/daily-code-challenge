@@ -5650,3 +5650,13 @@ For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
 [See Solution](/problems/400-499/problem-404.js)
 
 ---
+
+## Problem 405 - Apple [Difficulty: Hard]
+
+Given a tree, find the largest tree/subtree that is a BST.
+
+Given a tree, return the size of the largest tree/subtree that is a BST.
+
+[See Solution](/problems/400-499/problem-405.js)
+
+---
