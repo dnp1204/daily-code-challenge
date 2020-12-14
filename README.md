@@ -5832,3 +5832,11 @@ It takes 1 step to move from `(0, 0)` to `(1, 1)`. It takes one more step to mov
 [See Solution](/problems/400-499/problem-416.js)
 
 ---
+
+## Problem 417 - Amazon [Difficulty: Easy]
+
+Given a linked list, remove all consecutive nodes that sum to zero. Print out the remaining nodes.
+
+For example, suppose you are given the input `3 -> 4 -> -7 -> 5 -> -6 -> 6`. In this case, you should first remove `3 -> 4 -> -7`, then `-6 -> 6`, leaving only `5`.
+
+[See Solution](/problems/400-499/problem-417.js)
