@@ -5928,12 +5928,35 @@ Given a graph, find its transitive closure.
 
 ## Problem 424 - Facebook [Difficulty: Medium]
 
-TGiven an array of integers in which two elements appear exactly once and all other elements appear exactly twice, find the two elements that appear only once.
+Given an array of integers in which two elements appear exactly once and all other elements appear exactly twice, find the two elements that appear only once.
 
 For example, given the array `[2, 4, 6, 8, 10, 2, 6, 10]`, return `4` and `8`. The order does not matter.
 
 Follow-up: Can you do this in linear time and constant space?
 
 [See Solution](/problems/400-499/problem-424.js)
+
+---
+
+## Problem 425 - Oracle [Difficulty: Hard]
+
+You are presented with an `8` by `8` matrix representing the positions of pieces on a chess board. The only pieces on the board are the black king and various white pieces. Given this matrix, determine whether the king is in check.
+
+For details on how each piece moves, see [here](https://en.wikipedia.org/wiki/Chess_piece#Moves_of_the_pieces).
+
+For example, given the following matrix:
+
+    ...K....
+    ........
+    .B......
+    ......P.
+    .......R
+    ..N.....
+    ........
+    .....Q..
+
+You should return `True`, since the bishop is attacking the king diagonally.
+
+[See Solution](/problems/400-499/problem-425.js)
 
 ---
