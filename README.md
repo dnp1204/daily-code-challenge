@@ -5960,3 +5960,11 @@ You should return `True`, since the bishop is attacking the king diagonally.
 [See Solution](/problems/400-499/problem-425.js)
 
 ---
+
+## Problem 426 - Facebook [Difficulty: Easy]
+
+Given a binary tree, return the level of the tree with minimum sum.
+
+[See Solution](/problems/400-499/problem-426.js)
+
+---
