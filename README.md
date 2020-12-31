@@ -6071,3 +6071,11 @@ Some questions you may want to consider as part of your solution are:
 [See Solution](/problems/400-499/problem-432.js)
 
 ---
+
+## Problem 433 - Facebook [Difficulty: Medium]
+
+Given an integer n, find the next biggest integer with the same number of 1-bits on. For example, given the number 6 (`0110` in binary), return 9 (`1001`).
+
+[See Solution](/problems/400-499/problem-433.js)
+
+---
