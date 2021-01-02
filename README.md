@@ -6113,3 +6113,21 @@ You should return the following tree:
 [See Solution](/problems/400-499/problem-435.js)
 
 ---
+
+## Problem 436 - Microsoft [Difficulty: Hard]
+
+Implement 3 stacks using a single list:
+
+    class Stack:
+        def __init__(self):
+            self.list = []
+
+        def pop(self, stack_number):
+            pass
+
+        def push(self, item, stack_number):
+            pass
+
+[See Solution](/problems/400-499/problem-436.js)
+
+---
