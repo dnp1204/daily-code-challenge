@@ -6143,3 +6143,19 @@ If there is no substring containing all the characters in the set, return null.
 [See Solution](/problems/400-499/problem-437.js)
 
 ---
+
+## Problem 438 - Amazon [Difficulty: Easy]
+
+Implement a stack API using only a heap. A stack implements the following methods:
+
+* `push(item)`, which adds an element to the stack
+* `pop()`, which removes and returns the most recently added element (or throws an error if there is nothing on the stack)
+
+Recall that a heap has the following operations:
+
+* `push(item)`, which adds a new key to the heap
+* `pop()`, which removes and returns the max value of the heap
+
+[See Solution](/problems/400-499/problem-438.js)
+
+---
