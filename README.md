@@ -6173,3 +6173,15 @@ Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')] and s
 [See Solution](/problems/400-499/problem-439.js)
 
 ---
+
+## Problem 440 - Microsoft [Difficulty: Medium]
+
+Describe and give an example of each of the following types of polymorphism:
+
+* Ad-hoc polymorphism
+* Parametric polymorphism
+* Subtype polymorphism
+
+[See Solution](/problems/400-499/problem-440.js)
+
+---
