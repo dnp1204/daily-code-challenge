@@ -6222,3 +6222,11 @@ Given a sequence `S`, construct the corresponding Cartesian tree.
 [See Solution](/problems/400-499/problem-442.js)
 
 ---
+
+## Problem 443 - Apple [Difficulty: Medium]
+
+Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, first-out) data structure with the following methods: `enqueue`, which inserts an element into the queue, and `dequeue`, which removes it.
+
+[See Solution](/problems/400-499/problem-443.js)
+
+---
