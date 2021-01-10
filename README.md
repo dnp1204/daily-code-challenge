@@ -6230,3 +6230,15 @@ Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, fir
 [See Solution](/problems/400-499/problem-443.js)
 
 ---
+
+## Problem 444 - Dropbox [Difficulty: Hard]
+
+Implement an efficient string matching algorithm.
+
+That is, given a string of length `N` and a pattern of length `k`, write a program that searches for the pattern in the string with less than `O(N * k)` worst-case time complexity.
+
+If the pattern is found, return the start index of its location. If not, return `False`.
+
+[See Solution](/problems/400-499/problem-444.js)
+
+---
