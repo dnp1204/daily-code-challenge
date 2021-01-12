@@ -6270,3 +6270,11 @@ We do not remove the tree at the root or its left child because it still has a `
 [See Solution](/problems/400-499/problem-445.js)
 
 ---
+
+## Problem 446 - Indeed [Difficulty: Medium]
+
+Given a `32`-bit positive integer `N`, determine whether it is a power of four in faster than `O(log N)` time.
+
+[See Solution](/problems/400-499/problem-446.js)
+
+---
