@@ -6278,3 +6278,15 @@ Given a `32`-bit positive integer `N`, determine whether it is a power of four i
 [See Solution](/problems/400-499/problem-446.js)
 
 ---
+
+## Problem 447 - Google [Difficulty: Medium]
+
+Implement integer exponentiation. That is, implement the `pow(x, y)` function, where `x` and `y` are integers and returns `x^y`.
+
+Do this faster than the naive method of repeated multiplication.
+
+For example, `pow(2, 10)` should return 1024.
+
+[See Solution](/problems/400-499/problem-447.js)
+
+---
