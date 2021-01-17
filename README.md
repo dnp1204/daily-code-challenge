@@ -6325,3 +6325,13 @@ If a < c OR a==c AND b < d.
 [See Solution](/problems/400-499/problem-449.js)
 
 ---
+
+## Problem 450 - Google [Difficulty: Hard]
+
+You're given a string consisting solely of `(`, `)`, and `*`. `*` can represent either a `(`, `)`, or an empty string. Determine whether the parentheses are balanced.
+
+For example, `(()*` and `(*)` are balanced. `)*(` is not balanced.
+
+[See Solution](/problems/400-499/problem-450.js)
+
+--
