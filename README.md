@@ -6335,3 +6335,11 @@ For example, `(()*` and `(*)` are balanced. `)*(` is not balanced.
 [See Solution](/problems/400-499/problem-450.js)
 
 --
+
+## Problem 451 - Apple [Difficulty: Easy]
+
+Implement the function `fib(n)`, which returns the `nth` number in the Fibonacci sequence, using only `O(1)` space.
+
+[See Solution](/problems/400-499/problem-451.js)
+
+--
