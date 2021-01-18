@@ -52,3 +52,9 @@ let lefTwo = 0;
 let rigTwo = arrayTwo.length - 1;
 let resTwo = binarySearch(arrayTwo, lefTwo, rigTwo, 21);
 console.log(resTwo);
+
+let arrayThree = [7, 9, 55, 1477, 1957];
+let lefThree = 0;
+let rigThree = arrayThree.length - 1;
+let resThree = binarySearch(arrayThree, lefThree, rigThree, 1477);
+console.log(resThree);
