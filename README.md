@@ -6386,3 +6386,11 @@ Return the nodes `5` and `15`.
 [See Solution](/problems/400-499/problem-453.js)
 
 --
+
+## Problem 454 - Facebook [Difficulty: Medium]
+
+Describe an algorithm to compute the longest increasing subsequence of an array of numbers in O(n log n) time.
+
+[See Solution](/problems/400-499/problem-454.js)
+
+--
