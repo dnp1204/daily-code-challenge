@@ -6431,3 +6431,13 @@ Find the busiest period in the building, that is, the time with the most people 
 [See Solution](/problems/400-499/problem-456.js)
 
 --
+
+## Problem 457 - Google [Difficulty: Hard]
+
+Given a word W and a string `S`, find all starting indices in `S` which are anagrams of `W`.
+
+For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
+
+[See Solution](/problems/400-499/problem-457.js)
+
+--
