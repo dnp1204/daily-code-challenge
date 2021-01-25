@@ -6470,3 +6470,17 @@ is considered valid.
 [See Solution](/problems/400-499/problem-458.js)
 
 --
+
+## Problem 459 - Uber [Difficulty: Medium]
+
+Write a program that determines the smallest number of perfect squares that sum up to `N`.
+
+Here are a few examples:
+
+* Given `N = 4`, return `1` (4)
+* Given `N = 17`, return `2` (16 + 1)
+* Given `N = 18`, return `2` (9 + 9)
+
+[See Solution](/problems/400-499/problem-459.js)
+
+--
