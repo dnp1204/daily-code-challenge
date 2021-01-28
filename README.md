@@ -6509,3 +6509,13 @@ Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
 [See Solution](/problems/400-499/problem-461.js)
 
 --
+
+## Problem 462 - Oracle [Difficulty: Hard]
+
+We say a number is sparse if there are no adjacent ones in its binary representation. For example, `21` (10101) is sparse, but `22` (10110) is not. For a given input `N`, find the smallest sparse number greater than or equal to `N`.
+
+Do this in faster than `O(N log N)` time.
+
+[See Solution](/problems/400-499/problem-462.js)
+
+--
