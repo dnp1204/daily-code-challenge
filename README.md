@@ -6557,3 +6557,19 @@ Given the head of a singly linked list, reverse it in-place.
 [See Solution](/problems/400-499/problem-465.js)
 
 --
+
+## Problem 466 - Amazon [Difficulty: Easy]
+
+A tree is symmetric if its data and shape remain unchanged when it is reflected about the root node. The following tree is an example:
+
+            4
+          / | \
+        3   5   3
+      /           \
+    9              9
+
+Given a `k`-ary tree, determine whether it is symmetric.
+
+[See Solution](/problems/400-499/problem-466.js)
+
+--
