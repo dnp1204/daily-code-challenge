@@ -6549,3 +6549,11 @@ For example, given the set [3, 5, 10, 20, 21], you should return [5, 10, 20]. Gi
 [See Solution](/problems/400-499/problem-464.js)
 
 --
+
+## Problem 465 - Google [Difficulty: Easy]
+
+Given the head of a singly linked list, reverse it in-place.
+
+[See Solution](/problems/400-499/problem-465.js)
+
+--
