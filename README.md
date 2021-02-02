@@ -6573,3 +6573,11 @@ Given a `k`-ary tree, determine whether it is symmetric.
 [See Solution](/problems/400-499/problem-466.js)
 
 --
+
+## Problem 467 - Unknown [Difficulty: Medium]
+
+Given a real number n, find the square root of n. For example, given n = 9, return 3.
+
+[See Solution](/problems/400-499/problem-467.js)
+
+--
