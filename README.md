@@ -6637,3 +6637,11 @@ Follow-up: If you can preprocess the array, can you do this in constant time?
 [See Solution](/problems/400-499/problem-470.js)
 
 --
+
+## Problem 471 - Amazon [Difficulty: Easy]
+
+Given an integer `N`, construct all possible binary search trees with `N` nodes.
+
+[See Solution](/problems/400-499/problem-471.js)
+
+--
