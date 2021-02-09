@@ -6657,3 +6657,11 @@ You can assume that the messages are decodable. For example, '001' is not allowe
 [See Solution](/problems/400-499/problem-472.js)
 
 --
+
+## Problem 473 - Yahoo [Difficulty: Medium]
+
+Write an algorithm that computes the reversal of a directed graph. For example, if a graph consists of `A` -> `B` -> `C`, it should become `A <- B <- C`.
+
+[See Solution](/problems/400-499/problem-473.js)
+
+--
