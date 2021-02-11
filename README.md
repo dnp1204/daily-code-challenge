@@ -6693,3 +6693,11 @@ You may augment the node to add parent pointers or any other property you would 
 [See Solution](/problems/400-499/problem-475.js)
 
 --
+
+## Problem 476 - Google [Difficulty: Medium]
+
+You are given an array of length `n + 1` whose elements belong to the set `{1, 2, ..., n}`. By the pigeonhole principle, there must be a duplicate. Find it in linear time and space.
+
+[See Solution](/problems/400-499/problem-476.js)
+
+--
