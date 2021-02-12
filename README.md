@@ -6701,3 +6701,18 @@ You are given an array of length `n + 1` whose elements belong to the set `{1, 2
 [See Solution](/problems/400-499/problem-476.js)
 
 --
+
+## Problem 477 - Dropbox [Difficulty: Easy]
+
+What does the below code snippet print out? How can we fix the anonymous functions to behave as we'd expect?
+
+    functions = []
+    for i in range(10):
+        functions.append(lambda : i)
+
+    for f in functions:
+        print(f())
+
+[See Solution](/problems/400-499/problem-477.js)
+
+--
