@@ -6716,3 +6716,11 @@ What does the below code snippet print out? How can we fix the anonymous functio
 [See Solution](/problems/400-499/problem-477.js)
 
 --
+
+## Problem 478 - Google [Difficulty: Hard]
+
+Implement a file syncing algorithm for two computers over a low-bandwidth network. What if we know the files in the two computers are mostly the same?
+
+[See Solution](/problems/400-499/problem-478.js)
+
+--
