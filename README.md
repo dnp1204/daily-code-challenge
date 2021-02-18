@@ -6778,3 +6778,17 @@ and the range `[4, 9]`, return `23` (5 + 4 + 6 + 8).
 [See Solution](/problems/400-499/problem-482.js)
 
 --
+
+## Problem 483 - Bloomberg [Difficulty: Easy]
+
+There are `N` prisoners standing in a circle, waiting to be executed. The executions are carried out starting with the `k`th person, and removing every successive `k`th person going clockwise until there is no one left.
+
+Given `N` and `k`, write an algorithm to determine where a prisoner should stand in order to be the last survivor.
+
+For example, if `N = 5` and `k = 2`, the order of executions would be `[2, 4, 1, 5, 3]`, so you should return `3`.
+
+Bonus: Find an `O(log N)` solution if `k = 2`.
+
+[See Solution](/problems/400-499/problem-483.js)
+
+--
