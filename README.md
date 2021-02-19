@@ -6792,3 +6792,11 @@ Bonus: Find an `O(log N)` solution if `k = 2`.
 [See Solution](/problems/400-499/problem-483.js)
 
 --
+
+## Problem 484 - Dropbox [Difficulty: Medium]
+
+Given the root to a binary search tree, find the second largest node in the tree.
+
+[See Solution](/problems/400-499/problem-484.js)
+
+--
