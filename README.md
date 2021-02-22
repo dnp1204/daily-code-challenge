@@ -6810,3 +6810,13 @@ For example, given s = "abcba" and k = 2, the longest substring with k distinct 
 [See Solution](/problems/400-499/problem-485.js)
 
 --
+
+## Problem 486 - Pinterest [Difficulty: Medium]
+
+At a party, there is a single person who everyone knows, but who does not know anyone in return (the "celebrity"). To help figure out who this is, you have access to an `O(1)` method called `knows(a, b)`, which returns `True` if person `a` knows person `b`, else `False`.
+
+Given a list of `N` people and the above operation, find a way to identify the celebrity in `O(N)` time.
+
+[See Solution](/problems/400-499/problem-486.js)
+
+--
