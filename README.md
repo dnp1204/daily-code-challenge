@@ -6820,3 +6820,19 @@ Given a list of `N` people and the above operation, find a way to identify the c
 [See Solution](/problems/400-499/problem-486.js)
 
 --
+
+## Problem 487 - Yext [Difficulty: Medium]
+
+Two nodes in a binary tree can be called cousins if they are on the same level of the tree but have different parents. For example, in the following diagram `4` and `6` are cousins.
+
+        1
+       / \
+      2   3
+     / \   \
+    4   5   6
+
+Given a binary tree and a particular node, find all cousins of that node.
+
+[See Solution](/problems/400-499/problem-487.js)
+
+--
