@@ -6836,3 +6836,13 @@ Given a binary tree and a particular node, find all cousins of that node.
 [See Solution](/problems/400-499/problem-487.js)
 
 --
+
+## Problem 488 - Netflix [Difficulty: Hard]
+
+Implement a queue using a set of fixed-length arrays.
+
+The queue should support `enqueue`, `dequeue`, and `get_size` operations.
+
+[See Solution](/problems/400-499/problem-488.js)
+
+--
