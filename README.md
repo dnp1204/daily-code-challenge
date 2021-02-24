@@ -6846,3 +6846,13 @@ The queue should support `enqueue`, `dequeue`, and `get_size` operations.
 [See Solution](/problems/400-499/problem-488.js)
 
 --
+
+## Problem 489 - Google [Difficulty: Easy]
+
+IGiven an array of elements, return the length of the longest subarray where all its elements are distinct.
+
+For example, given the array `[5, 1, 3, 5, 2, 3, 4, 1]`, return 5 as the longest subarray of distinct elements is `[5, 2, 3, 4, 1]`.
+
+[See Solution](/problems/400-499/problem-489.js)
+
+--
