@@ -6886,3 +6886,11 @@ Given the root to a binary tree, return its bottom view.
 [See Solution](/problems/400-499/problem-490.js)
 
 --
+
+## Problem 491 - Palantir [Difficulty: Easy]
+
+Write a program that checks whether an integer is a palindrome. For example, `121` is a palindrome, as well as `888`. `678` is not a palindrome. Do not convert the integer into a string.
+
+[See Solution](/problems/400-499/problem-491.js)
+
+--
