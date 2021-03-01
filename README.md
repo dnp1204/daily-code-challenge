@@ -6914,3 +6914,15 @@ You can generate random numbers between 0 and 1 uniformly.
 [See Solution](/problems/400-499/problem-493.js)
 
 --
+
+## Problem 494 - Facebook [Difficulty: Medium]
+
+Given a circular array, compute its maximum subarray sum in O(n) time. A subarray can be empty, and in this case the sum is 0.
+
+For example, given `[8, -1, 3, 4]`, return `15` as we choose the numbers `3`, `4`, and `8` where the `8` is obtained from wrapping around.
+
+Given `[-4, 5, 1, 0]`, return `6` as we choose the numbers `5` and `1`.
+
+[See Solution](/problems/400-499/problem-494.js)
+
+--
