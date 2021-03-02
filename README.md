@@ -6926,3 +6926,11 @@ Given `[-4, 5, 1, 0]`, return `6` as we choose the numbers `5` and `1`.
 [See Solution](/problems/400-499/problem-494.js)
 
 --
+
+## Problem 495 - Facebook [Difficulty: Medium]
+
+Given a stream of elements too large to store in memory, pick a random element from the stream with uniform probability.
+
+[See Solution](/problems/400-499/problem-495.js)
+
+--
