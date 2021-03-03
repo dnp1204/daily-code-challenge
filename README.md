@@ -6934,3 +6934,11 @@ Given a stream of elements too large to store in memory, pick a random element f
 [See Solution](/problems/400-499/problem-495.js)
 
 --
+
+## Problem 496 - Pivotal [Difficulty: Easy]
+
+Write an algorithm that finds the total number of set bits in all integers between `1` and `N`.
+
+[See Solution](/problems/400-499/problem-496.js)
+
+--
