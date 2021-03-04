@@ -6942,3 +6942,29 @@ Write an algorithm that finds the total number of set bits in all integers betwe
 [See Solution](/problems/400-499/problem-496.js)
 
 --
+
+## Problem 497 - Yahoo [Difficulty: Medium]
+
+Recall that a full binary tree is one in which each node is either a leaf node, or has two children. Given a binary tree, convert it to a full one by removing nodes with only one child.
+
+For example, given the following tree:
+
+             0
+          /     \
+        1         2
+      /            \
+    3                 4
+      \             /   \
+        5          6     7
+
+You should convert it to:
+
+         0
+      /     \
+    5         4
+            /   \
+           6     7
+
+[See Solution](/problems/400-499/problem-497.js)
+
+--
