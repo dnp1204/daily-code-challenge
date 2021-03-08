@@ -7010,3 +7010,15 @@ and start = `(3, 0)` (bottom left) and end = `(0, 0)` (top left), the minimum nu
 [See Solution](/problems/500-599/problem-500.js)
 
 --
+
+## Problem 501 - Facebook [Difficulty: Medium]
+
+Given a function that generates perfectly random numbers between 1 and k (inclusive), where k is an input, write a function that shuffles a deck of cards represented as an array using only swaps.
+
+It should run in O(N) time.
+
+Hint: Make sure each one of the 52! permutations of the deck is equally likely.
+
+[See Solution](/problems/500-599/problem-501.js)
+
+--
