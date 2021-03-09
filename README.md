@@ -7022,3 +7022,11 @@ Hint: Make sure each one of the 52! permutations of the deck is equally likely.
 [See Solution](/problems/500-599/problem-501.js)
 
 --
+
+## Problem 502 - PayPal [Difficulty: Easy]
+
+Given a binary tree, determine whether or not it is height-balanced. A height-balanced binary tree can be defined as one in which the heights of the two subtrees of any node never differ by more than one.
+
+[See Solution](/problems/500-599/problem-502.js)
+
+--
