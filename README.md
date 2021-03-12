@@ -7053,3 +7053,11 @@ You should be as efficient with time and space as possible.
 [See Solution](/problems/500-599/problem-504.js)
 
 --
+
+## Problem 505 - Amazon [Difficulty: Easy]
+
+Given an array and a number `k` that's smaller than the length of the array, rotate the array to the right `k` elements in-place.
+
+[See Solution](/problems/500-599/problem-505.js)
+
+--
