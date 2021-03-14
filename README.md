@@ -7061,3 +7061,11 @@ Given an array and a number `k` that's smaller than the length of the array, rot
 [See Solution](/problems/500-599/problem-505.js)
 
 --
+
+## Problem 506 - Fitbit [Difficulty: Medium]
+
+Given a linked list, rearrange the node values such that they appear in alternating `low -> high -> low -> high ...` form. For example, given `1 -> 2 -> 3 -> 4 -> 5`, you should return `1 -> 3 -> 2 -> 5 -> 4`.
+
+[See Solution](/problems/500-599/problem-506.js)
+
+--
