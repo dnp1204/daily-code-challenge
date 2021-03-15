@@ -7077,3 +7077,13 @@ On election day, a voting machine writes data in the form `(voter_id, candidate_
 [See Solution](/problems/500-599/problem-507.js)
 
 --
+
+## Problem 508 - Dropbox [Difficulty: Medium]
+
+Create an algorithm to efficiently compute the approximate median of a list of numbers.
+
+More precisely, given an unordered list of N numbers, find an element whose rank is between `N / 4` and `3 * N / 4`, with a high level of certainty, in less than `O(N)` time.
+
+[See Solution](/problems/500-599/problem-508.js)
+
+--
