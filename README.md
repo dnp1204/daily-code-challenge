@@ -7128,6 +7128,16 @@ For example, given the array `[1, 3, 1, 2, 0, 1]`, we can go from indices `0 -> 
 
 Given the array `[1, 2, 1, 0, 0]`, we can't reach the end, so return `false`.
 
-[See Solution](/problems/500-599/problem-511.js)
+[See Solution](/problems/500-599/problem-512.js)
+
+--
+
+## Problem 513 - Lyft [Difficulty: Medium]
+
+Given a list of integers and a number K, return which contiguous elements of the list sum to K.
+
+For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2, 3, 4], since 2 + 3 + 4 = 9.
+
+[See Solution](/problems/500-599/problem-513.js)
 
 --
