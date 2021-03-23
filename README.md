@@ -7163,3 +7163,11 @@ For example, given the linked list `5 -> 1 -> 8 -> 0 -> 3` and `k = 3`, the solu
 [See Solution](/problems/500-599/problem-515.js)
 
 --
+
+## Problem 516 - Zillow [Difficulty: Easy]
+
+Let's define a "sevenish" number to be one which is either a power of 7, or the sum of unique powers of `7`. The first few sevenish numbers are `1`, `7`, `8`, `49`, and so on. Create an algorithm to find the `n`th sevenish number.
+
+[See Solution](/problems/500-599/problem-516.js)
+
+--
