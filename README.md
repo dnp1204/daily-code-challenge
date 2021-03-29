@@ -7234,3 +7234,11 @@ For example, given the sentence `"thisisazigzag"` and `k = 4`, you should print:
 [See Solution](/problems/500-599/problem-521.js)
 
 --
+
+## Problem 522 - Microsoft [Difficulty: Medium]
+
+Given a string and a pattern, find the starting indices of all occurrences of the pattern in the string. For example, given the string "abracadabra" and the pattern "abr", you should return `[0, 7]`.
+
+[See Solution](/problems/500-599/problem-522.js)
+
+--
