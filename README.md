@@ -7242,3 +7242,14 @@ Given a string and a pattern, find the starting indices of all occurrences of th
 [See Solution](/problems/500-599/problem-522.js)
 
 --
+
+## Problem 523 - Jane Street [Difficulty: Easy]
+
+Given integers `M` and `N`, write a program that counts how many positive integer pairs `(a, b)` satisfy the following conditions:
+
+* `a + b = M`
+* `a XOR b = N`
+
+[See Solution](/problems/500-599/problem-523.js)
+
+--
