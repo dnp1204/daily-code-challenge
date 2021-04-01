@@ -7267,3 +7267,41 @@ Do this in O(N) time.
 [See Solution](/problems/500-599/problem-524.js)
 
 --
+
+## Problem 525 - Amazon [Difficulty: Easy]
+
+Given a N by M matrix of numbers, print out the matrix in a clockwise spiral.
+
+For example, given the following matrix:
+
+    [[1,  2,  3,  4,  5],
+     [6,  7,  8,  9,  10],
+     [11, 12, 13, 14, 15],
+     [16, 17, 18, 19, 20]]
+
+You should print out the following:
+
+    1
+    2
+    3
+    4
+    5
+    10
+    15
+    20
+    19
+    18
+    17
+    16
+    11
+    6
+    7
+    8
+    9
+    14
+    13
+    12
+
+[See Solution](/problems/500-599/problem-525.js)
+
+--
