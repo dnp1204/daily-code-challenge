@@ -7305,3 +7305,15 @@ You should print out the following:
 [See Solution](/problems/500-599/problem-525.js)
 
 --
+
+## Problem 526 - Yahoo [Difficulty: Easy]
+
+You are given a string of length `N` and a parameter `k`. The string can be manipulated by taking one of the first `k` letters and moving it to the end.
+
+Write a program to determine the lexicographically smallest string that can be created after an unlimited number of moves.
+
+For example, suppose we are given the string `daily` and `k = 1`. The best we can create in this case is `ailyd`.
+
+[See Solution](/problems/500-599/problem-526.js)
+
+--
