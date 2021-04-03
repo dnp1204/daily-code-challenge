@@ -7317,3 +7317,17 @@ For example, suppose we are given the string `daily` and `k = 1`. The best we ca
 [See Solution](/problems/500-599/problem-526.js)
 
 --
+
+## Problem 527 - Microsoft [Difficulty: Medium]
+
+Write a program to determine how many distinct ways there are to create a max heap from a list of N given integers.
+
+For example, if `N = 3`, and our integers are `[1, 2, 3]`, there are two ways, shown below.
+
+      3      3
+     / \    / \
+    1   2  2   1
+
+[See Solution](/problems/500-599/problem-527.js)
+
+--
