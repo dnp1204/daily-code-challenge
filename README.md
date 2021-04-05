@@ -7353,3 +7353,15 @@ Given a dictionary of character frequencies, build a Huffman tree, and use it to
 [See Solution](/problems/500-599/problem-528.js)
 
 --
+
+## Problem 529 - Google [Difficulty: Hard]
+
+Given a string, split it into as few strings as possible such that each string is a palindrome.
+
+For example, given the input string `racecarannakayak`, return `["racecar", "anna", "kayak"]`.
+
+Given the input string `abc`, return `["a", "b", "c"]`.
+
+[See Solution](/problems/500-599/problem-529.js)
+
+--
