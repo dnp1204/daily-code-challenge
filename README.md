@@ -7458,3 +7458,18 @@ For example, given the sequence `2, 4, 3, 8, 7, 5`, you should construct the fol
 [See Solution](/problems/500-599/problem-536.js)
 
 --
+
+## Problem 537 - Apple [Difficulty: Easy]
+
+A Collatz sequence in mathematics can be defined as follows. Starting with any positive integer:
+
+* if n is even, the next number in the sequence is n / 2
+* if n is odd, the next number in the sequence is 3n + 1
+
+It is conjectured that every such sequence eventually reaches the number `1`. Test this conjecture.
+
+Bonus: What input `n <= 1000000` gives the longest sequence?
+
+[See Solution](/problems/500-599/problem-537.js)
+
+--
