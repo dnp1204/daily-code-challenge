@@ -7442,3 +7442,19 @@ For example, if `N = 1` and `k = 5`, we will need to try dropping the egg at eve
 [See Solution](/problems/500-599/problem-535.js)
 
 --
+
+## Problem 536 - Google [Difficulty: Medium]
+
+Given the sequence of keys visited by a postorder traversal of a binary search tree, reconstruct the tree.
+
+For example, given the sequence `2, 4, 3, 8, 7, 5`, you should construct the following tree:
+
+        5
+       / \
+      3   7
+     / \   \
+    2   4   8
+
+[See Solution](/problems/500-599/problem-536.js)
+
+--
