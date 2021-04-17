@@ -7485,3 +7485,11 @@ Create an algorithm that finds a De Bruijn sequence.
 [See Solution](/problems/500-599/problem-538.js)
 
 --
+
+## Problem 539 - Pandora [Difficulty: Easy]
+
+Given an undirected graph, determine if it contains a cycle.
+
+[See Solution](/problems/500-599/problem-539.js)
+
+--
