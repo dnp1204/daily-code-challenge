@@ -7494,7 +7494,7 @@ Given an undirected graph, determine if it contains a cycle.
 
 --
 
-## Problem 540 - Morgan Stanley. [Difficulty: Easy]
+## Problem 540 - Morgan Stanley [Difficulty: Easy]
 
 In Ancient Greece, it was common to write text with the first line going left to right, the second line going right to left, and continuing to go back and forth. This style was called "boustrophedon".
 
@@ -7511,5 +7511,15 @@ For example, given the following tree:
 You should return `[1, 3, 2, 4, 5, 6, 7]`.
 
 [See Solution](/problems/500-599/problem-540.js)
+
+--
+
+## Problem 541 - Amazon [Difficulty: Easy]
+
+Run-length encoding is a fast and simple method of encoding strings. The basic idea is to represent repeated successive characters as a single count and character. For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
+
+Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
+
+[See Solution](/problems/500-599/problem-541.js)
 
 --
