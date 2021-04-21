@@ -7531,3 +7531,15 @@ Given an undirected graph G, check whether it is bipartite. Recall that a graph 
 [See Solution](/problems/500-599/problem-542.js)
 
 --
+
+## Problem 543 - Google [Difficulty: Medium]
+
+Given a singly linked list and an integer k, remove the kth last element from the list. k is guaranteed to be smaller than the length of the list.
+
+The list is very long, so making more than one pass is prohibitively expensive.
+
+Do this in constant space and in one pass.
+
+[See Solution](/problems/500-599/problem-543.js)
+
+--
