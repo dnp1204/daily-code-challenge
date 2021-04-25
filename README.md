@@ -7581,3 +7581,11 @@ For example, given the array `[3, 4, 9, 6, 1]`, return `[1, 1, 2, 1, 0]`, since:
 [See Solution](/problems/500-599/problem-546.js)
 
 --
+
+## Problem 547 - Google [Difficulty: Medium]
+
+Given an array of integers, find the maximum XOR of any two elements.
+
+[See Solution](/problems/500-599/problem-547.js)
+
+--
