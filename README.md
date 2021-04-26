@@ -7589,3 +7589,13 @@ Given an array of integers, find the maximum XOR of any two elements.
 [See Solution](/problems/500-599/problem-547.js)
 
 --
+
+## Problem 548 - Microsoft [Difficulty: Easy]
+
+Given a clock time in `hh:mm` format, determine, to the nearest degree, the angle between the hour and the minute hands.
+
+Bonus: When, during the course of a day, will the angle be zero?
+
+[See Solution](/problems/500-599/problem-548.js)
+
+--
