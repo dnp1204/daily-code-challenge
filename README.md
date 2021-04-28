@@ -7611,3 +7611,13 @@ Do this in O(N) time and O(1) space.
 [See Solution](/problems/500-599/problem-549.js)
 
 --
+
+## Problem 550 - Jane Street [Difficulty: Hard]
+
+Suppose you are given a table of currency exchange rates, represented as a 2D array. Determine whether there is a possible arbitrage: that is, whether there is some sequence of trades you can make, starting with some amount A of any currency, so that you can end up with some amount greater than A of that currency.
+
+There are no transaction costs and you can trade fractional quantities.
+
+[See Solution](/problems/500-599/problem-550.js)
+
+--
