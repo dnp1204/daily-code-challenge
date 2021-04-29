@@ -7621,3 +7621,13 @@ There are no transaction costs and you can trade fractional quantities.
 [See Solution](/problems/500-599/problem-550.js)
 
 --
+
+## Problem 551 - Square [Difficulty: Medium]
+
+Assume you have access to a function `toss_biased()` which returns 0 or 1 with a probability that's not 50-50 (but also not 0-100 or 100-0). You do not know the bias of the coin.
+
+Write a function to simulate an unbiased coin toss.
+
+[See Solution](/problems/500-599/problem-551.js)
+
+--
