@@ -7747,3 +7747,13 @@ And there are 4 12's in the table.
 [See Solution](/problems/500-599/problem-557.js)
 
 --
+
+## Problem 558 - Google [Difficulty: Medium]
+
+The area of a circle is defined as πr^2. Estimate π to 3 decimal places using a Monte Carlo method.
+
+Hint: The basic equation of a circle is x2 + y2 = r2.
+
+[See Solution](/problems/500-599/problem-558.js)
+
+--
