@@ -7757,3 +7757,11 @@ Hint: The basic equation of a circle is x2 + y2 = r2.
 [See Solution](/problems/500-599/problem-558.js)
 
 --
+
+## Problem 559 - Google [Difficulty: Medium]
+
+Given k sorted singly linked lists, write a function to merge all the lists into one sorted singly linked list.
+
+[See Solution](/problems/500-599/problem-559.js)
+
+--
