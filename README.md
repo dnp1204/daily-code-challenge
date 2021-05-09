@@ -7765,3 +7765,11 @@ Given k sorted singly linked lists, write a function to merge all the lists into
 [See Solution](/problems/500-599/problem-559.js)
 
 --
+
+## Problem 560 - Etsy [Difficulty: Hard]
+
+Given a sorted array, convert it into a height-balanced binary search tree.
+
+[See Solution](/problems/500-599/problem-560.js)
+
+--
