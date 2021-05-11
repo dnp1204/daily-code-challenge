@@ -7797,3 +7797,11 @@ Follow-up: what if you can't use division?
 [See Solution](/problems/500-599/problem-562.js)
 
 --
+
+## Problem 563 - Nvidia [Difficulty: Hard]
+
+Find the maximum of two numbers without using any if-else statements, branching, or direct comparisons.
+
+[See Solution](/problems/500-599/problem-563.js)
+
+--
