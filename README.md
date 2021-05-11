@@ -7773,3 +7773,15 @@ Given a sorted array, convert it into a height-balanced binary search tree.
 [See Solution](/problems/500-599/problem-560.js)
 
 --
+
+## Problem 561 - Google [Difficulty: Easy]
+
+Given a list of numbers and a number `k`, return whether any two numbers from the list add up to `k`.
+
+For example, given `[10, 15, 3, 7]` and `k` of `17`, return true since `10 + 7` is `17`.
+
+Bonus: Can you do this in one pass?
+
+[See Solution](/problems/500-599/problem-561.js)
+
+--
