@@ -7827,3 +7827,13 @@ For example, `[2, 0, 1, 0]` returns `True` while `[1, 1, 0, 1]` returns `False`.
 [See Solution](/problems/500-599/problem-565.js)
 
 --
+
+## Problem 566 - Facebook [Difficulty: Medium]
+
+A graph is minimally-connected if it is connected and there is no edge that can be removed while still leaving the graph connected. For example, any binary tree is minimally-connected.
+
+Given an undirected graph, check if the graph is minimally-connected. You can choose to represent the graph as either an adjacency matrix or adjacency list.
+
+[See Solution](/problems/500-599/problem-566.js)
+
+--
