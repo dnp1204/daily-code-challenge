@@ -7837,3 +7837,20 @@ Given an undirected graph, check if the graph is minimally-connected. You can ch
 [See Solution](/problems/500-599/problem-566.js)
 
 --
+
+## Problem 567 - Jane Street [Difficulty: Medium]
+
+`cons(a, b)` constructs a pair, and `car(pair)` and `cdr(pair)` returns the first and last element of that pair. For example, `car(cons(3, 4))` returns `3`, and `cdr(cons(3, 4))` returns `4`.
+
+Given this implementation of cons:
+
+    def cons(a, b):
+        def pair(f):
+            return f(a, b)
+        return pair
+
+Implement `car` and `cdr`.
+
+[See Solution](/problems/500-599/problem-567.js)
+
+--
