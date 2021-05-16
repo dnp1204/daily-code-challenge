@@ -7854,3 +7854,13 @@ Implement `car` and `cdr`.
 [See Solution](/problems/500-599/problem-567.js)
 
 --
+
+## Problem 568 - Google [Difficulty: Easy]
+
+Given a sorted list of integers, square the elements and give the output in sorted order.
+
+For example, given [-9, -2, 0, 2, 3], return [0, 4, 4, 9, 81].
+
+[See Solution](/problems/500-599/problem-568.js)
+
+--
