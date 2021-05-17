@@ -7864,3 +7864,11 @@ For example, given [-9, -2, 0, 2, 3], return [0, 4, 4, 9, 81].
 [See Solution](/problems/500-599/problem-568.js)
 
 --
+
+## Problem 569 - Facebook [Difficulty: Hard]
+
+Given an array of numbers of length `N`, find both the minimum and maximum using less than `2 * (N - 2)` comparisons.
+
+[See Solution](/problems/500-599/problem-569.js)
+
+--
