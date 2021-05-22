@@ -7934,3 +7934,17 @@ Hint: Try working backwards from the end state.
 [See Solution](/problems/500-599/problem-573.js)
 
 --
+
+## Problem 574 - Amazon [Difficulty: Medium]
+
+Implement a bit array.
+
+A bit array is a space efficient array that holds a value of `1` or `0` at each index.
+
+* `init(size)`: initialize the array with `size`
+* `set(i, val)`: updates index at `i` with `val` where `val` is either `1` or `0`.
+* `get(i)`: gets the value at index `i`.
+
+[See Solution](/problems/500-599/problem-574.js)
+
+--
