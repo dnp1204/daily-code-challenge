@@ -7948,3 +7948,18 @@ A bit array is a space efficient array that holds a value of `1` or `0` at each 
 [See Solution](/problems/500-599/problem-574.js)
 
 --
+
+## Problem 575 - Uber [Difficulty: Medium]
+
+Implement a 2D iterator class. It will be initialized with an array of arrays, and should implement the following methods:
+
+* `next()`: returns the next element in the array of arrays. If there are no more elements, raise an exception.
+* `has_next()`: returns whether or not the iterator still has elements left.
+
+For example, given the input [[1, 2], [3], [], [4, 5, 6]], calling `next()` repeatedly should output `1, 2, 3, 4, 5, 6`.
+
+Do not use `flatten` or otherwise clone the arrays. Some of the arrays can be empty.
+
+[See Solution](/problems/500-599/problem-575.js)
+
+--
