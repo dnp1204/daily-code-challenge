@@ -7963,3 +7963,13 @@ Do not use `flatten` or otherwise clone the arrays. Some of the arrays can be em
 [See Solution](/problems/500-599/problem-575.js)
 
 --
+
+## Problem 576 - Spotify [Difficulty: Medium]
+
+Write a function, `throw_dice(N, faces, total)`, that determines how many ways it is possible to throw `N` dice with some number of faces each to get a specific total.
+
+For example, `throw_dice(3, 6, 7)` should equal `15`.
+
+[See Solution](/problems/500-599/problem-576.js)
+
+--
