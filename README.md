@@ -7995,3 +7995,15 @@ Given `s1 = foo` and `s2 = bar`, return `false` since the `o` cannot map to two 
 [See Solution](/problems/500-599/problem-578.js)
 
 --
+
+## Problem 579 - Flipkart [Difficulty: Medium]
+
+Starting from 0 on a number line, you would like to make a series of jumps that lead to the integer N.
+
+On the `ith` jump, you may move exactly i places to the left or right.
+
+Find a path with the fewest number of jumps required to get from 0 to N.
+
+[See Solution](/problems/500-599/problem-579.js)
+
+--
