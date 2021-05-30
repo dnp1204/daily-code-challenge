@@ -8025,3 +8025,27 @@ For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
 [See Solution](/problems/500-599/problem-580.js)
 
 --
+
+## Problem 581 - Google [Difficulty: Easy]
+
+Given two rectangles on a 2D graph, return the area of their intersection. If the rectangles don't intersect, return 0.
+
+For example, given the following rectangles:
+
+    {
+        "top_left": (1, 4),
+        "dimensions": (3, 3) # width, height
+    }
+
+and
+
+    {
+        "top_left": (0, 5),
+        "dimensions": (4, 3) # width, height
+    }
+
+return 6.
+
+[See Solution](/problems/500-599/problem-581.js)
+
+--
