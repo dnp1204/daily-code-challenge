@@ -8075,3 +8075,13 @@ The most we can collect is 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
 [See Solution](/problems/500-599/problem-583.js)
 
 --
+
+## Problem 584 - IBM [Difficulty: Easy]
+
+Given a string with repeated characters, rearrange the string so that no two adjacent characters are the same. If this is not possible, return None.
+
+For example, given "aaabbc", you could return "ababac". Given "aaab", return `None`.
+
+[See Solution](/problems/500-599/problem-584.js)
+
+--
