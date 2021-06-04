@@ -8103,3 +8103,21 @@ Then a reasonable similarity metric would most likely conclude that `a` and `e` 
 [See Solution](/problems/500-599/problem-586.js)
 
 --
+
+## Problem 587 - Facebook [Difficulty: Medium]
+
+Given a binary tree, return all paths from the root to leaves.
+
+For example, given the tree:
+
+      1
+     / \
+    2   3
+       / \
+      4   5
+
+Return `[[1, 2], [1, 3, 4], [1, 3, 5]]`.
+
+[See Solution](/problems/500-599/problem-587.js)
+
+--
