@@ -8121,3 +8121,17 @@ Return `[[1, 2], [1, 3, 4], [1, 3, 5]]`.
 [See Solution](/problems/500-599/problem-587.js)
 
 --
+
+## Problem 588 - Facebook [Difficulty: Easy]
+
+You have a large array with most of the elements as zero.
+
+Use a more space-efficient data structure, SparseArray, that implements the same interface:
+
+* `init(arr, size)`: initialize with the original large array and size.
+* `set(i, val)`: updates index at `i` with `val`.
+* `get(i)`: gets the value at index `i`.
+
+[See Solution](/problems/500-599/problem-588.js)
+
+--
