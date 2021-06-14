@@ -8253,3 +8253,27 @@ Write a function that returns how many steps this will take for a given input `N
 [See Solution](/problems/500-599/problem-595.js)
 
 --
+
+## Problem 596 - Google [Difficulty: Medium]
+
+Invert a binary tree.
+
+For example, given the following tree:
+
+        a
+       / \
+      b   c
+     / \  /
+    d   e f
+
+should become:
+
+     a
+    / \
+    c  b
+    \  / \
+     f e  d
+
+[See Solution](/problems/500-599/problem-596.js)
+
+--
