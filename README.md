@@ -8277,3 +8277,11 @@ should become:
 [See Solution](/problems/500-599/problem-596.js)
 
 --
+
+## Problem 597 - Netflix [Difficulty: Easy]
+
+Given an array of integers, determine whether it contains a Pythagorean triplet. Recall that a Pythogorean triplet `(a, b, c)` is defined by the equation `a2+ b2= c2`.
+
+[See Solution](/problems/500-599/problem-597.js)
+
+--
