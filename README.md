@@ -8285,3 +8285,13 @@ Given an array of integers, determine whether it contains a Pythagorean triplet.
 [See Solution](/problems/500-599/problem-597.js)
 
 --
+
+## Problem 598 - Microsoft [Difficulty: Easy]
+
+You have `n` fair coins and you flip them all at the same time. Any that come up tails you set aside. The ones that come up heads you flip again. How many rounds do you expect to play before only one coin remains?
+
+Write a function that, given `n`, returns the number of rounds you'd expect to play until one coin remains.
+
+[See Solution](/problems/500-599/problem-598.js)
+
+--
