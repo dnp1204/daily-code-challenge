@@ -8321,3 +8321,11 @@ Given a set of points (x, y) on a 2D cartesian plane, find the two closest point
 [See Solution](/problems/600-699/problem-600.js)
 
 --
+
+## Problem 601 - Pinterest [Difficulty: Medium]
+
+The sequence `[0, 1, ..., N]` has been jumbled, and the only clue you have for its order is an array representing whether each number is larger or smaller than the last. Given this information, reconstruct an array that is consistent with it. For example, given `[None, +, +, -, +]`, you could return `[1, 2, 3, 0, 4]`.
+
+[See Solution](/problems/600-699/problem-601.js)
+
+--
