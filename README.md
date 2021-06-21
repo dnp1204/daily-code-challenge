@@ -8329,3 +8329,11 @@ The sequence `[0, 1, ..., N]` has been jumbled, and the only clue you have for i
 [See Solution](/problems/600-699/problem-601.js)
 
 --
+
+## Problem 602 - Facebook [Difficulty: Easy]
+
+Suppose you are given two lists of `n` points, one list p1, p2, ..., pn on the line y = 0 and the other list q1, q2, ..., qn on the line y = 1. Imagine a set of n line segments connecting each point pi to qi. Write an algorithm to determine how many pairs of the line segments intersect.
+
+[See Solution](/problems/600-699/problem-602.js)
+
+--
