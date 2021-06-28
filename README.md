@@ -8452,7 +8452,7 @@ You can assume each node has a `parent` pointer.
 
 ## Problem 610 - ContextLogic [Difficulty: Medium]
 
-GImplement division of two positive integers without using the division, multiplication, or modulus operators. Return the quotient as an integer, ignoring the remainder.
+Implement division of two positive integers without using the division, multiplication, or modulus operators. Return the quotient as an integer, ignoring the remainder.
 
 [See Solution](/problems/600-699/problem-610.js)
 
