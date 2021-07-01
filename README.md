@@ -8457,3 +8457,16 @@ Implement division of two positive integers without using the division, multipli
 [See Solution](/problems/600-699/problem-610.js)
 
 --
+
+## Problem 611 - Dropbox [Difficulty: Hard]
+
+Create a data structure that performs all the following operations in `O(1)` time:
+
+* `plus`: Add a key with value `1`. If the key already exists, increment its value by one.
+* `minus`: Decrement the value of a key. If the key's value is currently `1`, remove it.
+* `get_max`: Return a key with the highest value.
+* `get_min`: Return a key with the lowest value.
+
+[See Solution](/problems/600-699/problem-611.js)
+
+--
