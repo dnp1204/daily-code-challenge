@@ -8550,6 +8550,27 @@ For example, if `N = 3`, the input could be something like this:
 
 Write an algorithm that pairs the men and women together in such a way that no two people of opposite sex would both rather be with each other than with their current partners.
 
-[See Solution](/problems/600-699/problem-614.js)
+[See Solution](/problems/600-699/problem-615.js)
+
+--
+
+## Problem 616 - Google [Difficulty: Medium]
+
+A cryptarithmetic puzzle is a mathematical game where the digits of some numbers are represented by letters. Each letter represents a unique digit.
+
+For example, a puzzle of the form:
+
+      SEND
+    + MORE
+    --------
+     MONEY
+
+may have the solution:
+
+    {'S': 9, 'E': 5, 'N': 6, 'D': 7, 'M': 1, 'O', 0, 'R': 8, 'Y': 2}
+
+Given a three-word puzzle like the one above, create an algorithm that finds a solution.
+
+[See Solution](/problems/600-699/problem-616.js)
 
 --
