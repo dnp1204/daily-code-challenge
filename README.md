@@ -8574,3 +8574,27 @@ Given a three-word puzzle like the one above, create an algorithm that finds a s
 [See Solution](/problems/600-699/problem-616.js)
 
 --
+
+## Problem 617 - Facebook [Difficulty: Medium]
+
+Given a number in Roman numeral format, convert it to decimal.
+
+The values of [Roman numerals](https://en.wikipedia.org/wiki/Roman_numerals) are as follows:
+
+    {
+        'M': 1000,
+        'D': 500,
+        'C': 100,
+        'L': 50,
+        'X': 10,
+        'V': 5,
+        'I': 1
+    }
+
+In addition, note that the Roman numeral system uses [subtractive notation](https://en.wikipedia.org/wiki/Roman_numerals) for numbers such as `IV` and `XL`.
+
+For the input `XIV`, for instance, you should return `14`.
+
+[See Solution](/problems/600-699/problem-617.js)
+
+--
