@@ -8598,3 +8598,11 @@ For the input `XIV`, for instance, you should return `14`.
 [See Solution](/problems/600-699/problem-617.js)
 
 --
+
+## Problem 618 - Unknown [Difficulty: Hard]
+
+Given a list, sort it using this method: `reverse(lst, i, j)`, which reverses `lst` from `i` to `j`.
+
+[See Solution](/problems/600-699/problem-618.js)
+
+--
