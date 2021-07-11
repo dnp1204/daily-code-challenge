@@ -8671,3 +8671,17 @@ The path does not have to pass through the root, and each node can have any amou
 [See Solution](/problems/600-699/problem-621.js)
 
 --
+
+## Problem 622 - Google [Difficulty: Easy]
+
+Given the root of a binary tree, return a deepest node. For example, in the following tree, return d.
+
+        a
+       / \
+      b   c
+     /
+    d
+
+[See Solution](/problems/600-699/problem-622.js)
+
+--
