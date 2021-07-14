@@ -8705,3 +8705,13 @@ For example, given the list of words ["the", "quick", "brown", "fox", "jumps", "
 [See Solution](/problems/600-699/problem-623.js)
 
 --
+
+## Problem 624 - Google [Difficulty: Medium]
+
+Given a string of parentheses, write a function to compute the minimum number of parentheses to be removed to make the string valid (i.e. each open parenthesis is eventually closed).
+
+For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2, since we must remove all of them.
+
+[See Solution](/problems/600-699/problem-624.js)
+
+--
