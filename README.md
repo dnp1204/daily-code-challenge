@@ -8715,3 +8715,13 @@ For example, given the string "()())()", you should return 1. Given the string "
 [See Solution](/problems/600-699/problem-624.js)
 
 --
+
+## Problem 625 - Stripe [Difficulty: Easy]
+
+Given an integer `n`, return the length of the longest consecutive run of `1`s in its binary representation.
+
+For example, given `156`, you should return `3`.
+
+[See Solution](/problems/600-699/problem-625.js)
+
+--
