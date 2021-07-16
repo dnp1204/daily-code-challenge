@@ -8737,3 +8737,26 @@ You can assume the list has at least three integers.
 [See Solution](/problems/600-699/problem-626.js)
 
 --
+
+## Problem 627 - Google [Difficulty: Medium]
+
+Given an `iterator` with methods `next()` and `hasNext()`, create a wrapper iterator, `PeekableInterface`, which also implements `peek()`. `peek` shows the next element that would be returned on `next()`.
+
+Here is the interface:
+
+    class PeekableInterface(object):
+        def __init__(self, iterator):
+            pass
+
+        def peek(self):
+            pass
+
+        def next(self):
+            pass
+
+        def hasNext(self):
+            pass
+
+[See Solution](/problems/600-699/problem-627.js)
+
+--
