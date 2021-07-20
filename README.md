@@ -8782,3 +8782,11 @@ For example, given `N = [5, 1, 2, 7, 3, 4]` and `k = 3`, you should return `8`, 
 [See Solution](/problems/600-699/problem-629.js)
 
 --
+
+## Problem 630 - Apple [Difficulty: Medium]
+
+Implement a job scheduler which takes in a function `f` and an integer `n`, and calls `f` after `n` milliseconds.
+
+[See Solution](/problems/600-699/problem-630.js)
+
+--
