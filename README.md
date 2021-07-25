@@ -8865,3 +8865,13 @@ Given the regular expression ".*at" and the string "chat", your function should 
 [See Solution](/problems/600-699/problem-635.js)
 
 --
+
+## Problem 636 - Uber [Difficulty: Medium]
+
+Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand. Find the minimum element in O(log N) time. You may assume the array does not contain duplicates.
+
+For example, given [5, 7, 10, 3, 4], return 3.
+
+[See Solution](/problems/600-699/problem-636.js)
+
+--
