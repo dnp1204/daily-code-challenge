@@ -8887,3 +8887,23 @@ For example, given [(1, 3), (5, 8), (4, 10), (20, 25)], you should return [(1, 3
 [See Solution](/problems/600-699/problem-637.js)
 
 --
+
+## Problem 638 - Google [Difficulty: Medium]
+
+Given a string of words delimited by spaces, reverse the words in string. For example, given "hello world here", return "here world hello"
+
+Follow-up: given a mutable string representation, can you perform this operation in-place?
+
+[See Solution](/problems/600-699/problem-638.js)
+
+--
+
+## Problem 639 - Yelp [Difficulty: Easy]
+
+Given a mapping of digits to letters (as in a phone number), and a digit string, return all possible letters the number could represent. You can assume each valid number in the mapping is a single digit.
+
+For example if {“2”: [“a”, “b”, “c”], 3: [“d”, “e”, “f”], …} then “23” should return [“ad”, “ae”, “af”, “bd”, “be”, “bf”, “cd”, “ce”, “cf"].
+
+[See Solution](/problems/600-699/problem-639.js)
+
+--
