@@ -8943,3 +8943,13 @@ Do this in `O(N)` time.
 [See Solution](/problems/600-699/problem-641.js)
 
 --
+
+## Problem 642 - Pivotal [Difficulty: Easy]
+
+A step word is formed by taking a given word, adding a letter, and anagramming the result. For example, starting with the word "APPLE", you can add an "A" and anagram to get "APPEAL".
+
+Given a dictionary of words and an input word, create a function that returns all valid step words.
+
+[See Solution](/problems/600-699/problem-642.js)
+
+--
