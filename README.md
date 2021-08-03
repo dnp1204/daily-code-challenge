@@ -8953,3 +8953,11 @@ Given a dictionary of words and an input word, create a function that returns al
 [See Solution](/problems/600-699/problem-642.js)
 
 --
+
+## Problem 643 - YouTube [Difficulty: Hard]
+
+Write a program that computes the length of the longest common subsequence of three given strings. For example, given "epidemiologist", "refrigeration", and "supercalifragilisticexpialodocious", it should return 5, since the longest common subsequence is "eieio".
+
+[See Solution](/problems/600-699/problem-643.js)
+
+--
