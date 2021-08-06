@@ -8961,3 +8961,23 @@ Write a program that computes the length of the longest common subsequence of th
 [See Solution](/problems/600-699/problem-643.js)
 
 --
+
+## Problem 644 - Google [Difficulty: Easy]
+
+A unival tree (which stands for "universal value") is a tree where all nodes under it have the same value.
+
+Given the root to a binary tree, count the number of unival subtrees.
+
+For example, the following tree has 5 unival subtrees:
+
+      0
+     / \
+    1   0
+       / \
+      1   0
+     / \
+    1   1
+
+[See Solution](/problems/600-699/problem-644.js)
+
+--
