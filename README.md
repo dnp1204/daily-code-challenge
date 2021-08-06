@@ -8981,3 +8981,20 @@ For example, the following tree has 5 unival subtrees:
 [See Solution](/problems/600-699/problem-644.js)
 
 --
+
+## Problem 645 - Microsoft [Difficulty: Easy]
+
+Given a 2D matrix of characters and a target word, write a function that returns whether the word can be found in the matrix by going left-to-right, or up-to-down.
+
+For example, given the following matrix:
+
+    [['F', 'A', 'C', 'I'],
+     ['O', 'B', 'Q', 'P'],
+     ['A', 'N', 'O', 'B'],
+     ['M', 'A', 'S', 'S']]
+
+and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
+
+[See Solution](/problems/600-699/problem-645.js)
+
+--
