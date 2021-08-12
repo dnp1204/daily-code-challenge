@@ -9068,3 +9068,13 @@ And i1 = 1, j1 = 1, i2 = 3, j2 = 3, return 15 as there are 15 numbers in the mat
 [See Solution](/problems/600-699/problem-650.js)
 
 --
+
+## Problem 651 - LinkedIn [Difficulty: Medium]
+
+Determine whether a tree is a valid binary search tree.
+
+A binary search tree is a tree with two children, `left` and `right`, and satisfies the constraint that the key in the `left` child must be less than or equal to the root and the key in the `right` child must be greater than or equal to the root.
+
+[See Solution](/problems/600-699/problem-651.js)
+
+--
