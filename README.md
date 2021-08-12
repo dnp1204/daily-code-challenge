@@ -9038,3 +9038,13 @@ Given the head to a singly linked list, where each node also has a “random” 
 [See Solution](/problems/600-699/problem-648.js)
 
 --
+
+## Problem 649 - Google [Difficulty: Easy]
+
+Given a string, return the first recurring character in it, or null if there is no recurring character.
+
+For example, given the string "acbbac", return "b". Given the string "abcdef", return null.
+
+[See Solution](/problems/600-699/problem-648.js)
+
+--
