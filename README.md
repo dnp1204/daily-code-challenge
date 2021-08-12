@@ -9078,3 +9078,13 @@ A binary search tree is a tree with two children, `left` and `right`, and satisf
 [See Solution](/problems/600-699/problem-651.js)
 
 --
+
+## Problem 652 - Apple [Difficulty: Hard]
+
+You are going on a road trip, and would like to create a suitable music playlist. The trip will require `N` songs, though you only have `M` songs downloaded, where `M < N`. A valid playlist should select each song at least once, and guarantee a buffer of `B` songs between repeats.
+
+Given `N`, `M`, and `B`, determine the number of valid playlists.
+
+[See Solution](/problems/600-699/problem-652.js)
+
+--
