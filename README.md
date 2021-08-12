@@ -9030,3 +9030,11 @@ Given the multiset `{15, 5, 20, 10, 35}`, it would return false, since we can't 
 [See Solution](/problems/600-699/problem-647.js)
 
 --
+
+## Problem 648 - Snapchat [Difficulty: Medium]
+
+Given the head to a singly linked list, where each node also has a “random” pointer that points to anywhere in the linked list, deep clone the list.
+
+[See Solution](/problems/600-699/problem-648.js)
+
+--
