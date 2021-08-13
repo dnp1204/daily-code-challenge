@@ -9113,3 +9113,13 @@ return `true` as the first and third rectangle overlap each other.
 [See Solution](/problems/600-699/problem-653.js)
 
 --
+
+## Problem 654 - Amazon [Difficulty: Medium]
+
+Given a string, find the length of the smallest window that contains every distinct character. Characters may appear more than once in the window.
+
+For example, given "jiujitsu", you should return `5`, corresponding to the final five letters.
+
+[See Solution](/problems/600-699/problem-654.js)
+
+--
