@@ -9001,7 +9001,7 @@ and the target word 'FOAM', you should return true, since it's the leftmost colu
 
 ## Problem 646 - Twitter [Difficulty: Easy]
 
-A classroom consists of `N` students, whose friendships can be represented in an adjacency list. For example, the following descibes a situation where `0` is friends with `1` and `2`, `3` is friends with `6`, and so on.
+A classroom consists of `N` students, whose friendships can be represented in an adjacency list. For example, the following describes a situation where `0` is friends with `1` and `2`, `3` is friends with `6`, and so on.
 
     {0: [1, 2],
      1: [0, 5],
