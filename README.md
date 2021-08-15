@@ -9123,3 +9123,13 @@ For example, given "jiujitsu", you should return `5`, corresponding to the final
 [See Solution](/problems/600-699/problem-654.js)
 
 --
+
+## Problem 655 - Facebook [Difficulty: Easy]
+
+Given a 32-bit integer, return the number with its bits reversed.
+
+For example, given the binary number `1111 0000 1111 0000 1111 0000 1111 0000`, return `0000 1111 0000 1111 0000 1111 0000 1111`.
+
+[See Solution](/problems/600-699/problem-655.js)
+
+--
