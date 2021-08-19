@@ -9206,3 +9206,11 @@ The name of a directory or sub-directory will not contain a period.
 [See Solution](/problems/600-699/problem-658.js)
 
 --
+
+## Problem 659 - Twitch [Difficulty: Hard]
+
+Describe what happens when you type a URL into your browser and press Enter.
+
+[See Solution](/problems/600-699/problem-659.js)
+
+--
