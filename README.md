@@ -9214,3 +9214,13 @@ Describe what happens when you type a URL into your browser and press Enter.
 [See Solution](/problems/600-699/problem-659.js)
 
 --
+
+## Problem 660 - Airbnb [Difficulty: Hard]
+
+You come across a dictionary of sorted words in a language you've never seen before. Write a program that returns the correct order of letters in this language.
+
+For example, given `['xww', 'wxyz', 'wxyw', 'ywx', 'ywz']`, you should return `['x', 'z', 'w', 'y']`.
+
+[See Solution](/problems/600-699/problem-660.js)
+
+--
