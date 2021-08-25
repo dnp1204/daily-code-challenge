@@ -9266,3 +9266,16 @@ Given a binary tree of integers, find the maximum path sum between two nodes. Th
 [See Solution](/problems/600-699/problem-664.js)
 
 --
+
+## Problem 665 - Microsoft [Difficulty: Easy]
+
+Implement a URL shortener with the following methods:
+
+* `shorten(url)`, which shortens the url into a six-character alphanumeric string, such as `zLg6wl`.
+* `restore(short)`, which expands the shortened string into the original url. If no such shortened string exists, return null.
+
+Hint: What if we enter the same URL twice?
+
+[See Solution](/problems/600-699/problem-665.js)
+
+--
