@@ -9289,3 +9289,15 @@ For example, given `[5, 10, 15, 20, 25]`, return the sets `{10, 25}` and `{5, 15
 [See Solution](/problems/600-699/problem-666.js)
 
 --
+
+## Problem 667 - Facebook [Difficulty: Medium]
+
+In chess, the Elo rating system is used to calculate player strengths based on game results.
+
+A simplified description of the Elo system is as follows. Every player begins at the same score. For each subsequent game, the loser transfers some points to the winner, where the amount of points transferred depends on how unlikely the win is. For example, a 1200-ranked player should gain much more points for beating a 2000-ranked player than for beating a 1300-ranked player.
+
+Implement this system.
+
+[See Solution](/problems/600-699/problem-667.js)
+
+--
