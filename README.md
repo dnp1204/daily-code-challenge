@@ -9377,3 +9377,13 @@ Write a program that returns the weight of the maximum weight path.
 [See Solution](/problems/600-699/problem-672.js)
 
 --
+
+## Problem 673 - LinkedIn [Difficulty: Hard]
+
+Given a list of points, a central point, and an integer `k`, find the nearest `k` points from the central point.
+
+For example, given the list of points `[(0, 0), (5, 4), (3, 1)]`, the central point `(1, 2)`, and `k` = 2, return `[(0, 0), (3, 1)]`.
+
+[See Solution](/problems/600-699/problem-673.js)
+
+--
