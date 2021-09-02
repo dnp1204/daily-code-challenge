@@ -9351,3 +9351,13 @@ Given `n` = 27, return 3 since 27 = 32 + 32 + 32 = 9 + 9 + 9.
 [See Solution](/problems/600-699/problem-670.js)
 
 --
+
+## Problem 671 - Facebook [Difficulty: Easy]
+
+Given a function `f`, and `N` return a debounced `f` of `N` milliseconds.
+
+That is, as long as the debounced `f` continues to be invoked, `f` itself will not be called for `N` milliseconds.
+
+[See Solution](/problems/600-699/problem-671.js)
+
+--
