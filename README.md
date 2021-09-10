@@ -9451,3 +9451,11 @@ Bonus: Create a generator that produces primes indefinitely (that is, without ta
 [See Solution](/problems/600-699/problem-677.js)
 
 --
+
+## Problem 678 - IBM [Difficulty: Easy]
+
+Given an integer, find the next permutation of it in absolute order. For example, given `48975`, the next permutation would be `49578`.
+
+[See Solution](/problems/600-699/problem-678.js)
+
+--
