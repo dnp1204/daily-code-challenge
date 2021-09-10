@@ -9473,3 +9473,25 @@ For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has th
 [See Solution](/problems/600-699/problem-679.js)
 
 --
+
+## Problem 680 - Square [Difficulty: Medium]
+
+Given a list of words, return the shortest unique prefix of each word. For example, given the list:
+
+* dog
+* cat
+* apple
+* apricot
+* fish
+
+Return the list:
+
+* d
+* c
+* app
+* apr
+* f
+
+[See Solution](/problems/600-699/problem-680.js)
+
+--
