@@ -9416,3 +9416,24 @@ Follow-up: what if we can assume that `(a, b)` and `(a, c)` do in fact imply `(b
 [See Solution](/problems/600-699/problem-675.js)
 
 --
+
+## Problem 676 - LinkedIn [Difficulty: Hard]
+
+Given a string, return whether it represents a number. Here are the different kinds of numbers:
+
+* "10", a positive integer
+* "-10", a negative integer
+* "*10.1", a positive real number
+* "-10.1", a negative real number
+* "1e5", a number in scientific notation
+
+And here are examples of non-numbers:
+
+* "a"
+* "x 1"
+* "a -2"
+* "-"
+
+[See Solution](/problems/600-699/problem-675.js)
+
+--
