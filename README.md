@@ -9642,3 +9642,15 @@ Write a function that returns the bitwise AND of all integers between `M` and `N
 [See Solution](/problems/600-699/problem-691.js)
 
 --
+
+## Problem 692 - Twitter [Difficulty: Medium]
+
+Implement an autocomplete system. That is, given a query string `s` and a set of all possible query strings, return all strings in the set that have s as a prefix.
+
+For example, given the query string `de` and the set of strings [`dog`, `deer`, `deal`], return [`deer`, `deal`].
+
+Hint: Try preprocessing the dictionary into a more efficient data structure to speed up queries.
+
+[See Solution](/problems/600-699/problem-692.js)
+
+--
