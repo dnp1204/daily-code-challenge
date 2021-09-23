@@ -9678,3 +9678,11 @@ You can modify the input array in-place.
 [See Solution](/problems/600-699/problem-694.js)
 
 --
+
+## Problem 695 - Google [Difficulty: Medium]
+
+Given an integer `n` and a list of integers `l`, write a function that randomly generates a number from `0` to `n-1` that isn't in `l` (uniform).
+
+[See Solution](/problems/600-699/problem-695.js)
+
+--
