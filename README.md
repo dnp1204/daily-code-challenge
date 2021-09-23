@@ -9634,3 +9634,11 @@ For example, given the array [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 
 [See Solution](/problems/600-699/problem-690.js)
 
 --
+
+## Problem 691 - Yahoo [Difficulty: Medium]
+
+Write a function that returns the bitwise AND of all integers between `M` and `N`, inclusive.
+
+[See Solution](/problems/600-699/problem-691.js)
+
+--
