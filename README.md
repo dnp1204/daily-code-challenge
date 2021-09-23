@@ -9554,3 +9554,13 @@ Implement your own version of `reduce`.
 [See Solution](/problems/600-699/problem-684.js)
 
 --
+
+## Problem 685 - Facebook [Difficulty: Hard]
+
+Given a string and a set of delimiters, reverse the words in the string while maintaining the relative order of the delimiters. For example, given "hello/world:here", return "here/world:hello"
+
+Follow-up: Does your solution work for the following cases: "hello/world:here/", "hello//world:here"
+
+[See Solution](/problems/600-699/problem-685.js)
+
+--
