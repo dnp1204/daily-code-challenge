@@ -9712,3 +9712,19 @@ Each operation should run in O(1) time.
 [See Solution](/problems/600-699/problem-697.js)
 
 --
+
+## Problem 698 - Uber [Difficulty: Medium]
+
+You are given a 2-d matrix where each cell consists of either `/`, `\`, or an empty space. Write an algorithm that determines into how many regions the slashes divide the space.
+
+For example, suppose the input for a three-by-six grid is the following:
+
+    \    /
+     \  /
+      \/
+
+Considering the edges of the matrix as boundaries, this divides the grid into three triangles, so you should return `3`.
+
+[See Solution](/problems/600-699/problem-698.js)
+
+--
