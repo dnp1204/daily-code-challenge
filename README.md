@@ -9696,6 +9696,19 @@ You are given an array of length `24`, where each element represents the number 
 
 You can assume that all values get cleared at the end of the day, and that you will not be asked for `start` and `end` values that wrap around midnight.
 
-[See Solution](/problems/600-699/problem-695.js)
+[See Solution](/problems/600-699/problem-696.js)
+
+--
+
+## Problem 697 - Google [Difficulty: Hard]
+
+Implement an LRU (Least Recently Used) cache. It should be able to be initialized with a cache size `n`, and contain the following methods:
+
+* `set(key, value)`: sets `key` to `value`. If there are already `n` items in the cache and we are adding a new item, then it should also remove the least recently used item.
+* `get(key)`: gets the value at `key`. If no such key exists, return null.
+
+Each operation should run in O(1) time.
+
+[See Solution](/problems/600-699/problem-697.js)
 
 --
